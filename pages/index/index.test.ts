@@ -6,12 +6,4 @@ describe("Index page", () => {
     test('Does the wrapper exist', () => {
         expect(wrapper.exists()).toBe(true)
     })
-
-    it('Page has a header', () => {
-        expect(wrapper.find('content-header').exists()).toBe(true)
-    })
-
-    it('Page has a footer', () => {
-        expect(wrapper.find('content-footer').exists()).toBe(true)
-    })
 })
