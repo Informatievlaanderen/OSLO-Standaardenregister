@@ -8,7 +8,7 @@ describe("Content header component", () => {
         expect(wrapper.exists()).toBe(true)
     })
 
-    it('Component has a govflanders components', () => {
+    it('Component has govflanders components', () => {
         expect(wrapper.find('vl-content-header').exists()).toBe(true)
         expect(wrapper.find('vl-content-header-entity').exists()).toBe(true)
         expect(wrapper.find('vl-content-header-title').exists()).toBe(true)
