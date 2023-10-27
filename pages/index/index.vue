@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import { Index } from '~/types/index'
+import type { Index } from '~/types';
 
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData('data', async () => {

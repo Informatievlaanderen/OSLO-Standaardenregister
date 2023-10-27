@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts" name="contentHeader">
-import { Header } from '~/types/header'
+import type { Header } from '~/types/header'
 onMounted(() => {
   const headerScript = document.createElement('script')
   switch (import.meta.env.VITE_ENVIRONMENT) {

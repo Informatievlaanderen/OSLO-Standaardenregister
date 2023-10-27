@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url'
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
   ssr: true,
+  debug: false,
   app: {
     head: {
       title: 'OSLO-frontend-template',
