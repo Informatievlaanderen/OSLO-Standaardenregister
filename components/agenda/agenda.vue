@@ -74,7 +74,7 @@
 </template>
 
 <script setup lang="ts" name="agenda">
-import { AgendaItem } from '~/types/agenda'
+import type { AgendaItem } from '~/types/agenda'
 const paginationIndex = ref(1)
 const eventsPerPage = 10
 const props = defineProps({

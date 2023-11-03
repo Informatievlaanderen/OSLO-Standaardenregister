@@ -26,6 +26,6 @@
 </template>
 
 <script setup lang="ts" name="sideNavigation">
-import { OverviewLinks } from '~/types/linksOverview'
+import type { OverviewLinks } from '~/types/linksOverview'
 defineProps<OverviewLinks>()
 </script>

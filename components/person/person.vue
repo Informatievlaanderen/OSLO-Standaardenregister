@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts" name="person">
-import { Person } from '~/types/person'
+import type { Person } from '~/types/person'
 defineProps<Person>()
 </script>
 
