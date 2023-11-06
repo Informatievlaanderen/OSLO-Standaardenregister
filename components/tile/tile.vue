@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts" name="tile">
-import { NavigationLink } from '~/types/navigationLink'
+import type { NavigationLink } from '~/types/navigationLink'
 defineProps<NavigationLink>()
 </script>
 
