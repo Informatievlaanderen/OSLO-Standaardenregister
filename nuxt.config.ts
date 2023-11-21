@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   debug: false,
   app: {
     head: {
-      title: 'OSLO-frontend-template',
+      title: 'OSLO-standaardenregister',
       htmlAttrs: {
         lang: 'nl',
       },

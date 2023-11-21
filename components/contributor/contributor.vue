@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts" name="contributor">
-import { Contributor } from '~/types/contributor'
+import type { Contributor } from '~/types/contributor'
 defineProps<Contributor>()
 </script>

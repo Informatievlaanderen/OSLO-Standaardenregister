@@ -1,4 +1,4 @@
-# OSLO-frontend-template
+# OSLO-standaardenregister
 
 This repository should be used as the starting point for every frontend-related project that gets build for the government of Flanders. This project is built using [Nuxt 3.x](https://nuxt.com/) and [Vue 3.x](https://vuejs.org/). Ever since these newer versions of these libraries got released, the government of Flanders also released a third version of their webcomponents which works with these newer versions. The needed configuration has already been set up, so that you can start using these components immediately. The libraries are
 
@@ -55,6 +55,10 @@ More information about the usage of this directory in [the documentation](https:
 ### `components`
 
 The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+
+### `composables`
+
+The composables directory contains reusable helper functions that can be reused in your components or pages. 
 
 ### `content`
 
