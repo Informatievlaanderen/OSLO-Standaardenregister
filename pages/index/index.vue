@@ -18,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+import { useFilter } from '~/composables/useFilter'
 import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 
