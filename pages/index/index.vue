@@ -3,13 +3,13 @@
     <content-header
       title="OSLO"
       href="https://www.vlaanderen.be/digitaal-vlaanderen"
-      subtitle="Frontend template"
+      subtitle="OSLO Standaardenregister"
     />
     <vl-layout>
       <vl-region>
         <vl-grid>
           <vl-column width="10" width-s="12">
-            <vl-title tag-name="h2" id="OSLO-Frontend">OSLO frontend</vl-title>
+            <vl-title tag-name="h2" id="OSLO Standaardenregister">OSLO Standaardenregister</vl-title>
             <vl-region v-html="data?.about" />
           </vl-column>
         </vl-grid>
