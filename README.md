@@ -1,4 +1,5 @@
-# OSLO-standaardenregister
+
+# OSLO-Standaardenregister
 
 This repository should be used as the starting point for every frontend-related project that gets build for the government of Flanders. This project is built using [Nuxt 3.x](https://nuxt.com/) and [Vue 3.x](https://vuejs.org/). Ever since these newer versions of these libraries got released, the government of Flanders also released a third version of their webcomponents which works with these newer versions. The needed configuration has already been set up, so that you can start using these components immediately. The libraries are
 
@@ -136,3 +137,29 @@ For code formatting purposes, we use a tool called [Prettier](https://prettier.i
 ### ESLint
 
 ESlint is a linting tool that will try and find problems with your JavaScript/TypeScript code as you are writing it. This will help minimize any potential bugs in our production code. For this tool, there is a separate configuration file called `eslintrc.ts` that contains the ruleset we want to enforce. This ruleset can be extended with any amount of rules that can be found [here](https://eslint.org/docs/latest/rules/). Don't forget to install ESlint itself in your IDE to get the full effect of this tool.
+
+## Deployment & Docker
+For the deployment the public path must be set to the target path on the target server. Otherwise Reverse proxy configuration is very difficult and multiple webapplications cannot be deployed behind the same reverse proxy.
+
+The Dockerfile.base builds a base image.
+The Dockerfile.build build the deployment image.
+
+By seperation allows to focus in the first to get an image that contains all dependencies to make a build.
+The second allows to include minor changes without the need to rebuild all dependencies.
+
+The first image will take between 5 to 30 minutes to create. While the next less than 2 minutes requires.
+So by this separation, a developer can use the two Docker images to rebuild a new version without the need for a dependency check and repull of the dependencies.
+
+
+### Build steps
+
+1. on the terminal ensure that NPM_AUTH_TOKEN is set as environment variable
+2. make build-base
+3. make build
+
+The steps 4 and 3 are not coupled (yet). The dependency has to be executed manually as otherwise the current configuration would retrigger a full rebuild of the base image.
+
+TODO
+  [ ] Make a configuration that switches between a development build and a production build. (First ensure that the build is production see TODO 1.)
+  [ ] Add a line in the Makefile to extract the package-lock.json file 
+  [ ] Document better the build procedure and the necessary steps.

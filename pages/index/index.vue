@@ -2,14 +2,16 @@
   <vl-region>
     <content-header
       title="OSLO"
-      href="https://data.vlaanderen.be/standaarden/"
-      subtitle="Standaardenregister"
+      href="https://www.vlaanderen.be/digitaal-vlaanderen"
+      subtitle="OSLO Standaardenregister"
     />
     <vl-layout>
       <vl-region>
-        <vl-grid mod-v-center mod-center mod-stacked>
-          <vl-column width="12" width-s="12"> </vl-column>
-          <standards-table :standards="data?.standards" />
+        <vl-grid>
+          <vl-column width="10" width-s="12">
+            <vl-title tag-name="h2" id="OSLO Standaardenregister">OSLO Standaardenregister</vl-title>
+            <vl-region v-html="data?.about" />
+          </vl-column>
         </vl-grid>
       </vl-region>
     </vl-layout>
