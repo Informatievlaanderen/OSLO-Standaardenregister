@@ -9,8 +9,10 @@
       <vl-region>
         <vl-grid>
           <vl-column width="10" width-s="12">
-            <vl-title tag-name="h2" id="OSLO Standaardenregister">OSLO Standaardenregister</vl-title>
-            <vl-region v-html="data?.about" />
+            <vl-title tag-name="h2" id="OSLO Standaardenregister"
+              >OSLO Standaardenregister</vl-title
+            >
+            <!-- <vl-region v-html="data?.about" /> -->
           </vl-column>
         </vl-grid>
       </vl-region>
@@ -20,6 +22,7 @@
 </template>
 
 <script setup lang="ts">
+import { useFilter } from '~/composables/useFilter'
 import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 
