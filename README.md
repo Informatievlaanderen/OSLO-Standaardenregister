@@ -56,6 +56,10 @@ More information about the usage of this directory in [the documentation](https:
 
 The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
+### `composables`
+
+The composables directory contains reusable helper functions that can be reused in your components or pages. 
+
 ### `content`
 
 The content directory serves as the file-based CMS of the whole project. We use a library called `nuxt/content` that allows us to import all the content of our website into components/pages across the project.

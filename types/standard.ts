@@ -7,7 +7,8 @@ enum Usage {
     APPLY_OR_EXPLAIN = "Pas toe of leg uit",
 }
 
-export interface Standaard {
+export interface Standard {
+    [index: string]: string | NavigationLink[] | NavigationLink | object ;
     title: string,
     href: string,
     category: string,
