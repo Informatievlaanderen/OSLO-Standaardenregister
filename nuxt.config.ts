@@ -5,6 +5,14 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
   ssr: true,
   debug: false,
+  hooks: {
+    // https://github.com/davestewart/nuxt-content-assets/issues/49
+    // Needed to prevent generate step from hanging. NUXT ^3.7 and above issue
+    close: (nuxt) => {
+      if (!nuxt.options._prepare)
+        process.exit()
+    }
+  },
   app: {
     head: {
       title: 'OSLO-standaardenregister',
