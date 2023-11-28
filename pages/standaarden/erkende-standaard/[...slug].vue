@@ -153,14 +153,14 @@
 </template>
 
 <script setup lang="ts">
-import type { Standaard } from '~/types/standaard'
+import type { Standard } from '~/types/standard'
 
 const { params } = useRoute()
 
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData('data', async () => {
   const [data] = await Promise.all([
-    queryContent<Standaard>(
+    queryContent<Standard>(
       `standaarden/erkende-standaard/${params?.slug?.[0]}/configuration`,
     ).find(),
   ])
