@@ -38,10 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import {
-  useQueryParams,
-  convertQueryParams,
-} from '~/composables/useQueryParams'
+import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 import { FilterType, type FilterOption } from '~/types/custom-filter'
