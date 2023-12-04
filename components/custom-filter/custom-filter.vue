@@ -44,8 +44,6 @@ import { type FilterOption } from '~/types/custom-filter'
 
 const emits = defineEmits(['updateFilter'])
 
-const filterRef = ref()
-
 const props = defineProps({
   filters: {
     type: Array<FilterOption>,
@@ -57,11 +55,7 @@ const keys: Array<any> = props.filters.map((filter: FilterOption) => {
   return filter?.active
 })
 
-filterRef.value = keys
-
 let data = reactive(keys)
-
-console.log(data)
 
 watch(
   [data],

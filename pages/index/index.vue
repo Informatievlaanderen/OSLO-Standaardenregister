@@ -9,6 +9,9 @@
       <vl-region>
         <vl-grid mod-v-center mod-center mod-stacked>
           <vl-column width="12" width-s="12">
+            <vl-typography class="search__title">
+              <p>Zoek op titel van de standaard</p>
+            </vl-typography>
             <vl-input-field
               mod-block
               id="input-field-1"
@@ -24,6 +27,7 @@
                 >Filter resultaten</vl-button
               >
               <vl-button
+                v-if="!!Object.keys(selectedFilters)?.length || !!searchRef"
                 mod-link
                 type="button"
                 mod-icon-before
@@ -43,7 +47,11 @@
         <h5 class="filter__title">Filter standaarden</h5>
       </template>
       <template #content>
-        <custom-filter :filters="filters" @updateFilter="updateFilter" />
+        <custom-filter
+          :filters="filters"
+          @updateFilter="updateFilter"
+          :key="rerenderRef"
+        />
       </template>
       <template #footer>
         <div class="filter__footer">
@@ -61,20 +69,22 @@
 import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
-import { type FilterOption } from '~/types/custom-filter'
+import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import defaultFilters from './filter.config'
 
-let selectedFilters = ref()
-let searchRef = ref()
+// force rerender of child component when filters change
+let rerenderRef = ref<number>(0)
+let selectedFilters = ref<SanitizedFilter>({})
+let searchRef = ref<string>('')
+
 const toggle = ref({
   // Bit of a hacky way to call the toggleSidebar function from the sidebar component. Type the event
   toggleSidebar: () => {},
 })
 
-let filters: FilterOption[] = [...defaultFilters]
+let filters: FilterOption[] = structuredClone(defaultFilters)
 
 const updateFilter = (activeFilters: Array<string[]>) => {
-  console.log(activeFilters)
   selectedFilters.value = sanitizeFilters(filters, activeFilters)
 }
 
@@ -85,9 +95,11 @@ const openSidebar = () => {
 }
 
 const resetFilters = () => {
-  selectedFilters.value = {}
   searchRef.value = ''
-  filters = defaultFilters
+  selectedFilters.value = {}
+  // Using structuredClone instead of spread operator since spread operator only deep copies top level of an object and nothing nested
+  filters = structuredClone(defaultFilters)
+  rerenderRef.value += 1
 }
 
 const route = useRoute()
@@ -110,8 +122,8 @@ const { data } = await useAsyncData(
       content: content[0],
       // standards: useQueryParams(standards, route?.query),
       standards: useSearch(
-        useFilter(standards, toRaw(selectedFilters?.value)),
-        searchRef?.value,
+        useFilter(standards, selectedFilters.value),
+        searchRef.value,
       ),
     }
   },

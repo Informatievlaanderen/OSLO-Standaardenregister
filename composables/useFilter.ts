@@ -31,7 +31,7 @@ export const sanitizeFilters = (filters: FilterOption[], activeFilters: Array<st
     return sanitizedFilter;
 }
 
-export const useFilter = (data: Array<Standard>, filters: SanitizedFilter) => {
+export const useFilter = (data: Array<Standard>, filters?: SanitizedFilter) => {
     if (!filters || Object.keys(filters)?.length === 0) return data;
     const filteredStandards = data.filter((standard: Standard) => {
         return Object.keys(filters).every((filter: string) => {

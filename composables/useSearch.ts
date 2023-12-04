@@ -1,6 +1,6 @@
 import type { Standard } from '~/types/standard'
 
-export const useSearch = (data: Array<Standard>, search: string) => {
+export const useSearch = (data: Array<Standard>, search?: string) => {
     const filteredStandards = data.filter((standard: Standard) => {
         // Add a plus 2 value to not trigger the search filter needlessly 
         if (!!search?.length && search.length > 2) {
