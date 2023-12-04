@@ -17,6 +17,6 @@
 </template>
 
 <script setup lang="ts">
-import { Accordions } from '~/types/accordion'
+import type { Accordions } from '~/types/accordion'
 defineProps<Accordions>()
 </script>

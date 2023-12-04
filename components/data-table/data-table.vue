@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts" name="dataTable">
-import { DataTable } from '~/types/dataTable'
+import type { DataTable } from '~/types/dataTable'
 defineProps<DataTable>()
 </script>
 
