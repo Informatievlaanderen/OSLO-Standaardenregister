@@ -7,6 +7,7 @@
       >
         <vl-search-filter-section-title>
           {{ filter?.title }}
+          <tooltip v-if="filter?.tooltip" :title="filter?.tooltip" />
         </vl-search-filter-section-title>
         <ul>
           <vl-search-filter-item

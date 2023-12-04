@@ -2,6 +2,7 @@ import { FilterType, type FilterOption } from '~/types/custom-filter'
 
 let defaultFilters: FilterOption[] = [
     {
+        tooltip: "Het type bepaalt hoe de standaard gebruikt dient te worden.",
         type: FilterType.CHECKBOX,
         title: 'Type toepassing',
         key: 'usageType',

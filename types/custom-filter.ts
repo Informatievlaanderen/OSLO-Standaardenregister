@@ -4,6 +4,7 @@ export interface FilterOption {
     key: string,
     active: Array<string | boolean> | string,
     options: FilterValue[],
+    tooltip?: string,
 }
 
 export enum FilterType {

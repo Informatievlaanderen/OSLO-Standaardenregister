@@ -1,0 +1,22 @@
+.tooltip {
+    width: 0;
+    height: 0;
+    border: none;
+
+    outline: none;
+
+}
+
+.vl-tooltip {
+    max-width: 25rem;
+    text-transform: lowercase;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+
+    &__arrow {
+        margin-left: 3px !important;
+    }
+}
+
