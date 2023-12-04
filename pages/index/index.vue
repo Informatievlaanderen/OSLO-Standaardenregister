@@ -9,9 +9,29 @@
       <vl-region>
         <vl-grid mod-v-center mod-center mod-stacked>
           <vl-column width="12" width-s="12">
-            <vl-button icon="list" mod-icon-before @click="openSidebar"
-              >Filter resultaten</vl-button
-            >
+            <vl-input-field
+              mod-block
+              id="input-field-1"
+              name="input-field-1"
+              placeholder="Zoeken op naam..."
+              type="search"
+              v-model="searchRef"
+            />
+          </vl-column>
+          <vl-column width="12" width-s="12">
+            <vl-action-group mod-collapse-s>
+              <vl-button icon="list" mod-icon-before @click="openSidebar"
+                >Filter resultaten</vl-button
+              >
+              <vl-button
+                mod-link
+                type="button"
+                mod-icon-before
+                icon="cross"
+                @click="resetFilters"
+                >Verwijder filters</vl-button
+              >
+            </vl-action-group>
           </vl-column>
           <standards-table :standards="data?.standards" />
         </vl-grid>
@@ -45,22 +65,29 @@ import { type FilterOption } from '~/types/custom-filter'
 import defaultFilters from './filter.config'
 
 let selectedFilters = ref()
-
-let filters: FilterOption[] = [...defaultFilters]
-
-const updateFilter = (activeFilters: Array<string[]>) => {
-  selectedFilters.value = sanitizeFilters(filters, activeFilters)
-}
-
+let searchRef = ref()
 const toggle = ref({
   // Bit of a hacky way to call the toggleSidebar function from the sidebar component. Type the event
   toggleSidebar: () => {},
 })
 
+let filters: FilterOption[] = [...defaultFilters]
+
+const updateFilter = (activeFilters: Array<string[]>) => {
+  console.log(activeFilters)
+  selectedFilters.value = sanitizeFilters(filters, activeFilters)
+}
+
 const openSidebar = () => {
   if (toggle?.value) {
     toggle.value.toggleSidebar()
   }
+}
+
+const resetFilters = () => {
+  selectedFilters.value = {}
+  searchRef.value = ''
+  filters = defaultFilters
 }
 
 const route = useRoute()
@@ -82,10 +109,13 @@ const { data } = await useAsyncData(
     return {
       content: content[0],
       // standards: useQueryParams(standards, route?.query),
-      standards: useFilter(standards, toRaw(selectedFilters?.value)),
+      standards: useSearch(
+        useFilter(standards, toRaw(selectedFilters?.value)),
+        searchRef?.value,
+      ),
     }
   },
-  { watch: [selectedFilters] },
+  { watch: [selectedFilters, searchRef] },
 )
 </script>
 

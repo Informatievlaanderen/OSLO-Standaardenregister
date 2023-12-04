@@ -60,6 +60,7 @@ export default defineNuxtConfig({
   // Alias declaration for easier access to components directory
   alias: {
     "@components": fileURLToPath(new URL('./components', import.meta.url)),
+    "@constants": fileURLToPath(new URL('./constants', import.meta.url)),
     "@content": fileURLToPath(new URL('./content', import.meta.url)),
     "@types": fileURLToPath(new URL('./types', import.meta.url)),
   },

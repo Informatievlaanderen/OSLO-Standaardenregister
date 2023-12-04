@@ -1,5 +1,5 @@
 <template>
-  <vl-search-filter mod-alt>
+  <vl-search-filter mod-alt ref="filterRef">
     <template v-slot:items>
       <vl-search-filter-section
         v-if="props?.filters"
@@ -44,6 +44,8 @@ import { type FilterOption } from '~/types/custom-filter'
 
 const emits = defineEmits(['updateFilter'])
 
+const filterRef = ref()
+
 const props = defineProps({
   filters: {
     type: Array<FilterOption>,
@@ -55,10 +57,19 @@ const keys: Array<any> = props.filters.map((filter: FilterOption) => {
   return filter?.active
 })
 
-const data = reactive(keys)
+filterRef.value = keys
+
+let data = reactive(keys)
+
+console.log(data)
+
+setTimeout(() => {
+  console.log(toRaw(data))
+  data = [[true, false, false, false], 1]
+}, 4000)
 
 watch(
-  data,
+  [data],
   async () => {
     // Linked to function from parent component
     emits('updateFilter', data)
