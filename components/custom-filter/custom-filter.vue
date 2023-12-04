@@ -63,11 +63,6 @@ let data = reactive(keys)
 
 console.log(data)
 
-setTimeout(() => {
-  console.log(toRaw(data))
-  data = [[true, false, false, false], 1]
-}, 4000)
-
 watch(
   [data],
   async () => {
