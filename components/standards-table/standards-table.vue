@@ -19,7 +19,7 @@
           <p>{{ standard?.category ?? Usage.TBD }}</p>
         </td>
         <td>
-          <p>{{ standard?.state ?? Usage.TBD }}</p>
+          <p>{{ (standard?.state && useRemoveDashes(useCapitalizeFirstLetter(standard?.state))) ?? Usage.TBD }}</p>
         </td>
         <td>
           <a :href="standard?.organisation?.href">{{

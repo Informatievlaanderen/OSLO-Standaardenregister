@@ -1,4 +1,3 @@
-import { useCapitalizeFirstLetter } from '~/composables/useCapitalize';
 import { ALL } from '~/constants/constants';
 import { FilterType, type FilterOption } from '~/types/custom-filter'
 import { Category, State, Usage } from '~/types/standard';
@@ -42,17 +41,17 @@ let defaultFilters: FilterOption[] = [
         options: [
             {
                 default: false,
-                label: useCapitalizeFirstLetter(State.DEVELOPMENT),
+                label: useRemoveDashes(useCapitalizeFirstLetter(State.DEVELOPMENT)),
                 key: State.DEVELOPMENT,
             },
             {
                 default: false,
-                label: useCapitalizeFirstLetter(State.CANDIDATE),
+                label: useRemoveDashes(useCapitalizeFirstLetter(State.CANDIDATE)),
                 key: State.CANDIDATE,
             },
             {
                 default: false,
-                label: useCapitalizeFirstLetter(State.RECOGNIZED),
+                label: useRemoveDashes(useCapitalizeFirstLetter(State.RECOGNIZED)),
                 key: State.RECOGNIZED,
             },
         ],
