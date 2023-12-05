@@ -33,4 +33,4 @@ defineExpose({
 })
 </script>
 
-<style scoped lang="scss" src="./style.scss" />
+<style lang="scss" src="./style.scss" />

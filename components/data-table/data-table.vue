@@ -27,4 +27,4 @@ import type { DataTable } from '~/types/dataTable'
 defineProps<DataTable>()
 </script>
 
-<style scoped lang="scss" src="./style.scss" />
+<style lang="scss" src="./style.scss" />

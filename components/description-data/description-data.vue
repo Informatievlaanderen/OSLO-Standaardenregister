@@ -10,4 +10,4 @@ import type { DescriptionData } from '~/types/descriptionData'
 defineProps<DescriptionData>()
 </script>
 
-<style scoped lang="scss" src="./style.scss" />
+<style lang="scss" src="./style.scss" />

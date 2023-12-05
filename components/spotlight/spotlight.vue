@@ -15,4 +15,4 @@ import type { Spotlight } from '~/types/spotlight'
 defineProps<Spotlight>()
 </script>
 
-<style scoped lang="scss" src="./style.scss" />
+<style lang="scss" src="./style.scss" />
