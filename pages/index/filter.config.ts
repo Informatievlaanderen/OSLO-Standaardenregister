@@ -1,5 +1,6 @@
 import { ALL } from '~/constants/constants';
 import { FilterType, type FilterOption } from '~/types/custom-filter'
+import { State, Usage } from '~/types/standard';
 
 let defaultFilters: FilterOption[] = [
     {
@@ -10,24 +11,48 @@ let defaultFilters: FilterOption[] = [
         active: [false, false, false, false],
         options: [
             {
-                default: true,
-                label: 'Verplicht',
-                key: 'Verplicht',
+                default: false,
+                label: Usage.MANDATORY,
+                key: Usage.MANDATORY,
             },
             {
                 default: false,
-                label: 'Aanbevolen (vrijwillig)',
-                key: 'Aanbevolen (vrijwillig)',
+                label: Usage.RECOMMENDED,
+                key: Usage.RECOMMENDED,
             },
             {
                 default: false,
-                label: 'TBD',
-                key: 'TBD',
+                label: Usage.APPLY_OR_EXPLAIN,
+                key: Usage.APPLY_OR_EXPLAIN,
             },
             {
                 default: false,
-                label: 'Pas toe of leg uit',
-                key: 'Pas toe of leg uit',
+                label: Usage.TBD,
+                key: Usage.TBD,
+            },
+        ],
+    },
+    {
+        tooltip: "De status waarin een standaard zich bevindt. Erkend betekent...",
+        type: FilterType.CHECKBOX,
+        title: 'Status standaard',
+        key: 'state',
+        active: [false, false, false],
+        options: [
+            {
+                default: false,
+                label: State.DEVELOPMENT,
+                key: State.DEVELOPMENT,
+            },
+            {
+                default: false,
+                label: State.CANDIDATE,
+                key: State.CANDIDATE,
+            },
+            {
+                default: false,
+                label: State.RECOGNIZED,
+                key: State.RECOGNIZED,
             },
         ],
     },
