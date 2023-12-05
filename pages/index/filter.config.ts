@@ -1,6 +1,7 @@
+import { useCapitalizeFirstLetter } from '~/composables/useCapitalize';
 import { ALL } from '~/constants/constants';
 import { FilterType, type FilterOption } from '~/types/custom-filter'
-import { State, Usage } from '~/types/standard';
+import { Category, State, Usage } from '~/types/standard';
 
 let defaultFilters: FilterOption[] = [
     {
@@ -41,17 +42,17 @@ let defaultFilters: FilterOption[] = [
         options: [
             {
                 default: false,
-                label: State.DEVELOPMENT,
+                label: useCapitalizeFirstLetter(State.DEVELOPMENT),
                 key: State.DEVELOPMENT,
             },
             {
                 default: false,
-                label: State.CANDIDATE,
+                label: useCapitalizeFirstLetter(State.CANDIDATE),
                 key: State.CANDIDATE,
             },
             {
                 default: false,
-                label: State.RECOGNIZED,
+                label: useCapitalizeFirstLetter(State.RECOGNIZED),
                 key: State.RECOGNIZED,
             },
         ],
@@ -64,18 +65,18 @@ let defaultFilters: FilterOption[] = [
         options: [
             {
                 default: '1',
-                key: 'Vocabularium',
-                label: 'Vocabularium',
+                key: Category.VOCABULARY,
+                label: Category.VOCABULARY,
             },
             {
                 default: '2',
-                key: 'Applicatieprofiel',
-                label: 'Applicatieprofiel',
+                key: Category.APPLICATION_PROFILE,
+                label: Category.APPLICATION_PROFILE,
             },
             {
                 default: '3',
-                key: 'Implementatiemodel',
-                label: 'Implementatiemodel',
+                key: Category.IMPLEMENTATION_MODEL,
+                label: Category.IMPLEMENTATION_MODEL,
             },
             {
                 default: '4',

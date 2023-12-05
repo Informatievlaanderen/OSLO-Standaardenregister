@@ -13,12 +13,18 @@ export enum State {
     RECOGNIZED = "erkende-standaard",
 }
 
+export enum Category {
+    APPLICATION_PROFILE = "Applicatieprofiel",
+    VOCABULARY = "Vocabularium",
+    IMPLEMENTATION_MODEL = "Implementatiemodel",
+}
+
 export interface Standard {
     [index: string]: string | NavigationLink[] | NavigationLink | object;
     title: string,
     state: State,
     href: string,
-    category: string,
+    category: Category,
     description: string,
     organisation: NavigationLink,
     datePublished: string,
