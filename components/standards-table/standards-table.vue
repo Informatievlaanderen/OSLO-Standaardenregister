@@ -4,6 +4,7 @@
       <tr>
         <th>Titel</th>
         <th>Categorie</th>
+        <th>Status</th>
         <th>Verantwoordelijke organisatie</th>
         <th>Type toepassing</th>
         <th>Publicatiedatum</th>
@@ -16,6 +17,9 @@
         </td>
         <td>
           <p>{{ standard?.category ?? Usage.TBD }}</p>
+        </td>
+        <td>
+          <p>{{ standard?.state ?? Usage.TBD }}</p>
         </td>
         <td>
           <a :href="standard?.organisation?.href">{{
