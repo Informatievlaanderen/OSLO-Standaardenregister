@@ -1,22 +1,16 @@
 .tooltip {
-    width: 0;
+    overflow: visible;
     height: 0;
-    border: none;
-
-    outline: none;
-
+    min-height: 1.5rem;
 }
 
 .vl-tooltip {
+    position: fixed !important;
     max-width: 25rem;
     text-transform: lowercase;
 
     &::first-letter {
         text-transform: uppercase;
-    }
-
-    &__arrow {
-        margin-left: 3px !important;
     }
 }
 

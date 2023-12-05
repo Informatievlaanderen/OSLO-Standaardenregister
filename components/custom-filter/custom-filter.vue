@@ -5,35 +5,41 @@
         v-if="props?.filters"
         v-for="(filter, i) in props?.filters"
       >
-        <vl-search-filter-section-title>
-          {{ filter?.title }}
-          <tooltip v-if="filter?.tooltip" :title="filter?.tooltip" />
-        </vl-search-filter-section-title>
-        <ul>
-          <vl-search-filter-item
-            tag-name="li"
-            v-if="filter.options"
-            v-for="(option, ii) in filter.options"
-          >
-            <vl-radio
-              v-if="filter.type === 'radio'"
-              :value="option.default"
-              :id="`radio_${i}_${ii}`"
-              v-model="data[i]"
+        <vl-accordion>
+          <template v-slot:title>
+            <div>
+              {{ filter?.title }}
+            </div>
+            <div>
+              <tooltip v-if="filter?.tooltip" :title="filter?.tooltip" />
+            </div>
+          </template>
+          <ul>
+            <vl-search-filter-item
+              tag-name="li"
+              v-if="filter.options"
+              v-for="(option, ii) in filter.options"
             >
-              {{ option?.label }}
-            </vl-radio>
-            <vl-checkbox
-              v-if="filter.type === 'checkbox'"
-              :value="option.default"
-              :checked="data[i][ii]"
-              :id="`checkbox_${i}_${ii}`"
-              v-model="data[i][ii]"
-            >
-              {{ option?.label }}
-            </vl-checkbox>
-          </vl-search-filter-item>
-        </ul>
+              <vl-radio
+                v-if="filter.type === 'radio'"
+                :value="option.default"
+                :id="`radio_${i}_${ii}`"
+                v-model="data[i]"
+              >
+                {{ option?.label }}
+              </vl-radio>
+              <vl-checkbox
+                v-if="filter.type === 'checkbox'"
+                :value="option.default"
+                :checked="data[i][ii]"
+                :id="`checkbox_${i}_${ii}`"
+                v-model="data[i][ii]"
+              >
+                {{ option?.label }}
+              </vl-checkbox>
+            </vl-search-filter-item>
+          </ul>
+        </vl-accordion>
       </vl-search-filter-section>
     </template>
   </vl-search-filter>
