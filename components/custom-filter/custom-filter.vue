@@ -1,5 +1,5 @@
 <template>
-  <vl-search-filter mod-alt>
+  <vl-search-filter mod-alt ref="filterRef">
     <template v-slot:items>
       <vl-search-filter-section
         v-if="props?.filters"
@@ -55,10 +55,10 @@ const keys: Array<any> = props.filters.map((filter: FilterOption) => {
   return filter?.active
 })
 
-const data = reactive(keys)
+let data = reactive(keys)
 
 watch(
-  data,
+  [data],
   async () => {
     // Linked to function from parent component
     emits('updateFilter', data)

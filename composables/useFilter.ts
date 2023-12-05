@@ -1,5 +1,6 @@
 import { FilterType, type FilterOption, type SanitizedFilter, type FilterValue } from '~/types/custom-filter'
 import type { Standard } from '~/types/standard'
+import { ALL } from '~/constants/constants'
 
 export const sanitizeFilters = (filters: FilterOption[], activeFilters: Array<string[]>): SanitizedFilter => {
     let sanitizedFilter: SanitizedFilter = {}
@@ -15,7 +16,7 @@ export const sanitizeFilters = (filters: FilterOption[], activeFilters: Array<st
                     allowedVals.push(value.key)
                 }
             })
-            if ((allowedVals?.length && key) && val !== 'All') {
+            if ((allowedVals?.length && key) && val !== ALL) {
                 sanitizedFilter = { ...sanitizedFilter, [key]: allowedVals }
             }
         } else if (activeFilter) {
@@ -23,15 +24,14 @@ export const sanitizeFilters = (filters: FilterOption[], activeFilters: Array<st
             // Minus one needed since the first option is not the same as the first index of the array
             val = filters[i]?.options[(activeFilter - 1)].key
         }
-        // TODO: make a constantst out of all
-        if ((val && key) && val !== 'All') {
+        if ((val && key) && val !== ALL) {
             sanitizedFilter = { ...sanitizedFilter, [key]: [val] }
         }
     })
     return sanitizedFilter;
 }
 
-export const useFilter = (data: Array<Standard>, filters: SanitizedFilter) => {
+export const useFilter = (data: Array<Standard>, filters?: SanitizedFilter) => {
     if (!filters || Object.keys(filters)?.length === 0) return data;
     const filteredStandards = data.filter((standard: Standard) => {
         return Object.keys(filters).every((filter: string) => {

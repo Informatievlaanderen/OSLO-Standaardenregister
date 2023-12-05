@@ -1,3 +1,4 @@
+import { ALL } from '~/constants/constants';
 import { FilterType, type FilterOption } from '~/types/custom-filter'
 
 let defaultFilters: FilterOption[] = [
@@ -53,7 +54,7 @@ let defaultFilters: FilterOption[] = [
             },
             {
                 default: '4',
-                key: 'All',
+                key: ALL,
                 label: 'Toon alle standaarden',
             },
         ],
