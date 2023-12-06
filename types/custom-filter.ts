@@ -1,10 +1,12 @@
+import type { Modal } from "~/types/custom-modal";
+
 export interface FilterOption {
     type: FilterType,
     title?: string,
     key: string,
     active: Array<string | boolean> | string,
     options: FilterValue[],
-    tooltip?: string,
+    modal?: Modal,
 }
 
 export enum FilterType {

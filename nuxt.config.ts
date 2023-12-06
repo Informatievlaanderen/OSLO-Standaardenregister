@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url'
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
-  ssr: true,
+  ssr: false,
   debug: false,
   hooks: {
     // https://github.com/davestewart/nuxt-content-assets/issues/49

@@ -5,13 +5,20 @@
         v-if="props?.filters"
         v-for="(filter, i) in props?.filters"
       >
+        <!-- Temp disabled due to build issues with tooltip. External library (tippy.js) is not being included in build. -->
+        <!-- <tooltip v-if="filter?.tooltip" :title="filter?.tooltip" /> -->
         <vl-accordion>
           <template v-slot:title>
             <div>
               {{ filter?.title }}
             </div>
-            <div>
-              <tooltip v-if="filter?.tooltip" :title="filter?.tooltip" />
+            <div v-if="filter?.modal" class="modal__button">
+              <vl-button
+                icon="info-filled"
+                mod-icon
+                mod-naked-action
+                @click="(e: Event) => onModalClick(e, filter?.modal)"
+              />
             </div>
           </template>
           <ul>
@@ -47,8 +54,25 @@
 
 <script setup lang="ts" name="custom-filter">
 import { type FilterOption } from '~/types/custom-filter'
+import type { Modal } from '~/types/custom-modal'
 
 const emits = defineEmits(['updateFilter'])
+
+const onModalClick = (e: Event, modal?: Modal) => {
+  e.preventDefault()
+  e.stopPropagation()
+  document.dispatchEvent(
+    new CustomEvent('modal-toggle', {
+      detail: {
+        modalId: 'modal-toggle-event',
+        modal: {
+          title: modal?.title || 'Meer info',
+          content: modal?.content || 'Geen informatie beschikbaar',
+        },
+      },
+    }),
+  )
+}
 
 const props = defineProps({
   filters: {

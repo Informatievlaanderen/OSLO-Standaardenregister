@@ -60,8 +60,9 @@
           }}</vl-button>
         </div>
       </template>
+      <!-- Needs to be as low as possible to correctly show sidebar above all other elements in the DOM -->
     </sidebar>
-    <!-- Needs to be as low as possible to correctly show sidebar above all other elements in the DOM -->
+    <custom-modal />
   </vl-region>
 </template>
 
