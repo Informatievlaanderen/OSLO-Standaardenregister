@@ -71,7 +71,7 @@ import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
-import defaultFilters from './filter.config'
+import { defaultFilters } from '~/config/filter.config'
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)

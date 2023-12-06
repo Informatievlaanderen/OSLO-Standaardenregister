@@ -1,9 +1,26 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import { fileURLToPath } from 'url'
+import path from 'path';
+import fs from 'fs';
+
+const getDirectories = (basePath: string, srcPath: string) => {
+  const dirs = fs.readdirSync(`${basePath}/${srcPath}`).filter(file => fs.statSync(path.join(`${basePath}/${srcPath}`, file)).isDirectory())
+  return dirs.map((dir) => `${srcPath}/${dir}`)
+}
+
+const base = path.join(__dirname, 'content');
+const contentDirs = getDirectories(base, '/standaarden')
+const routes = contentDirs?.map((dir) => getDirectories(base, dir)).flat()
+
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
-  ssr: false,
+  routeRules: {
+    // standaarden pre-rendered at build time
+    '/standaarden/**': { prerender: true },
+    // serve root as ssr
+    '/': { ssr: true },
+  },
   debug: false,
   hooks: {
     // https://github.com/davestewart/nuxt-content-assets/issues/49
@@ -11,7 +28,7 @@ export default defineNuxtConfig({
     close: (nuxt) => {
       if (!nuxt.options._prepare)
         process.exit()
-    }
+    },
   },
   app: {
     head: {
@@ -63,6 +80,7 @@ export default defineNuxtConfig({
     "@constants": fileURLToPath(new URL('./constants', import.meta.url)),
     "@content": fileURLToPath(new URL('./content', import.meta.url)),
     "@types": fileURLToPath(new URL('./types', import.meta.url)),
+    "@config": fileURLToPath(new URL('./config', import.meta.url)),
   },
   // Global CSS: https://nuxt.com/docs/api/configuration/nuxt-config#css
   css: ['~/css/styles.scss'],
@@ -80,6 +98,15 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/
     '@nuxt/content',
   ],
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/404.html',
+        ...routes,
+      ],
+    }
+  },
   content: {
     highlight: {
       theme: 'light-plus'

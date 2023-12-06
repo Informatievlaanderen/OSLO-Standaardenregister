@@ -1,8 +1,8 @@
-import { ALL } from '~/constants/constants';
-import { FilterType, type FilterOption } from '~/types/custom-filter'
-import { Category, State, Usage } from '~/types/standard';
+import { ALL } from "~/constants/constants";
+import { FilterType, type FilterOption } from "~/types/custom-filter";
+import { Category, State, Usage } from "~/types/standard";
 
-let defaultFilters: FilterOption[] = [
+export const defaultFilters: FilterOption[] = [
     {
         type: FilterType.CHECKBOX,
         title: 'Type toepassing',
@@ -91,5 +91,3 @@ let defaultFilters: FilterOption[] = [
         ],
     },
 ]
-
-export default defaultFilters;
