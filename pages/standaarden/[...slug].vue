@@ -161,7 +161,7 @@ const { params } = useRoute()
 const { data } = await useAsyncData('data', async () => {
   const [data] = await Promise.all([
     queryContent<Standard>(
-      `standaarden/erkende-standaard/${params?.slug?.[0]}/configuration`,
+      `standaarden/${params?.slug?.[0]}/configuration`,
     ).find(),
   ])
   return data[0]
