@@ -1,3 +1,4 @@
+<!-- created own spotlight component since the component was not exposed globally via the package of govflanders -->
 <template>
   <article class="spotlight">
     <h1 class="spotlight__title" v-if="title">{{ title }}</h1>
