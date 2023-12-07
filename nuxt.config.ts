@@ -9,9 +9,9 @@ const getDirectories = (basePath: string, srcPath: string) => {
 }
 
 const base = path.join(__dirname, 'content');
-const contentDirs = getDirectories(base, '/standaarden')
-const routes = contentDirs?.map((dir) => getDirectories(base, dir)).flat()
+const routes = getDirectories(base, '/standaarden')
 
+console.log(routes)
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
