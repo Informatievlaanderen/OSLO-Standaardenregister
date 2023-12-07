@@ -111,6 +111,7 @@ filters = converted.filters
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData(
   'data',
+  // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   async () => {
     const [content, standards] = await Promise.all([
       queryContent<Index>('/configuration').find(),

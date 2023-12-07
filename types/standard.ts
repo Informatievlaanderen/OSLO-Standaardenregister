@@ -34,9 +34,9 @@ export interface Standard {
     reports: NavigationLink[],
     charter: Object,
     presentations: NavigationLink[],
-    dateOfRegistration: "",
-    dateOfAcknowledgementByWorkingGroup: "",
-    dateOfAcknowledgementBySteeringCommittee: "",
+    dateOfRegistration: string,
+    dateOfAcknowledgementByWorkingGroup: string,
+    dateOfAcknowledgementBySteeringCommittee: string,
     details: {
         functionalScope: string,
         organizationalScope: string,

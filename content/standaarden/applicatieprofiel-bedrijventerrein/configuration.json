@@ -51,9 +51,9 @@
       "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/dossier/"
     }
   ],
-  "dateOfRegistration": "",
-  "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": "",
+  "dateOfRegistration": "2023-04-23",
+  "dateOfAcknowledgementByWorkingGroup": "2023-04-23",
+  "dateOfAcknowledgementBySteeringCommittee": "2023-04-23",
   "details": {
     "functionalScope": "Semantische standaard voor informatie met dossieren.",
     "organizationalScope": "Vlaamse en lokale overheden"
