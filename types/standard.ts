@@ -45,4 +45,5 @@ export interface Standard {
         email: string,
         githubQuestions: NavigationLink,
     }
+    _path: string
 }

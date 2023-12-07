@@ -45,7 +45,9 @@
     <tbody>
       <tr v-if="standards?.length" v-for="standard in pagedDatasets()">
         <td>
-          <a :href="standard?.uri">{{ standard?.title }}</a>
+          <a :href="standard?._path?.replace('configuration', '')">{{
+            standard?.title
+          }}</a>
         </td>
         <td>
           <p>
@@ -106,8 +108,8 @@
 <script setup lang="ts" name="standardsTable">
 import { Usage, type Standard } from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
+import { ITEMS_PER_PAGE } from '~/constants/constants'
 const paginationIndex = ref(1)
-const itemsPerPage = 20
 const props = defineProps({
   standards: {
     type: Array<Standard>,
@@ -115,7 +117,7 @@ const props = defineProps({
 })
 
 const setPreviousIndex = () => {
-  const value = paginationIndex.value - itemsPerPage
+  const value = paginationIndex.value - ITEMS_PER_PAGE
   if (value > 0) {
     paginationIndex.value = value
   }
@@ -123,7 +125,7 @@ const setPreviousIndex = () => {
 
 const setNextIndex = () => {
   if (props?.standards?.length) {
-    const value = paginationIndex.value + itemsPerPage
+    const value = paginationIndex.value + ITEMS_PER_PAGE
     if (value <= props.standards?.length) {
       paginationIndex.value = value
     }
@@ -132,7 +134,7 @@ const setNextIndex = () => {
 
 const maxTo = () => {
   if (props?.standards?.length) {
-    const value = paginationIndex.value + itemsPerPage - 1
+    const value = paginationIndex.value + ITEMS_PER_PAGE - 1
     if (value > props?.standards?.length) {
       return props?.standards?.length
     } else {
@@ -146,7 +148,7 @@ const pagedDatasets = (): Standard[] => {
   return (
     props?.standards?.slice(
       paginationIndex.value - 1,
-      paginationIndex.value + itemsPerPage - 1,
+      paginationIndex.value + ITEMS_PER_PAGE - 1,
     ) ?? []
   )
 }
