@@ -6,7 +6,7 @@ export const defaultFilters: FilterOption[] = [
     {
         type: FilterType.CHECKBOX,
         title: 'Type toepassing',
-        key: 'usageType',
+        key: 'usage',
         active: [false, false, false, false],
         options: [
             {

@@ -29,8 +29,8 @@
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
-            <descriptionData title="Publicatiedatum">
-              <p>{{ data?.standard?.publicationDate ?? Usage.TBD }}</p>
+            <descriptionData title="Status">
+              <p>{{ data?.standard?.state ?? Usage.TBD }}</p>
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
@@ -131,6 +131,16 @@
                   ICT-beleid:</strong
                 >&nbsp;{{
                   data?.standard?.dateOfAcknowledgementBySteeringCommittee
+                }}</span
+              >
+            </vl-icon-list-item>
+            <vl-icon-list-item
+              icon="tag"
+              v-if="data?.standard?.publicationDate"
+            >
+              <span
+                ><strong>Publicatiedatum:</strong>&nbsp;{{
+                  data?.standard?.publicationDate
                 }}</span
               >
             </vl-icon-list-item>
