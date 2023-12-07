@@ -1,5 +1,5 @@
 export interface NavigationLink {
-    title?: string,
-    href?: string,
+    name?: string,
+    uri?: string,
     description?: string
 }

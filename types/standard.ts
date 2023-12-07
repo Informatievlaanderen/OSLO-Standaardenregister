@@ -20,26 +20,26 @@ export enum Category {
 }
 
 export interface Standard {
-    [index: string]: string | NavigationLink[] | NavigationLink | object;
+    // [index: string]: string | NavigationLink[] | NavigationLink | object;
     title: string,
-    state: State,
-    href: string,
     category: Category,
-    description: string,
-    organisation: NavigationLink,
-    datePublished: string,
-    usageType: Usage,
+    usage: Usage,
+    uri: string,
+    state: State,
+    descriptionFileName: string,
+    responsibleOrganisation: NavigationLink,
+    publicationDate: string,
     specificationDocuments: NavigationLink[],
-    relatedDocuments: NavigationLink[],
-    reportsWorkgroups: NavigationLink[],
-    presentationsAndOthers: NavigationLink[],
+    documentation: NavigationLink[],
+    reports: NavigationLink[],
+    charter: Object,
+    presentations: NavigationLink[],
+    dateOfRegistration: "",
+    dateOfAcknowledgementByWorkingGroup: "",
+    dateOfAcknowledgementBySteeringCommittee: "",
     details: {
         functionalScope: string,
         organizationalScope: string,
-        dateRegistration: string,
-        datePublicReviewEnding: string,
-        dateRecognitionWorkgroup: string,
-        dateRecognitionFlemishICTPolicy: string,
     },
     questionsAndFeedback: {
         email: string,

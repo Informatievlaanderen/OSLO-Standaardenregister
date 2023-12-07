@@ -20,33 +20,33 @@
           </vl-column>
           <vl-column width="3" width-s="6">
             <descriptionData
-              v-if="data?.organisation"
+              v-if="data?.responsibleOrganisation"
               title="Verantwoordelijke organisatie"
             >
-              <a :href="data?.organisation?.href">{{
-                data?.organisation?.title
+              <a :href="data?.responsibleOrganisation?.uri">{{
+                data?.responsibleOrganisation?.name
               }}</a>
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
-            <descriptionData v-if="data?.datePublished" title="Publicatiedatum">
-              <p>{{ data?.datePublished }}</p>
+            <descriptionData title="Publicatiedatum">
+              <p>{{ data?.publicationDate ?? Usage.TBD }}</p>
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
-            <descriptionData v-if="data?.usageType" title="Type toepassing">
-              <p>{{ data?.usageType }}</p>
+            <descriptionData title="Type toepassing">
+              <p>{{ data?.usage ?? Usage.TBD }}</p>
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
-            <descriptionData v-if="data?.category" title="Categorie">
-              <p>{{ data?.category }}</p>
+            <descriptionData title="Categorie">
+              <p>{{ data?.category ?? Usage.TBD }}</p>
             </descriptionData>
           </vl-column>
           <vl-column width="12">
             <vl-region>
               <vl-introduction>
-                {{ data?.description }}
+                {{ data?.descriptionFileName }}
               </vl-introduction>
             </vl-region>
           </vl-column>
@@ -61,19 +61,19 @@
             <spotlight
               title="Aanvullende documentatie"
               subtitle="Niet-normatief"
-              :links="data?.relatedDocuments"
+              :links="data?.documentation"
             />
           </vl-column>
           <vl-column width="6" width-s="12">
             <spotlight
               title="Verslagen van werkgroepvergaderingen"
-              :links="data?.reportsWorkgroups"
+              :links="data?.reports"
             />
           </vl-column>
           <vl-column width="6" width-s="12">
             <spotlight
               title="Presentaties en ander materiaal"
-              :links="data?.presentationsAndOthers"
+              :links="data?.presentations"
             />
           </vl-column>
         </vl-grid>
@@ -97,35 +97,32 @@
                 }}</span
               >
             </vl-icon-list-item>
-            <vl-icon-list-item
-              icon="tag"
-              v-if="data?.details?.dateRegistration"
-            >
+            <vl-icon-list-item icon="tag" v-if="data?.dateOfRegistration">
               <span
                 ><strong>Datum van aanmelding:</strong>&nbsp;{{
-                  data?.details?.dateRegistration
+                  data?.dateOfRegistration
                 }}</span
               >
             </vl-icon-list-item>
             <vl-icon-list-item
               icon="tag"
-              v-if="data?.details?.dateRecognitionWorkgroup"
+              v-if="data?.dateOfAcknowledgementByWorkingGroup"
             >
               <span
                 ><strong>Erkenning door werkgroep datastandaarden:</strong
-                >&nbsp;{{ data?.details?.dateRecognitionWorkgroup }}</span
+                >&nbsp;{{ data?.dateOfAcknowledgementByWorkingGroup }}</span
               >
             </vl-icon-list-item>
             <vl-icon-list-item
               icon="tag"
-              v-if="data?.details?.dateRecognitionFlemishICTPolicy"
+              v-if="data?.dateOfAcknowledgementBySteeringCommittee"
             >
               <span
                 ><strong
                   >Erkenning door stuurorgaan Vlaams Informatie- en
                   ICT-beleid:</strong
                 >&nbsp;{{
-                  data?.details?.dateRecognitionFlemishICTPolicy
+                  data?.dateOfAcknowledgementBySteeringCommittee
                 }}</span
               >
             </vl-icon-list-item>
@@ -140,9 +137,9 @@
             >
             of een topic aanmaken in onze publieke
             <a
-              :href="data?.questionsAndFeedback?.githubQuestions?.href"
+              :href="data?.questionsAndFeedback?.githubQuestions?.uri"
               title="GitHub issue-tracker"
-              >{{ data?.questionsAndFeedback?.githubQuestions?.title }}</a
+              >{{ data?.questionsAndFeedback?.githubQuestions?.name }}</a
             >.
           </p>
         </vl-region>
@@ -153,7 +150,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Standard } from '~/types/standard'
+import { Usage, type Standard } from '~/types/standard'
 
 const { params } = useRoute()
 

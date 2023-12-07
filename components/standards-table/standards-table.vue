@@ -45,7 +45,7 @@
     <tbody>
       <tr v-if="standards?.length" v-for="standard in pagedDatasets()">
         <td>
-          <a :href="standard?.href">{{ standard?.title }}</a>
+          <a :href="standard?.uri">{{ standard?.title }}</a>
         </td>
         <td>
           <p>
@@ -62,15 +62,15 @@
           </p>
         </td>
         <td>
-          <a :href="standard?.organisation?.href">{{
-            standard?.organisation?.title
+          <a :href="standard?.responsibleOrganisation?.uri">{{
+            standard?.responsibleOrganisation?.name
           }}</a>
         </td>
         <td>
-          {{ standard?.usageType ?? Usage.TBD }}
+          {{ standard?.usage ?? Usage.TBD }}
         </td>
         <td>
-          <p>{{ standard?.datePublished ?? Usage.TBD }}</p>
+          <p>{{ standard?.publicationDate ?? Usage.TBD }}</p>
         </td>
       </tr>
       <tr v-else>
