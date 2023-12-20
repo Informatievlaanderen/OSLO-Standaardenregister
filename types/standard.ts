@@ -20,7 +20,6 @@ export enum Category {
 }
 
 export interface Standard {
-    // [index: string]: string | NavigationLink[] | NavigationLink | object;
     title: string,
     category: Category,
     usage: Usage,
@@ -37,13 +36,5 @@ export interface Standard {
     dateOfRegistration: string,
     dateOfAcknowledgementByWorkingGroup: string,
     dateOfAcknowledgementBySteeringCommittee: string,
-    details: {
-        functionalScope: string,
-        organizationalScope: string,
-    },
-    questionsAndFeedback: {
-        email: string,
-        githubQuestions: NavigationLink,
-    }
     _path: string
 }

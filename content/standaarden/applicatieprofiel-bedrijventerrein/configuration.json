@@ -54,12 +54,8 @@
   "dateOfRegistration": "2023-04-23",
   "dateOfAcknowledgementByWorkingGroup": "2023-04-23",
   "dateOfAcknowledgementBySteeringCommittee": "2023-04-23",
-  "details": {
-    "functionalScope": "Semantische standaard voor informatie met dossieren.",
-    "organizationalScope": "Vlaamse en lokale overheden"
-  },
   "questionsAndFeedback": {
-    "email": "informatie.vlaanderen@vlaanderen.be",
+    "email": "digitaal.vlaanderen@vlaanderen.be",
     "githubQuestions": {
       "name": "GitHub issue-tracker",
       "uri": "https://github.com/Informatievlaanderen/OSLO-Discussion"

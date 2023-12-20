@@ -80,24 +80,17 @@
         <vl-region>
           <vl-title tag-name="h2"> Detailinformatie </vl-title>
           <vl-icon-list>
-            <vl-icon-list-item
-              icon="tag"
-              v-if="data?.standard?.details?.functionalScope"
-            >
+            <vl-icon-list-item icon="tag">
               <span
-                ><strong>Functioneel toepassingsgebied:</strong>&nbsp;{{
-                  data?.standard?.details?.functionalScope
-                }}</span
+                ><strong>Functioneel toepassingsgebied:</strong
+                >&nbsp;Semantische standaard voor informatie met
+                dossieren.</span
               >
             </vl-icon-list-item>
-            <vl-icon-list-item
-              icon="tag"
-              v-if="data?.standard?.details?.organizationalScope"
-            >
+            <vl-icon-list-item icon="tag">
               <span
-                ><strong>Organisatorisch werkingsgebied:</strong>&nbsp;{{
-                  data?.standard?.details?.organizationalScope
-                }}</span
+                ><strong>Organisatorisch werkingsgebied:</strong>&nbsp;Vlaamse
+                en lokale overheden</span
               >
             </vl-icon-list-item>
             <vl-icon-list-item
@@ -150,16 +143,12 @@
           <vl-title tag-name="h2"> Vragen en feedback </vl-title>
           <p>
             In geval van vragen of feedback kan u contact opnemen
-            <a :href="`mailto:${data?.standard?.questionsAndFeedback?.email}`"
-              >via e-mail</a
-            >
+            <a :href="`mailto:digitaal.vlaanderen@vlaanderen.be`">via e-mail</a>
             of een topic aanmaken in onze publieke
             <a
-              :href="data?.standard?.questionsAndFeedback?.githubQuestions?.uri"
+              href="https://github.com/Informatievlaanderen/OSLO-Discussion"
               title="GitHub issue-tracker"
-              >{{
-                data?.standard?.questionsAndFeedback?.githubQuestions?.name
-              }}</a
+              >GitHub issue-tracker</a
             >.
           </p>
         </vl-region>
