@@ -53,12 +53,5 @@
   ],
   "dateOfRegistration": "2023-04-23",
   "dateOfAcknowledgementByWorkingGroup": "2023-04-23",
-  "dateOfAcknowledgementBySteeringCommittee": "2023-04-23",
-  "questionsAndFeedback": {
-    "email": "digitaal.vlaanderen@vlaanderen.be",
-    "githubQuestions": {
-      "name": "GitHub issue-tracker",
-      "uri": "https://github.com/Informatievlaanderen/OSLO-Discussion"
-    }
-  }
+  "dateOfAcknowledgementBySteeringCommittee": "2023-04-23"
 }
