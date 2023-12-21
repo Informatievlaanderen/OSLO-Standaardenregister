@@ -2,8 +2,7 @@
   "title": "Applicatieprofiel Bedrijventerrein",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "uri": "https://data.vlaanderen.be/standaarden/applicatieprofiel-dossier",
-  "state": "erkende-standaard",
+  "status": "erkende-standaard",
   "responsibleOrganisation": {
     "name": "Agentschap Facilitair bedrijf",
     "uri": "https://data.vlaanderen.be/doc/organisatie/OVO001834"
