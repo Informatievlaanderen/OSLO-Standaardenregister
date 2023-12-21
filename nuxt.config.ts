@@ -11,7 +11,7 @@ const getDirectories = (basePath: string, srcPath: string) => {
 const base = path.join(__dirname, 'content');
 const routes = getDirectories(base, '/standaarden')
 
-console.log(JSON.stringify(routes, null, 4))
+// console.log(JSON.stringify(routes, null, 4))
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
@@ -100,7 +100,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/404.html',
-        ...routes,
+        // ...routes,
       ],
     }
   },
