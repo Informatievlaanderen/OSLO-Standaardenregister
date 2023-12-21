@@ -30,7 +30,7 @@
           </vl-column>
           <vl-column width="3" width-s="6">
             <descriptionData title="Status">
-              <p>{{ data?.standard?.state ?? Usage.TBD }}</p>
+              <p>{{ data?.standard?.status ?? Usage.TBD }}</p>
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
@@ -169,7 +169,7 @@ const { data } = await useAsyncData('data', async () => {
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   const [data, description] = await Promise.all([
     queryContent<Standard>(
-      `standaarden/${params?.slug?.[0]}/configuration`,
+      `standaarden/${params?.slug?.[0]}`,
     ).find(),
     queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
       .where({ _extension: 'md' })

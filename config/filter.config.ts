@@ -1,6 +1,6 @@
 import { ALL } from "~/constants/constants";
 import { FilterType, type FilterOption } from "~/types/custom-filter";
-import { Category, State, Usage } from "~/types/standard";
+import { Category, Status, Usage } from "~/types/standard";
 
 export const defaultFilters: FilterOption[] = [
     {
@@ -38,23 +38,23 @@ export const defaultFilters: FilterOption[] = [
         },
         type: FilterType.CHECKBOX,
         title: 'Status standaard',
-        key: 'state',
+        key: 'status',
         active: [false, false, false],
         options: [
             {
                 default: false,
-                label: useRemoveDashes(useCapitalizeFirstLetter(State.DEVELOPMENT)),
-                key: State.DEVELOPMENT,
+                label: useRemoveDashes(useCapitalizeFirstLetter(Status.DEVELOPMENT)),
+                key: Status.DEVELOPMENT,
             },
             {
                 default: false,
-                label: useRemoveDashes(useCapitalizeFirstLetter(State.CANDIDATE)),
-                key: State.CANDIDATE,
+                label: useRemoveDashes(useCapitalizeFirstLetter(Status.CANDIDATE)),
+                key: Status.CANDIDATE,
             },
             {
                 default: false,
-                label: useRemoveDashes(useCapitalizeFirstLetter(State.RECOGNIZED)),
-                key: State.RECOGNIZED,
+                label: useRemoveDashes(useCapitalizeFirstLetter(Status.RECOGNIZED)),
+                key: Status.RECOGNIZED,
             },
         ],
     },

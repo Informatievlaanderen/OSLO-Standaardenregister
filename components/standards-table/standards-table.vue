@@ -51,15 +51,15 @@
         </td>
         <td>
           <p>
-            {{ standard?.category ?? Usage.TBD }}
+            {{ useCapitalizeFirstLetter(standard?.category ?? Usage.TBD) }}
           </p>
         </td>
         <td>
           <p>
             {{
-              (standard?.state &&
-                useRemoveDashes(useCapitalizeFirstLetter(standard?.state))) ??
-              Usage.TBD
+              !!standard?.status
+                ? useRemoveDashes(useCapitalizeFirstLetter(standard?.status))
+                : Usage.TBD
             }}
           </p>
         </td>
@@ -69,10 +69,14 @@
           }}</a>
         </td>
         <td>
-          {{ standard?.usage ?? Usage.TBD }}
+          {{ !!standard?.usage ? standard.usage : Usage.TBD }}
         </td>
         <td>
-          <p>{{ standard?.publicationDate ?? Usage.TBD }}</p>
+          <p>
+            {{
+              !!standard?.publicationDate ? standard.publicationDate : Usage.TBD
+            }}
+          </p>
         </td>
       </tr>
       <tr v-else>

@@ -7,7 +7,7 @@ export enum Usage {
     APPLY_OR_EXPLAIN = "Pas toe of leg uit",
 }
 
-export enum State {
+export enum Status {
     DEVELOPMENT = "standaard-in-ontwikkeling",
     CANDIDATE = "kandidaat-standaard",
     RECOGNIZED = "erkende-standaard",
@@ -23,8 +23,7 @@ export interface Standard {
     title: string,
     category: Category,
     usage: Usage,
-    uri: string,
-    state: State,
+    status: Status,
     descriptionFileName: string,
     responsibleOrganisation: NavigationLink,
     publicationDate: string,

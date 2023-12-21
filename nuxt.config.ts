@@ -11,7 +11,7 @@ const getDirectories = (basePath: string, srcPath: string) => {
 const base = path.join(__dirname, 'content');
 const routes = getDirectories(base, '/standaarden')
 
-console.log(routes)
+console.log(JSON.stringify(routes, null, 4))
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
@@ -93,8 +93,6 @@ export default defineNuxtConfig({
   ],
   // Modules: https://nuxt.com/docs/api/configuration/nuxt-config#modules-1
   modules: [
-    // https://github.com/davestewart/nuxt-content-assets
-    'nuxt-content-assets', // make sure to add before content!
     // https://content.nuxtjs.org/
     '@nuxt/content',
   ],
