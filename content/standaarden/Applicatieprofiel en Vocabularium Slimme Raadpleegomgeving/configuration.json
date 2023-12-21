@@ -1,0 +1,58 @@
+{
+    "title": "Applicatieprofiel en Vocabularium Slimme Raadpleegomgeving",
+    "category": "Vocabularium en applicatieprofielen",
+    "usage": "Aanbevolen (vrijwillig)",
+    "status": "standaard-in-ontwikkeling",
+    "descriptionFileName": "ap-slimme-raadpleegomgeving-config.md",
+    "responsibleOrganisation": {
+        "name": "Agentschap Binnenlands Bestuur",
+        "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    },
+    "publicationDate": "2023-11-06",
+    "specificationDocuments": [
+        {
+            "name": "Applicatieprofiel Slimme Raadpleegomgeving",
+            "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/slimme-raadpleegomgeving"
+        },
+        {
+            "name": "Vocabularium Slimme Raadpleegomgeving",
+            "uri": "https://data.vlaanderen.be/ns/slimme-raadpleegomgeving"
+        }
+    ],
+    "documentation": [],
+    "reports": [
+        {
+            "name": "Verslag Business Werkgroep - 17 oktober 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/reports/Verslag Business Workshop Slimme Raadpleegomgeving.pdf"
+        },
+        {
+            "name": "Verslag Thematische Werkgroep I - 7 November 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/reports/20231107_ThematicWorkshop1_Verslag_OSLOSlimmeRaadpleegomgeving.pdf"
+        },
+        {
+            "name": "Verslag Thematische Werkgroep II - 28 November 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/reports/20231128_ThematicWorkshop2_Verslag_OSLOSlimmeRaadpleegomgeving.pdf"
+        }
+    ],
+    "charter": {
+        "name": "Werkgroep Charter Slimme Raadpleegomgeving",
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/charter/Werkgroep charter OSLO Slimme Raadpleegomgeving.docx"
+    },
+    "presentations": [
+        {
+            "name": "Presentatie Business Werkgroep - 17 oktober 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/presentations/Business Werkgroep presentatie - slimme raadpleegomgeving.pdf"
+        },
+        {
+            "name": "Presentatie Thematische Werkgroep I - 7 november 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/presentations/20231107 Thematische Werkgroep 1 - Slimme Raadpleegomgeving V.01.pptx"
+        },
+        {
+            "name": "Presentatie Thematische Werkgroep II - 2 november 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/standaardenregister/presentations/20231128_ThematicWorkshop2_Powerpoint_OSLOSlimmeRaadpleegomgeving.pptx"
+        }
+    ],
+    "dateOfRegistration": "7 november 2023",
+    "dateOfAcknowledgementByWorkingGroup": "TBD",
+    "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

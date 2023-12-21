@@ -1,0 +1,54 @@
+{
+    "title": "Vocabularium Bestuurlijke Sancties",
+    "category": "Vocabularium",
+    "usage": "TBD",
+    "status": "kandidaat-standaard",
+    "descriptionFileName": "voc-bestuurlijksanctieregister.md",
+    "responsibleOrganisation": {
+        "name": "Agentschap Digitaal Vlaanderen",
+        "uri": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    "publicationDate": "TBD",
+    "specificationDocuments": [
+        {
+            "name": "Vocabularium",
+            "uri": "https://data.vlaanderen.be/doc/vocabularium/bestuurlijke-sancties/kandidaatstandaard/2022-06-23/"
+        }
+    ],
+    "documentation": [],
+    "reports": [
+        {
+            "name": "Verslag Business workshop - 30 juli 2020",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/reports/Verslag Business Werkgroep - Bestuurlijk Sanctieregister 2020-07-30.docx"
+        },
+        {
+            "name": "Verslag Thematische werkgroep 1 - 15 september 2020",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/reports/Verslag Thematische werkgroep 1 - Bestuurlijk Sanctieregister 2020-09-15.docx"
+        },
+        {
+            "name": "Verslag Thematische werkgroep 2 - 21 januari 2021",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/reports/Verslag Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.docx"
+        }
+    ],
+    "charter": {
+        "name": "Charter OSLO Bestuurlijk Sanctieregister",
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/charter/Werkgroep Charter OSLO Bestuurlijk Sanctieregister.docx"
+    },
+    "presentations": [
+        {
+            "name": "Presentatie Business workshop - 30 juli 2020",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/presentations/Presentatie Business Werkgroep - Bestuurlijk Sanctieregister 2020-07-30.pdf"
+        },
+        {
+            "name": "Presentatie Thematische werkgroep 1 - 15 september 2020",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/presentations/Presentatie Thematische werkgroep 1 - Bestuurlijk Sanctieregister 2020-09-15.pptx.pdf"
+        },
+        {
+            "name": "Presentatie Thematische werkgroep 2 - 21 januari 2021",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister/standaardenregister/presentations/Presentatie Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.pptx.pdf"
+        }
+    ],
+    "dateOfRegistration": "TBD",
+    "dateOfAcknowledgementByWorkingGroup": "TBD",
+    "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

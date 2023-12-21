@@ -1,0 +1,54 @@
+{
+    "title": "Applicatieprofiel Lokale Economie",
+    "category": "applicatieprofiel",
+    "usage": "Aanbevolen (vrijwillig)",
+    "status": "standaard-in-ontwikkeling",
+    "descriptionFileName": "template-description.md",
+    "responsibleOrganisation": {
+        "name": "Agentschap Digitaal Vlaanderen",
+        "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    "publicationDate": "2023-12-14",
+    "specificationDocuments": [
+        {
+            "name": "Lokale Economie Applicatieprofiel",
+            "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/lokale-economie"
+        }
+    ],
+    "documentation": [],
+    "reports": [
+        {
+            "name": "Verslag business werkgroep - 19-09-2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Business Werkgroep - Lokale Economie - 19092023.pdf"
+        },
+        {
+            "name": "Verslag thematische werkgroep 1 - 17-10-2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Thematische Werkgroep 1 - Lokale Economie - 17102023.pdf"
+        },
+        {
+            "name": "Verslag thematische werkgroep 2 - 16-11-2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Thematische Werkgroep 2 - Lokale Economie - 16112023.pdf"
+        }
+    ],
+    "charter": {
+        "name": "OSLO Lokale Economie Charter",
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/charter/Charter_OSLO_Lokale_Economie.docx"
+    },
+    "presentations": [
+        {
+            "name": "Presentatie business werkgroep - 19-09-2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Business Werkgroep - Lokale Economie - 19092023.pdf"
+        },
+        {
+            "name": "Presentatie thematische werkgroep 1 - 17-10-2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische Werkgroep 1 - Lokale Economie - 17102023.pdf"
+        },
+        {
+            "name": "Presentatie thematische werkgroep 2 - 16-11-2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische Werkgroep 2 - Lokale Economie - 16112023.pdf"
+        }
+    ],
+    "dateOfRegistration": "",
+    "dateOfAcknowledgementByWorkingGroup": "",
+    "dateOfAcknowledgementBySteeringCommittee": ""
+}

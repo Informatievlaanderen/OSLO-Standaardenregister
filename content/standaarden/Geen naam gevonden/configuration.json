@@ -1,0 +1,22 @@
+{
+    "title": "Geen naam gevonden",
+    "category": "Geen categorie gevonden",
+    "usage": "Geen type gevonden",
+    "status": "TBD",
+    "descriptionFileName": "Geen beschrijving gevonden",
+    "responsibleOrganisation": {
+        "name": "Geen organisatie gevonden",
+        "uri": "Geen identificator gevonden"
+    },
+    "publicationDate": "Geen publicatiedatum gevonden",
+    "specificationDocuments": [],
+    "documentation": [],
+    "reports": [],
+    "charter": {
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    },
+    "presentations": [],
+    "dateOfRegistration": "Geen datum van aanmelding gevonden",
+    "dateOfAcknowledgementByWorkingGroup": "Geen erkenning werkgroep datastandaarden gevonden",
+    "dateOfAcknowledgementBySteeringCommittee": "Geen erkenning stuurgroep gevonden"
+}

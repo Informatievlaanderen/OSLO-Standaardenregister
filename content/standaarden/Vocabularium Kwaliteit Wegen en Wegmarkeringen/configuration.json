@@ -1,0 +1,58 @@
+{
+    "title": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
+    "category": "Vocabularium",
+    "usage": "Aanbevolen (vrijwillig)",
+    "status": "standaard-in-ontwikkeling",
+    "descriptionFileName": "template-description.md",
+    "responsibleOrganisation": {
+        "name": "Agentschap Digitaal Vlaanderen",
+        "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    "publicationDate": "2023-07-24",
+    "specificationDocuments": [
+        {
+            "name": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
+            "uri": "https://data.vlaanderen.be/doc/ns/kwaliteit-wegen-en-wegmarkeringen"
+        }
+    ],
+    "documentation": [],
+    "reports": [
+        {
+            "name": "Verslag thematische werkgroep 1 - 28 april 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO MLaaS.pdf"
+        },
+        {
+            "name": "Verslag thematische werkgroep 2 - 12 mei 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/reports/Verslag Thematische Werkgroep 2 - OSLO MLaaS.pdf"
+        },
+        {
+            "name": "Verslag thematische werkgroep 3 - 28 juni 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO MLaaS.pdf"
+        }
+    ],
+    "charter": {
+        "name": "Charter",
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/charter/Charter Machine Learning as a Service.pdf"
+    },
+    "presentations": [
+        {
+            "name": "Presentatie thematische werkgroep 1 - 28 april 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/Presentatie thematische werkgroep 1 - MLaaS -  28 april 2023.pdf"
+        },
+        {
+            "name": "Presentatie thematische werkgroep 2 - 12 mei 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/Presentatie thematische werkgroep 2 - MLaaS - 12 mei 2023.pdf"
+        },
+        {
+            "name": "Presentatie thematische werkgroep 3 - 28 juni 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/Presentatie thematische werkgroep 3 - MLaaS - 28 juni 2023.pdf"
+        },
+        {
+            "name": "JSONld datavoorbeeld",
+            "uri": "JSONld-datavoorbeeld.json"
+        }
+    ],
+    "dateOfRegistration": "2022-11-08",
+    "dateOfAcknowledgementByWorkingGroup": "TBD",
+    "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}
