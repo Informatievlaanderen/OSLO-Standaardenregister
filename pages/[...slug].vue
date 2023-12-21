@@ -7,7 +7,7 @@
     />
     <vl-layout>
       <vl-region>
-        <a href="/"
+        <a href="/standaarden"
           ><vl-button type="button">Terug naar het overzicht</vl-button></a
         >
       </vl-region>

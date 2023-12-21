@@ -9,17 +9,15 @@ const getDirectories = (basePath: string, srcPath: string) => {
 }
 
 const base = path.join(__dirname, 'content');
-const routes = getDirectories(base, '/standaarden')
+const routes = getDirectories(base, '')
 
-// console.log(JSON.stringify(routes, null, 4))
+console.log(JSON.stringify(routes, null, 4))
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
   routeRules: {
-    // standaarden pre-rendered at build time
-    '/standaarden/**': { prerender: true },
     // serve root as ssr
-    '/': { ssr: true },
+    '/': { ssr: true, cors: true },
   },
   debug: false,
   hooks: {
@@ -31,8 +29,9 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    baseURL: '/standaarden',
     head: {
-      title: 'OSLO-standaardenregister',
+      title: 'standaardenregister data.vlaanderen.be',
       htmlAttrs: {
         lang: 'nl',
       },
@@ -100,13 +99,8 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/404.html',
-        // ...routes,
+        ...routes,
       ],
-    }
-  },
-  content: {
-    highlight: {
-      theme: 'light-plus'
     }
   }
 })

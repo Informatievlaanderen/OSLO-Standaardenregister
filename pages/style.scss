@@ -20,3 +20,24 @@
 .search__title {
     color: #677483;
 }
+
+.spotlight {
+    position: relative;
+    display: block;
+
+    padding: 0.7rem 0.5rem;
+
+    font-family: "Flanders Art Sans", serif;
+
+    text-decoration: none;
+}
+
+.spotlight__title {
+    font-family: "Flanders Art Sans", serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.spotlight__subtitle {
+    font-size: 1.6rem;
+}

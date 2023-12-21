@@ -48,7 +48,9 @@
                       </vl-typography>
                     </vl-column>
                     <vl-column>
-                      <vl-link to="/">Terug naar de startpagina</vl-link>
+                      <vl-link to="/standaarden"
+                        >Terug naar de startpagina</vl-link
+                      >
                     </vl-column>
                   </vl-grid>
                 </vl-column>
