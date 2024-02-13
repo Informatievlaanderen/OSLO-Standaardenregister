@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/standaarden',
     head: {
-      title: 'standaardenregister data.vlaanderen.be',
+      title: 'OSLO Standaardenregister',
       htmlAttrs: {
         lang: 'nl',
       },

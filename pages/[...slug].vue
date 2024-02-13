@@ -1,10 +1,10 @@
 <template>
+  <content-header
+    title="OSLO"
+    href="https://data.vlaanderen.be/standaarden"
+    subtitle="Standaardenregister"
+  />
   <vl-region>
-    <content-header
-      title="OSLO"
-      href="https://data.vlaanderen.be/standaarden"
-      subtitle="Standaardenregister"
-    />
     <vl-layout>
       <vl-region>
         <a href="/standaarden"
@@ -154,8 +154,8 @@
         </vl-region>
       </vl-region>
     </vl-layout>
-    <content-footer />
   </vl-region>
+  <content-footer />
 </template>
 
 <script setup lang="ts">
