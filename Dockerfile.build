@@ -1,10 +1,10 @@
-FROM informatievlaanderen/standaardenregister-base:1.1.0 as BUILD
+FROM informatievlaanderen/standaardenregister-base:1.1.5 as BUILD
 
 WORKDIR /app
 
 ADD . /app
 
-RUN yarn run build
+RUN npm run build
 
 FROM node:18-alpine 
 WORKDIR /app

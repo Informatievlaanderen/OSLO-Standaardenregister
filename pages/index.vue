@@ -1,10 +1,10 @@
 <template>
+  <content-header
+    title="OSLO"
+    href="https://www.vlaanderen.be/digitaal-vlaanderen"
+    subtitle="OSLO Standaardenregister"
+  />
   <vl-region>
-    <content-header
-      title="OSLO"
-      href="https://www.vlaanderen.be/digitaal-vlaanderen"
-      subtitle="OSLO Standaardenregister"
-    />
     <vl-layout>
       <vl-region>
         <vl-grid mod-v-center mod-center mod-stacked>
@@ -41,7 +41,6 @@
         </vl-grid>
       </vl-region>
     </vl-layout>
-    <content-footer />
     <sidebar ref="toggle">
       <template #header>
         <h5 class="filter__title">Filter standaarden</h5>
@@ -64,6 +63,7 @@
     </sidebar>
     <custom-modal />
   </vl-region>
+  <content-footer />
 </template>
 
 <script setup lang="ts">

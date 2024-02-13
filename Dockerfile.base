@@ -9,8 +9,6 @@ RUN echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > /app/.npmrc
 RUN apk update 
 RUN apk add python3 vim make gcc g++ curl
 
-RUN rm package-lock.json
-
 RUN yarn install
 
 RUN yarn add @govflanders/vl-ui-design-system-vue3
