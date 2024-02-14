@@ -58,10 +58,11 @@
             />
           </vl-column>
           <vl-column width="6" width-s="12">
+            <!-- Combination of both the documentation ash the charter -->
             <spotlight
               title="Aanvullende documentatie"
               subtitle="Niet-normatief"
-              :links="data?.standard?.documentation"
+              :links="[...data?.standard?.documentation, data?.standard?.charter]"
             />
           </vl-column>
           <vl-column width="6" width-s="12">

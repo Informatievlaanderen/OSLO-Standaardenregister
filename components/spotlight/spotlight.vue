@@ -5,7 +5,7 @@
     <h2 class="spotlight__subtitle" v-if="subtitle">{{ subtitle }}</h2>
     <div class="spotlight__data" v-if="links?.length">
       <div class="spotlight__data__value" v-for="link in links">
-        <a :href="link?.uri">{{ link?.name }}</a>
+        <a v-if="link?.uri && link?.name" :href="link?.uri">{{ link?.name }}</a>
       </div>
     </div>
   </article>
