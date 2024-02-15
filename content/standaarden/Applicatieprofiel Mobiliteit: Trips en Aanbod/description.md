@@ -1,0 +1,1 @@
+"Het applicatieprofiel OSLO-Mobiliteit: Trips en Aanbod toont hoe termen uit de onderliggende vocabularia gebruikt moeten \nworden om gegevens uit te wisselen over (1) door personen uitgevoerde reizen en (2) de mobiliteitsdiensten die ze daarvoor \nter beschikking hebben. \nDe concrete aanleiding voor dit applicatieprofiel was het Decreet Basisbereikbaarheid.\n"

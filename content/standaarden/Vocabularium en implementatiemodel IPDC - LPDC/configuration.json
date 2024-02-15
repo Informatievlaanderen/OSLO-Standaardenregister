@@ -1,0 +1,31 @@
+{
+    "title": "Vocabularium en implementatiemodel IPDC - LPDC",
+    "category": "Vocabularium en implementatiemodel",
+    "usage": "Aanbevolen (vrijwillig)",
+    "status": "standaard-in-ontwikkeling",
+    "descriptionFileName": "",
+    "responsibleOrganisation": {
+        "name": "Agentschap Digitaal Vlaanderen",
+        "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    "publicationDate": "",
+    "specificationDocuments": [
+        {
+            "name": "Implementatiemodel IPDC - LPDC",
+            "uri": "https://productencatalogus.data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+        },
+        {
+            "name": "Vocabularium IPDC - LPDC",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"
+        }
+    ],
+    "documentation": [],
+    "reports": [],
+    "charter": {
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/standaardenregister/charter/"
+    },
+    "presentations": [],
+    "dateOfRegistration": "",
+    "dateOfAcknowledgementByWorkingGroup": "",
+    "dateOfAcknowledgementBySteeringCommittee": ""
+}
