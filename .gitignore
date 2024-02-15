@@ -95,3 +95,7 @@ sw.*
 
 # Publication automatisation
 PUBLISHED
+
+# Any generated configuration files and content files
+/content/**/.* 
+/configuration/**/.*
