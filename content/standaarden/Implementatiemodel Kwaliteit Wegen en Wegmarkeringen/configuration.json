@@ -49,7 +49,7 @@
         },
         {
             "name": "JSONld datavoorbeeld",
-            "uri": "JSONld-datavoorbeeld.json"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/JSONld-datavoorbeeld.json"
         }
     ],
     "dateOfRegistration": "2022-11-08",

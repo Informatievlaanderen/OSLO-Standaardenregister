@@ -57,7 +57,7 @@
         },
         {
             "name": "JSONld datavoorbeeld",
-            "uri": "JSONld-datavoorbeeld.pdf"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-visualo/standaardenregister/presentations/JSONld-datavoorbeeld.pdf"
         }
     ],
     "dateOfRegistration": "2022-09-08",

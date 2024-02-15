@@ -17,6 +17,10 @@
         {
             "name": "Utility Services Vocabularium",
             "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen/index_en.html"
+        },
+        {
+            "name": "Câbles et Conduites Vocabulaire",
+            "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_fr.html"
         }
     ],
     "documentation": [],

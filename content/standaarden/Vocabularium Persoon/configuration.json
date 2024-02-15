@@ -33,15 +33,15 @@
     "presentations": [
         {
             "name": "Publieke Werkgroep OSLO-Persoon 2017-01-12",
-            "uri": "OsloPersoonPubliekeWerkgroep20170112.pptx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/presentations/OsloPersoonPubliekeWerkgroep20170112.pptx"
         },
         {
             "name": "Publieke Werkgroep OSLO-Persoon 2017-03-15",
-            "uri": "OsloPersoonPubliekeWerkgroep20170315.pptx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/presentations/OsloPersoonPubliekeWerkgroep20170315.pptx"
         },
         {
             "name": "Webcast Persoon 2018-05-15",
-            "uri": "OSLO-Persoon.pptx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/presentations/OSLO-Persoon.pptx"
         }
     ],
     "dateOfRegistration": "10 April 2018 (retroactief)",

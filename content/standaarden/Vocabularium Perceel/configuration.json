@@ -65,11 +65,11 @@
         },
         {
             "name": "Presentatie Werkgroep Datastandaarden 2020-04-23",
-            "uri": "wg-datastandaarden-23april2020.pptx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/wg-datastandaarden-23april2020.pptx"
         },
         {
             "name": "Webinar Percelen & Bedrijventerreinen 2020-04-24",
-            "uri": "finaal-webinar-perceel-24apr2020.pptx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/finaal-webinar-perceel-24apr2020.pptx"
         }
     ],
     "dateOfRegistration": "14 Maart 2019 (retroactief)",

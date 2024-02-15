@@ -44,12 +44,12 @@
     "reports": [],
     "charter": {
         "name": "Werkgroep Charter GeoDCAT-AP VL",
-        "uri": "Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen/standaardenregister/charter/Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
     },
     "presentations": [
         {
             "name": "Presentatie webinar 1 – 21 oktober 2021",
-            "uri": "Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen/standaardenregister/presentations/Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
         },
         {
             "name": "Opname webinar 1",
@@ -57,7 +57,7 @@
         },
         {
             "name": "Presentatie webinar 2 – 19 november 2021",
-            "uri": "Webinar-2-OSLO-GeoDCAT-AP-VL.pdf"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen/standaardenregister/presentations/Webinar-2-OSLO-GeoDCAT-AP-VL.pdf"
         },
         {
             "name": "Opname webinar 2",
@@ -65,7 +65,7 @@
         },
         {
             "name": "Presentatie webinar 3 – 19 december 2021",
-            "uri": "Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen/standaardenregister/presentations/Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
         },
         {
             "name": "Opname webinar 3",

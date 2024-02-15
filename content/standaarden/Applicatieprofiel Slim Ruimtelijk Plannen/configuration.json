@@ -1,6 +1,6 @@
 {
-    "title": "Vocabularium en applicatieprofiel Slim Ruimtelijk Plannen",
-    "category": "Vocabularium en applicatieprofiel",
+    "title": "Applicatieprofiel Slim Ruimtelijk Plannen",
+    "category": "Applicatieprofiel",
     "usage": "",
     "status": "standaard-in-ontwikkeling",
     "descriptionFileName": "slim-ruimtelijk-plannen-description.md",
@@ -11,7 +11,7 @@
     "publicationDate": "2023-10-23",
     "specificationDocuments": [
         {
-            "name": "Slim Ruimtelijk Plannen vocabularium en applicatieprofiel",
+            "name": "Slim Ruimtelijk Plannen applicatieprofiel",
             "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/slim-ruimtelijk-plannen/ontwerpstandaard/2023-12-12"
         }
     ],
@@ -32,6 +32,10 @@
         {
             "name": "Verslag thematische werkgroep 3 - OSLO Slim Ruimtelijk Plannen 21 december 2023",
             "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag thematische werkgroep 3 - OSLO Slim Ruimtelijk Plannen 21 december 2023.pdf"
+        },
+        {
+            "name": "Verslag thematische werkgroep 4 - OSLO Slim Ruimtelijk Plannen 1 februari 2024",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag 4e thematische werkgroep SRP 2024-02-01.pdf"
         }
     ],
     "charter": {
@@ -54,6 +58,10 @@
         {
             "name": "Derde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 21 december 2023",
             "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Derde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 21 december 2023.pptx.pdf"
+        },
+        {
+            "name": "Vierde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 1 februari 2024",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Presentatie thematische werkgroep 4 - SRP.pdf"
         }
     ],
     "dateOfRegistration": "",

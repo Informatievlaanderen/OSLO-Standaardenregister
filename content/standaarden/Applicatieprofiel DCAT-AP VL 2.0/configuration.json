@@ -40,12 +40,12 @@
     "reports": [
         {
             "name": "Verslag Webinar 1 – 4 juni 2021",
-            "uri": "Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/reports/Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
         }
     ],
     "charter": {
         "name": "Werkgroep Charter DCAT-AP VL",
-        "uri": "Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/charter/Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
     },
     "presentations": [
         {

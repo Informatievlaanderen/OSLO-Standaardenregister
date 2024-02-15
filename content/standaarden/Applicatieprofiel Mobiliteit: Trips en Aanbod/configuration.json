@@ -18,11 +18,11 @@
     "documentation": [
         {
             "name": "Mapping op General Bikeshare Feed Specification (GBFS)",
-            "uri": "mappingGBFS.xlsx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/documents/mappingGBFS.xlsx"
         },
         {
             "name": "Mapping op Mobility Data Specification (MDS)",
-            "uri": "mappingMDS.xlsx"
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/documents/mappingMDS.xlsx"
         }
     ],
     "reports": [
