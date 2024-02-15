@@ -1,1 +1,0 @@
-"Het OSLO Publiecatie traject ‘Voorwaarden Dienstverlening’ moet helpen om makkelijk te bepalen of een persoon recht heeft of moet voldoen aan een bepaalde publieke dienstverlening. Op basis van internationale standaarden wordt deze standaard opgebouwd en verrijkt met eigen geïnstantieerde termen.\n"

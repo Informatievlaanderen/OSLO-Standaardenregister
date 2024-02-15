@@ -1,1 +1,0 @@
-"Dit applicatieprofiel beschrijft een informatiemodel om als lokaal bestuur \ngestructureerde besluiten inzake mobiliteit op te stellen en te publiceren. \nEen mobiliteitsbesluit kan momenteel een aanvullend of tijdelijk reglement zijn of een vergunning \nvoor inname en/of signalisatie.\n"
