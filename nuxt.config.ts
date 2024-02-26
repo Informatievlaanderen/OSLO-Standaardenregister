@@ -1,17 +1,19 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import { fileURLToPath } from 'url'
-import path from 'path';
-import fs from 'fs';
 
-const getDirectories = (basePath: string, srcPath: string) => {
-  const dirs = fs.readdirSync(`${basePath}/${srcPath}`).filter(file => fs.statSync(path.join(`${basePath}/${srcPath}`, file)).isDirectory())
-  return dirs.map((dir) => `${srcPath}/${dir}`)
-}
+// UNNEEDED CODE TO PRERENDER PROJECT. NO LONGER NEEDED
+// import path from 'path';
+// import fs from 'fs';
 
-const base = path.join(__dirname, 'content');
-const routes = getDirectories(base, '')
+// const getDirectories = (basePath: string, srcPath: string) => {
+//   const dirs = fs.readdirSync(`${basePath}/${srcPath}`).filter(file => fs.statSync(path.join(`${basePath}/${srcPath}`, file)).isDirectory())
+//   return dirs.map((dir) => `${srcPath}/${dir}`)
+// }
 
-console.log(JSON.stringify(routes, null, 4))
+// const base = path.join(__dirname, 'content');
+// const routes = getDirectories(base, '')
+
+// console.log(JSON.stringify(routes, null, 4))
 
 export default defineNuxtConfig({
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
@@ -90,7 +92,6 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/404.html',
-        ...routes,
       ],
     }
   }
