@@ -151,3 +151,14 @@ TODO
 [ ] Make a configuration that switches between a development build and a production build. (First ensure that the build is production see TODO 1.)
 [ ] Add a line in the Makefile to extract the package-lock.json file
 [ ] Document better the build procedure and the necessary steps.
+
+## Query parameters
+This project supports the use of query parameters. These parameters can be used to filter the content of the page. You can refer to the `filter.config.ts` file for the correct keys. The parameters are as follows:
+
+```
+http://localhost:3000/standaarden/?usage=Aanbevolen+(vrijwillig)
+http://localhost:3000/standaarden/?category=applicatieprofiel
+http://localhost:3000/standaarden/?status=erkende-standaard
+```
+
+
