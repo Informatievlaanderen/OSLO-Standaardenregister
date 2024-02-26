@@ -122,7 +122,6 @@ const { data } = await useAsyncData(
 
     return {
       content: content[0],
-      // standards: useQueryParams(standards, route?.query),
       standards: useSorting(
         useSearch(useFilter(standards, selectedFilters.value), searchRef.value),
       ),
