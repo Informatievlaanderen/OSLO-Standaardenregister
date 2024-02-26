@@ -1,4 +1,4 @@
-FROM informatievlaanderen/standaardenregister-base:1.1.7 as BUILD
+FROM informatievlaanderen/standaardenregister-base:1.1.9 as BUILD
 
 WORKDIR /app
 
