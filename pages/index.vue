@@ -115,9 +115,7 @@ const { data } = await useAsyncData(
   async () => {
     const [content, standards] = await Promise.all([
       queryContent<Index>('/configuration').find(),
-      queryContent<Standard>('/standaarden')
-        .where({ _extension: 'json' })
-        .find(),
+      $fetch<Standard[]>('/standaarden/content/standaarden'),
     ])
 
     return {

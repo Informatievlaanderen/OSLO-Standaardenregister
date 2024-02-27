@@ -46,7 +46,7 @@
           <vl-column width="12">
             <vl-region>
               <vl-introduction>
-                {{ data?.markdown?.description }}
+                {{ data?.markdown }}
               </vl-introduction>
             </vl-region>
           </vl-column>
@@ -62,7 +62,10 @@
             <spotlight
               title="Aanvullende documentatie"
               subtitle="Niet-normatief"
-              :links="[...data?.standard?.documentation, data?.standard?.charter]"
+              :links="[
+                ...data?.standard?.documentation,
+                data?.standard?.charter,
+              ]"
             />
           </vl-column>
           <vl-column width="6" width-s="12">
@@ -168,16 +171,26 @@ const { params } = useRoute()
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData('data', async () => {
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
+
+  // console.log(`/standaarden/content/standaarden/${params?.slug?.[0]}.json`)
+  console.log(`${params?.slug?.[0]}`)
+  console.log(`/content/standaarden/${params?.slug?.[0]}/configuration.json`)
   const [data, description] = await Promise.all([
-    queryContent<Standard>(`standaarden/${params?.slug?.[0]}`).find(),
-    queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
-      .where({ _extension: 'md' })
-      .find(),
+    $fetch<Standard>(
+      `/content/standaarden/${params?.slug?.[0]}/configuration.json`,
+    ),
+    $fetch<string>(
+      `/content/standaarden/${params?.slug?.[0]}/description.md`,
+    ),
+    // queryContent<Standard>(`standaarden/${params?.slug?.[0]}`).find(),
+    // queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
+    //   .where({ _extension: 'md' })
+    //   .find(),
   ])
 
   return {
-    standard: data[0],
-    markdown: description[0],
+    standard: data,
+    markdown: description,
   }
 })
 // Redirect to 404 in case of no data
