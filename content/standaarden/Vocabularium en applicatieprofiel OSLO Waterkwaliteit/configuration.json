@@ -1,0 +1,94 @@
+{
+    "title": "Vocabularium en applicatieprofiel OSLO Waterkwaliteit",
+    "category": "Vocabularium en applicatieprofielen",
+    "usage": "Aanbevolen (vrijwillig)",
+    "status": "kandidaat-standaard",
+    "descriptionFileName": "ap-or-voc-waterkwaliteit.md",
+    "responsibleOrganisation": {
+        "name": "Vlaamse Milieumaatschappij (VMM)",
+        "uri": "https://data.vlaanderen.be/id/organisatie/OVO000092"
+    },
+    "publicationDate": "17 oktober 2022",
+    "specificationDocuments": [
+        {
+            "name": "Applicatieprofiel Waterkwaliteit",
+            "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/waterkwaliteit"
+        },
+        {
+            "name": "Applicatieprofiel Statistiek",
+            "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/statistiek"
+        },
+        {
+            "name": "Applicatieprofiel Datakwaliteit",
+            "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit"
+        },
+        {
+            "name": "Vocabularium Waterkwaliteit",
+            "uri": "https://data.vlaanderen.be/ns/waterkwaliteit"
+        },
+        {
+            "name": "Vocabularium Statistiek",
+            "uri": "https://data.vlaanderen.be/ns/statistiek"
+        },
+        {
+            "name": "Vocabularium Datakwaliteit",
+            "uri": "https://data.vlaanderen.be/ns/datakwaliteit"
+        }
+    ],
+    "documentation": [
+        {
+            "name": "OSLO Omgeving - codelijsten - Technische documentatie",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/documents/OSLO Omgeving - codelijsten - Technische documentatie.pdf"
+        }
+    ],
+    "reports": [
+        {
+            "name": "Verslag Business werkgroep - 9 november 2021",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/reports/Verslag Business werkgroep - 9 november 2021.docx"
+        },
+        {
+            "name": "Verslag thematische werkgroep 1 - 9 december 2021",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/reports/Verslag Thematische werkgroep 1 - 9 november 2021.docx"
+        },
+        {
+            "name": "Verslag thematische werkgroep 2 - 1 februari 2022",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/reports/Verslag thematische werkgroep 2 - 1 februari 2022.docx"
+        },
+        {
+            "name": "OSLO Omgeving codelijsten - Verslag thematische werkgroep 1 - 22 juni 2022",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/reports/OSLO Omgeving codelijsten - Verslag thematische werkgroep 1 - 22 juni 2022.docx"
+        },
+        {
+            "name": "OSLO Omgeving codelijsten - Verslag thematische werkgroep 2 - 14 juli 2022",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/reports/OSLO Omgeving codelijsten - Verslag thematische werkgroep 2 - 14 juli 2022.docx"
+        }
+    ],
+    "charter": {
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/charter/"
+    },
+    "presentations": [
+        {
+            "name": "Presentatie Business werkgroep  - 9 november 2021",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/presentations/Presentatie Business werkgroep - 9 november 2021.pdf"
+        },
+        {
+            "name": "Presentatie Thematische werkgroep 1 - 9 december 2021",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/presentations/Presentatie Thematische werkgroep 1 - 9 december 2021.pdf"
+        },
+        {
+            "name": "Presentatie thematische werkgroep 2 - 1 februari 2022",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/presentations/Presentatie thematische werkgroep 2 - 1 februari 2022.pdf"
+        },
+        {
+            "name": "OSLO Omgeving codelijsten - Presentatie thematische werkgroep 1 - 22 juni 2022",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/presentations/OSLO Omgeving codelijsten-Presentatie Thematische werkgroep 1 - 22 juni 2022.pdf"
+        },
+        {
+            "name": "OSLO Omgeving codelijsten - Presentatie thematische werkgroep 2 - 14 juli 2022",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/presentations/OSLO Omgeving codelijsten-Presentatie Thematische werkgroep 2 - 14 juli 2022.pdf"
+        }
+    ],
+    "dateOfRegistration": "17 oktober 2022",
+    "dateOfAcknowledgementByWorkingGroup": "TBD",
+    "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

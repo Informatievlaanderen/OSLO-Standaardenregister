@@ -1,0 +1,47 @@
+{
+    "title": "Applicatieprofiel Mobiliteitsbudget ",
+    "category": "Applicatieprofiel",
+    "usage": "",
+    "status": "standaard-in-ontwikkeling",
+    "descriptionFileName": "",
+    "responsibleOrganisation": {
+        "name": "Agentschap Digitaal Vlaanderen",
+        "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    "publicationDate": "",
+    "specificationDocuments": [
+        {
+            "name": "Applicatieprofiel Mobiliteitsbudget",
+            "uri": "https://test.data.vlaanderen.be/doc/applicatieprofiel/mobiliteitsbudget/"
+        },
+        {
+            "name": "Vocabularium Mobiliteitsbudget",
+            "uri": "https://test.data.vlaanderen.be/ns/mobiliteitsbudget/"
+        }
+    ],
+    "documentation": [
+        {
+            "name": "Modificatie Mobiliteitsbudget - datum",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/documents/link"
+        }
+    ],
+    "reports": [
+        {
+            "name": "Verslag Thematische Werkgroep 1 - 11 januari 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/reports/11012023_OSLO Mobiliteitsbudget_Thematische Werkgroep 1_Verslag.pdf"
+        }
+    ],
+    "charter": {
+        "name": "Charter",
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/charter/link"
+    },
+    "presentations": [
+        {
+            "name": "Presentatie Thematische Werkgroep 1 - 11 januari 2023",
+            "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/presentations/11012023_OSLO Mobiliteitsbudget_Thematische Werkgroep 1_Presentatie.pdf"
+        }
+    ],
+    "dateOfRegistration": "",
+    "dateOfAcknowledgementByWorkingGroup": "",
+    "dateOfAcknowledgementBySteeringCommittee": ""
+}
