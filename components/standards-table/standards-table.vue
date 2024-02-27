@@ -45,7 +45,7 @@
     <tbody>
       <tr v-if="standards?.length" v-for="standard in pagedDatasets()">
         <td>
-          <a :href="standard?._path?.replace('configuration', '')">{{
+          <a :href="standard?.title ?? decodeURIComponent(standard.title)">{{
             standard?.title
           }}</a>
         </td>
