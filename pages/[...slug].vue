@@ -171,21 +171,11 @@ const { params } = useRoute()
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData('data', async () => {
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
-
-  // console.log(`/standaarden/content/standaarden/${params?.slug?.[0]}.json`)
-  console.log(`${params?.slug?.[0]}`)
-  console.log(`/content/standaarden/${params?.slug?.[0]}/configuration.json`)
   const [data, description] = await Promise.all([
     $fetch<Standard>(
       `/content/standaarden/${params?.slug?.[0]}/configuration.json`,
     ),
-    $fetch<string>(
-      `/content/standaarden/${params?.slug?.[0]}/description.md`,
-    ),
-    // queryContent<Standard>(`standaarden/${params?.slug?.[0]}`).find(),
-    // queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
-    //   .where({ _extension: 'md' })
-    //   .find(),
+    $fetch<string>(`/content/standaarden/${params?.slug?.[0]}/description.md`),
   ])
 
   return {
