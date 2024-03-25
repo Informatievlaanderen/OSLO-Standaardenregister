@@ -20,10 +20,10 @@ jobs:
       - setup_remote_docker
       - run:
           name: Build Docker Base Image
-          command: docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister:${VERSION} .
+          command: make build-base
       - run:
           name: Build Docker Image
-          command: docker build -f Dockerfile.build -t  --build-arg "VERSION=${VERSION}" informatievlaanderen/standaardenregister:${VERSION} .
+          command: make build
 workflows:
   version: 2
   build:
