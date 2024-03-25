@@ -6,7 +6,7 @@ build-base:
 
 # first build-base should have been run
 build:
-	docker build -f Dockerfile.build -t  --build-arg "VERSION=${VERSION}" informatievlaanderen/standaardenregister:${VERSION} .
+	docker build -f Dockerfile.build --build-arg "VERSION=${VERSION}" -t informatievlaanderen/standaardenregister:${VERSION} .
 
 exec:
 	docker run -it --rm --name standaardenregister -p 3000:3000 informatievlaanderen/standaardenregister:${VERSION} sh
