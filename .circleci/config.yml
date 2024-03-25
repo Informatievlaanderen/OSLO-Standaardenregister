@@ -19,11 +19,11 @@ jobs:
             - ./node_modules
       - setup_remote_docker
       - run:
-          name: Build standaardenregister Base Image
+          name: Build standaardenregister base image
           command: make build-base
       - run:
-          name: Build standaardenregister Image
-          command: make build
+          name: Build standaardenregister latest image
+          command: make build-latest
 workflows:
   version: 2
   build:
