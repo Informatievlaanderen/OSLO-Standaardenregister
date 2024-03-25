@@ -17,9 +17,13 @@ jobs:
           key: dependency-cache-{{ checksum "yarn.lock" }}
           paths:
             - ./node_modules
+      - setup_remote_docker
       - run:
-          name: Build
-          command: npm run build # Or your build command
+          name: Build Docker Base Image
+          command: docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister:${VERSION} .
+      - run:
+          name: Build Docker Image
+          command: docker build -f Dockerfile.build -t  --build-arg "VERSION=${VERSION}" informatievlaanderen/standaardenregister:${VERSION} .
 workflows:
   version: 2
   build:
