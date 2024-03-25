@@ -19,10 +19,10 @@ jobs:
             - ./node_modules
       - setup_remote_docker
       - run:
-          name: Build Docker Base Image
+          name: Build standaardenregister Base Image
           command: make build-base
       - run:
-          name: Build Docker Image
+          name: Build standaardenregister Image
           command: make build
 workflows:
   version: 2
