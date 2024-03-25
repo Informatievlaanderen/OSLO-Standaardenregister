@@ -2,7 +2,7 @@ VERSION := $(shell cat VERSION)
 PUBLISHEDIMAGE := $(shell cat PUBLISHED)
 
 build-base:
-	docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister:${VERSION} .
+	docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
 
 # first build-base should have been run
 build:
