@@ -1206,12 +1206,12 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.1.tgz#b9da6a878a371829a0502c9b6c1c143ef6663f4d"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
-"@govflanders/vl-ui-design-system-style@^1.0.1":
+"@govflanders/vl-ui-design-system-style@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@govflanders/vl-ui-design-system-style/-/vl-ui-design-system-style-1.0.3.tgz#5b3288870f7d30ad9bc8769e9cfbc00702da5bab"
   integrity sha512-37TspbXuSZIh47KSWWopz0IJjhjt8PQwVzUw/Fx6FvvyJS4ftySGtdapi86ZoUJGjXobzZblcLGEKtZPWDPvwg==
 
-"@govflanders/vl-ui-design-system-vue3@^1.0.2-alpha.3":
+"@govflanders/vl-ui-design-system-vue3@^1.0.2-alpha.6":
   version "1.0.2-alpha.6"
   resolved "https://registry.yarnpkg.com/@govflanders/vl-ui-design-system-vue3/-/vl-ui-design-system-vue3-1.0.2-alpha.6.tgz#cd00572735224638a6a99476826abc607e430d0c"
   integrity sha512-D18XQ+mkUpPKmItQPgkmXp6XLusfMl/uX/BnIZNdIfGu0Wqg4OoAFWc3W8I+PoSyvRkb+uUinzllTWx7Qp9UrQ==
