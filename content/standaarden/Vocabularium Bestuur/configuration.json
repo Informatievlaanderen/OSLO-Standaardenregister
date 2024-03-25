@@ -1,0 +1,27 @@
+{
+    "title": "Vocabularium Bestuur",
+    "category": "Vocabularium",
+    "usage": "Verplicht",
+    "status": "erkende-standaard",
+    "descriptionFileName": "voc-bestuur.md",
+    "responsibleOrganisation": {
+        "name": "Agentschap Binnenlands Bestuur",
+        "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    },
+    "publicationDate": "2018-06-26",
+    "specificationDocuments": [
+        {
+            "name": "Vocabularium Bestuur",
+            "uri": "https://data.vlaanderen.be/ns/bestuur"
+        }
+    ],
+    "documentation": [],
+    "reports": [],
+    "charter": {
+        "uri": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/standaardenregister/charter/"
+    },
+    "presentations": [],
+    "dateOfRegistration": "10 April 2018 (retroactief)",
+    "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
+    "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
+}
