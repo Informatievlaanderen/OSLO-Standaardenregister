@@ -1,0 +1,71 @@
+{
+  "naam": "Applicatieprofiel DCAT-AP VL",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03/DCAT-AP-VL.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2021-12-02",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-dcat-ap-vl.md",
+  "specificatiedocument": [
+    {
+      "naam": "DCAT-AP Vlaanderen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam" : "DCAT-AP 1.2",
+      "waarde" : "https://joinup.ec.europa.eu/release/dcat-ap/12"
+    },
+    {
+      "naam" : "W3C DCAT",
+      "waarde" : "https://www.w3.org/TR/vocab-dcat/"
+    },
+    {
+      "naam" : "W3C Review DCAT",
+      "waarde" : "https://w3c.github.io/dxwg/dcat/"
+    }
+  ],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter DCAT-AP VL",
+      "waarde": "Werkgroep Charter - DCAT AP VL.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag - Publieke werkgroep 1 - 26 okt 2018",
+      "waarde": "Verslag-werkgroep1-DCAT-AP-Vlaanderen.docx"
+    },
+    {
+      "naam" : "Verslag - Publieke werkgroep 2 - 14 dec 2018",
+      "waarde" : "Verslag-werkgroep2-DCAT-AP-Vlaanderen.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam" : "Presentatie Publieke Werkgroep 1 - 26 okt 2018",
+      "waarde" : "DCAT-AP-Vlaanderen-werkgroep1.pptx"
+    },
+    {
+      "naam" : "Presentatie Publieke Werkgroep 2 - 14 dec 2018",
+      "waarde" : "DCAT-AP-Vlaanderen-werkgroep2.pptx"
+    },
+    {
+      "naam" : "Webinar - Afsluiting Publieke Review - 11 jun 2019",
+      "waarde" : "DCAT-AP-Vlaanderen-webinar.pptx"
+    },
+    {
+      "naam" : "Slides Werkgroep Datastandaarden",
+      "waarde" : "DCAT-AP-Vlaanderen-wgdatastandaarden.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking Open Data catalogi in Vlaanderen.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "28 Mei 2018",
+  "datum_einde_review": "15 Mei 2019",
+  "erkenning_werkgroep_datastandaarden": "13 Juni 2019",
+  "erkenning_stuurgroep": "03 Oktober 2019",
+  "herroeping_stuurgroep" : "02 December 2021"
+}

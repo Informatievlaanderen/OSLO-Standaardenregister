@@ -1,0 +1,74 @@
+{
+  "naam": "Applicatieprofiel DCAT-AP VL 2.0",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16/all-DCAT-AP-VL-20.jsonld",
+  "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2021-12-02",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-dcat-ap-vl.md",
+  "specificatiedocument": [
+    {
+      "naam": "DCAT-AP Vlaanderen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam": "DCAT-AP 1.2",
+      "waarde": "https://joinup.ec.europa.eu/release/dcat-ap/12"
+    },
+    {
+      "naam": "DCAT-AP 2.0",
+      "waarde": "https://github.com/SEMICeu/DCAT-AP/tree/2.0.1/releases/2.0.1"
+    },
+    {
+      "naam": "Applicatieprofiel metadata DCAT",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/metadata-dcat"
+    },
+    {
+      "naam": "W3C DCAT",
+      "waarde": "https://www.w3.org/TR/vocab-dcat/"
+    },
+    {
+      "naam": "W3C Review DCAT",
+      "waarde": "https://w3c.github.io/dxwg/dcat/"
+    }
+  ],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter DCAT-AP VL",
+      "waarde": "Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag Webinar 1 – 4 juni 2021",
+      "waarde": "Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Webinar 1 – 4 juni 2021",
+      "waarde": "Presentatie Webinar 1.pdf"
+    },
+    {
+      "naam": "Opname Webinar 1 – 4 juni 2021",
+      "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/4bdc8ee41c37417a3a951a47accf872c20210622081033/fdc82b"
+    },
+    {
+      "naam": "Presentatie Webinar 2 – 1 juli 2021",
+      "waarde": "Presentatie webinar 2 OSLO DCAT-AP VL 2.0.pdf"
+    },
+    {
+      "naam": "Opname Webinar 2 – 1 juli 2021",
+      "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/508771e571b569a32503263ee0966e4320210716133306/275ced"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking Open Data catalogi in Vlaanderen.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "04 Juni 2021",
+  "datum_einde_review": "19 Oktober 2021",
+  "erkenning_werkgroep_datastandaarden": "18 november 2021",
+  "erkenning_stuurgroep": "2 december 2021"
+}

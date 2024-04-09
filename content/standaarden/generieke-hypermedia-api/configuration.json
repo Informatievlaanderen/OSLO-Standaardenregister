@@ -1,0 +1,61 @@
+{
+  "naam": "Generieke Hypermedia API",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2019-02-07",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Technische standaard",
+  "beschrijving": "generieke-hypermedia-api.md",
+  "specificatiedocument": [
+    {
+      "naam": "Generieke Hypermedia API specificatie",
+      "waarde": "https://github.com/Informatievlaanderen/generieke-hypermedia-api"
+    },
+    {
+      "naam" : "Bouwblok paginering",
+      "waarde" : "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/paginering.md"
+    },
+    {
+      "naam" : "Bouwblok CRUD operaties",
+      "waarde" : "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/crud-operaties.md"
+    },
+    {
+      "naam" : "Bouwblok Taal-selectie/ontdekking",
+      "waarde" : "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/taal.md"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam" : "Client side NodeJS demo-implementatie",
+      "waarde" : "https://github.com/Informatievlaanderen/generic-hypermedia-api-client"
+    },
+    {
+      "naam" : "Server side NodeJS demo-implementatie",
+      "waarde" : "https://github.com/Informatievlaanderen/generic-hypermedia-api-client-testserver"
+    }
+  ],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter - OSLO Generic Hypermedia Standard",
+      "waarde": "Werkgroep Charter - OSLO Generic Hypermedia Standard.docx"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 2018-05-30",
+      "waarde": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 1 - 20180530.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "OSLO Generieke API Standaard - Werkgroepsessie 1",
+      "waarde": "OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Een specificatie voor het gebruik van Hypermedia Controls in REST API's",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "01 April 2018",
+  "erkenning_werkgroep_datastandaarden": "8 November 2018",
+  "erkenning_stuurgroep": "7 Februari 2019"
+}

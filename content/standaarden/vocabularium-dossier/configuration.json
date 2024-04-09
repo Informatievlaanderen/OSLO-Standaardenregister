@@ -1,0 +1,85 @@
+{
+  "naam": "Vocabularium Dossier",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Facilitair Bedrijf",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO001834",
+  "publicatiedatum": "2023-09-25",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium",
+  "beschrijving": "voc-dossier.md",
+  "specificatiedocument": [
+    {
+      "naam": "Vocabularium Dossier",
+      "waarde": "https://data.vlaanderen.be/ns/dossier"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam": "Voorbeeld use cases",
+      "waarde": "OSLO-Dossier_html-documentatie_use-cases.pdf"
+    }
+  ],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter OSLO Dossier",
+      "waarde": "Werkgroep Charter - OSLO Dossier v1.01.docx"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag Business workshop - 07 feb 2019",
+      "waarde": "Verslag BW1 - OSLO-Dossier - dd07022019_v1.01.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 1 - 28 feb 2019",
+      "waarde": "Verslag W1 - OSLO-Dossier - dd28022019.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 2 - 19 maart 2019",
+      "waarde": "Verslag W2 - OSLO-Dossier - dd19032019_v2.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 3 - 23 april 2019",
+      "waarde": "Verslag W3 - OSLO-Dossier - dd23042019.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 4 - 21 mei 2019",
+      "waarde": "Verslag W4 - OSLO-Dossier - dd21052019.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 5 - 04 juni 2019",
+      "waarde": "Verslag W5 - OSLO-Dossier - dd04062019.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie - Business workshop - 07 feb 2019",
+      "waarde": "OSLO-Presentatie-dossier_workshop1_v1.00.pptx"
+    },
+    {
+      "naam": "Presentatie - Thematische werkgroep 1 - 28 feb 2019",
+      "waarde": "workshop1 - 28feb19.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 2 - 19 maart 2019",
+      "waarde": "workshop2 - 19mar19.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 3 - 23 april 2019",
+      "waarde": "Workshop3 - 23apr19.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 4 - 21 mei 2019",
+      "waarde": "Workshop4 - 21mei19.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 5 - 04 juni 2019",
+      "waarde": "Workshop5 - 04juni19.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met dossieren.",
+  "organisatorisch_werkingsgebied": "Vlaamse en lokale overheden",
+  "datum_van_aanmelding": "14 maart 2019",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "25 september 2023"
+}

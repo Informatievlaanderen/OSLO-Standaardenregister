@@ -1,0 +1,56 @@
+{
+  "naam": "Vocabularium Toeristische Logies",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/logies/ontwerpstandaard/2019-03-14/all-logies.jsonld",
+  "verantwoordelijke_organisatie": "Toerisme Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000034",
+  "publicatiedatum": "2019-12-05",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium",
+  "beschrijving": "voc-logies.md",
+  "specificatiedocument": [
+    {
+      "naam": "Vocabularium Logies",
+      "waarde": "https://data.vlaanderen.be/ns/logies"
+    }
+  ],
+  "documentatie": [],
+  "charter" : [
+    {
+      "naam": "Werkgroep Charter OSLO Logies",
+      "waarde": "Werkgroep charter OSLO Logies.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag thematische werkgroep 1 OSLO Logies - 20180928",
+      "waarde": "OSLO logies - WG sessie 1.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 2 OSLO Logies - 20181015",
+      "waarde": "OSLO logies - WG sessie 2.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 3 OSLO Logies - 20181026",
+      "waarde": "OSLO logies - WG sessie 3.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 4 OSLO Logies - 20181109",
+      "waarde": "OSLO logies - WG sessie 4.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 5 OSLO Logies - 20181123",
+      "waarde": "OSLO logies - WG sessie 5.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Webcast OSLO Logies - 20190212",
+      "waarde": "OSLO Logies webcast - 12 februari_Finaal.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot logies.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "01 september 2018",
+  "erkenning_werkgroep_datastandaarden": "14 maart 2019",
+  "erkenning_stuurgroep": "5 december 2019"
+}

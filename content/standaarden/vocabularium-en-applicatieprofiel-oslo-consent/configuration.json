@@ -1,0 +1,76 @@
+{
+  "naam": "Vocabularium en applicatieprofiel OSLO Consent",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "TBD",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium en applicatieprofielen",
+  "beschrijving": "core-concept.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Consent",
+      "waarde":"https://purl.eu/doc/applicationprofile/consent/"
+    },
+    {
+      "naam": "Vocabularium Consent",
+      "waarde":"https://purl.eu/ns/consent"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter Consent (TRAPEZE)",
+      "waarde": "Working Group Charter OSLO Consent (TRAPEZE).docx"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag Business werkgroep - 20 augustus 2021",
+      "waarde": "20210820_BusinessWorkshop_MeetingMinutes__OSLOTrapeze.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 1 - 23 september 2021",
+      "waarde": "20210923_ThematicWorkshop1_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 2 - 21 oktober 2021",
+      "waarde": "20211021_ThematicWorkshop2_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 3 - 18 november 2021",
+      "waarde": "20211118_ThematicWorkshop3_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "naam": "Verslag Thematische werkgroep 4 - 16 december 2021",
+      "waarde": "20211216_ThematicWorkshop4_MeetingMinutes_OSLOTrapeze.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Business werkgroep - 20 augustus 2021",
+      "waarde": "20210819_BusinessWorkshop_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 1 - 23 september 2021",
+      "waarde": "20210923_ThematicWorkshop1_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 2 - 21 oktober 2021",
+      "waarde": "20211021_ThematicWorkshop2_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 3 - 18 november 2021",
+      "waarde": "20211118_ThematicWorkshop3_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "naam": "Presentatie Thematische werkgroep 4 - 16 december 2021",
+      "waarde": "20211216_ThematicWorkshop4_PowerPoint_OSLOTrapeze.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor de toepassing voor het ondersteunen van het consent-mecahanisme en garanderen dat data op de correcte manier gebruikt wordt.",
+  "organisatorisch_werkingsgebied": "Ongelimiteerd, maar de standaard werd vooral gemaakt vanuit het Solid oogpunt.",
+  "datum_van_aanmelding": "Juni 2021",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}

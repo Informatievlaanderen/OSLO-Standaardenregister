@@ -1,0 +1,65 @@
+{
+  "naam": "Vocabularium loongegevens",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17/all-loongegevens-voc.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Uitbetaling Groeipakket",
+  "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO008643",
+  "publicatiedatum": "2021-09-16",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium",
+  "beschrijving": "voc-loongegevens.md",
+  "specificatiedocument": [
+    {
+      "naam": "Loongegevens Vocabularium",
+      "waarde": "https://data.vlaanderen.be/ns/loongegevens"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "OSLO Loongegevens Charter",
+      "waarde": "Template-Werkgroep-Charter-OSLO.docx"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag thematische werkgroep 1 - 30 september 2021",
+      "waarde": "OSLO Loongegevens - Thematische werkgroep 1 (30-09-2021).docx"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 2 - 26 oktober 2021",
+      "waarde": "OSLO Loongegevens - Thematische werkgroep 2 (v26-10-2021) (1).docx"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 3 - 23 november 2021",
+      "waarde": "OSLO Loon - Thematische werkgroep 3 23_11 (2).docx"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 4 - 21 december 2021",
+      "waarde": "OSLO Loongegevens - Thematische Werkgroep 4 (211221).docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie thematische werkgroep 1 - 30 september 2021",
+      "waarde": "OSLO Loon - Thematische werkgroep 1 (v28-09-2021).pptx"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 2 - 26 oktober 2021",
+      "waarde": "OSLO Loon - Thematische werkgroep 2 (v26-10-2021).pptx"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 3 - 23 november 2021",
+      "waarde": "OSLO Loongegevens - Thematische werkgroep 3 (231121).pptx"
+    },
+    {
+      "naam": "Presentatie thematische Werkgroep 4 - 21 december 2021",
+      "waarde": "OSLO Loongegevens - Thematische werkgroep 4 (211221).pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor het ontsluiten van loongegevens.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid en erkende sociale secretariaten",
+  "datum_van_aanmelding": "2021-09-16",
+  "datum_einde_review": "2022-06-18",
+  "erkenning_werkgroep_datastandaarden": "17 maart 2022",
+  "erkenning_stuurgroep": "TBD"
+}

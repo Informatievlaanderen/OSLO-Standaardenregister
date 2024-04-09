@@ -1,0 +1,127 @@
+{
+  "naam": "Openbaar Domein 2.0.0",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "30-09-2021",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium & applicatieprofielen",
+  "beschrijving": "openbaar-domein.md",
+  "specificatiedocument": [
+    {
+      "naam": "Vocabularium Conceptueel Gegevensmodel Openbaar Domein",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein"
+    },
+    {
+      "naam": "Uitbreiding Gebied",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/gebied"
+    },
+    {
+      "naam": "Uitbreiding Infrastructuur",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/infrastructuur"
+    },
+    {
+      "naam": "Uitbreiding Vegetatie",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/vegetatie"
+    },
+    {
+      "naam": "Uitbreiding Terreindeel",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/terreindeel"
+    },
+    {
+      "naam": "Uitbreiding Begroeid Voorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begroeidvoorkomen"
+    },
+    {
+      "naam": "Uitbreiding Onbegroeid Voorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/onbegroeidvoorkomen"
+    },
+    {
+      "naam": "Uitbreiding Waterdeel",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/waterdeel"
+    },
+    {
+      "naam": "Uitbreiding Watervoorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen"
+    },
+    {
+      "naam": "Uitbreiding Begraafplaats",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begraafplaats"
+    },
+    {
+      "naam": "Basisprofiel Openbaar Domein",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein"
+    },
+    {
+      "naam": "Applicatieprofiel Gebieden",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/gebieden"
+    },
+    {
+      "naam": "Applicatieprofiel Infrastructuurelementen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen"
+    },
+    {
+      "naam": "Applicatieprofiel Vegetatie-elementen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/vegetatie-elementen"
+    },
+    {
+      "naam": "Applicatieprofiel Terreindelen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/terreindelen"
+    },
+    {
+      "naam": "Applicatieprofiel Begroeid Voorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen"
+    },
+    {
+      "naam": "Applicatieprofiel Onbegroeid Voorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/onbegroeid-voorkomen"
+    },
+    {
+      "naam": "Applicatieprofiel Waterdelen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/waterdelen"
+    },
+    {
+      "naam": "Applicatieprofiel Watervoorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen"
+    },
+    {
+      "naam": "Applicatieprofiel Begraafplaatsen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsen"
+    },
+    {
+      "naam": "Applicatieprofiel Begraafplaatsenbeheer",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer"
+    }
+  ],
+  "documentatie": [],
+  "charter": [],
+  "verslagen": [
+    {
+      "naam": "Plenaire publieke werkgroepsessie 8 oktober 2019",
+      "waarde": "OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
+    },
+    {
+      "naam": "Diepte-overleg 5 december 2019",
+      "waarde": "OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
+    },
+    {
+      "naam": "Diepte-overleg 20 februari 2020",
+      "waarde": "OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Kennisdelingsmoment 2 juli 2020",
+      "waarde": "OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
+    },
+    {
+      "naam": "Webcast Kennisdelingsmoment 2 juli 2020",
+      "waarde": "https://youtu.be/fjf2getDFBo"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Inventarisatie van objecten op het openbaar domein.",
+  "organisatorisch_werkingsgebied": "Steden, gemeenten en alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": " 20 november 2019",
+  "erkenning_werkgroep_datastandaarden": "17 juni 2021",
+  "erkenning_stuurgroep": "10 november 2021"
+}

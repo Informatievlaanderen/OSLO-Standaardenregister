@@ -1,0 +1,30 @@
+{
+  "naam": "Applicatieprofiel Adresregister",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/adressenregister/ontwerpdocument/niet-bepaald/adressenregister.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "TBD",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-adresregister.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Adresregister",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/adresregister/"
+    }
+  ],
+  "documentatie": [],
+  "charter": [],
+  "verslagen": [
+    {
+      "naam": "Thematische werkgroep Adres en Gebouw 1 - 2016-06-08",
+      "waarde": "Thematische Werkgroep Adres & Gebouw 1.docx"
+    }
+  ],
+  "presentaties": [],
+  "functioneel_toepassingsgebied": "Semantische standaard voor het bouwen van een adresregister.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "10 April 2018 (retroactief)",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}
