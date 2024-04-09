@@ -19,13 +19,13 @@
             }}</vl-title>
           </vl-column>
           <vl-column width="3" width-s="6">
-            <descriptionData
-              v-if="data?.standard?.responsibleOrganisation"
-              title="Verantwoordelijke organisatie"
-            >
-              <a :href="data?.standard?.responsibleOrganisation?.uri">{{
-                data?.standard?.responsibleOrganisation?.name
-              }}</a>
+            <descriptionData title="Verantwoordelijke organisatie">
+              <a
+                v-if="data?.standard?.responsibleOrganisation?.uri"
+                :href="data?.standard?.responsibleOrganisation?.uri"
+                >{{ data?.standard?.responsibleOrganisation?.name }}</a
+              >
+              <p v-else>{{ Usage.TBD }}</p>
             </descriptionData>
           </vl-column>
           <vl-column width="3" width-s="6">
@@ -62,7 +62,11 @@
             <spotlight
               title="Aanvullende documentatie"
               subtitle="Niet-normatief"
-              :links="[...data?.standard?.documentation, data?.standard?.charter]"
+              :links="
+                data?.standard?.documentation?.concat(
+                  data?.standard?.charter,
+                ) ?? []
+              "
             />
           </vl-column>
           <vl-column width="6" width-s="12">
@@ -141,7 +145,7 @@
           </vl-icon-list>
         </vl-region>
         <vl-region>
-          <vl-title tag-name="h2"> Vragen en feedback </vl-title>
+          <vl-title tag-name="h2"> Vragen en feedback</vl-title>
           <p>
             In geval van vragen of feedback kan u contact opnemen
             <a :href="`mailto:digitaal.vlaanderen@vlaanderen.be`">via e-mail</a>
@@ -180,6 +184,7 @@ const { data } = await useAsyncData('data', async () => {
     markdown: description[0],
   }
 })
+
 // Redirect to 404 in case of no data
 if (!data?.value?.standard) {
   throw createError({
