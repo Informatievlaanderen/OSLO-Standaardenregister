@@ -64,15 +64,15 @@ const props = defineProps({
 
 const recognized: StatisticStandard[] | undefined =
   props.statistics?.standards?.filter(
-    (standard) => standard.status === Status.RECOGNIZED,
+    (standard) => standard?.status === Status.RECOGNIZED,
   )
 const candidates: StatisticStandard[] | undefined =
   props.statistics?.standards?.filter(
-    (standard) => standard.status === Status.CANDIDATE,
+    (standard) => standard?.status === Status.CANDIDATE,
   )
 const development: StatisticStandard[] | undefined =
   props.statistics?.standards?.filter(
-    (standard) => standard.status === Status.DEVELOPMENT,
+    (standard) => standard?.status === Status.DEVELOPMENT,
   )
 </script>
 
