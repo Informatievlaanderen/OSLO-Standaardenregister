@@ -4,7 +4,6 @@
   "rules": {
     "no-descending-specificity": null,
     "color-function-notation": null,
-    "max-line-length": null,
 
     "no-empty-source": null,
     "selector-class-pattern": null,
