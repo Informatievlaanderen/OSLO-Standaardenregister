@@ -173,7 +173,7 @@ const { params } = useRoute()
 const { data } = await useAsyncData('data', async () => {
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   const [data, description] = await Promise.all([
-    queryContent<Standard>(`standaarden/${params?.slug?.[0]}`).find(),
+    queryContent<Standard>(`standaarden/${params?.slug?.[0]}`).where({ _extension: 'json' }).find(),
     queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
       .where({ _extension: 'md' })
       .find(),
