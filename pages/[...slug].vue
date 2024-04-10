@@ -18,30 +18,8 @@
               data?.standard?.title
             }}</vl-title>
           </vl-column>
-          <vl-column width="3" width-s="6">
-            <descriptionData title="Verantwoordelijke organisatie">
-              <a
-                v-if="data?.standard?.responsibleOrganisation?.uri"
-                :href="data?.standard?.responsibleOrganisation?.uri"
-                >{{ data?.standard?.responsibleOrganisation?.name }}</a
-              >
-              <p v-else>{{ Usage.TBD }}</p>
-            </descriptionData>
-          </vl-column>
-          <vl-column width="3" width-s="6">
-            <descriptionData title="Status">
-              <p>{{ data?.standard?.status ?? Usage.TBD }}</p>
-            </descriptionData>
-          </vl-column>
-          <vl-column width="3" width-s="6">
-            <descriptionData title="Type toepassing">
-              <p>{{ data?.standard?.usage ?? Usage.TBD }}</p>
-            </descriptionData>
-          </vl-column>
-          <vl-column width="3" width-s="6">
-            <descriptionData title="Categorie">
-              <p>{{ data?.standard?.category ?? Usage.TBD }}</p>
-            </descriptionData>
+          <vl-column width="12">
+            <DescriptionData :items="descriptionElements" />
           </vl-column>
           <vl-column width="12">
             <vl-region>
@@ -165,6 +143,7 @@
 
 <script setup lang="ts">
 import type { Description } from '~/types/description'
+import type { DescriptionData } from '~/types/descriptionData'
 import { Usage, type Standard } from '~/types/standard'
 
 const { params } = useRoute()
@@ -173,7 +152,9 @@ const { params } = useRoute()
 const { data } = await useAsyncData('data', async () => {
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   const [data, description] = await Promise.all([
-    queryContent<Standard>(`standaarden/${params?.slug?.[0]}`).find(),
+    queryContent<Standard>(`standaarden/${params?.slug?.[0]}`)
+      .where({ _extension: 'json' })
+      .find(),
     queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
       .where({ _extension: 'md' })
       .find(),
@@ -184,6 +165,24 @@ const { data } = await useAsyncData('data', async () => {
     markdown: description[0],
   }
 })
+
+const descriptionElements: DescriptionData[] = [
+  {
+    title: 'Verantwoordelijke organisatie',
+    element: data?.value?.standard?.responsibleOrganisation?.uri
+      ? `<a href=&quot;${data?.value?.standard?.responsibleOrganisation?.uri}&quot;>${data?.value?.standard?.responsibleOrganisation?.name}</a>`
+      : Usage.TBD,
+  },
+  { title: 'Status', element: data?.value?.standard?.status ?? Usage.TBD },
+  {
+    title: 'Type toepassing',
+    element: data?.value?.standard?.usage ?? Usage.TBD,
+  },
+  {
+    title: 'Categorie',
+    element: data?.value?.standard?.category ?? Usage.TBD,
+  },
+]
 
 // Redirect to 404 in case of no data
 if (!data?.value?.standard) {

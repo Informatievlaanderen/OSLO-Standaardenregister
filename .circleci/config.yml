@@ -17,9 +17,13 @@ jobs:
           key: dependency-cache-{{ checksum "yarn.lock" }}
           paths:
             - ./node_modules
+      - setup_remote_docker
       - run:
-          name: Build
-          command: npm run build # Or your build command
+          name: Build standaardenregister base image
+          command: make build-base
+      - run:
+          name: Build standaardenregister latest image
+          command: make build-latest
 workflows:
   version: 2
   build:
