@@ -72,6 +72,7 @@ import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { defaultFilters } from '~/config/filter.config'
+import type { Statistics } from '~/types/statistics'
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)
@@ -113,8 +114,11 @@ const { data } = await useAsyncData(
   'data',
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   async () => {
-    const [content, standards] = await Promise.all([
+    const [content, statistics, standards] = await Promise.all([
       queryContent<Index>('/configuration').find(),
+      queryContent<Statistics>('/statistics')
+        .where({ _extension: 'json' })
+        .find(),
       queryContent<Standard>('/standaarden')
         .where({ _extension: 'json' })
         .find(),
@@ -122,6 +126,7 @@ const { data } = await useAsyncData(
 
     return {
       content: content[0],
+      statistics: statistics[0],
       standards: useSorting(
         useSearch(useFilter(standards, selectedFilters.value), searchRef.value),
       ),
