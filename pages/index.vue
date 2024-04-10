@@ -113,15 +113,13 @@ const { data } = await useAsyncData(
   'data',
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   async () => {
-    const [content, standards] = await Promise.all([
-      queryContent<Index>('/configuration').find(),
+    const [standards] = await Promise.all([
       queryContent<Standard>('/standaarden')
         .where({ _extension: 'json' })
         .find(),
     ])
 
     return {
-      content: content[0],
       standards: useSorting(
         useSearch(useFilter(standards, selectedFilters.value), searchRef.value),
       ),
