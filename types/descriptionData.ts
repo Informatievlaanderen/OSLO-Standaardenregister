@@ -1,3 +1,4 @@
 export interface DescriptionData {
-    title?: string
+  title?: string
+  element?: HTMLElement | string
 }
