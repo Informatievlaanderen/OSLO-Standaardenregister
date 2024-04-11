@@ -31,7 +31,7 @@ jobs:
       - checkout # Check out the code in the project directory
       - run:
           name: Publish standaardenregister latest image with all content
-          command: make publish
+          command: make publish-latest
 
 workflows:
   version: 2
