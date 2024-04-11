@@ -1,5 +1,6 @@
 VERSION := $(shell cat VERSION)
-PUBLISHEDIMAGE := $(shell cat PUBLISHED)
+# PUBLISHED is a file that contains the docker image to publish to. If it doesn't exist, use the default DOCKER_IMAGE which is an enviorment variable in CI
+PUBLISHEDIMAGE := $(shell if [ -f PUBLISHED ]; then cat PUBLISHED; else echo DOCKER_IMAGE; fi)
 
 build-base:
 	docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
@@ -23,7 +24,10 @@ run:
 stop:
 	docker stop standaardenregister
 
-
 publish:
 	docker tag informatievlaanderen/standaardenregister:${VERSION} ${PUBLISHEDIMAGE}:${VERSION}
+	docker push ${PUBLISHEDIMAGE}:${VERSION}
+
+publish-latest:
+	docker tag informatievlaanderen/standaardenregister:${VERSION} ${PUBLISHEDIMAGE}:latest
 	docker push ${PUBLISHEDIMAGE}:${VERSION}
