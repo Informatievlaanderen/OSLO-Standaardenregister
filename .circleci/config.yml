@@ -28,8 +28,11 @@ jobs:
           name: List all Docker images
           command: docker images
       - run:
+          name: Log docker username
+          command: echo $DOCKER_USERNAME
+      - run:
           name: Login to Docker Hub
-          command: echo "$DOCKER_PAT_TOKEN" | docker login -u "$DOCKER_USERNAME" --password-stdin "$DOCKER_HOST"
+          command: docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PAT_TOKEN" "$DOCKER_HOST"
       - run:
           name: Publish standaardenregister latest image with all content
           command: make publish-latest
