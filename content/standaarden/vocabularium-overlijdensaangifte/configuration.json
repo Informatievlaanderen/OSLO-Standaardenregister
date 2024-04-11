@@ -9,14 +9,18 @@
     "beschrijving" : "voc-overlijdensaangifte-config.md",
     "specificatiedocument": [
       {
-        "naam": "Applicatieprofiel Overlijdensaangifte",
-        "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
+        "naam": "Vocabularium Overlijdensaangifte",
+        "waarde": "https://data.vlaanderen.be/ns/overlijdensaangifte"
       }
     ],
     "documentatie": [
       {
-        "naam": "Vocabularium Overlijdensaangifte",
-        "waarde": "https://data.vlaanderen.be/ns/overlijdensaangifte"
+        "naam": "Applicatieprofiel Overlijdensaangifte",
+        "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
+      },
+      {
+        "naam": "Vocabularium Gezondsheidstoestand Persoon",
+        "waarde": "https://data.vlaanderen.be/ns/gezondheidstoestand"
       }
     ],
     "charter": [
@@ -33,6 +37,10 @@
       {
         "naam": "Verslag Thematische Werkgroep II - 20 februari 2024",
         "waarde": "20240220__ThematicWorkshop2_Verslag_OSLOOverlijdensaangifte.pdf"
+      },
+      {
+        "naam": "Verslag Thematische Werkgroep III - 12 maart 2024",
+        "waarde": "20240312_ThematicWorkshop3_Verslag_OSLOOverlijdensaangifte.pdf"
       }
     ],
     "presentaties": [
@@ -43,6 +51,10 @@
       {
         "naam": "Presentatie Thematische Werkgroep II - 20 februari 2024",
         "waarde": "20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
+      },
+      {
+        "naam": "Presentatie Thematische Werkgroep III - 12 maart 2024",
+        "waarde": "20240312_ThematicWorkshop3_Powerpoint_OSLOOverlijdensaangifte.pptx"
       }
     ],
     "functioneel_toepassingsgebied": "Semantische standaard voor de digitale transformatie van de Vlaamse Overheid en lokale besturen",

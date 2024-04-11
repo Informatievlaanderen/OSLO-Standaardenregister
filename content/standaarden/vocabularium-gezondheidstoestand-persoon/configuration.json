@@ -1,16 +1,16 @@
 {
-    "naam": "Applicatieprofiel Overlijdensaangifte",
+    "naam": "Vocabularium Gezondheidstoestand Persoon",
     "rapport" : "",
     "verantwoordelijke_organisatie": "Athumi",
     "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO051320",
-    "publicatiedatum": "2024-02-01",
+    "publicatiedatum": "2024-04-11",
     "type_toepassing": "Aanbevolen (vrijwillig)",
-    "categorie": "Applicatieprofiel",
-    "beschrijving" : "ap-overlijdensaangifte-config.md",
+    "categorie": "Vocabularium",
+    "beschrijving" : "voc-gezondheidstoestand-config.md",
     "specificatiedocument": [
       {
-        "naam": "Applicatieprofiel Overlijdensaangifte",
-        "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
+        "naam": "Vocabularium Gezondsheidstoestand Persoon",
+        "waarde": "https://data.vlaanderen.be/ns/gezondheidstoestand"
       }
     ],
     "documentatie": [
@@ -19,8 +19,8 @@
         "waarde": "https://data.vlaanderen.be/ns/overlijdensaangifte"
       },
       {
-        "naam": "Vocabularium Gezondsheidstoestand Persoon",
-        "waarde": "https://data.vlaanderen.be/ns/gezondheidstoestand"
+        "naam": "Applicatieprofiel Overlijdensaangifte",
+        "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
       }
     ],
     "charter": [
