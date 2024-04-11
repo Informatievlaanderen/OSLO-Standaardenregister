@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build:
+  build-and-publish:
     docker:
       - image: 'cimg/node:20.11' # Use the CircleCI Node.js image
     steps:
@@ -24,8 +24,19 @@ jobs:
       - run:
           name: Build standaardenregister latest image
           command: make build-latest
+      - run:
+          name: List all Docker images
+          command: docker images
+      - run:
+          name: Login to Docker Hub
+          command: docker login $DOCKER_HUB_HOST -u $DOCKER_USERNAME -p $DOCKER_PAT_TOKEN
+
+      - run:
+          name: Publish standaardenregister latest image with all content
+          command: make publish-latest
+
 workflows:
   version: 2
-  build:
+  build-and-publish:
     jobs:
-      - build
+      - build-and-publish
