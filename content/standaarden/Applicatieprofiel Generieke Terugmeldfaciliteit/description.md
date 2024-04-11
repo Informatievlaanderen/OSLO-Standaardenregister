@@ -1,0 +1,1 @@
+"Dit document beschrijft een applicatieprofiel, in dit geval Generieke Terugmeldfaciliteit. \nDit applicatieprofiel beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast worden. \nDaarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen opgelijst.\n"
