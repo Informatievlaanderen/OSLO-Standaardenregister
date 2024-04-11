@@ -31,6 +31,9 @@ jobs:
       - checkout # Check out the code in the project directory
       - setup_remote_docker
       - run:
+          name: List all Docker images
+          command: docker images
+      - run:
           name: Publish standaardenregister latest image with all content
           command: make publish-latest
 
