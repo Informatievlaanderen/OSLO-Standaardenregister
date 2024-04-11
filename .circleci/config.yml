@@ -32,7 +32,7 @@ jobs:
           command: echo $DOCKER_USERNAME
       - run:
           name: Login to Docker Hub
-          command: docker login terraformtestcontainerregistry.azurecr.io -u terraformtestcontainerregistry -p $DOCKER_PAT_TOKEN
+          command: docker login $DOCKER_HOST -u $DOCKER_USERNAME -p $DOCKER_PAT_TOKEN
 
       - run:
           name: Publish standaardenregister latest image with all content
