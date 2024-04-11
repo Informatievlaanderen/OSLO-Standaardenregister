@@ -33,4 +33,4 @@ publish:
 
 publish-latest:
 	docker tag informatievlaanderen/standaardenregister:latest ${PUBLISHEDIMAGE}:latest
-	docker push ${PUBLISHEDIMAGE}:${VERSION}
+	docker push ${PUBLISHEDIMAGE}:latest
