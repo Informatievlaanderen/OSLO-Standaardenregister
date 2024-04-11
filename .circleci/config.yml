@@ -32,7 +32,8 @@ jobs:
           command: echo $DOCKER_USERNAME
       - run:
           name: Login to Docker Hub
-          command: docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PAT_TOKEN" "$DOCKER_HOST"
+          command: docker login $DOCKER_HOST -u $DOCKER_USERNAME -p $DOCKER_PAT_TOKEN
+
       - run:
           name: Publish standaardenregister latest image with all content
           command: make publish-latest
