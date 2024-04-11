@@ -29,6 +29,7 @@ jobs:
       - image: 'cimg/node:20.11' # Use the CircleCI Node.js image
     steps:
       - checkout # Check out the code in the project directory
+      - setup_remote_docker
       - run:
           name: Publish standaardenregister latest image with all content
           command: make publish-latest
