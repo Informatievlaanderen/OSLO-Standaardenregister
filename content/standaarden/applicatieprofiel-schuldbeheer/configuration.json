@@ -1,0 +1,45 @@
+{
+  "naam": "Applicatieprofiel Schuldbeheer",
+  "rapport" : "",
+  "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2024-04-11",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving" : "ap-schuldbeheer-config.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Schuldbeheer",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/schuldbeheer"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam": "Vocabularium Schuldbeheer",
+      "waarde": "https://data.vlaanderen.be/ns/schuldbeheer"
+    }
+  ],
+  "charter": [
+    {
+      "naam": "Charter Schuldbeheer",
+      "waarde": "Charter OSLO_Schuldbeheer.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag Business Werkgroep - 4 maart 2024",
+      "waarde": "20240304_BusinessWorkshop_Verslag_OSLOSchuldbeheer.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Business Werkgroep - 4 maart 2024",
+      "waarde": "20240304_BusinessWorkshop_Presentatie_OSLOSchuldbeheer.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor de digitale transformatie van de Vlaamse Overheid en lokale besturen",
+  "organisatorisch_werkingsgebied": "Lokale besturen, alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "21 maart 2024",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}
