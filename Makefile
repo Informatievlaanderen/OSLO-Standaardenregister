@@ -31,6 +31,13 @@ publish:
 	docker tag informatievlaanderen/standaardenregister:${VERSION} ${PUBLISHEDIMAGE}:${VERSION}
 	docker push ${PUBLISHEDIMAGE}:${VERSION}
 
+publish-base:
+  docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}:${VERSION}
+  docker push ${PUBLISHEDIMAGE}:${VERSION}
+  docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}:latest
+  docker push ${PUBLISHEDIMAGE}:latest
+
+
 publish-latest:
 	docker tag informatievlaanderen/standaardenregister:latest ${PUBLISHEDIMAGE}:latest
 	docker push ${PUBLISHEDIMAGE}:latest
