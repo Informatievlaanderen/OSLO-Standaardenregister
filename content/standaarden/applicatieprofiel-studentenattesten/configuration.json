@@ -15,8 +15,26 @@
   ],
   "documentatie": [],
   "charter": [],
-  "verslagen": [],
-  "presentaties": [],
+  "verslagen": [
+    {
+      "naam": "Verslag Business Werkgroep - 26/02/2024",
+      "waarde": "260224 SA Verslag Business werkgroep.pdf"
+    },
+    {
+      "naam": "Verslag Thematische Werkgroep 1 - 18/03/2024",
+      "waarde": "180324 SA Verslag Eerste thematische werkgroep.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Business Werkgroep - 26/02/2024",
+      "waarde": "260224 SA Business werkgroep.pdf"
+    },
+    {
+      "naam": "Presentatie Thematische Werkgroep 1 - 18/03/2024",
+      "waarde": "180324 SA Thematische werkgroep 1.pdf"
+    }
+  ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie over Studentenattesten",
   "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
   "datum_van_aanmelding": "TBD",
