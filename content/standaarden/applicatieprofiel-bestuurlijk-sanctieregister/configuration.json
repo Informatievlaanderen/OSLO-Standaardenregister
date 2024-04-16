@@ -1,10 +1,10 @@
 {
-  "naam": "Applicatieprofiel bestuurlijk sanctieregister",
+  "naam": "Applicatieprofiel Bestuurlijk Sanctieregister",
   "rapport": "",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO002949",
   "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-bestuurlijksanctieregister.md",
   "specificatiedocument": [
@@ -48,9 +48,9 @@
       "waarde": "Presentatie Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.pptx.pdf"
     }
   ],
-  "functioneel_toepassingsgebied": "TBD",
-  "organisatorisch_werkingsgebied": "TBD",
-  "datum_van_aanmelding": "TBD",
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot het sanctieregister",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "1 juli 2020",
   "erkenning_werkgroep_datastandaarden": "TBD",
   "erkenning_stuurgroep": "TBD"
 }
