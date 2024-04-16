@@ -1,22 +1,22 @@
 {
-    "naam": "Applicatieprofiel Mobiliteitsbudget ",
+    "naam": "Vocabularium Mobiliteitsbudget ",
     "rapport" : "",
     "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
     "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
     "publicatiedatum": "2022-11-10",
     "type_toepassing": "Aanbevolen (vrijwillig)",
-    "categorie": "Applicatieprofiel",
-    "beschrijving" : "ap-mobiliteitsbudget-description.md",
+    "categorie": "Vocabularium",
+    "beschrijving" : "voc-mobiliteitsbudget-description.md",
     "specificatiedocument": [
     {
-      "naam": "Applicatieprofiel Mobiliteitsbudget",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteitsbudget/"
+      "naam": "Vocabularium Mobiliteitsbudget",
+      "waarde": "https://data.vlaanderen.be/ns/mobiliteitsbudget/"
     }
     ],
     "documentatie": [
       {
-        "naam": "Vocabularium Mobiliteitsbudget",
-        "waarde": "https://data.vlaanderen.be/ns/mobiliteitsbudget/"
+        "naam": "Applicatieprofiel Mobiliteitsbudget",
+        "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteitsbudget/"
       }
     ],
     "charter": [
