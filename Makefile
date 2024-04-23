@@ -8,9 +8,15 @@ PUBLISHEDIMAGE := $(shell if [ -f PUBLISHED ]; then cat PUBLISHED; else echo $(D
 build-base:
 	docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
 
+build-base-linux:
+	docker build --platform=linux/amd64 -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
+
 # first build-base should have been run
 build:
 	docker build -f Dockerfile.build --build-arg "VERSION=${VERSION}" -t informatievlaanderen/standaardenregister:${VERSION} .
+
+build-linux:
+	docker build --platform=linux/amd64 -f Dockerfile.build --build-arg "VERSION=${VERSION}" -t informatievlaanderen/standaardenregister:${VERSION} .
 
 # first build-base should have been run
 # Build latest to always contain the most recent information of all the standards inside the /content folder
