@@ -1,0 +1,66 @@
+{
+  "naam": "Applicatieprofiel Besluit Mobiliteit",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/besluit-mobiliteit.jsonld",
+  "verantwoordelijke_organisatie": [
+    "Agentschap Digitaal Vlaanderen",
+    "Agentschap Binnenlands Bestuur"
+  ],
+  "identificator_organisatie": [
+    "https://data.vlaanderen.be/id/organisatie/OVO002949",
+    "http://data.vlaanderen.be/id/organisatie/OVO001835"
+  ],
+  "publicatiedatum": "2018-06-01",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving" : "ap-besluit-mobiliteit.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Besluit Mobiliteit",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter OSLO Mobiliteit",
+      "waarde": "Werkgroep charter OSLO Mobiliteit.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag semantische werkgroep 1 - 25 april 2018",
+      "waarde": "Verslag WS Semantiek I.pdf"
+    },
+    {
+      "naam": "Verslag semantische werkgroep 2 - 5 juni 2018",
+      "waarde": "LBLOD_MOB_Workshop2_Semantiek_20180605_v20180605.docx.pdf"
+    },
+    {
+      "naam" : "Verslag semantische werkgroep 3 - 19 juni 2018",
+      "waarde" : "LBLOD_MOB_Workshop3_Semantiek_20180619_v20180619.docx.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Business werkgroep - 25 april 2018",
+      "waarde": "Toelichting business workshop 2504.pptx.pdf"
+    },
+    {
+      "naam": "Presentatie Semantische werkgroep 1 - 25 april 2018",
+      "waarde": "Semantiek WS1 2018-04-25.pdf"
+    },
+    {
+      "naam": "Presentatie Semantische werkgroep 2 - 5 juni 2018",
+      "waarde": "LBLOD MOB WS 2.pdf"
+    },
+    {
+      "naam" : "Presentatie Semantische werkgroep 3 - 19 juni 2018",
+      "waarde" : "LBLOD MOB WS 3.pdf"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor lokale besluiten inzake mobiliteit",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "29 Mei 2018",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}

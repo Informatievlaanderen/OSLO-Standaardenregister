@@ -1,0 +1,39 @@
+{
+  "naam": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2018-05-22",
+  "type_toepassing": "Pas toe of leg uit",
+  "categorie": "Standaard vor organisatorische interoperabiliteit",
+  "beschrijving": "proces-en-methode.md",
+  "specificatiedocument": [
+    {
+      "naam": "Proces en methode voor het ontwikkelen van een datastandaard (PDF)",
+      "waarde": "https://data.vlaanderen.be/cms/Proces_en_methode_voor_de_erkenning_van_datastandaarden_v1.0.pdf"
+    }
+  ],
+  "documentatie": [],
+  "charter": [],
+  "verslagen": [
+    {
+      "naam": "Verslag Werkgroepsessie 28/02/2018",
+      "waarde": "https://docs.google.com/document/d/1Vfe1R1zd8v574B-njmj2aqc0L61zN41upexFS3B505w"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Werkgroepsessie 28/02/2018",
+      "waarde": "https://drive.google.com/open?id=1JekJ-oJom_Tc7jtT8ntcMP6NKudHHgQNKMV14qso_Yw"
+    },
+    {
+      "naam": "Webcast 16/06/2018",
+      "waarde": "https://drive.google.com/open?id=1ockbe5xWuXPG8_BoyjYPg59EwnBMYjkt"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Erkenningsprocedure voor datastandaarden in Vlaanderen",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "08 Maart 2018",
+  "erkenning_werkgroep_datastandaarden": "10 April 2018",
+  "erkenning_stuurgroep": "22 Mei 2018"
+}

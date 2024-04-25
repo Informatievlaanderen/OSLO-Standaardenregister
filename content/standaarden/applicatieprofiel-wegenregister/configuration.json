@@ -1,0 +1,52 @@
+{
+  "naam": "Applicatieprofiel Wegenregister",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06/all-wegenregister.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "TBD",
+  "type_toepassing": "TBD",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-wegenregister.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Wegenregister",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/wegenregister/"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter OSLO Weg",
+      "waarde": "WerkgroepcharterOSLOWegen.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag eerste overleg Wegenregister 2017-09-26",
+      "waarde": "Verslag eerste overleg Wegenregister dd26092017.docx"
+    },
+    {
+      "naam" : "Verslag tweede overleg Wegenregister 2017-11-07",
+      "waarde" : "Verslag tweede overleg Wegenregister dd07112017.docx"
+    },
+    {
+      "naam" : "Verslag derde overleg Wegenregister 2017-11-21",
+      "waarde" : "Verslag derde overleg Wegenregister dd21112017.docx"
+    },
+    {
+      "naam" : "Verslag viede overleg Wegenregister 2017-12-15",
+      "waarde" : "Verslag vierde overleg Wegenregister dd15122017.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam" : "AIV Wegenregister",
+      "waarde" : "AIV wegenregister - NL-DK-FI_v0.03.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor het bouwen van een wegenregister",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "10 April 2018 (retroactief)",
+  "erkenning_werkgroep_datastandaarden": "04 Oktober 2018",
+  "erkenning_stuurgroep": "TBD"
+}

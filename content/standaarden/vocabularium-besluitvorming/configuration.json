@@ -1,0 +1,72 @@
+{
+  "naam": "Vocabularium Besluitvorming",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04/all-besluitvorming.jsonld",
+  "verantwoordelijke_organisatie": "Departement Kanselarij en Bestuur",
+  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO001827",
+  "publicatiedatum": "2021-02-04",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium",
+  "beschrijving" : "ap-besluitvorming.md",
+  "specificatiedocument": [
+    {
+      "naam": "Vocabularium Besluitvorming",
+      "waarde": "https://data.vlaanderen.be/ns/besluitvorming"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter OSLO Besluitvorming",
+      "waarde": "Charter_Besluitvorming.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam" : "Verslag business werkgroep - 7 november 2019",
+      "waarde" : "OSLO Besluitvorming - Business Werkgroep 07_11_19 - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag thematische werkgroep 1 - 4 december 2019",
+      "waarde": "OSLO Besluitvorming - Werkgroep 1.1 04_12_19 - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag thematische werkgroep 2 - 29 januari 2020",
+      "waarde" : "OSLO Besluitvorming - Werkgroep 1.2 29_01_20 - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag plenaire sessie - 19 februari 2020",
+      "waarde" : "OSLO Besluitvorming - Plenaire sessie 19_02_2020 - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag webinar - 25 maart 2020",
+      "waarde" : "OSLO Besluitvorming - Webinar 25_03_20 - Verslag.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam" : "Presentatie business werkgroep - 7 november 2019",
+      "waarde" : "OSLO Besluitvorming - Business Workshop 07_11_19 - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie thematische werkgroep 1 - 4 december 2019",
+      "waarde" : "OSLO Besluitvorming - Werkgroep 1.1 04_12_19  - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie thematische werkgroep 2 - 29 januari 2020",
+      "waarde" : "OSLO Besluitvorming - Werkgroep 1.2 29_01_20 - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie plenaire sessie - 19 februari 2020",
+      "waarde" : "OSLO Besluitvorming - Plenaire sessie 19_02_2020 - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie webinar - 25 maart 2020",
+      "waarde" : "OSLO Besluitvorming - Webinar 25_03_20 - Presentatie.pdf"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over besluitvorming",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "17 september 2019",
+  "erkenning_werkgroep_datastandaarden": "11 januari 2021",
+  "erkenning_stuurgroep": "4 februari 2021"
+}

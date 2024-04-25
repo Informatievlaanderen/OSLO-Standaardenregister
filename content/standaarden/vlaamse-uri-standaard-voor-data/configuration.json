@@ -1,0 +1,44 @@
+{
+  "naam": "Vlaamse URI-Standaard voor Data",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2018-05-22",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Technische standaard",
+  "beschrijving": "vlaamse-uri-standaard.md",
+  "specificatiedocument": [
+    {
+      "naam": "Vlaamse URI-Standaard voor Data (PDF)",
+      "waarde": "https://data.vlaanderen.be/cms/VlaamseURI-StandaardVoorData_V1.0.pdf"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam" : "URI-richtlijnen voor data.vlaanderen.be (PDF)",
+      "waarde" : "https://data.vlaanderen.be/cms/URI_RichtlijnenDataVlaanderenBe_V1.pdf"
+    }
+  ],
+  "charter": [],
+  "verslagen": [
+    {
+      "naam": "Verslag Publieke werkgroep URI 16 januari 2017",
+      "waarde": "https://drive.google.com/open?id=1do7wyu-EKPwDltIhHj_ocI14YLcwvqfO-5IsTn-jzOE"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie webcast URI-Standaard 16 maart 2018",
+      "waarde": "https://drive.google.com/open?id=1C3a3uTqY-iP34YY32dBPhxnyPHdFwhTr"
+    },
+    {
+      "naam": "Webcast (video) URI-Standaard 16 maart 2018",
+      "waarde": "https://drive.google.com/open?id=1fS3GbJIRUXzNnVFTDPHlzhVgrltcRoEJ"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Persistente en dereferencieerbare identificatoren voor data",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "23 maart 2017",
+  "erkenning_werkgroep_datastandaarden": "10 April 2018",
+  "erkenning_stuurgroep": "22 Mei 2018"
+}

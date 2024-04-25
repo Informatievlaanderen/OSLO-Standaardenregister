@@ -1,0 +1,38 @@
+{
+  "naam": "Applicatieprofiel Dienst Transactiemodel",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/dienst-transactiemodel/ontwerpdocument/2019-02-07/all-dienst-transactiemodel.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2019-02-07",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-dienst-transactiemodel.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Dienst Transactiemodel",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/dienst-transactiemodel/"
+    }
+  ],
+  "documentatie": [],
+  "charter": [],
+  "verslagen": [
+    {
+      "naam": "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 1",
+      "waarde": "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 1.docx"
+    },
+    {
+      "naam" : "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 2",
+      "waarde" : "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 2.docx"
+    },
+    {
+      "naam" : "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 3",
+      "waarde" : "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 3.docx"
+    }
+  ],
+  "presentaties": [],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot de dienstverlening die wordt afgenomen bij de overheid door burgers en ondernemers",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "08 Maart 2018",
+  "erkenning_werkgroep_datastandaarden": "8 november 2018",
+  "erkenning_stuurgroep": "02 februari 2019"
+}

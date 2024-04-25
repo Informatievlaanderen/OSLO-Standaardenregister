@@ -1,0 +1,60 @@
+{
+    "naam": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
+    "rapport" : "",
+    "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+    "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+    "publicatiedatum": "2023-07-24",
+    "type_toepassing": "Aanbevolen (vrijwillig)",
+    "categorie": "Vocabularium",
+    "beschrijving" : "template-description.md",
+    "specificatiedocument": [
+      {
+        "naam": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
+        "waarde": "https://implementatie.data.vlaanderen.be/doc/ns/kwaliteit-wegen-en-wegmarkeringen"
+        }
+    ],
+    "documentatie": [],
+    "charter": [
+      {
+        "naam": "Charter",
+        "waarde": "Charter Machine Learning as a Service.pdf"
+        }
+    ],
+    "verslagen": [
+      {
+        "naam": "Verslag thematische werkgroep 1 - 28 april 2023",
+        "waarde": "Verslag Thematische Werkgroep 1 - OSLO MLaaS.pdf"
+    },
+      {
+        "naam": "Verslag thematische werkgroep 2 - 12 mei 2023",
+        "waarde": "Verslag Thematische Werkgroep 2 - OSLO MLaaS.pdf"
+    },   
+    {
+      "naam": "Verslag thematische werkgroep 3 - 28 juni 2023",
+      "waarde": "Verslag Thematische Werkgroep 3 - OSLO MLaaS.pdf"
+    }
+    ],
+    "presentaties": [
+      {
+        "naam": "Presentatie thematische werkgroep 1 - 28 april 2023",
+        "waarde": "Presentatie thematische werkgroep 1 - MLaaS -  28 april 2023.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 2 - 12 mei 2023",
+      "waarde": "Presentatie thematische werkgroep 2 - MLaaS - 12 mei 2023.pdf"
+  },
+  {
+    "naam": "Presentatie thematische werkgroep 3 - 28 juni 2023",
+    "waarde": "Presentatie thematische werkgroep 3 - MLaaS - 28 juni 2023.pdf"
+  },
+  {
+    "naam": "JSONld datavoorbeeld",
+    "waarde": "JSONld-datavoorbeeld.json"
+  }
+    ],
+    "functioneel_toepassingsgebied": "Implementatiemodel voor informatie over wegen en wegmarkeringen",
+    "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse Overheid",
+    "datum_van_aanmelding": "2022-11-08",
+    "erkenning_werkgroep_datastandaarden": "2023-11-09",
+    "erkenning_stuurgroep": "TBD"
+  }
