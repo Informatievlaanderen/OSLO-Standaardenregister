@@ -1,1 +1,0 @@
-"Het applicatieprofiel is ontwikkeld binnen het project Lokale Besluiten als Gelinkte Open Data. \nDit applicatieprofiel beschrijft een informatiemodel om opstellingen van statische verticale verkeersborden op \nhet openbaar domein zodanig \nte beschrijven dat de gegevens kunnen uitgewisseld worden ongeacht de toepassing of de context van de toepassing.\n"
