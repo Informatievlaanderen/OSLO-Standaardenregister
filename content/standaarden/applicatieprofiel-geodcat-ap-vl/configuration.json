@@ -1,82 +1,77 @@
 {
-  "naam": "Applicatieprofiel GeoDCAT-AP VL",
-  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03/all-geodcatap-vlaanderen.jsonld",
-  "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2022-02-03",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "ap-geodcat-ap-vl.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel GeoDCAT-AP VL",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2022-02-03",
+  "descriptionFileName": "ap-geodcat-ap-vl.md",
+  "specificationDocuments": [
     {
-      "naam": "GeoDCAT-AP Vlaanderen",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/"
+      "name": "GeoDCAT-AP Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/"
     }
   ],
-  "documentatie": [
+  "documentation": [
     {
-      "naam": "DCAT-AP 1.2",
-      "waarde": "https://joinup.ec.europa.eu/release/dcat-ap/12"
+      "name": "DCAT-AP 1.2",
+      "resourceReference": "https://joinup.ec.europa.eu/release/dcat-ap/12"
     },
     {
-      "naam": "DCAT-AP 2.0",
-      "waarde": "https://github.com/SEMICeu/DCAT-AP/tree/2.0.1/releases/2.0.1"
+      "name": "DCAT-AP 2.0",
+      "resourceReference": "https://github.com/SEMICeu/DCAT-AP/tree/2.0.1/releases/2.0.1"
     },
     {
-      "naam": "Applicatieprofiel metadata DCAT",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/metadata-dcat"
+      "name": "Applicatieprofiel metadata DCAT",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/metadata-dcat"
     },
     {
-      "naam": "W3C DCAT",
-      "waarde": "https://www.w3.org/TR/vocab-dcat/"
+      "name": "W3C DCAT",
+      "resourceReference": "https://www.w3.org/TR/vocab-dcat/"
     },
     {
-      "naam": "W3C Review DCAT",
-      "waarde": "https://w3c.github.io/dxwg/dcat/"
+      "name": "W3C Review DCAT",
+      "resourceReference": "https://w3c.github.io/dxwg/dcat/"
     },
     {
-      "naam": "GeoDCAT-AP ",
-      "waarde": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0"
+      "name": "GeoDCAT-AP ",
+      "resourceReference": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0"
     }
   ],
-  "charter": [
+  "charter": {
+    "name": "Werkgroep Charter GeoDCAT-AP VL",
+    "resourceReference": "Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
+  },
+  "reports": [],
+  "presentations": [
     {
-      "naam": "Werkgroep Charter GeoDCAT-AP VL",
-      "waarde": "Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
+      "name": "Presentatie webinar 1 – 21 oktober 2021",
+      "resourceReference": "Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
+    },
+    {
+      "name": "Opname webinar 1",
+      "resourceReference": "https://digitaalvlaanderen.wetransfer.com/downloads/5b80c7ac1979e0beb5637592e1ed930020211108110608/2ceeff"
+    },
+    {
+      "name": "Presentatie webinar 2 – 19 november 2021",
+      "resourceReference": "Webinar-2-OSLO-GeoDCAT-AP-VL.pdf"
+    },
+    {
+      "name": "Opname webinar 2",
+      "resourceReference": "https://digitaalvlaanderen.wetransfer.com/downloads/ac1916783a3855481d9e952d6dd2ffd820211215113009/2207db"
+    },
+    {
+      "name": "Presentatie webinar 3 – 19 december 2021",
+      "resourceReference": "Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
+    },
+    {
+      "name": "Opname webinar 3",
+      "resourceReference": "https://digitaalvlaanderen.wetransfer.com/downloads/f4fc2e8cbc367b294ba505bd61f7978a20220118122319/e139ac"
     }
   ],
-  "verslagen": [
-  ],
-  "presentaties": [
-    {
-      "naam": "Presentatie webinar 1 – 21 oktober 2021",
-      "waarde": "Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
-    },
-    {
-      "naam": "Opname webinar 1",
-      "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/5b80c7ac1979e0beb5637592e1ed930020211108110608/2ceeff"
-    },
-    {
-      "naam": "Presentatie webinar 2 – 19 november 2021",
-      "waarde": "Webinar-2-OSLO-GeoDCAT-AP-VL.pdf"
-    },
-    {
-      "naam": "Opname webinar 2",
-      "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/ac1916783a3855481d9e952d6dd2ffd820211215113009/2207db"
-    },
-    {
-      "naam": "Presentatie webinar 3 – 19 december 2021",
-      "waarde": "Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
-    },
-    {
-      "naam": "Opname webinar 3",
-      "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/f4fc2e8cbc367b294ba505bd61f7978a20220118122319/e139ac"
-    }
-  ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking geografische Data catalogi in Vlaanderen.",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "16 September 2021",
-  "datum_einde_review": "28 feb 2022",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "dateOfRegistration": "16 September 2021",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

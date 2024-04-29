@@ -1,77 +1,73 @@
 {
-  "naam": "Vocabularium Bedrijventerrein",
-  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/bedrijventerrein/erkendestandaard/2020-06-18/all-bedrijventerrein.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Innoveren en Ondernemen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000039",
-  "publicatiedatum": "2020-06-18",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Vocabularium",
-  "beschrijving" : "voc-bedrijventerrein.md",
-  "specificatiedocument": [
+  "title": "Vocabularium Bedrijventerrein",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Innoveren en Ondernemen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000039"
+  },
+  "publicationDate": "2020-06-18",
+  "descriptionFileName": "voc-bedrijventerrein.md",
+  "specificationDocuments": [
     {
-      "naam": "Vocabularium Bedrijventerrein",
-      "waarde": "https://data.vlaanderen.be/ns/bedrijventerrein"
+      "name": "Vocabularium Bedrijventerrein",
+      "resourceReference": "https://data.vlaanderen.be/ns/bedrijventerrein"
     },
     {
-      "naam" : "Applicatieprofiel Bedrijventerrein",
-      "waarde" : "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/"
+      "name": "Applicatieprofiel Bedrijventerrein",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/"
     }
   ],
-  "documentatie": [],
-  "charter": [
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
+    "resourceReference": "Werkgroep charter OSLO Percelen_v0.04.docx"
+  },
+  "reports": [
     {
-      "naam": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
-      "waarde": "Werkgroep charter OSLO Percelen_v0.04.docx"
+      "name": "Verslag Business werkgroep Bedrijventerreinen 2019-04-23",
+      "resourceReference": "Verslag-BW-Bedrijventerreinen-20190423.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
+      "resourceReference": "Verslag-TW1-Bedrijventerreinen-20190522.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
+      "resourceReference": "Verslag-TW2-Bedrijventerreinen-20190605.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
+      "resourceReference": "Verslag-TW3-Bedrijventerreinen-20190718.docx"
     }
   ],
-  "verslagen": [
+  "presentations": [
     {
-      "naam" : "Verslag Business werkgroep Bedrijventerreinen 2019-04-23",
-      "waarde" : "Verslag-BW-Bedrijventerreinen-20190423.docx"
+      "name": "Presentatie Business werkgroep Bedrijventerreinen 2019-04-23",
+      "resourceReference": "Presentatie-BW-Bedrijventerreinen-20190423.pptx"
     },
     {
-      "naam" : "Verslag Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
-      "waarde" : "Verslag-TW1-Bedrijventerreinen-20190522.docx"
+      "name": "Presentatie Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
+      "resourceReference": "Presentatie-TW1-Bedrijventerreinen-20190522.pptx"
     },
     {
-      "naam" : "Verslag Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
-      "waarde" : "Verslag-TW2-Bedrijventerreinen-20190605.docx"
+      "name": "Presentatie Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
+      "resourceReference": "Presentatie-TW2-Bedrijventerreinen-20190605.pptx"
     },
     {
-      "naam" : "Verslag Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
-      "waarde" : "Verslag-TW3-Bedrijventerreinen-20190718.docx"
+      "name": "Presentatie Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
+      "resourceReference": "Presentatie-TW3-Bedrijventerreinen-20190718.pptx"
+    },
+    {
+      "name": "Presentatie Werkgroep Datastandaarden 2020-04-23",
+      "resourceReference": "wg-datastandaarden-23april2020.pptx"
+    },
+    {
+      "name": "Webinar Percelen & Bedrijventerreinen 2020-04-24",
+      "resourceReference": "finaal-webinar-perceel-24apr2020.pptx"
     }
   ],
-  "presentaties": [
-    {
-      "naam" : "Presentatie Business werkgroep Bedrijventerreinen 2019-04-23",
-      "waarde" : "Presentatie-BW-Bedrijventerreinen-20190423.pptx"
-    },
-    {
-      "naam" : "Presentatie Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
-      "waarde" : "Presentatie-TW1-Bedrijventerreinen-20190522.pptx"
-    },
-    {
-      "naam" : "Presentatie Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
-      "waarde" : "Presentatie-TW2-Bedrijventerreinen-20190605.pptx"
-    },
-    {
-      "naam" : "Presentatie Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
-      "waarde" : "Presentatie-TW3-Bedrijventerreinen-20190718.pptx"
-    },
-    {
-      "naam" : "Presentatie Werkgroep Datastandaarden 2020-04-23",
-      "waarde" : "wg-datastandaarden-23april2020.pptx"
-    },
-    {
-      "naam" : "Webinar Percelen & Bedrijventerreinen 2020-04-24",
-      "waarde" : "finaal-webinar-perceel-24apr2020.pptx"
-    }
-  ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot bedrijventerreinen",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "14 Maart 2019 (retroactief)",
-  "datum_einde_review": "15 April 2020",
-  "erkenning_werkgroep_datastandaarden": "23 April 2020",
-  "erkenning_stuurgroep": "18 Juni 2020"
+  "dateOfRegistration": "14 Maart 2019 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "23 April 2020",
+  "dateOfAcknowledgementBySteeringCommittee": "18 Juni 2020"
 }

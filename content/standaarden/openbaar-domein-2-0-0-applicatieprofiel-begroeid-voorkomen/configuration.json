@@ -1,47 +1,46 @@
 {
-  "naam": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30/all-begroeid-voorkomen-ap.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2021-09-30",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "ap-openbaar-domein.md",
-  "specificatiedocument": [
+  "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2021-09-30",
+  "descriptionFileName": "ap-openbaar-domein.md",
+  "specificationDocuments": [
     {
-      "naam": "Applicatieprofiel Begroeid Voorkomen",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen"
+      "name": "Applicatieprofiel Begroeid Voorkomen",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen"
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [
+  "documentation": [],
+  "charter": {},
+  "reports": [
     {
-      "naam": "Plenaire publieke werkgroepsessie 8 oktober 2019",
-      "waarde": "OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
+      "name": "Plenaire publieke werkgroepsessie 8 oktober 2019",
+      "resourceReference": "OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
     },
     {
-      "naam": "Diepte-overleg 5 december 2019",
-      "waarde": "OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
+      "name": "Diepte-overleg 5 december 2019",
+      "resourceReference": "OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
     },
     {
-      "naam": "Diepte-overleg 20 februari 2020",
-      "waarde": "OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
+      "name": "Diepte-overleg 20 februari 2020",
+      "resourceReference": "OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
     }
   ],
-  "presentaties": [
+  "presentations": [
     {
-      "naam": "Presentatie Kennisdelingsmoment 2 juli 2020",
-      "waarde": "OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
+      "name": "Presentatie Kennisdelingsmoment 2 juli 2020",
+      "resourceReference": "OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
     },
     {
-      "naam": "Webcast Kennisdelingsmoment 2 juli 2020",
-      "waarde": "https://youtu.be/fjf2getDFBo"
+      "name": "Webcast Kennisdelingsmoment 2 juli 2020",
+      "resourceReference": "https://youtu.be/fjf2getDFBo"
     }
   ],
-  "functioneel_toepassingsgebied": "Inventarisatie van objecten op het openbaar domein.",
-  "organisatorisch_werkingsgebied": "Steden, gemeenten en alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": " 20 november 2019",
-  "erkenning_werkgroep_datastandaarden": "17 juni 2021",
-  "erkenning_stuurgroep": "10 november 2021"
+  "dateOfRegistration": " 20 november 2019",
+  "dateOfAcknowledgementByWorkingGroup": "17 juni 2021",
+  "dateOfAcknowledgementBySteeringCommittee": "10 november 2021"
 }

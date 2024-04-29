@@ -1,92 +1,89 @@
 {
-  "naam": "Vocabularium Subsidies",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/subsidie.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Binnenlands Bestuur",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO001835",
-  "publicatiedatum": "2019-01-01",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Vocabularium",
-  "beschrijving": "voc-subsidie.md",
-  "specificatiedocument": [
+  "title": "Vocabularium Subsidies",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "publicationDate": "2019-01-01",
+  "descriptionFileName": "voc-subsidie.md",
+  "specificationDocuments": [
     {
-      "naam": "Vocabularium Subsidie",
-      "waarde": "https://data.vlaanderen.be/ns/subsidie"
+      "name": "Vocabularium Subsidie",
+      "resourceReference": "https://data.vlaanderen.be/ns/subsidie"
     }
   ],
-  "documentatie": [],
-  "charter": [
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Subsidies",
+    "resourceReference": "Werkgroep Charter OSLO Subsidies.pdf"
+  },
+  "reports": [
     {
-      "naam": "Werkgroep Charter OSLO Subsidies",
-      "waarde": "Werkgroep Charter OSLO Subsidies.pdf"
+      "name": "Verslag business werkgroep 1 - 5 november 2018",
+      "resourceReference": "Verslag business werkgroep 1 OSLO-Subsidies 05-11-2018.pdf"
+    },
+    {
+      "name": "Verslag business werkgroep 3 - 9 januari 2019",
+      "resourceReference": "Verslag business werkgroep 3 OSLO-Subsidies 09-01-2019.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 1 - 1 maart 2019",
+      "resourceReference": "Verslag semantische werkgroep 1 OSLO-Subsidies 01-03-2019.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 2 - 20 maart 2019",
+      "resourceReference": "Verslag semantische werkgroep 2 OSLO-Subsidies 20-03-2019.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 3 - 30 april 2019",
+      "resourceReference": "Verslag semantische werkgroep 3 OSLO-Subsidies 30-04-2019.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 4 - 17 mei 2019",
+      "resourceReference": "Verslag semantische werkgroep 4 OSLO-Subsidies 17-05-2019.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 5 - 12 juni 2019",
+      "resourceReference": "Verslag semantische werkgroep 5 OSLO-Subsidies 12-06-2019.pdf"
     }
   ],
-  "verslagen": [
+  "presentations": [
     {
-      "naam" : "Verslag business werkgroep 1 - 5 november 2018",
-      "waarde" : "Verslag business werkgroep 1 OSLO-Subsidies 05-11-2018.pdf"
+      "name": "Presentatie business werkgroep 1 - 5 november 2018",
+      "resourceReference": "Presentatie business werkgroep 1 OSLO-Subsidies 05-11-2018.pdf"
     },
     {
-      "naam" : "Verslag business werkgroep 3 - 9 januari 2019",
-      "waarde" : "Verslag business werkgroep 3 OSLO-Subsidies 09-01-2019.pdf"
+      "name": "Presentatie business werkgroep 2 - 21 november 2018",
+      "resourceReference": "Presentatie business werkgroep 2 OSLO-Subsidies 21-11-2018.pdf"
     },
     {
-      "naam" : "Verslag semantische werkgroep 1 - 1 maart 2019",
-      "waarde" : "Verslag semantische werkgroep 1 OSLO-Subsidies 01-03-2019.pdf"
+      "name": "Presentatie business werkgroep 3 - 9 januari 2019",
+      "resourceReference": "Presentatie business werkgroep 3 OSLO-Subsidies 09-01-2019.pdf"
     },
     {
-      "naam" : "Verslag semantische werkgroep 2 - 20 maart 2019",
-      "waarde" : "Verslag semantische werkgroep 2 OSLO-Subsidies 20-03-2019.pdf"
+      "name": "Presentatie semantische werkgroep 1 - 1 maart 2019",
+      "resourceReference": "Presentatie semantische werkgroep 1 OSLO-Subsidies 01-03-2019.pdf"
     },
     {
-      "naam" : "Verslag semantische werkgroep 3 - 30 april 2019",
-      "waarde" : "Verslag semantische werkgroep 3 OSLO-Subsidies 30-04-2019.pdf"
+      "name": "Presentatie semantische werkgroep 2 - 20 maart 2019",
+      "resourceReference": "Presentatie semantische werkgroep 2 OSLO-Subsidies 20-03-2019.pdf"
     },
     {
-      "naam" : "Verslag semantische werkgroep 4 - 17 mei 2019",
-      "waarde" : "Verslag semantische werkgroep 4 OSLO-Subsidies 17-05-2019.pdf"
+      "name": "Presentatie semantische werkgroep 3 - 30 april 2019",
+      "resourceReference": "Presentatie semantische werkgroep 3 OSLO-Subsidies 30-04-2019.pdf"
     },
     {
-      "naam" : "Verslag semantische werkgroep 5 - 12 juni 2019",
-      "waarde" : "Verslag semantische werkgroep 5 OSLO-Subsidies 12-06-2019.pdf"
+      "name": "Presentatie semantische werkgroep 4 - 17 mei 2019",
+      "resourceReference": "Presentatie semantische werkgroep 4 OSLO-Subsidies 17-05-2019.pdf"
+    },
+    {
+      "name": "Presentatie semantische werkgroep 5 - 12 juni 2019",
+      "resourceReference": "Presentatie semantische werkgroep 5 OSLO-Subsidies 12-06-2019.pdf"
     }
   ],
-  "presentaties": [
-    {
-      "naam" : "Presentatie business werkgroep 1 - 5 november 2018",
-      "waarde" : "Presentatie business werkgroep 1 OSLO-Subsidies 05-11-2018.pdf"
-    },
-    {
-      "naam" : "Presentatie business werkgroep 2 - 21 november 2018",
-      "waarde" : "Presentatie business werkgroep 2 OSLO-Subsidies 21-11-2018.pdf"
-    },
-    {
-      "naam" : "Presentatie business werkgroep 3 - 9 januari 2019",
-      "waarde" : "Presentatie business werkgroep 3 OSLO-Subsidies 09-01-2019.pdf"
-    },
-    {
-      "naam" : "Presentatie semantische werkgroep 1 - 1 maart 2019",
-      "waarde" : "Presentatie semantische werkgroep 1 OSLO-Subsidies 01-03-2019.pdf"
-    },
-    {
-      "naam" : "Presentatie semantische werkgroep 2 - 20 maart 2019",
-      "waarde" : "Presentatie semantische werkgroep 2 OSLO-Subsidies 20-03-2019.pdf"
-    },
-    {
-      "naam" : "Presentatie semantische werkgroep 3 - 30 april 2019",
-      "waarde" : "Presentatie semantische werkgroep 3 OSLO-Subsidies 30-04-2019.pdf"
-    },
-    {
-      "naam" : "Presentatie semantische werkgroep 4 - 17 mei 2019",
-      "waarde" : "Presentatie semantische werkgroep 4 OSLO-Subsidies 17-05-2019.pdf"
-    },
-    {
-      "naam" : "Presentatie semantische werkgroep 5 - 12 juni 2019",
-      "waarde" : "Presentatie semantische werkgroep 5 OSLO-Subsidies 12-06-2019.pdf"
-    }
-  ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot subsidies",
-  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "1 november 2018",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "dateOfRegistration": "1 november 2018",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

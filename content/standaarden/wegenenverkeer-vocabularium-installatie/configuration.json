@@ -1,45 +1,43 @@
 {
-  "naam": "wegenenverkeer vocabularium installatie",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Wegen en Verkeer",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000098",
-  "publicatiedatum": "2020-12-02",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Vocabularium",
-  "beschrijving": "wegen-en-verkeer.md",
-  "specificatiedocument": [
+  "title": "wegenenverkeer vocabularium installatie",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Wegen en Verkeer",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000098"
+  },
+  "publicationDate": "2020-12-02",
+  "descriptionFileName": "wegen-en-verkeer.md",
+  "specificationDocuments": [
     {
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be/ns/installatie/",
-      "naam": "installatie"
+      "name": "installatie",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/installatie/"
     }
   ],
-  "documentatie": [
+  "documentation": [
     {
-      "naam": "master implementatiemodel",
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/"
+      "name": "master implementatiemodel",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/"
     },
     {
-      "naam": "lijst van alle implementatiemodellen",
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be"
+      "name": "lijst van alle implementatiemodellen",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
     }
   ],
-  "charter": [
-  ],
-  "verslagen": [
+  "charter": {},
+  "reports": [
     {
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be",
-      "naam": "wegenenverkeer.data.vlaanderen.be"
+      "name": "wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
     }
   ],
-  "presentaties": [
+  "presentations": [
     {
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be",
-      "naam": "wegenenverkeer.data.vlaanderen.be"
+      "name": "wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
     }
   ],
-  "functioneel_toepassingsgebied": "Erkenningsprocedure voor data standaarden in Vlaanderen",
-  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "08 Maart 2020",
-  "erkenning_werkgroep_datastandaarden": "10 April 2020",
-  "erkenning_stuurgroep": "22 Mei 2020"
+  "dateOfRegistration": "08 Maart 2020",
+  "dateOfAcknowledgementByWorkingGroup": "10 April 2020",
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020"
 }

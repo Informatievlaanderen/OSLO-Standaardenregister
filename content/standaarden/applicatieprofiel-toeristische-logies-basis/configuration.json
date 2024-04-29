@@ -1,56 +1,53 @@
 {
-  "naam": "Applicatieprofiel Toeristische Logies Basis",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/logies-basis/ontwerpstandaard/2019-03-14/all-logies-basis.jsonld",
-  "verantwoordelijke_organisatie": "Toerisme Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000034",
-  "publicatiedatum": "2019-12-05",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "ap-logies-basis.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel Toeristische Logies Basis",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Toerisme Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000034"
+  },
+  "publicationDate": "2019-12-05",
+  "descriptionFileName": "ap-logies-basis.md",
+  "specificationDocuments": [
     {
-      "naam": "Applicatieprofiel Logies Basis",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/logies-basis/"
+      "name": "Applicatieprofiel Logies Basis",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/logies-basis/"
     }
   ],
-  "documentatie": [],
-  "charter" : [
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Logies",
+    "resourceReference": "Werkgroep charter OSLO Logies.pdf"
+  },
+  "reports": [
     {
-      "naam": "Werkgroep Charter OSLO Logies",
-      "waarde": "Werkgroep charter OSLO Logies.pdf"
+      "name": "Verslag thematische werkgroep 1 OSLO Logies - 20180928",
+      "resourceReference": "OSLO logies - WG sessie 1.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 OSLO Logies - 20181015",
+      "resourceReference": "OSLO logies - WG sessie 2.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 OSLO Logies - 20181026",
+      "resourceReference": "OSLO logies - WG sessie 3.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 OSLO Logies - 20181109",
+      "resourceReference": "OSLO logies - WG sessie 4.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 5 OSLO Logies - 20181123",
+      "resourceReference": "OSLO logies - WG sessie 5.pdf"
     }
   ],
-  "verslagen": [
+  "presentations": [
     {
-      "naam": "Verslag thematische werkgroep 1 OSLO Logies - 20180928",
-      "waarde": "OSLO logies - WG sessie 1.pdf"
-    },
-    {
-      "naam": "Verslag thematische werkgroep 2 OSLO Logies - 20181015",
-      "waarde": "OSLO logies - WG sessie 2.pdf"
-    },
-    {
-      "naam": "Verslag thematische werkgroep 3 OSLO Logies - 20181026",
-      "waarde": "OSLO logies - WG sessie 3.pdf"
-    },
-    {
-      "naam": "Verslag thematische werkgroep 4 OSLO Logies - 20181109",
-      "waarde": "OSLO logies - WG sessie 4.pdf"
-    },
-    {
-      "naam": "Verslag thematische werkgroep 5 OSLO Logies - 20181123",
-      "waarde": "OSLO logies - WG sessie 5.pdf"
+      "name": "Webcast OSLO Logies - 20190212",
+      "resourceReference": "OSLO Logies webcast - 12 februari_Finaal.pptx"
     }
   ],
-  "presentaties": [
-    {
-      "naam": "Webcast OSLO Logies - 20190212",
-      "waarde": "OSLO Logies webcast - 12 februari_Finaal.pptx"
-    }
-  ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot logies.",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "01 september 2018",
-  "erkenning_werkgroep_datastandaarden": "14 maart 2019",
-  "erkenning_stuurgroep": "5 december 2019"
+  "dateOfRegistration": "01 september 2018",
+  "dateOfAcknowledgementByWorkingGroup": "14 maart 2019",
+  "dateOfAcknowledgementBySteeringCommittee": "5 december 2019"
 }

@@ -1,56 +1,53 @@
 {
-  "naam": "Vocabularium Bestuurlijke Sancties",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
-  "categorie": "Vocabularium",
-  "beschrijving": "voc-bestuurlijksanctieregister.md",
-  "specificatiedocument": [
+  "title": "Vocabularium Bestuurlijke Sancties",
+  "category": "Vocabularium",
+  "usage": "TBD",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "voc-bestuurlijksanctieregister.md",
+  "specificationDocuments": [
     {
-      "naam": "Vocabularium",
-      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bestuurlijke-sancties/kandidaatstandaard/2022-06-23/"
+      "name": "Vocabularium",
+      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bestuurlijke-sancties/kandidaatstandaard/2022-06-23/"
     }
   ],
-  "documentatie": [],
-  "charter": [
+  "documentation": [],
+  "charter": {
+    "name": "Charter OSLO Bestuurlijk Sanctieregister",
+    "resourceReference": "Werkgroep Charter OSLO Bestuurlijk Sanctieregister.docx"
+  },
+  "reports": [
     {
-      "naam": "Charter OSLO Bestuurlijk Sanctieregister",
-      "waarde": "Werkgroep Charter OSLO Bestuurlijk Sanctieregister.docx"
+      "name": "Verslag Business workshop - 30 juli 2020",
+      "resourceReference": "Verslag Business Werkgroep - Bestuurlijk Sanctieregister 2020-07-30.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 1 - 15 september 2020",
+      "resourceReference": "Verslag Thematische werkgroep 1 - Bestuurlijk Sanctieregister 2020-09-15.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 2 - 21 januari 2021",
+      "resourceReference": "Verslag Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.docx"
     }
   ],
-  "verslagen": [
+  "presentations": [
     {
-      "naam": "Verslag Business workshop - 30 juli 2020",
-      "waarde": "Verslag Business Werkgroep - Bestuurlijk Sanctieregister 2020-07-30.docx"
+      "name": "Presentatie Business workshop - 30 juli 2020",
+      "resourceReference": "Presentatie Business Werkgroep - Bestuurlijk Sanctieregister 2020-07-30.pdf"
     },
     {
-      "naam": "Verslag Thematische werkgroep 1 - 15 september 2020",
-      "waarde": "Verslag Thematische werkgroep 1 - Bestuurlijk Sanctieregister 2020-09-15.docx"
+      "name": "Presentatie Thematische werkgroep 1 - 15 september 2020",
+      "resourceReference": "Presentatie Thematische werkgroep 1 - Bestuurlijk Sanctieregister 2020-09-15.pptx.pdf"
     },
     {
-      "naam": "Verslag Thematische werkgroep 2 - 21 januari 2021",
-      "waarde": "Verslag Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.docx"
+      "name": "Presentatie Thematische werkgroep 2 - 21 januari 2021",
+      "resourceReference": "Presentatie Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.pptx.pdf"
     }
   ],
-  "presentaties": [
-    {
-      "naam": "Presentatie Business workshop - 30 juli 2020",
-      "waarde": "Presentatie Business Werkgroep - Bestuurlijk Sanctieregister 2020-07-30.pdf"
-    },
-    {
-      "naam": "Presentatie Thematische werkgroep 1 - 15 september 2020",
-      "waarde": "Presentatie Thematische werkgroep 1 - Bestuurlijk Sanctieregister 2020-09-15.pptx.pdf"
-    },
-    {
-      "naam": "Presentatie Thematische werkgroep 2 - 21 januari 2021",
-      "waarde": "Presentatie Thematische Werkgroep 2 - Bestuurlijk Sanctieregister 2021-01-21.pptx.pdf"
-    }
-  ],
-  "functioneel_toepassingsgebied": "TBD",
-  "organisatorisch_werkingsgebied": "TBD",
-  "datum_van_aanmelding": "TBD",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

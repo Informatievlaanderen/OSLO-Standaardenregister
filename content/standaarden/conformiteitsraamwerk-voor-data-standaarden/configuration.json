@@ -1,36 +1,34 @@
 {
-  "naam": "Conformiteitsraamwerk voor data standaarden",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
-  "categorie": "Standaard voor technische interoperabiliteit",
-  "beschrijving": "conformiteitsraamwerk.md",
-  "specificatiedocument": [
+  "title": "Conformiteitsraamwerk voor data standaarden",
+  "category": "Standaard voor technische interoperabiliteit",
+  "usage": "TBD",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "conformiteitsraamwerk.md",
+  "specificationDocuments": [
     {
-      "naam": "Draft conformiteitsraamwerk",
-      "waarde": "OSLO Conformiteitsraamwerk v1.00_DRAFT.pdf"
+      "name": "Draft conformiteitsraamwerk",
+      "resourceReference": "OSLO Conformiteitsraamwerk v1.00_DRAFT.pdf"
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [
+  "documentation": [],
+  "charter": {},
+  "reports": [
     {
-      "naam": "Verslag workshop - 30 november 2020",
-      "waarde": "Verslag werkgroep OSLO conformiteit.pdf"
+      "name": "Verslag workshop - 30 november 2020",
+      "resourceReference": "Verslag werkgroep OSLO conformiteit.pdf"
     }
   ],
-  "presentaties": [
+  "presentations": [
     {
-      "naam": "Presentatie workshop - 30 november 2020",
-      "waarde": "20201130 Workshop conformiteitsraamwerk.pdf"
+      "name": "Presentatie workshop - 30 november 2020",
+      "resourceReference": "20201130 Workshop conformiteitsraamwerk.pdf"
     }
   ],
-  "functioneel_toepassingsgebied": "Conformiteitsraamwerk voor data standaarden in Vlaanderen",
-  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "TBD",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD",
-  "register": "https://overheid.vlaanderen.be/opleiding/publieke-werkgroepen-oslo-metadatastandaard-voor-services"
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

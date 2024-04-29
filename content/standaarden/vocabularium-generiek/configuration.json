@@ -1,25 +1,24 @@
 {
-  "naam": "Vocabularium Generiek",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/generiek/zonderstatus/2019-07-01/all-generiek.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2017-03-31",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Vocabularium",
-  "beschrijving": "",
-  "specificatiedocument": [
+  "title": "Vocabularium Generiek",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2017-03-31",
+  "descriptionFileName": "",
+  "specificationDocuments": [
     {
-      "naam": "Vocabularium Generiek",
-      "waarde": "https://data.vlaanderen.be/ns/generiek"
+      "name": "Vocabularium Generiek",
+      "resourceReference": "https://data.vlaanderen.be/ns/generiek"
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [],
-  "presentaties": [],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot mandaten",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "10 April 2018 (retroactief)",
-  "erkenning_werkgroep_datastandaarden": "29 Mei 2018",
-  "erkenning_stuurgroep": "03 Juli 2018"
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "10 April 2018 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
 }

@@ -1,77 +1,74 @@
 {
-  "naam": "Applicatieprofiel Fietsinfrastructuur",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "17 december 2021",
-  "type_toepassing": "Aanbevolgen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "ap-fietsinfrastructuur-config.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel Fietsinfrastructuur",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolgen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "17 december 2021",
+  "descriptionFileName": "ap-fietsinfrastructuur-config.md",
+  "specificationDocuments": [
     {
-      "naam": "Applicatieprofiel Fietsinfrastructuur",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur"
+      "name": "Applicatieprofiel Fietsinfrastructuur",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur"
     }
   ],
-  "documentatie": [
+  "documentation": [
     {
-      "naam": "Vocabularium Fietsinfrastructuur",
-      "waarde": "https://data.vlaanderen.be/ns/fiets"
+      "name": "Vocabularium Fietsinfrastructuur",
+      "resourceReference": "https://data.vlaanderen.be/ns/fiets"
     }
   ],
-  "charter": [
+  "charter": {
+    "name": "Werkgroep Charter OSLO Fietsinfrastructuur",
+    "resourceReference": "Werkgroep charter OSLO Fietsinfrastructuur.docx"
+  },
+  "reports": [
     {
-      "naam": "Werkgroep Charter OSLO Fietsinfrastructuur",
-      "waarde": "Werkgroep charter OSLO Fietsinfrastructuur.docx"
+      "name": "Verslag Business werkgroep - 25 maart 2021",
+      "resourceReference": "Verslag Business werkgroep - 25 maart 2021.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 1 - 20 april 2021",
+      "resourceReference": "Verslag Thematische werkgroep 1 - 20 april 2021.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 2 - 18 mei 2021",
+      "resourceReference": "Verslag Thematische werkgroep 2 - 18 mei 2021.docx"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 15 juni 2021",
+      "resourceReference": "Verslag thematische werkgroep 3 - 15 juni 2021.docx"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - 16 september 2021",
+      "resourceReference": "Verslag thematische werkgroep 4 - 16 september 2021.docx"
     }
   ],
-  "verslagen": [
+  "presentations": [
     {
-      "naam": "Verslag Business werkgroep - 25 maart 2021",
-      "waarde": "Verslag Business werkgroep - 25 maart 2021.docx"
+      "name": "Presentatie Business werkgroep - 25 maart 2021",
+      "resourceReference": "Presentatie Business werkgroep - 25 maart 2021.pptx"
     },
     {
-      "naam": "Verslag Thematische werkgroep 1 - 20 april 2021",
-      "waarde": "Verslag Thematische werkgroep 1 - 20 april 2021.docx"
+      "name": "Presentatie Thematische werkgroep 1 - 20 april 2021",
+      "resourceReference": "Presentatie Thematische werkgroep 1 - 20 april 2021.pptx"
     },
     {
-      "naam": "Verslag Thematische werkgroep 2 - 18 mei 2021",
-      "waarde": "Verslag Thematische werkgroep 2 - 18 mei 2021.docx"
+      "name": "Presentatie Thematische werkgroep 2 - 18 mei 2021",
+      "resourceReference": "Presentatie Thematische werkgroep 2 - 18 mei 2021.pptx"
     },
     {
-      "naam": "Verslag thematische werkgroep 3 - 15 juni 2021",
-      "waarde": "Verslag thematische werkgroep 3 - 15 juni 2021.docx"
+      "name": "Presentatie Thematische werkgroep 3 - 15 juni 2021",
+      "resourceReference": "Presentatie Thematische werkgroep 3 - 15 juni 2021.pdf"
     },
     {
-      "naam": "Verslag thematische werkgroep 4 - 16 september 2021",
-      "waarde": "Verslag thematische werkgroep 4 - 16 september 2021.docx"
+      "name": "Presentatie thematische werkgroep 4 - 16 september 2021",
+      "resourceReference": "Presentatie thematische werkgroep 4 - 16 september 2021.pdf"
     }
   ],
-  "presentaties": [
-    {
-      "naam": "Presentatie Business werkgroep - 25 maart 2021",
-      "waarde": "Presentatie Business werkgroep - 25 maart 2021.pptx"
-    },
-    {
-      "naam": "Presentatie Thematische werkgroep 1 - 20 april 2021",
-      "waarde": "Presentatie Thematische werkgroep 1 - 20 april 2021.pptx"
-    },
-    {
-      "naam": "Presentatie Thematische werkgroep 2 - 18 mei 2021",
-      "waarde": "Presentatie Thematische werkgroep 2 - 18 mei 2021.pptx"
-    },
-    {
-      "naam": "Presentatie Thematische werkgroep 3 - 15 juni 2021",
-      "waarde": "Presentatie Thematische werkgroep 3 - 15 juni 2021.pdf"
-    },
-    {
-      "naam": "Presentatie thematische werkgroep 4 - 16 september 2021",
-      "waarde": "Presentatie thematische werkgroep 4 - 16 september 2021.pdf"
-    }
-  ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over fietsinfrastructuur",
-  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "25 Maart 2021",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "dateOfRegistration": "25 Maart 2021",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

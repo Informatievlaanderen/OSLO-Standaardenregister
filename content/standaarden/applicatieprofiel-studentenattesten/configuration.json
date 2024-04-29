@@ -1,43 +1,42 @@
 {
-  "naam": "Applicatieprofiel Studentenattesten",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2024-04-08",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "studentenattesten-description.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel Studentenattesten",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2024-04-08",
+  "descriptionFileName": "studentenattesten-description.md",
+  "specificationDocuments": [
     {
-      "naam": "Applicatieprofiel Studentenattesten",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/studentenattesten/ontwerpstandaard/2024-04-08"
+      "name": "Applicatieprofiel Studentenattesten",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/studentenattesten/ontwerpstandaard/2024-04-08"
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [
+  "documentation": [],
+  "charter": {},
+  "reports": [
     {
-      "naam": "Verslag Business Werkgroep - 26/02/2024",
-      "waarde": "260224 SA Verslag Business werkgroep.pdf"
+      "name": "Verslag Business Werkgroep - 26/02/2024",
+      "resourceReference": "260224 SA Verslag Business werkgroep.pdf"
     },
     {
-      "naam": "Verslag Thematische Werkgroep 1 - 18/03/2024",
-      "waarde": "180324 SA Verslag Eerste thematische werkgroep.pdf"
+      "name": "Verslag Thematische Werkgroep 1 - 18/03/2024",
+      "resourceReference": "180324 SA Verslag Eerste thematische werkgroep.pdf"
     }
   ],
-  "presentaties": [
+  "presentations": [
     {
-      "naam": "Presentatie Business Werkgroep - 26/02/2024",
-      "waarde": "260224 SA Business werkgroep.pdf"
+      "name": "Presentatie Business Werkgroep - 26/02/2024",
+      "resourceReference": "260224 SA Business werkgroep.pdf"
     },
     {
-      "naam": "Presentatie Thematische Werkgroep 1 - 18/03/2024",
-      "waarde": "180324 SA Thematische werkgroep 1.pdf"
+      "name": "Presentatie Thematische Werkgroep 1 - 18/03/2024",
+      "resourceReference": "180324 SA Thematische werkgroep 1.pdf"
     }
   ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over Studentenattesten",
-  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "TBD",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

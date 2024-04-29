@@ -1,64 +1,61 @@
 {
-  "naam": "Vocabularium Organisatie",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/organisatie.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2018-07-03",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Vocabularium",
-  "beschrijving": "voc-organisatie.md",
-  "specificatiedocument": [
+  "title": "Vocabularium Organisatie",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2018-07-03",
+  "descriptionFileName": "voc-organisatie.md",
+  "specificationDocuments": [
     {
-      "naam": "Vocabularium Organisatie",
-      "waarde": "https://data.vlaanderen.be/ns/organisatie"
+      "name": "Vocabularium Organisatie",
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie"
     }
   ],
-  "documentatie": [],
-  "charter" : [
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Organisatie",
+    "resourceReference": "Werkgroep Charter - OSLO Organisatie.docx"
+  },
+  "reports": [
     {
-      "naam": "Werkgroep Charter OSLO Organisatie",
-      "waarde": "Werkgroep Charter - OSLO Organisatie.docx"
+      "name": "Verslag PWG Organisatie 1 2017-01-27",
+      "resourceReference": "Verslag PWG Organisatie 1 21012017 - V0.1.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep Organisatie 1 2016-06-16",
+      "resourceReference": "Thematische Werkgroep Organisaties 1.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep Organisatie 2 2016-10-12",
+      "resourceReference": "Thematische Werkgroep Organisaties 2.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep Organisatie 3 2016-11-21",
+      "resourceReference": "Thematische Werkgroep Organisaties 3.docx"
     }
   ],
-  "verslagen": [
+  "presentations": [
     {
-      "naam": "Verslag PWG Organisatie 1 2017-01-27",
-      "waarde": "Verslag PWG Organisatie 1 21012017 - V0.1.docx"
+      "name": "PWG Organisaties 2017-01-27",
+      "resourceReference": "OsloOrganisatiePubliekeWerkgroep20170126.pptx"
     },
     {
-      "naam" : "Verslag Thematische Werkgroep Organisatie 1 2016-06-16",
-      "waarde" : "Thematische Werkgroep Organisaties 1.docx"
+      "name": "Thematische Werkgroep Organisatie 1 2016-06-16",
+      "resourceReference": "https://docs.google.com/presentation/d/1HnBY2VuR_jkwukCnLUqUd-rI3Z4NyU6NzI77XfKgjOE/edit?usp=sharing"
     },
     {
-      "naam" : "Verslag Thematische Werkgroep Organisatie 2 2016-10-12",
-      "waarde" : "Thematische Werkgroep Organisaties 2.docx"
+      "name": "Thematische Werkgroep Organisatie 2 2016-10-12",
+      "resourceReference": "https://drive.google.com/open?id=0BxWU3ux2quItWWVEXy1XS3pXclE"
     },
     {
-      "naam" : "Verslag Thematische Werkgroep Organisatie 3 2016-11-21",
-      "waarde" : "Thematische Werkgroep Organisaties 3.docx"
+      "name": "Webcast Organisatie - 2018-05-09",
+      "resourceReference": "OSLO-Organisatie - 09052018 - finale versie.pptx"
     }
   ],
-  "presentaties": [
-    {
-      "naam" : "PWG Organisaties 2017-01-27",
-      "waarde" : "OsloOrganisatiePubliekeWerkgroep20170126.pptx"
-    },
-    {
-      "naam" : "Thematische Werkgroep Organisatie 1 2016-06-16",
-      "waarde" : "https://docs.google.com/presentation/d/1HnBY2VuR_jkwukCnLUqUd-rI3Z4NyU6NzI77XfKgjOE/edit?usp=sharing"
-    },
-    {
-      "naam" : "Thematische Werkgroep Organisatie 2 2016-10-12",
-      "waarde" : "https://drive.google.com/open?id=0BxWU3ux2quItWWVEXy1XS3pXclE"
-    },
-    {
-      "naam" :  "Webcast Organisatie - 2018-05-09",
-      "waarde" : "OSLO-Organisatie - 09052018 - finale versie.pptx"
-    }
-  ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot organisaties",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "10 April 2018",
-  "erkenning_werkgroep_datastandaarden": "28 Mei 2018",
-  "erkenning_stuurgroep": "03 Juli 2018"
+  "dateOfRegistration": "10 April 2018",
+  "dateOfAcknowledgementByWorkingGroup": "28 Mei 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
 }

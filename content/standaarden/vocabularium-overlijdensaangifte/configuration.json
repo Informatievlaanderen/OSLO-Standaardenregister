@@ -1,65 +1,62 @@
 {
-    "naam": "Vocabularium Overlijdensaangifte",
-    "rapport" : "",
-    "verantwoordelijke_organisatie": "Athumi",
-    "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO051320",
-    "publicatiedatum": "2024-02-01",
-    "type_toepassing": "Aanbevolen (vrijwillig)",
-    "categorie": "Vocabularium",
-    "beschrijving" : "voc-overlijdensaangifte-config.md",
-    "specificatiedocument": [
-      {
-        "naam": "Vocabularium Overlijdensaangifte",
-        "waarde": "https://data.vlaanderen.be/ns/overlijdensaangifte"
-      }
-    ],
-    "documentatie": [
-      {
-        "naam": "Applicatieprofiel Overlijdensaangifte",
-        "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
-      },
-      {
-        "naam": "Vocabularium Gezondsheidstoestand Persoon",
-        "waarde": "https://data.vlaanderen.be/ns/gezondheidstoestand"
-      }
-    ],
-    "charter": [
-      {
-        "naam": "Charter Overlijdensaangifte",
-        "waarde": "Charter OSLO_Overlijdensaangifte.pdf"
-      }
-    ],
-    "verslagen": [
-      {
-        "naam": "Verslag Thematische Werkgroep I - 16 januari 2024",
-        "waarde": "20240116__ThematicWorkshop1_Verslag_OSLOOverlijdensaangifte.pdf"
-      },
-      {
-        "naam": "Verslag Thematische Werkgroep II - 20 februari 2024",
-        "waarde": "20240220__ThematicWorkshop2_Verslag_OSLOOverlijdensaangifte.pdf"
-      },
-      {
-        "naam": "Verslag Thematische Werkgroep III - 12 maart 2024",
-        "waarde": "20240312_ThematicWorkshop3_Verslag_OSLOOverlijdensaangifte.pdf"
-      }
-    ],
-    "presentaties": [
-      {
-        "naam": "Presentatie Thematische Werkgroep I - 16 januari 2024",
-        "waarde": "20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
-      },
-      {
-        "naam": "Presentatie Thematische Werkgroep II - 20 februari 2024",
-        "waarde": "20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
-      },
-      {
-        "naam": "Presentatie Thematische Werkgroep III - 12 maart 2024",
-        "waarde": "20240312_ThematicWorkshop3_Powerpoint_OSLOOverlijdensaangifte.pptx"
-      }
-    ],
-    "functioneel_toepassingsgebied": "Semantische standaard voor de digitale transformatie van de Vlaamse Overheid en lokale besturen",
-    "organisatorisch_werkingsgebied": "Lokale besturen, alle entiteiten van de Vlaamse overheid, zorgsector, uitvaartsector",
-    "datum_van_aanmelding": "25 januari 2024",
-    "erkenning_werkgroep_datastandaarden": "TBD",
-    "erkenning_stuurgroep": "TBD"
-  }
+  "title": "Vocabularium Overlijdensaangifte",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Athumi",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO051320"
+  },
+  "publicationDate": "2024-02-01",
+  "descriptionFileName": "voc-overlijdensaangifte-config.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Overlijdensaangifte",
+      "resourceReference": "https://data.vlaanderen.be/ns/overlijdensaangifte"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Overlijdensaangifte",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
+    },
+    {
+      "name": "Vocabularium Gezondsheidstoestand Persoon",
+      "resourceReference": "https://data.vlaanderen.be/ns/gezondheidstoestand"
+    }
+  ],
+  "charter": {
+    "name": "Charter Overlijdensaangifte",
+    "resourceReference": "Charter OSLO_Overlijdensaangifte.pdf"
+  },
+  "reports": [
+    {
+      "name": "Verslag Thematische Werkgroep I - 16 januari 2024",
+      "resourceReference": "20240116__ThematicWorkshop1_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep II - 20 februari 2024",
+      "resourceReference": "20240220__ThematicWorkshop2_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep III - 12 maart 2024",
+      "resourceReference": "20240312_ThematicWorkshop3_Verslag_OSLOOverlijdensaangifte.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie Thematische Werkgroep I - 16 januari 2024",
+      "resourceReference": "20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep II - 20 februari 2024",
+      "resourceReference": "20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep III - 12 maart 2024",
+      "resourceReference": "20240312_ThematicWorkshop3_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    }
+  ],
+  "dateOfRegistration": "25 januari 2024",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

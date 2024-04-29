@@ -1,38 +1,37 @@
 {
-  "naam": "Applicatieprofiel Generieke Terugmeldfaciliteit",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06/all-generieke-terugmeldfaciliteit.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2019-02-07",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "ap-generieke-terugmeldfaciliteit.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel Generieke Terugmeldfaciliteit",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2019-02-07",
+  "descriptionFileName": "ap-generieke-terugmeldfaciliteit.md",
+  "specificationDocuments": [
     {
-      "naam": "Generieke Terugmeldfaciliteit",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/"
+      "name": "Generieke Terugmeldfaciliteit",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/"
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [
+  "documentation": [],
+  "charter": {},
+  "reports": [
     {
-      "naam": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1",
-      "waarde": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
     },
     {
-      "naam": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2",
-      "waarde": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
     },
     {
-      "naam" : "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3",
-      "waarde" : "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
     }
   ],
-  "presentaties": [],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking tot meldingen naar de overheid",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "08 Maart 2018",
-  "erkenning_werkgroep_datastandaarden": "8 november 2018",
-  "erkenning_stuurgroep": "07 februari 2019"
+  "presentations": [],
+  "dateOfRegistration": "08 Maart 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "07 februari 2019"
 }

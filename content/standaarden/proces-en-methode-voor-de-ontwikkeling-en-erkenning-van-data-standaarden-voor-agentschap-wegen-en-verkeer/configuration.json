@@ -1,29 +1,24 @@
 {
-  "naam": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2018-05-22",
-  "type_toepassing": "Pas toe of leg uit",
-  "categorie": "Standaard vor organisatorische interoperabiliteit",
-  "beschrijving": "proces-en-methode.md",
-  "specificatiedocument": [
+  "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
+  "category": "Standaard vor organisatorische interoperabiliteit",
+  "usage": "Pas toe of leg uit",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2018-05-22",
+  "descriptionFileName": "proces-en-methode.md",
+  "specificationDocuments": [
     {
-      "naam": "Proces en methode voor het ontwikkelen van data standaarden voor wegenenverkeer.data.vlaanderen.be",
-      "waarde": "OSLO_Conformiteit_AWV_motiveren en uitleggen van afwijkingen.pdf"
+      "name": "Proces en methode voor het ontwikkelen van data standaarden voor wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "OSLO_Conformiteit_AWV_motiveren en uitleggen van afwijkingen.pdf"
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [
-
-  ],
-  "presentaties": [
-
-  ],
-  "functioneel_toepassingsgebied": "Erkenningsprocedure voor datastandaarden in Vlaanderen",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "08 Maart 2018",
-  "erkenning_werkgroep_datastandaarden": "10 April 2018",
-  "erkenning_stuurgroep": "22 Mei 2018"
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "08 Maart 2018",
+  "dateOfAcknowledgementByWorkingGroup": "10 April 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2018"
 }

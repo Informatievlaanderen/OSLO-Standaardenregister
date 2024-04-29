@@ -1,48 +1,47 @@
 {
-  "naam": "Applicatieprofiel Mandatendatabank",
-  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20/all-mandatendatabank.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Binnenlands Bestuur",
-  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO001835",
-  "publicatiedatum": "2018-07-20",
-  "type_toepassing": "Verplicht",
-  "categorie": "Applicatieprofiel",
-  "beschrijving" : "ap-mandatendatabank.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel Mandatendatabank",
+  "category": "Applicatieprofiel",
+  "usage": "Verplicht",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "publicationDate": "2018-07-20",
+  "descriptionFileName": "ap-mandatendatabank.md",
+  "specificationDocuments": [
     {
-      "naam": "Mandatendatabank AP",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/"
+      "name": "Mandatendatabank AP",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/"
     }
   ],
-  "documentatie": [
+  "documentation": [
     {
-      "naam" : "Publieke review datamodel Mandaat (PDF)",
-      "waarde" : "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/Public_Review_Model_mandaat_20171010.pdf"
+      "name": "Publieke review datamodel Mandaat (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/Public_Review_Model_mandaat_20171010.pdf"
     }
   ],
-  "charter": [],
-  "verslagen": [
+  "charter": {},
+  "reports": [
     {
-      "naam" : "Verslag Procesworkshop 1 Mandaat (PDF)",
-      "waarde" : "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS1_verslag.pdf"
+      "name": "Verslag Procesworkshop 1 Mandaat (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS1_verslag.pdf"
     },
     {
-      "naam" : "Verslag Procesworkshop 2 Mandaat (PDF)",
-      "waarde" : "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS2_verslag.pdf"
+      "name": "Verslag Procesworkshop 2 Mandaat (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS2_verslag.pdf"
     },
     {
-      "naam" : "Verslag Procesworkshop 3 Generiek en Mandaten (PDF)",
-      "waarde" : "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
+      "name": "Verslag Procesworkshop 3 Generiek en Mandaten (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
     }
   ],
-  "presentaties": [
+  "presentations": [
     {
-      "naam" : "Webinar Mandaat",
-      "waarde" : "https://www.youtube.com/watch?v=lvTIzKJa_s8"
+      "name": "Webinar Mandaat",
+      "resourceReference": "https://www.youtube.com/watch?v=lvTIzKJa_s8"
     }
   ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor het bouwen van een mandatendatabank",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "10 April 2018 (retroactief)",
-  "erkenning_werkgroep_datastandaarden": "29 Mei 2018",
-  "erkenning_stuurgroep": "03 Juli 2018"
+  "dateOfRegistration": "10 April 2018 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
 }
