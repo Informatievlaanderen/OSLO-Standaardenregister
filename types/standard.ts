@@ -6,13 +6,6 @@ export enum Usage {
   MANDATORY = "Verplicht",
   APPLY_OR_EXPLAIN = "Pas toe of leg uit",
 }
-
-export enum Status {
-  DEVELOPMENT = "standaard-in-ontwikkeling",
-  CANDIDATE = "kandidaat-standaard",
-  RECOGNIZED = "erkende-standaard",
-}
-
 export enum Category {
   APPLICATION_PROFILE = "Applicatieprofiel",
   VOCABULARY = "Vocabularium",
@@ -24,7 +17,7 @@ export interface Standard {
   title: string,
   category: Category,
   usage: Usage,
-  status: Status,
+  status: string,
   descriptionFileName: string,
   responsibleOrganisation: NavigationLink,
   publicationDate: string,
