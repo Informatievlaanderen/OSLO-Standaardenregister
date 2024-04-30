@@ -1,8 +1,8 @@
 <template>
   <content-header
     title="OSLO"
-    href="https://data.vlaanderen.be/standaarden"
-    subtitle="Standaardenregister"
+    href="/standaarden"
+    subtitle="OSLO Standaardenregister"
   />
   <vl-region>
     <vl-layout>
