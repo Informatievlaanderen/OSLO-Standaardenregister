@@ -35,18 +35,11 @@ publish:
 	docker push ${PUBLISHEDIMAGE}:${VERSION}
 
 publish-base:
-<<<<<<< HEAD
-  docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}:${VERSION}
-  docker push ${PUBLISHEDIMAGE}:${VERSION}
-  docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}:latest
-  docker push ${PUBLISHEDIMAGE}:latest
-=======
 	docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}-base:${VERSION}
 	docker push ${PUBLISHEDIMAGE}-base:${VERSION}
 	docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}-base:latest
 	docker push ${PUBLISHEDIMAGE}-base:latest
 
->>>>>>> 69d9f77 (Different `publish` command for base image and removed link from subtitle)
 
 publish-latest:
 	docker tag informatievlaanderen/standaardenregister:latest ${PUBLISHEDIMAGE}:latest
