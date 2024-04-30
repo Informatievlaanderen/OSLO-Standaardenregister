@@ -2,12 +2,13 @@
   "title": "Vocabularium Adres",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-adres.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2018-07-03",
-  "descriptionFileName": "voc-adres.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Adres",
@@ -15,10 +16,6 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Werkgroep Charter - Adres",
-    "resourceReference": "Werkgroep Charter - OSLO Adres.docx"
-  },
   "reports": [
     {
       "name": "Thematische werkgroep Adres & Gebouw",
@@ -29,6 +26,10 @@
       "resourceReference": "https://drive.google.com/open?id=1WWX-cQJUVJOIvz2JpKvcOdy94wXxotg-IGz1ZJCXLbU"
     }
   ],
+  "charter": {
+    "name": "Werkgroep Charter - Adres",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter - OSLO Adres.docx"
+  },
   "presentations": [
     {
       "name": "Webcast OSLO-Adres 2018-05-04 - Presentatie (PDF)",

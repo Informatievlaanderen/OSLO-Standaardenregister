@@ -2,12 +2,13 @@
   "title": "Vocabularium Bedrijventerrein",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-bedrijventerrein.md",
   "responsibleOrganisation": {
     "name": "Agentschap Innoveren en Ondernemen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO000039"
   },
   "publicationDate": "2020-06-18",
-  "descriptionFileName": "voc-bedrijventerrein.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Bedrijventerrein",
@@ -19,52 +20,52 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
-    "resourceReference": "Werkgroep charter OSLO Percelen_v0.04.docx"
-  },
   "reports": [
     {
       "name": "Verslag Business werkgroep Bedrijventerreinen 2019-04-23",
-      "resourceReference": "Verslag-BW-Bedrijventerreinen-20190423.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-BW-Bedrijventerreinen-20190423.docx"
     },
     {
       "name": "Verslag Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
-      "resourceReference": "Verslag-TW1-Bedrijventerreinen-20190522.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-TW1-Bedrijventerreinen-20190522.docx"
     },
     {
       "name": "Verslag Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
-      "resourceReference": "Verslag-TW2-Bedrijventerreinen-20190605.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-TW2-Bedrijventerreinen-20190605.docx"
     },
     {
       "name": "Verslag Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
-      "resourceReference": "Verslag-TW3-Bedrijventerreinen-20190718.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-TW3-Bedrijventerreinen-20190718.docx"
     }
   ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Percelen_v0.04.docx"
+  },
   "presentations": [
     {
       "name": "Presentatie Business werkgroep Bedrijventerreinen 2019-04-23",
-      "resourceReference": "Presentatie-BW-Bedrijventerreinen-20190423.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie-BW-Bedrijventerreinen-20190423.pptx"
     },
     {
       "name": "Presentatie Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
-      "resourceReference": "Presentatie-TW1-Bedrijventerreinen-20190522.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie-TW1-Bedrijventerreinen-20190522.pptx"
     },
     {
       "name": "Presentatie Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
-      "resourceReference": "Presentatie-TW2-Bedrijventerreinen-20190605.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie-TW2-Bedrijventerreinen-20190605.pptx"
     },
     {
       "name": "Presentatie Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
-      "resourceReference": "Presentatie-TW3-Bedrijventerreinen-20190718.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie-TW3-Bedrijventerreinen-20190718.pptx"
     },
     {
       "name": "Presentatie Werkgroep Datastandaarden 2020-04-23",
-      "resourceReference": "wg-datastandaarden-23april2020.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/wg-datastandaarden-23april2020.pptx"
     },
     {
       "name": "Webinar Percelen & Bedrijventerreinen 2020-04-24",
-      "resourceReference": "finaal-webinar-perceel-24apr2020.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/finaal-webinar-perceel-24apr2020.pptx"
     }
   ],
   "dateOfRegistration": "14 Maart 2019 (retroactief)",

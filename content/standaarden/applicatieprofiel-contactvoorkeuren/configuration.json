@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel Contactvoorkeuren",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-contactvoorkeuren.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2019-02-07",
-  "descriptionFileName": "ap-contactvoorkeuren.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Contactvoorkeuren",
@@ -15,21 +16,23 @@
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1",
-      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
     },
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2",
-      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
     },
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3",
-      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [],
   "dateOfRegistration": "08 Maart 2018",
   "dateOfAcknowledgementByWorkingGroup": "8 november 2018",

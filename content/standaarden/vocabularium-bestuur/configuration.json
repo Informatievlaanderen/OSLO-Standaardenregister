@@ -2,12 +2,13 @@
   "title": "Vocabularium Bestuur",
   "category": "Vocabularium",
   "usage": "Verplicht",
+  "status": "TBD",
+  "descriptionFileName": "voc-bestuur.md",
   "responsibleOrganisation": {
     "name": "Agentschap Binnenlands Bestuur",
     "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
   },
   "publicationDate": "2018-06-26",
-  "descriptionFileName": "voc-bestuur.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Bestuur",
@@ -15,8 +16,10 @@
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",

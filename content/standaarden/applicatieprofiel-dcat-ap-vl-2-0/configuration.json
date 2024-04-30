@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel DCAT-AP VL 2.0",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-dcat-ap-vl.md",
   "responsibleOrganisation": {
     "name": "Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2021-12-02",
-  "descriptionFileName": "ap-dcat-ap-vl.md",
   "specificationDocuments": [
     {
       "name": "DCAT-AP Vlaanderen",
@@ -36,20 +37,20 @@
       "resourceReference": "https://w3c.github.io/dxwg/dcat/"
     }
   ],
-  "charter": {
-    "name": "Werkgroep Charter DCAT-AP VL",
-    "resourceReference": "Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
-  },
   "reports": [
     {
       "name": "Verslag Webinar 1 – 4 juni 2021",
-      "resourceReference": "Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
     }
   ],
+  "charter": {
+    "name": "Werkgroep Charter DCAT-AP VL",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
+  },
   "presentations": [
     {
       "name": "Presentatie Webinar 1 – 4 juni 2021",
-      "resourceReference": "Presentatie Webinar 1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie Webinar 1.pdf"
     },
     {
       "name": "Opname Webinar 1 – 4 juni 2021",
@@ -57,7 +58,7 @@
     },
     {
       "name": "Presentatie Webinar 2 – 1 juli 2021",
-      "resourceReference": "Presentatie webinar 2 OSLO DCAT-AP VL 2.0.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie webinar 2 OSLO DCAT-AP VL 2.0.pdf"
     },
     {
       "name": "Opname Webinar 2 – 1 juli 2021",

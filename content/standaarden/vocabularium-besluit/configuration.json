@@ -2,12 +2,13 @@
   "title": "Vocabularium Besluit",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-besluit.md",
   "responsibleOrganisation": {
     "name": "Agentschap Binnenlands Bestuur",
     "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
   },
   "publicationDate": "2018-07-20",
-  "descriptionFileName": "voc-besluit.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Besluit",
@@ -20,7 +21,6 @@
       "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/Public_Review_Model_besluit_20171010.pdf"
     }
   ],
-  "charter": {},
   "reports": [
     {
       "name": "Verslag Procesworkshop 1 Generiek (PDF)",
@@ -35,6 +35,9 @@
       "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Webinar Besluit",

@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel GeoDCAT-AP VL",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-geodcat-ap-vl.md",
   "responsibleOrganisation": {
     "name": "Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2022-02-03",
-  "descriptionFileName": "ap-geodcat-ap-vl.md",
   "specificationDocuments": [
     {
       "name": "GeoDCAT-AP Vlaanderen",
@@ -40,15 +41,15 @@
       "resourceReference": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0"
     }
   ],
+  "reports": [],
   "charter": {
     "name": "Werkgroep Charter GeoDCAT-AP VL",
-    "resourceReference": "Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
   },
-  "reports": [],
   "presentations": [
     {
       "name": "Presentatie webinar 1 – 21 oktober 2021",
-      "resourceReference": "Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
     },
     {
       "name": "Opname webinar 1",
@@ -56,7 +57,7 @@
     },
     {
       "name": "Presentatie webinar 2 – 19 november 2021",
-      "resourceReference": "Webinar-2-OSLO-GeoDCAT-AP-VL.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Webinar-2-OSLO-GeoDCAT-AP-VL.pdf"
     },
     {
       "name": "Opname webinar 2",
@@ -64,7 +65,7 @@
     },
     {
       "name": "Presentatie webinar 3 – 19 december 2021",
-      "resourceReference": "Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
     },
     {
       "name": "Opname webinar 3",

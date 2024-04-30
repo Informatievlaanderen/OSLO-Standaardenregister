@@ -2,12 +2,13 @@
   "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
   "category": "Standaard vor organisatorische interoperabiliteit",
   "usage": "Pas toe of leg uit",
+  "status": "TBD",
+  "descriptionFileName": "proces-en-methode.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2018-05-22",
-  "descriptionFileName": "proces-en-methode.md",
   "specificationDocuments": [
     {
       "name": "Proces en methode voor het ontwikkelen van een datastandaard (PDF)",
@@ -15,13 +16,15 @@
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [
     {
       "name": "Verslag Werkgroepsessie 28/02/2018",
       "resourceReference": "https://docs.google.com/document/d/1Vfe1R1zd8v574B-njmj2aqc0L61zN41upexFS3B505w"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Presentatie Werkgroepsessie 28/02/2018",

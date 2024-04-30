@@ -2,12 +2,13 @@
   "title": "Openbaar Domein - Applicatieprofiel Infrastructuurelementen",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-thema-openbaar-domein.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2018-11-27",
-  "descriptionFileName": "ap-thema-openbaar-domein.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Infrastructuurelementen",
@@ -15,7 +16,6 @@
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [
     {
       "name": "Plenaire publieke werkgroepsessie 18 januari 2018",
@@ -67,29 +67,32 @@
     },
     {
       "name": "Plenaire publieke werkgroepsessie 8 oktober 2019",
-      "resourceReference": "OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
     },
     {
       "name": "Diepte-overleg 5 december 2019",
-      "resourceReference": "OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
     },
     {
       "name": "Diepte-overleg 20 februari 2020",
-      "resourceReference": "OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Presentatie toelichting Openbaar Domein, GIS-werkgroep VVSG, 18 mei 2018",
-      "resourceReference": "OSLO Openbaar Domein - Presentatie VVSG 20180518.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie VVSG 20180518.pptx"
     },
     {
       "name": "Webcast Openbaar Domein 26 september 2018",
-      "resourceReference": "Webcast OSLO Openbaar Domein 26-09-2018.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Webcast OSLO Openbaar Domein 26-09-2018.pptx"
     },
     {
       "name": "Presentatie Kennisdelingsmoment 2 juli 2020",
-      "resourceReference": "OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
     },
     {
       "name": "Webcast Kennisdelingsmoment 2 juli 2020",

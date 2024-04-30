@@ -2,12 +2,13 @@
   "title": "Vocabularium en Applicatieprofiel Leercredential",
   "category": "Vocabularium & applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "leercredential-description.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2022-12-20",
-  "descriptionFileName": "leercredential-description.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Leercredential",
@@ -19,28 +20,28 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Charter",
-    "resourceReference": "Werkgroep charter OSLO Leercredential.docx"
-  },
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 16/02/2023",
-      "resourceReference": "Verslag Business Werkgroep - 16-02-2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag Business Werkgroep - 16-02-2023.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep 1 - 09/03/2023",
-      "resourceReference": "Verslag 1ste Thematische Werkgroep - 9-03-2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag 1ste Thematische Werkgroep - 9-03-2023.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep 2 - 20/04/2023",
-      "resourceReference": "Verslag 2de Thematische Werkgroep - 20-04-2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag 2de Thematische Werkgroep - 20-04-2023.docx"
     }
   ],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Leercredential.docx"
+  },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep",
-      "resourceReference": "Presentatie Business Werkgroep.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie Business Werkgroep.pptx"
     },
     {
       "name": "Opname Business Werkgroep",
@@ -48,7 +49,7 @@
     },
     {
       "name": "Presentatie Thematische Werkgroep 1",
-      "resourceReference": "Presentatie 1ste Thematische Werkgroep - 09-03-2023.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie 1ste Thematische Werkgroep - 09-03-2023.pptx"
     },
     {
       "name": "Opname Thematische Werkgroep 1",
@@ -56,7 +57,7 @@
     },
     {
       "name": "Presentatie Thematische Werkgroep 2",
-      "resourceReference": "Presentatie 2de Thematische Werkgroep - 20-04-2023.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie 2de Thematische Werkgroep - 20-04-2023.pptx"
     },
     {
       "name": "Opname Thematische Werkgroep 2",

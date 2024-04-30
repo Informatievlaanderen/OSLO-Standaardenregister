@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel OSLO Statistiek",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-statistiek.md",
   "responsibleOrganisation": {
     "name": "Vlaamse Milieumaatschappij (VMM)",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO000092"
   },
   "publicationDate": "1 juni 2023",
-  "descriptionFileName": "ap-statistiek.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Statistiek",
@@ -20,13 +21,15 @@
       "resourceReference": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-oslo-waterkwaliteit.html"
     }
   ],
-  "charter": {},
   "reports": [
     {
       "name": "Zie OSLO Waterkwaliteit",
       "resourceReference": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-oslo-waterkwaliteit.html"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Zie OSLO Waterkwaliteit",

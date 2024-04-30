@@ -2,12 +2,13 @@
   "title": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
   "category": "Implementatiemodel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "template-description.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2023-07-24",
-  "descriptionFileName": "template-description.md",
   "specificationDocuments": [
     {
       "name": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
@@ -15,40 +16,40 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Charter",
-    "resourceReference": "Charter Machine Learning as a Service.pdf"
-  },
   "reports": [
     {
       "name": "Verslag thematische werkgroep 1 - 28 april 2023",
-      "resourceReference": "Verslag Thematische Werkgroep 1 - OSLO MLaaS.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO MLaaS.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 2 - 12 mei 2023",
-      "resourceReference": "Verslag Thematische Werkgroep 2 - OSLO MLaaS.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag Thematische Werkgroep 2 - OSLO MLaaS.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 3 - 28 juni 2023",
-      "resourceReference": "Verslag Thematische Werkgroep 3 - OSLO MLaaS.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO MLaaS.pdf"
     }
   ],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Charter Machine Learning as a Service.pdf"
+  },
   "presentations": [
     {
       "name": "Presentatie thematische werkgroep 1 - 28 april 2023",
-      "resourceReference": "Presentatie thematische werkgroep 1 - MLaaS -  28 april 2023.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 1 - MLaaS -  28 april 2023.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 2 - 12 mei 2023",
-      "resourceReference": "Presentatie thematische werkgroep 2 - MLaaS - 12 mei 2023.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 2 - MLaaS - 12 mei 2023.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 3 - 28 juni 2023",
-      "resourceReference": "Presentatie thematische werkgroep 3 - MLaaS - 28 juni 2023.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 3 - MLaaS - 28 juni 2023.pdf"
     },
     {
       "name": "JSONld datavoorbeeld",
-      "resourceReference": "JSONld-datavoorbeeld.json"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/JSONld-datavoorbeeld.json"
     }
   ],
   "dateOfRegistration": "2022-11-08",

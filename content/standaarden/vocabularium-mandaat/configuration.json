@@ -2,12 +2,13 @@
   "title": "Vocabularium Mandaat",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-mandaat.md",
   "responsibleOrganisation": {
     "name": "Agentschap Binnenlands Bestuur",
     "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
   },
   "publicationDate": "2018-07-20",
-  "descriptionFileName": "voc-mandaat.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Mandaat",
@@ -15,7 +16,6 @@
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [
     {
       "name": "Verslag Procesworkshop 1 Mandaat (PDF)",
@@ -30,6 +30,9 @@
       "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Webinar Mandaat",

@@ -2,12 +2,13 @@
   "title": "Generieke Hypermedia API",
   "category": "Technische standaard",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "generieke-hypermedia-api.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2019-02-07",
-  "descriptionFileName": "generieke-hypermedia-api.md",
   "specificationDocuments": [
     {
       "name": "Generieke Hypermedia API specificatie",
@@ -36,20 +37,20 @@
       "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client-testserver"
     }
   ],
-  "charter": {
-    "name": "Werkgroep Charter - OSLO Generic Hypermedia Standard",
-    "resourceReference": "Werkgroep Charter - OSLO Generic Hypermedia Standard.docx"
-  },
   "reports": [
     {
       "name": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 2018-05-30",
-      "resourceReference": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 1 - 20180530.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Hypermedia Standaard - Publieke Werkgroepsessie 1 - 20180530.docx"
     }
   ],
+  "charter": {
+    "name": "Werkgroep Charter - OSLO Generic Hypermedia Standard",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter - OSLO Generic Hypermedia Standard.docx"
+  },
   "presentations": [
     {
       "name": "OSLO Generieke API Standaard - Werkgroepsessie 1",
-      "resourceReference": "OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
     }
   ],
   "dateOfRegistration": "01 April 2018",

@@ -2,6 +2,8 @@
   "title": "Vocabularium Mobiliteit",
   "category": "Vocabularium",
   "usage": "TBD",
+  "status": "TBD",
+  "descriptionFileName": "voc-mobiliteit.md",
   "responsibleOrganisation": {
     "name": [
       "Agentschap Digitaal Vlaanderen",
@@ -13,7 +15,6 @@
     ]
   },
   "publicationDate": "TBD",
-  "descriptionFileName": "voc-mobiliteit.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Mobiliteit",
@@ -21,11 +22,11 @@
     }
   ],
   "documentation": [],
+  "reports": [],
   "charter": {
     "name": "Werkgroep Charter OSLO Mobiliteit",
-    "resourceReference": "Werkgroep charter OSLO Mobiliteit.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
   },
-  "reports": [],
   "presentations": [
     {
       "name": "Presentatie Procesworkshop 1 Mobiliteit",

@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel LDES",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ldes-description.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2022-12-01",
-  "descriptionFileName": "ldes-description.md",
   "specificationDocuments": [
     {
       "name": "LDES Applicatieprofiel",
@@ -15,52 +16,52 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Projectcharter",
-    "resourceReference": "Werkgroep charter OSLO LDES.docx"
-  },
   "reports": [
     {
       "name": "Verslag business werkgroep 1 - 16 december 2021",
-      "resourceReference": "Verslag business werkgroep - 16 december 2021.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag business werkgroep - 16 december 2021.docx"
     },
     {
       "name": "Verslag thematische werkgroep 1 - 20 januari 2022",
-      "resourceReference": "Verslag thematische werkgroep 1 - 20 januari 2022.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag thematische werkgroep 1 - 20 januari 2022.docx"
     },
     {
       "name": "Verslag thematische werkgroep 2 - 17 februari 2022",
-      "resourceReference": "Verslag thematische werkgroep 2 - 17 februari 2022.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag thematische werkgroep 2 - 17 februari 2022.docx"
     },
     {
       "name": "Verslag thematische werkgroep 3 - 17 maart 2022",
-      "resourceReference": "Verslag thematische werkgroep 3 - 17 maart 2022.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag thematische werkgroep 3 - 17 maart 2022.docx"
     },
     {
       "name": "Verslag thematische werkgroep 4 - 28 april 2022",
-      "resourceReference": "Verslag thematische werkgroep 4 - 28 april 2022.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag thematische werkgroep 4 - 28 april 2022.docx"
     }
   ],
+  "charter": {
+    "name": "Projectcharter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO LDES.docx"
+  },
   "presentations": [
     {
       "name": "Presentatie business werkgroep 1 - 16 december 2021",
-      "resourceReference": "Presentatie business werkgroep - 16 december 2021.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie business werkgroep - 16 december 2021.pptx"
     },
     {
       "name": "Presentatie thematische werkgroep 1 - 20 januari 2022",
-      "resourceReference": "Presentatie thematische werkgroep 1 - 20 januari 2022.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 1 - 20 januari 2022.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 2 - 17 februari 2022",
-      "resourceReference": "Presentatie thematische werkgroep 2 - 17 februari 2022.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 2 - 17 februari 2022.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 3 - 17 maart 2022",
-      "resourceReference": "Presentatie thematische werkgroep 3 - 17 maart 2022.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 3 - 17 maart 2022.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 4 - 28 april 2022",
-      "resourceReference": "Presentatie thematische werkgroep 4 - 28 april 2022.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 4 - 28 april 2022.pdf"
     }
   ],
   "dateOfRegistration": "18 november 2021",

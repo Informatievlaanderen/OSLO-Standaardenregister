@@ -2,12 +2,13 @@
   "title": "Vocabularium Persoon",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-persoon.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2018-07-03",
-  "descriptionFileName": "voc-persoon.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Persoon",
@@ -15,32 +16,32 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Werkgroep Charter OSLO Persoon",
-    "resourceReference": "Werkgroep Charter - OSLO Persoon.docx"
-  },
   "reports": [
     {
       "name": "Verslag Thematische Werkgroep 1 - 2017-01-12",
-      "resourceReference": "Verslag TWG1 Persoon 12012017.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag TWG1 Persoon 12012017.docx"
     },
     {
       "name": "Publieke Thematische Werkgroep 2 - 2017-03-15",
-      "resourceReference": "Verslag TWG2 Persoon 15032017.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag TWG2 Persoon 15032017.docx"
     }
   ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Persoon",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter - OSLO Persoon.docx"
+  },
   "presentations": [
     {
       "name": "Publieke Werkgroep OSLO-Persoon 2017-01-12",
-      "resourceReference": "OsloPersoonPubliekeWerkgroep20170112.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OsloPersoonPubliekeWerkgroep20170112.pptx"
     },
     {
       "name": "Publieke Werkgroep OSLO-Persoon 2017-03-15",
-      "resourceReference": "OsloPersoonPubliekeWerkgroep20170315.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OsloPersoonPubliekeWerkgroep20170315.pptx"
     },
     {
       "name": "Webcast Persoon 2018-05-15",
-      "resourceReference": "OSLO-Persoon.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO-Persoon.pptx"
     }
   ],
   "dateOfRegistration": "10 April 2018 (retroactief)",

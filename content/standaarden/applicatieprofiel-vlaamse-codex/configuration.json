@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel Vlaamse Codex",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-vlaamse-codex.md",
   "responsibleOrganisation": {
     "name": "Departement Kanselarij en Bestuur",
     "uri": "http://data.vlaanderen.be/id/organisatie/OVO001827"
   },
   "publicationDate": "2019-02-07",
-  "descriptionFileName": "ap-vlaamse-codex.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Vlaamse Codex",
@@ -20,25 +21,27 @@
       "resourceReference": "https://staging.opendata.codex.vandenbroele.be:8888/sparql"
     }
   ],
-  "charter": {},
   "reports": [
     {
       "name": "Werkgroepsessie 2 maart 2018",
-      "resourceReference": "Vlaamse Codex - Klankbordgroep sessie 2 maart 2018.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Vlaamse Codex - Klankbordgroep sessie 2 maart 2018.pdf"
     },
     {
       "name": "Werkgroepsessie 25 september 2018",
-      "resourceReference": "Verslag (Klankbordgroep) - Implementatie van de Vlaamse Codex - 25-09-2018.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag (Klankbordgroep) - Implementatie van de Vlaamse Codex - 25-09-2018.pdf"
     },
     {
       "name": "Webcast 27 november 2018",
-      "resourceReference": "Verslag (Webcast) - Implementatie van de Vlaamse Codex - 27-11-2018.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag (Webcast) - Implementatie van de Vlaamse Codex - 27-11-2018.pdf"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Presentatie Inspiratienamiddag OSLO (Vlaamse Codex luik) - 19 februari 2019",
-      "resourceReference": "Inspiratienamiddag 19 Feb 2019.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Inspiratienamiddag 19 Feb 2019.pptx"
     }
   ],
   "dateOfRegistration": "10 April 2018",

@@ -2,12 +2,13 @@
   "title": "Vocabularium Dienst",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-dienst.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2018-07-03",
-  "descriptionFileName": "voc-dienst.md",
   "specificationDocuments": [
     {
       "name": "Vocabularium Dienst",
@@ -15,10 +16,6 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Werkgroep Charter OSLO Dienst",
-    "resourceReference": "Werkgroep Charter - OSLO Dienst.docx"
-  },
   "reports": [
     {
       "name": "Thematische Werkgroep Dienstverlening 2016-06-27",
@@ -45,10 +42,14 @@
       "resourceReference": "https://drive.google.com/open?id=19Nnx2PJb6TjoXKh9PRcRY9krs0Tzjjt7lIEZ6YhPMPo"
     }
   ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Dienst",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter - OSLO Dienst.docx"
+  },
   "presentations": [
     {
       "name": "Webcast OSLO-Dienst 2018-05-09 - Presentatie",
-      "resourceReference": "Webcast OSLO-Dienst - 09-05-2018 - finale versie.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Webcast OSLO-Dienst - 09-05-2018 - finale versie.pptx"
     },
     {
       "name": "Thematische Werkgroep Dienstverlening 2016-10-03 - Presentatie",

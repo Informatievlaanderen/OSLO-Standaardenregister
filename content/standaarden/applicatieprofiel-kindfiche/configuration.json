@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel Kindfiche",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "kind-fiche-description.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2024-03-19",
-  "descriptionFileName": "kind-fiche-description.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Kindfiche",
@@ -15,36 +16,36 @@
     }
   ],
   "documentation": [],
-  "charter": {
-    "name": "Charter Kindfiche",
-    "resourceReference": "Werkgroep charter OSLO_Kindfiche.pdf"
-  },
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 13 februari 2024",
-      "resourceReference": "2.0 Business Werkgroep presentatie Kindfiche (1).pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/2.0 Business Werkgroep presentatie Kindfiche (1).pdf"
     },
     {
       "name": "Verslag Thematische Werkgroep I - 12 maart 2024",
-      "resourceReference": "Thematische werkgroep 1 presentatie Kindfiche (1).pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Thematische werkgroep 1 presentatie Kindfiche (1).pdf"
     },
     {
       "name": "Verslag Thematische Werkgroep II - 9 april 2024",
-      "resourceReference": "Thematische werkgroep 2 presentatie Kindfiche.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Thematische werkgroep 2 presentatie Kindfiche.pdf"
     }
   ],
+  "charter": {
+    "name": "Charter Kindfiche",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO_Kindfiche.pdf"
+  },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep -  13 februari 2024",
-      "resourceReference": "20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep I - 12 maart 2024",
-      "resourceReference": "20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep II - 9 april 2024",
-      "resourceReference": "20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
     }
   ],
   "dateOfRegistration": "19 december 2024",

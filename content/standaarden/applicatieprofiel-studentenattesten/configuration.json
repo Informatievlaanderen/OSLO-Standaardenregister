@@ -2,12 +2,13 @@
   "title": "Applicatieprofiel Studentenattesten",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "studentenattesten-description.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2024-04-08",
-  "descriptionFileName": "studentenattesten-description.md",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Studentenattesten",
@@ -15,25 +16,27 @@
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 26/02/2024",
-      "resourceReference": "260224 SA Verslag Business werkgroep.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/260224 SA Verslag Business werkgroep.pdf"
     },
     {
       "name": "Verslag Thematische Werkgroep 1 - 18/03/2024",
-      "resourceReference": "180324 SA Verslag Eerste thematische werkgroep.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/180324 SA Verslag Eerste thematische werkgroep.pdf"
     }
   ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep - 26/02/2024",
-      "resourceReference": "260224 SA Business werkgroep.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/260224 SA Business werkgroep.pdf"
     },
     {
       "name": "Presentatie Thematische Werkgroep 1 - 18/03/2024",
-      "resourceReference": "180324 SA Thematische werkgroep 1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/180324 SA Thematische werkgroep 1.pdf"
     }
   ],
   "dateOfRegistration": "TBD",

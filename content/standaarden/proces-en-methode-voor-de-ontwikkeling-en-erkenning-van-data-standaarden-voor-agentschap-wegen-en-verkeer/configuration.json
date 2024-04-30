@@ -2,21 +2,24 @@
   "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
   "category": "Standaard vor organisatorische interoperabiliteit",
   "usage": "Pas toe of leg uit",
+  "status": "TBD",
+  "descriptionFileName": "proces-en-methode.md",
   "responsibleOrganisation": {
     "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "2018-05-22",
-  "descriptionFileName": "proces-en-methode.md",
   "specificationDocuments": [
     {
       "name": "Proces en methode voor het ontwikkelen van data standaarden voor wegenenverkeer.data.vlaanderen.be",
-      "resourceReference": "OSLO_Conformiteit_AWV_motiveren en uitleggen van afwijkingen.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/documents/OSLO_Conformiteit_AWV_motiveren en uitleggen van afwijkingen.pdf"
     }
   ],
   "documentation": [],
-  "charter": {},
   "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
   "presentations": [],
   "dateOfRegistration": "08 Maart 2018",
   "dateOfAcknowledgementByWorkingGroup": "10 April 2018",
