@@ -173,7 +173,12 @@ const descriptionElements: DescriptionData[] = [
       ? `<a href=&quot;${data?.value?.standard?.responsibleOrganisation?.uri}&quot;>${data?.value?.standard?.responsibleOrganisation?.name}</a>`
       : Usage.TBD,
   },
-  { title: 'Status', element: data?.value?.standard?.status ?? Usage.TBD },
+  {
+    title: 'Status',
+    element: !!data?.value?.standard?.status
+      ? useRemoveDashes(useCapitalizeFirstLetter(data?.value?.standard?.status))
+      : Usage.TBD,
+  },
   {
     title: 'Type toepassing',
     element: data?.value?.standard?.usage ?? Usage.TBD,
