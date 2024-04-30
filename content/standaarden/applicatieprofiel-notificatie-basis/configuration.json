@@ -1,0 +1,37 @@
+{
+  "title": "Applicatieprofiel Notificatie Basis",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2019-02-07",
+  "descriptionFileName": "ap-notificatie-basis.md",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Notificatiecomponent",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/notificatie-basis/"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "Verslag - Notificatie - Publieke Werkgroep 1 - 2018-04-27",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Notificatie - Werkgroep 1.docx"
+    },
+    {
+      "name": "Verslag - Notificatie - Publieke Werkgroep 2 - 2018-05-22",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Notificatie - Werkgroep 2.docx"
+    },
+    {
+      "name": "Verslag - Notificatie - Publieke Werkgroep 3 - 2018-06-28",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Notificatie - Werkgroep 3.docx"
+    }
+  ],
+  "presentations": [],
+  "dateOfRegistration": "08 Maart 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "02 februari 2019"
+}

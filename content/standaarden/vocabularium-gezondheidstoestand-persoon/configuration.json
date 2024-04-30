@@ -1,0 +1,62 @@
+{
+  "title": "Vocabularium Gezondheidstoestand Persoon",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Athumi",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO051320"
+  },
+  "publicationDate": "2024-04-11",
+  "descriptionFileName": "voc-gezondheidstoestand-config.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Gezondsheidstoestand Persoon",
+      "resourceReference": "https://data.vlaanderen.be/ns/gezondheidstoestand"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabularium Overlijdensaangifte",
+      "resourceReference": "https://data.vlaanderen.be/ns/overlijdensaangifte"
+    },
+    {
+      "name": "Applicatieprofiel Overlijdensaangifte",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
+    }
+  ],
+  "charter": {
+    "name": "Charter Overlijdensaangifte",
+    "resourceReference": "Charter OSLO_Overlijdensaangifte.pdf"
+  },
+  "reports": [
+    {
+      "name": "Verslag Thematische Werkgroep I - 16 januari 2024",
+      "resourceReference": "20240116__ThematicWorkshop1_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep II - 20 februari 2024",
+      "resourceReference": "20240220__ThematicWorkshop2_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep III - 12 maart 2024",
+      "resourceReference": "20240312_ThematicWorkshop3_Verslag_OSLOOverlijdensaangifte.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie Thematische Werkgroep I - 16 januari 2024",
+      "resourceReference": "20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep II - 20 februari 2024",
+      "resourceReference": "20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep III - 12 maart 2024",
+      "resourceReference": "20240312_ThematicWorkshop3_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    }
+  ],
+  "dateOfRegistration": "25 januari 2024",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

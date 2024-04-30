@@ -1,0 +1,53 @@
+{
+  "title": "Vocabularium Passenger Transport Hubs",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2022-12-01",
+  "descriptionFileName": "voc-passenger-transport-hubs.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Passenger Transport Hubs",
+      "resourceReference": "https://purl.eu/ns/mobility/passenger-transport-hubs/"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "OSLO - Passenger Transport Hubs - Charter.pdf"
+  },
+  "reports": [
+    {
+      "name": "Report Business Workshop - 26th of April 2022",
+      "resourceReference": "26042022_OSLO Passenger Transport Hubs_Business Workshop_Report.pdf"
+    },
+    {
+      "name": "Report thematic workshop - 19th of May 2022",
+      "resourceReference": "19052022_OSLO Passenger Transport Hubs_Thematic Workshop 1_Report.pdf"
+    },
+    {
+      "name": "Report thematic workshop - 23rd of June 2022",
+      "resourceReference": "23062022_OSLO Passenger Transport Hubs_Thematic Workshop 2_Report.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation business workshop - 26th of April 2022",
+      "resourceReference": "260422_OSLO Passenger Transport Hubs_Business Workshop_Presentation.pdf"
+    },
+    {
+      "name": "Presentation thematic workshop - 19th of May 2022",
+      "resourceReference": "260422_OSLO Passenger Transport Hubs_Thematic Workshop 1_Presentation.pdf"
+    },
+    {
+      "name": "Presentation thematic workshop - 23rd of June 2022",
+      "resourceReference": "23062022_OSLO Passenger Transport Hubs_Thematic Workshop 2_Presentation.pdf"
+    }
+  ],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "2022-12-01"
+}

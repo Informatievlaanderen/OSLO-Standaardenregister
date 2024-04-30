@@ -1,0 +1,49 @@
+{
+  "title": "Vocabularium Persoon",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2018-07-03",
+  "descriptionFileName": "voc-persoon.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Persoon",
+      "resourceReference": "https://data.vlaanderen.be/ns/persoon"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Persoon",
+    "resourceReference": "Werkgroep Charter - OSLO Persoon.docx"
+  },
+  "reports": [
+    {
+      "name": "Verslag Thematische Werkgroep 1 - 2017-01-12",
+      "resourceReference": "Verslag TWG1 Persoon 12012017.docx"
+    },
+    {
+      "name": "Publieke Thematische Werkgroep 2 - 2017-03-15",
+      "resourceReference": "Verslag TWG2 Persoon 15032017.docx"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Publieke Werkgroep OSLO-Persoon 2017-01-12",
+      "resourceReference": "OsloPersoonPubliekeWerkgroep20170112.pptx"
+    },
+    {
+      "name": "Publieke Werkgroep OSLO-Persoon 2017-03-15",
+      "resourceReference": "OsloPersoonPubliekeWerkgroep20170315.pptx"
+    },
+    {
+      "name": "Webcast Persoon 2018-05-15",
+      "resourceReference": "OSLO-Persoon.pptx"
+    }
+  ],
+  "dateOfRegistration": "10 April 2018 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
+}

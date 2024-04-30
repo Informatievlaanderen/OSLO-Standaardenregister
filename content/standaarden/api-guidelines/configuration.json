@@ -1,0 +1,41 @@
+{
+  "title": "API guidelines",
+  "category": "Technische standaard",
+  "usage": "TBD",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "api-guidelines.md",
+  "specificationDocuments": [],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "Thematische Werkgroep API guidelines 1 - 2020-02-18",
+      "resourceReference": "OSLO API Guidelines - Workshop 1 18_02_20 - Verslag.pdf"
+    },
+    {
+      "name": "Thematische Werkgroep API guidelines 2 - 2020-03-19",
+      "resourceReference": "OSLO API Guidelines - Workshop 2 19_03_20 - Verslag.docx"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie thematische werkgroep 1 - 18 februari 2020",
+      "resourceReference": "18022020 - API guidelines WS1.pptx"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 19 maart 2020",
+      "resourceReference": "19032020 - API guidelines WS2.pptx"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 (herhaling sessie 1, online) - 9 juni 2020",
+      "resourceReference": "09062020 - API guidelines WS3.pptx"
+    }
+  ],
+  "dateOfRegistration": "TDB",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

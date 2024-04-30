@@ -1,0 +1,42 @@
+{
+  "title": "Applicatieprofiel Schuldbeheer",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2024-04-11",
+  "descriptionFileName": "ap-schuldbeheer-config.md",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Schuldbeheer",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/schuldbeheer"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabularium Schuldbeheer",
+      "resourceReference": "https://data.vlaanderen.be/ns/schuldbeheer"
+    }
+  ],
+  "charter": {
+    "name": "Charter Schuldbeheer",
+    "resourceReference": "Charter OSLO_Schuldbeheer.pdf"
+  },
+  "reports": [
+    {
+      "name": "Verslag Business Werkgroep - 4 maart 2024",
+      "resourceReference": "20240304_BusinessWorkshop_Verslag_OSLOSchuldbeheer.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie Business Werkgroep - 4 maart 2024",
+      "resourceReference": "20240304_BusinessWorkshop_Presentatie_OSLOSchuldbeheer.pptx"
+    }
+  ],
+  "dateOfRegistration": "21 maart 2024",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

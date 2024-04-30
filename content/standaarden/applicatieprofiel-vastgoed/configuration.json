@@ -1,0 +1,62 @@
+{
+  "title": "Applicatieprofiel Vastgoed",
+  "category": "Applicatieprofiel",
+  "usage": "TBD",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "vastgoed.md",
+  "specificationDocuments": [
+    {
+      "name": "Vastgoed Applicatieprofiel",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/vastgoed"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "Verslag business werkgroep - 19 januari 2021",
+      "resourceReference": "OSLO vastgoed - Business werkgroep - 19012021 - verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 1 - 9 februari 2021",
+      "resourceReference": "OSLO vastgoed - Thematische werkgroep 1 - 09022021 - verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 - 1 april 2021",
+      "resourceReference": "OSLO vastgoed - Thematische werkgroep 2 - 01042021 - verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 12 mei 2021",
+      "resourceReference": "OSLO vastgoed - Thematische werkgroep 3 - 12052021 - verslag.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie business werkgroep - 19 januari 2021",
+      "resourceReference": "OSLO vastgoed - Business werkgroep - 19012021 - presentatie.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 9 februari 2021",
+      "resourceReference": "OSLO vastgoed - Thematische werkgroep 1 - 09022021 - presentatie.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 1 april 2021",
+      "resourceReference": "OSLO vastgoed - Thematische werkgroep 2 - 01042021 - presentatie.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 12 mei 2021",
+      "resourceReference": "OSLO vastgoed - Thematische werkgroep 3 - 12052021 - presentatie.pdf"
+    },
+    {
+      "name": "Presentatie wijzigingen voor publieke review",
+      "resourceReference": "OSLO vastgoed - Wijzigingen Publieke Review.pdf"
+    }
+  ],
+  "dateOfRegistration": "12 November 2020",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

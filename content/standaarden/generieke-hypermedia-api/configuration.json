@@ -1,0 +1,58 @@
+{
+  "title": "Generieke Hypermedia API",
+  "category": "Technische standaard",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2019-02-07",
+  "descriptionFileName": "generieke-hypermedia-api.md",
+  "specificationDocuments": [
+    {
+      "name": "Generieke Hypermedia API specificatie",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api"
+    },
+    {
+      "name": "Bouwblok paginering",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/paginering.md"
+    },
+    {
+      "name": "Bouwblok CRUD operaties",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/crud-operaties.md"
+    },
+    {
+      "name": "Bouwblok Taal-selectie/ontdekking",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/taal.md"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Client side NodeJS demo-implementatie",
+      "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client"
+    },
+    {
+      "name": "Server side NodeJS demo-implementatie",
+      "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client-testserver"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter - OSLO Generic Hypermedia Standard",
+    "resourceReference": "Werkgroep Charter - OSLO Generic Hypermedia Standard.docx"
+  },
+  "reports": [
+    {
+      "name": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 2018-05-30",
+      "resourceReference": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 1 - 20180530.docx"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "OSLO Generieke API Standaard - Werkgroepsessie 1",
+      "resourceReference": "OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
+    }
+  ],
+  "dateOfRegistration": "01 April 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 November 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "7 Februari 2019"
+}

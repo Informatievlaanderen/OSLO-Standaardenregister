@@ -1,0 +1,24 @@
+{
+  "title": "Applicatieprofiel Generiek basis",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2017-03-23",
+  "descriptionFileName": "",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Generiek basis",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

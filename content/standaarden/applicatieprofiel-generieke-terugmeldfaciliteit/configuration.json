@@ -1,0 +1,37 @@
+{
+  "title": "Applicatieprofiel Generieke Terugmeldfaciliteit",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2019-02-07",
+  "descriptionFileName": "ap-generieke-terugmeldfaciliteit.md",
+  "specificationDocuments": [
+    {
+      "name": "Generieke Terugmeldfaciliteit",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
+    },
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
+    },
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3",
+      "resourceReference": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
+    }
+  ],
+  "presentations": [],
+  "dateOfRegistration": "08 Maart 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "07 februari 2019"
+}

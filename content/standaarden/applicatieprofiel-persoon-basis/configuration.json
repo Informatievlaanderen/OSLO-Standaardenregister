@@ -1,0 +1,49 @@
+{
+  "title": "Applicatieprofiel Persoon basis",
+  "category": "Applicatieprofiel",
+  "usage": "TBD",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "ap-persoon-basis.md",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Persoon basis",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/persoon-basis/"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Persoon",
+    "resourceReference": "Werkgroep Charter - OSLO Persoon.docx"
+  },
+  "reports": [
+    {
+      "name": "Verslag Thematische Werkgroep 1 - 2017-01-12",
+      "resourceReference": "Verslag TWG1 Persoon 12012017.docx"
+    },
+    {
+      "name": "Publieke Thematische Werkgroep 2 - 2017-03-15",
+      "resourceReference": "Verslag TWG2 Persoon 15032017.docx"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Publieke Werkgroep OSLO-Persoon 2017-01-12",
+      "resourceReference": "OsloPersoonPubliekeWerkgroep20170112.pptx"
+    },
+    {
+      "name": "Publieke Werkgroep OSLO-Persoon 2017-03-15",
+      "resourceReference": "OsloPersoonPubliekeWerkgroep20170315.pptx"
+    },
+    {
+      "name": "Webcast Persoon 2018-05-15",
+      "resourceReference": "OSLO-Persoon.pptx"
+    }
+  ],
+  "dateOfRegistration": "10 April 2018 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Applicatieprofiel Adresregister",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "ap-adresregister.md",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Adresregister",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/adresregister/"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "Thematische werkgroep Adres en Gebouw 1 - 2016-06-08",
+      "resourceReference": "Thematische Werkgroep Adres & Gebouw 1.docx"
+    }
+  ],
+  "presentations": [],
+  "dateOfRegistration": "10 April 2018 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

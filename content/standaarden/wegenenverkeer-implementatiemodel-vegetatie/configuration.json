@@ -1,0 +1,34 @@
+{
+  "title": "wegenenverkeer implementatiemodel Vegetatie",
+  "category": "implementatiemodel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Wegen en Verkeer",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000098"
+  },
+  "publicationDate": "2020-12-02",
+  "descriptionFileName": "Vegetatie.md",
+  "specificationDocuments": [
+    {
+      "name": "Eenvoudige datatypes",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
+    }
+  ],
+  "dateOfRegistration": "08 Maart 2020",
+  "dateOfAcknowledgementByWorkingGroup": "10 April 2020",
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020"
+}

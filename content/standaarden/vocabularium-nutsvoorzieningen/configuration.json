@@ -1,0 +1,89 @@
+{
+  "title": "Vocabularium Nutsvoorzieningen",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "",
+  "descriptionFileName": "kabels-en-leidingen-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Nutsvoorzieningen Vocabularium",
+      "resourceReference": "https://data.vlaanderen.be/ns/nutsvoorzieningen"
+    },
+    {
+      "name": "Utility Services Vocabularium",
+      "resourceReference": "https://data.vlaanderen.be/ns/nutsvoorzieningen/index_en.html"
+    },
+    {
+      "name": "Câbles et Conduites Vocabulaire",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_fr.html"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "Charter OSLO IMKL.docx"
+  },
+  "reports": [
+    {
+      "name": "Verslag business werkgroep - 24 april 2023",
+      "resourceReference": "Verslag Business Workshop IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 1 - 25 mei 2023",
+      "resourceReference": "Verslag Thematische Werkgroep 1 IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 - 29 juni 2023",
+      "resourceReference": "Verslag Thematische Werkgroep 2 IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 7 september 2023",
+      "resourceReference": "Verslag Thematische Werkgroep 3 IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - 5 oktober 2023",
+      "resourceReference": "Verslag Thematische Werkgroep 4 IMKL.pdf"
+    },
+    {
+      "name": "Verslag Webinar Publieke Review IMKL - 28 november 2023",
+      "resourceReference": "Verslag Webinar IMKL 28.11.2023.pdf"
+    },
+    {
+      "name": "Technisch Rapport NL",
+      "resourceReference": "Technisch rapport OSLO IMKL - NL (3).pdf"
+    },
+    {
+      "name": "Technisch Rapport FR",
+      "resourceReference": "Technisch rapport OSLO IMKL - FR.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie business werkgroep - 24 april 2023",
+      "resourceReference": "Business Werkgroep presentatie IMKL - 24 april 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 25 mei 2023",
+      "resourceReference": "Presentatie eerste thematische werkgroep - IMKL -  25 mei 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 29 juni 2023",
+      "resourceReference": "Presentatie tweede thematische werkgroep - IMKL -  29 juni 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 7 september 2023",
+      "resourceReference": "Presentatie derde thematische werkgroep - IMKL - 7 september  2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 4 - 5 oktober 2023",
+      "resourceReference": "Presentatie vierde thematische werkgroep - IMKL - 5 oktober 2023.pdf"
+    }
+  ],
+  "dateOfRegistration": "2023-02-17",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

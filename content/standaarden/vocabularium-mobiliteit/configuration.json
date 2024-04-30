@@ -1,0 +1,46 @@
+{
+  "title": "Vocabularium Mobiliteit",
+  "category": "Vocabularium",
+  "usage": "TBD",
+  "responsibleOrganisation": {
+    "name": [
+      "Agentschap Digitaal Vlaanderen",
+      "Agentschap Binnenlands Bestuur"
+    ],
+    "uri": [
+      "http://data.vlaanderen.be/id/organisatie/OVO002949",
+      "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    ]
+  },
+  "publicationDate": "TBD",
+  "descriptionFileName": "voc-mobiliteit.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Mobiliteit",
+      "resourceReference": "https://data.vlaanderen.be/ns/mobiliteit"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Mobiliteit",
+    "resourceReference": "Werkgroep charter OSLO Mobiliteit.pdf"
+  },
+  "reports": [],
+  "presentations": [
+    {
+      "name": "Presentatie Procesworkshop 1 Mobiliteit",
+      "resourceReference": "https://drive.google.com/file/d/19OiSynuYhsRjXL9j8JnNaINxg3yeZP56/view?usp=sharing"
+    },
+    {
+      "name": "Presentatie Procesworkshop 2 Mobiliteit",
+      "resourceReference": "https://drive.google.com/file/d/1RkPKiIaxlNrQ7Enn0_KPCBBjCzlLVTWh/view?usp=sharing"
+    },
+    {
+      "name": "Presentatie Procesworkshop 3 Mobiliteit",
+      "resourceReference": "https://drive.google.com/file/d/1qlRTR6w_AO3s5yiYbSfCt5TkxAdF2zUX/view?usp=sharing"
+    }
+  ],
+  "dateOfRegistration": "29 Mei 2018",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

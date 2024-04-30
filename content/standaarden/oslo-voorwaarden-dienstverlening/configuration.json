@@ -1,0 +1,69 @@
+{
+  "title": "OSLO Voorwaarden Dienstverlening",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2023-07-11",
+  "descriptionFileName": "template-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Voorwaarden Dienstverlening",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "Charter OSLO Voorwaarden Dienstverlening.docx.pdf"
+  },
+  "reports": [
+    {
+      "name": "Verslag business werkgroep - 6 april 2023",
+      "resourceReference": "Verslag Business Workshop Voorwaarden Dienstverlening.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 1 - 4 mei 2023",
+      "resourceReference": "Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 1.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 - 15 juni 2023",
+      "resourceReference": "Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 2.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 27 juli 2023",
+      "resourceReference": "Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 3.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - 13 oktober 2023",
+      "resourceReference": "Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 4.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie business werkgroep - 6 april 2023",
+      "resourceReference": "Business Werkgroep presentatie - Voorwaarden Dienstverlening.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 4 mei 2023",
+      "resourceReference": "Presentatie eerste thematische werkgroep - Voorwaarden Dienstverlening-  4 mei 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 15 juni 2023",
+      "resourceReference": "Presentatie tweede thematische werkgroep - Voorwaarden Dienstverlening- 15 juni 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 27 juli 2023",
+      "resourceReference": "Presentatie derde thematische werkgroep - Voorwaarden Dienstverlening- 27 juli 2023.pptx (1).pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 4 - 13 oktober 2023",
+      "resourceReference": "Presentatie vierde thematische werkgroep - Voorwaarden Dienstverlening-13oktober  2023.pdf"
+    }
+  ],
+  "dateOfRegistration": "2023-02-17",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+}

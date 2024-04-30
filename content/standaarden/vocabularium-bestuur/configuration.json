@@ -1,0 +1,24 @@
+{
+  "title": "Vocabularium Bestuur",
+  "category": "Vocabularium",
+  "usage": "Verplicht",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "publicationDate": "2018-06-26",
+  "descriptionFileName": "voc-bestuur.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Bestuur",
+      "resourceReference": "https://data.vlaanderen.be/ns/bestuur"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "10 April 2018 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
+}
