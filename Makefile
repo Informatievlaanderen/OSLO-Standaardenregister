@@ -8,6 +8,9 @@ PUBLISHEDIMAGE := $(shell if [ -f PUBLISHED ]; then cat PUBLISHED; else echo $(D
 build-base:
 	docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
 
+build-base-linux:
+	docker build --platform=linux/amd64 -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
+
 # first build-base should have been run
 build:
 	docker build -f Dockerfile.build --build-arg "VERSION=${VERSION}" -t informatievlaanderen/standaardenregister:${VERSION} .
@@ -32,10 +35,18 @@ publish:
 	docker push ${PUBLISHEDIMAGE}:${VERSION}
 
 publish-base:
+<<<<<<< HEAD
   docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}:${VERSION}
   docker push ${PUBLISHEDIMAGE}:${VERSION}
   docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}:latest
   docker push ${PUBLISHEDIMAGE}:latest
+=======
+	docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}-base:${VERSION}
+	docker push ${PUBLISHEDIMAGE}-base:${VERSION}
+	docker tag informatievlaanderen/standaardenregister-base:${VERSION} ${PUBLISHEDIMAGE}-base:latest
+	docker push ${PUBLISHEDIMAGE}-base:latest
+
+>>>>>>> 69d9f77 (Different `publish` command for base image and removed link from subtitle)
 
 publish-latest:
 	docker tag informatievlaanderen/standaardenregister:latest ${PUBLISHEDIMAGE}:latest
