@@ -1,7 +1,6 @@
 <template>
   <content-header
     title="OSLO"
-    href="https://www.vlaanderen.be/digitaal-vlaanderen"
     subtitle="OSLO Standaardenregister"
   />
   <vl-region>
