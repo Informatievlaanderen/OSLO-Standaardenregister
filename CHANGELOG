@@ -5,6 +5,5 @@
 1.1.1
   - small tweaks to dockerfiles
 
-1.1.18
-  - Fixes for false positives on some links like image.jpg 
-  - Include charter in the documentation section
+1.1.13
+  - Small tweaks to query params setup
