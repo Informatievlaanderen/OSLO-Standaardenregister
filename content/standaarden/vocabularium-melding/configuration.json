@@ -1,0 +1,40 @@
+{
+  "title": "Vocabularium Melding",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-melding.md",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Digitale Melding",
+      "resourceReference": "https://data.vlaanderen.be/ns/melding"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
+    },
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
+    },
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "08 Maart 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "07 februari 2019"
+}

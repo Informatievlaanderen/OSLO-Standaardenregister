@@ -1,0 +1,90 @@
+{
+  "title": "Vocabularium Cultureel Erfgoed",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "voc-cultureel-erfgoed.md",
+  "responsibleOrganisation": {
+    "name": "Departement Cultuur, Jeugd en Media",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO000067"
+  },
+  "publicationDate": "2021-04-22",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Cultureel Erfgoed",
+      "resourceReference": "https://data.vlaanderen.be/ns/cultureel-erfgoed"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag kick-off - 23 januari 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Kick-off 23_01_2020 - Verslag.docx"
+    },
+    {
+      "name": "Verslag business werkgroep - 6 februari 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Business werkgroep 06_02_2020 - Verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 1 - 3 maart 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Thematische Werkgroep 1 - 03_03_2020 - Verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 - 26 maart 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Thematische Werkgroep 2 - 26_03_2020 - Verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 5 mei 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Thematische Werkgroep 3 - 05_05_2020 - Verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - 28 mei 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Thematische Werkgroep 4 - 28_05_2020 - Verslag.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 5 - 2 juli 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Cultureel Erfgoed - Thematische Werkgroep 5 - 02_07_2020 - Verslag.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Cultureel Erfgoed",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Cultureel Erfgoed.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie kick-off - 23 januari 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Kick-off 23_01_2020 - Presentatie.pptx"
+    },
+    {
+      "name": "Presentatie business werkgroep - 6 februari 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Business werkgroep 06_02_2020 - Presentatie.pptx"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 3 maart 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Thematische werkgroep 1 - 03_03_2020 - Presentatie.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 26 maart 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Thematische Werkgroep 2 - 26_03_2020 - Presentatie.pdf"
+    },
+    {
+      "name": "Kennisdeling Nederland - Vlaanderen - DERA Architectuurraad - 16 april 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Presentatie DERA v_1_01.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 5 mei 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Thematische Werkgroep 3 - 05_05_2020 - Presentatie.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 4 - 28 mei 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Thematische Werkgroep 4 - 28_05_2020 - Presentatie.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 5 - 2 juli 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Cultureel Erfgoed - Thematische Werkgroep 5 - 02_07_2020 - Presentatie.pdf"
+    }
+  ],
+  "dateOfRegistration": "2019-11-20",
+  "dateOfAcknowledgementByWorkingGroup": "2021-03-11",
+  "dateOfAcknowledgementBySteeringCommittee": "2021-04-22"
+}
