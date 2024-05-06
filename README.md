@@ -154,15 +154,32 @@ http://localhost:3000/standaarden/?status=erkende-standaard
 ```
 
 ## CI/CD
-The project has a CI/CD pipeline that is triggered by changes to the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) inside the https://github.com/Informatievlaanderen/oslo-standaarden repository. 
+
+The project has a CI/CD pipeline that is triggered by changes to the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) inside the https://github.com/Informatievlaanderen/oslo-standaarden repository.
 
 The project is split up in two parts
 
 ### standaardenregister-base
+
 This is the base image that contains all the dependencies to build the project. This image should be remade when the dependencies change or if new features are developed. You can use the `make build-base` command to build this image and the `publish-base` to publish it to the docker registry.
 
 ### standaardenregister-run
-This is the image that contains the build of the project. This image should be remade whenever the `/content` changes. Each change to the content requires a new build to be made. This build is triggered by the JSON file in the oslo-standaarden repository. 
+
+This is the image that contains the build of the project. This image should be remade whenever the `/content` changes. Each change to the content requires a new build to be made. This build is triggered by the JSON file in the oslo-standaarden repository.
 
 ### CRON-job
+
 On the server there runs a cronjob inside the docker environment that will poll the docker registry for new images based on the SHA of the image. If a new image is found, it will pull the image and restart the service. This guarantees that the service is always up to date with the latest changes.
+
+## Updating this project
+
+### Setup
+There are two important branches in this project: `main` and `standaarden`. The `main` branch is the branch that contains the latest version of the project with just the code and features. There should **never** be any config files in this branch. The `standaarden` branch is the branch that contains the latest version of the project with the latest version of the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) and the required config files of each standard. 
+
+### New features
+When you want to add a new feature to the project, you should follow these steps:
+* Create a new branch from the `main` branch. This can be done automatically from JIRA or manually.
+* Develop the feature in this branch.
+* When the feature is ready, create a pull request to the `main` branch.
+* When the pull request is approved, merge the feature into the `main` branch.
+* Merge the main branch with the `standaarden` branch.
