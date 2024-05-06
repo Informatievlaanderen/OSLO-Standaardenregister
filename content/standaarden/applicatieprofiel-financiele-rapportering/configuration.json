@@ -1,0 +1,68 @@
+{
+  "title": "Applicatieprofiel Financiële Rapportering",
+  "category": "applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-FinanciëleData.md",
+  "responsibleOrganisation": {
+    "name": "Departement Cultuur, Jeugd en Media",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000067"
+  },
+  "publicationDate": "17/03/2022",
+  "specificationDocuments": [
+    {
+      "name": "Financiële Rapportering Applicatieprofiel",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/financiele-rapportering"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Financiële Rapportering taxonomie-dcjm vocabularium",
+      "resourceReference": "https://data.vlaanderen.be/ns/financiele-rapportering/taxonomie-dcjm"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Verslag business werkgroep -  24 februari 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/reports/220224_Verslag_business_werkgroep_OSLO_FinancieleData.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 1 - 24 maart 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/reports/220324_Verslag_thematische_werkgroep_1_OSLO_FinancieleData.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 - 21 april 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/reports/220421_Verslag_thematische_werkgroep_2_OSLO_FinancieleData.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 19 mei 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/reports/220519_Verslag_thematische_werkgroep_3_OSLO_FinancieleData.pdf"
+    }
+  ],
+  "charter": {
+    "name": "OSLO Financiële Rapportering Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/charter/Template-Werkgroep-Charter-OSLO.docx"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie business werkgroep -  24 februari 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/presentations/220224_Presentatie_Business_werkgroep_OSLO_FinancieleData.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 24 maart 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/presentations/220324_Presentatie_thematische_werkgroep_1_OSLO_FinancieleData.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 21 april 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/presentations/220421_Presentatie_thematische_werkgroep_2_OSLO_FinancieleData.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 19 mei 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/presentations/220519_Presentatie_thematische_werkgroep_3_OSLO_FinancieleData.pdf"
+    }
+  ],
+  "dateOfRegistration": "17/03/2022",
+  "dateOfAcknowledgementByWorkingGroup": "25/01/2024",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "repository": "OSLOthema-FinancieleData"
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Vocabularium en applicatieprofiel cultuur- en jeugdinfrastructuur",
+  "category": "Vocabularium en applicatieprofielen",
+  "usage": "TBD",
+  "status": "TBD",
+  "descriptionFileName": "ap-doelgericht-cultuur-en-jeugd-config.md",
+  "responsibleOrganisation": {
+    "name": "Departement Cultuur, Jeugd en Media",
+    "uri": "http://data.vlaanderen.be/id/organisatie/OVO000067"
+  },
+  "publicationDate": "2022-03-21",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Cultuur- & Jeugdinfrastructuur",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur"
+    },
+    {
+      "name": "Vocabularium Cultuur- & Jeugdinfrastructuur",
+      "resourceReference": "https://data.vlaanderen.be/ns/cultuur-en-jeugdinfrastructuur"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag Business Werkgroep - 7 december 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/reports/20211207_BusinessWorkshop_MeetingMinutes_OSLOCultuurenJeugdinfrastructuur.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep I - 26 januari 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/reports/20220126_ThematicWorkshop1_MeetingMinutes_OSLOCultuurenJeugdinfrastructuur.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep II - 22 februari 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/reports/20220222_ThematicWorkshop2_MeetingMinutes_OSLOCultuurenJeugdinfrastructuur.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep III - 22 maart 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/reports/20220322_MeetingMinutes_ThematicWorkshop3_OSLOCultuurenJeugdInfrastructuur.docx"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep IV - 10 mei 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/reports/20220510_MeetingMinutes_ThematicWorkshop4_OSLOCultuur-enJeugdinfrastructuur.docx"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter Cultuur- & Jeugdinfrastructuur",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/charter/20211018_Werkgroep charter OSLO Basisinventaris cultuur- en jeugdinfrastructuur.docx"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie Business Werkgroep - 7 december 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/presentations/20211207 _BusinessWorkshop_Powerpoint_OSLOCultuurenJeugdinfrastructuur.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep I - 26 januari 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/presentations/20220126_ThematicWorkshop1_Powerpoint_OSLOCultuurenJeugdinfrastructuur.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep II - 22 feburari 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/presentations/20220222_ThematicWorkshop2_Powerpoint_OSLOCultuurenJeugdInfrastructuur.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep III - 22 maart 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/presentations/20220322_ThematicWorkshop3_Powerpoint_OSLOCultuurenJeugdInfrastructuur.pptx"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep IV - 10 mei 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur/standaardenregister/presentations/20220510_ThematicWorkshop4_Powerpoint_OSLOCultuurenJeugdInfrastructuur.pptx"
+    }
+  ],
+  "dateOfRegistration": "1 december 2021",
+  "dateOfAcknowledgementByWorkingGroup": "23 juni 2022",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-cultuurandjeugdinfrastructuur"
+}

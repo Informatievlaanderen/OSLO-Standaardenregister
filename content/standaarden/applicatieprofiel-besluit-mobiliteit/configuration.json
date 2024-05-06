@@ -1,0 +1,65 @@
+{
+  "title": "Applicatieprofiel Besluit Mobiliteit",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-besluit-mobiliteit.md",
+  "responsibleOrganisation": {
+    "name": [
+      "Agentschap Digitaal Vlaanderen",
+      "Agentschap Binnenlands Bestuur"
+    ],
+    "uri": [
+      "https://data.vlaanderen.be/id/organisatie/OVO002949",
+      "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    ]
+  },
+  "publicationDate": "2018-06-01",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Besluit Mobiliteit",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag semantische werkgroep 1 - 25 april 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/reports/Verslag WS Semantiek I.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 2 - 5 juni 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/reports/LBLOD_MOB_Workshop2_Semantiek_20180605_v20180605.docx.pdf"
+    },
+    {
+      "name": "Verslag semantische werkgroep 3 - 19 juni 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/reports/LBLOD_MOB_Workshop3_Semantiek_20180619_v20180619.docx.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Mobiliteit",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie Business werkgroep - 25 april 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/presentations/Toelichting business workshop 2504.pptx.pdf"
+    },
+    {
+      "name": "Presentatie Semantische werkgroep 1 - 25 april 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/presentations/Semantiek WS1 2018-04-25.pdf"
+    },
+    {
+      "name": "Presentatie Semantische werkgroep 2 - 5 juni 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/presentations/LBLOD MOB WS 2.pdf"
+    },
+    {
+      "name": "Presentatie Semantische werkgroep 3 - 19 juni 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/presentations/LBLOD MOB WS 3.pdf"
+    }
+  ],
+  "dateOfRegistration": "29 Mei 2018",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-mobiliteit"
+}
