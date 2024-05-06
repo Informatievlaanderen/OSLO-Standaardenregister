@@ -13,9 +13,7 @@
             </vl-typography>
             <vl-input-field
               mod-block
-              id="input-field-1"
-              name="input-field-1"
-              placeholder="Zoeken op naam..."
+              placeholder="Zoeken op titel..."
               type="search"
               v-model="searchRef"
             />
@@ -67,7 +65,6 @@
 
 <script setup lang="ts">
 import { convertQueryParams } from '~/composables/useQueryParams'
-import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { defaultFilters } from '~/config/filter.config'

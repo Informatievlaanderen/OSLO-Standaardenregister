@@ -148,6 +148,7 @@ TODO
 This project supports the use of query parameters. These parameters can be used to filter the content of the page. You can refer to the `filter.config.ts` file for the correct keys. The parameters are as follows:
 
 ```
+http://localhost:3000/standaarden/?type=TBD
 http://localhost:3000/standaarden/?usage=Aanbevolen+(vrijwillig)
 http://localhost:3000/standaarden/?category=applicatieprofiel
 http://localhost:3000/standaarden/?status=erkende-standaard
