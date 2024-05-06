@@ -1,0 +1,55 @@
+{
+  "title": "Applicatieprofiel Passenger Transport Hubs",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "TBD",
+  "descriptionFileName": "ap-passenger-transport-hubs.md",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2022-12-01",
+  "specificationDocuments": [
+    {
+      "name": "Applicationprofile Passenger Transport Hubs",
+      "resourceReference": "https://purl.eu/doc/applicationprofile/mobility/passenger-transport-hubs/index_en.html"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report business workshop - 26th of April 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/26042022_OSLO Passenger Transport Hubs_Business Workshop_Report.pdf"
+    },
+    {
+      "name": "Report thematic workshop - 19th of May 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/19052022_OSLO Passenger Transport Hubs_Thematic Workshop 1_Report.pdf"
+    },
+    {
+      "name": "Report thematic workshop - 23rd of June 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/23062022_OSLO Passenger Transport Hubs_Thematic Workshop 2_Report.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-passengerTransportHubs/standaardenregister/charter/OSLO - Passenger Transport Hubs - Charter.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentation business workshop - 26th of April 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-passengerTransportHubs/standaardenregister/presentations/260422_OSLO Passenger Transport Hubs_Business Workshop_Presentation.pdf"
+    },
+    {
+      "name": "Presentation thematic workshop - 19th of May 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-passengerTransportHubs/standaardenregister/presentations/260422_OSLO Passenger Transport Hubs_Thematic Workshop 1_Presentation.pdf"
+    },
+    {
+      "name": "Presentation thematic workshop - 23rd of June 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-passengerTransportHubs/standaardenregister/presentations/23062022_OSLO Passenger Transport Hubs_Thematic Workshop 2_Presentation.pdf"
+    }
+  ],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "2022-12-01",
+  "repository": "OSLOthema-passengerTransportHubs"
+}
