@@ -13,20 +13,13 @@ Documentation about these webcomponents can be found in [Storybook page](https:/
 
 ```bash
 # install dependencies
-$ npm install
-
-# Some of the Flanders gov dependencies are currently in alpha state. Use --force to install the correct versions of these libraries since the peer dependencies are not defined correctly (as of writing this documentation)
-$ npm install
+$ yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn run dev
 
 # build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+$ yarn run build
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxt.com/docs)
@@ -81,7 +74,7 @@ The css directory contains your custom imported css or Sass files. We use this t
 Custom directory that contains our customly defined typescript config files. Can be used shorthandedly in your code:
 
 ```typescript
-import { NavigationMenu } from '~/types/navigationMenu'
+import type { NavigationMenu } from '~/types/navigationMenu'
 ```
 
 ## Special files
@@ -145,20 +138,49 @@ So by this separation, a developer can use the two Docker images to rebuild a ne
 2. make build-base
 3. make build
 
-The steps 4 and 3 are not coupled (yet). The dependency has to be executed manually as otherwise the current configuration would retrigger a full rebuild of the base image.
-
 TODO
 [ ] Make a configuration that switches between a development build and a production build. (First ensure that the build is production see TODO 1.)
 [ ] Add a line in the Makefile to extract the package-lock.json file
 [ ] Document better the build procedure and the necessary steps.
 
 ## Query parameters
+
 This project supports the use of query parameters. These parameters can be used to filter the content of the page. You can refer to the `filter.config.ts` file for the correct keys. The parameters are as follows:
 
 ```
+http://localhost:3000/standaarden/?type=TBD
 http://localhost:3000/standaarden/?usage=Aanbevolen+(vrijwillig)
 http://localhost:3000/standaarden/?category=applicatieprofiel
 http://localhost:3000/standaarden/?status=erkende-standaard
 ```
 
+## CI/CD
 
+The project has a CI/CD pipeline that is triggered by changes to the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) inside the https://github.com/Informatievlaanderen/oslo-standaarden repository.
+
+The project is split up in two parts
+
+### standaardenregister-base
+
+This is the base image that contains all the dependencies to build the project. This image should be remade when the dependencies change or if new features are developed. You can use the `make build-base` command to build this image and the `publish-base` to publish it to the docker registry.
+
+### standaardenregister-run
+
+This is the image that contains the build of the project. This image should be remade whenever the `/content` changes. Each change to the content requires a new build to be made. This build is triggered by the JSON file in the oslo-standaarden repository.
+
+### CRON-job
+
+On the server there runs a cronjob inside the docker environment that will poll the docker registry for new images based on the SHA of the image. If a new image is found, it will pull the image and restart the service. This guarantees that the service is always up to date with the latest changes.
+
+## Updating this project
+
+### Setup
+There are two important branches in this project: `main` and `standaarden`. The `main` branch is the branch that contains the latest version of the project with just the code and features. There should **never** be any config files in this branch. The `standaarden` branch is the branch that contains the latest version of the project with the latest version of the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) and the required config files of each standard. 
+
+### New features
+When you want to add a new feature to the project, you should follow these steps:
+* Create a new branch from the `main` branch. This can be done automatically from JIRA or manually.
+* Develop the feature in this branch.
+* When the feature is ready, create a pull request to the `main` branch.
+* When the pull request is approved, merge the feature into the `main` branch.
+* Merge the main branch with the `standaarden` branch.

@@ -1,7 +1,6 @@
 <template>
   <content-header
     title="OSLO"
-    href="https://www.vlaanderen.be/digitaal-vlaanderen"
     subtitle="OSLO Standaardenregister"
   />
   <vl-region>
@@ -14,9 +13,7 @@
             </vl-typography>
             <vl-input-field
               mod-block
-              id="input-field-1"
-              name="input-field-1"
-              placeholder="Zoeken op naam..."
+              placeholder="Zoeken op titel..."
               type="search"
               v-model="searchRef"
             />
@@ -68,7 +65,6 @@
 
 <script setup lang="ts">
 import { convertQueryParams } from '~/composables/useQueryParams'
-import type { Index } from '~/types'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { defaultFilters } from '~/config/filter.config'
@@ -114,19 +110,13 @@ const { data } = await useAsyncData(
   'data',
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   async () => {
-    const [content, statistics, standards] = await Promise.all([
-      queryContent<Index>('/configuration').find(),
-      queryContent<Statistics>('/statistics')
-        .where({ _extension: 'json' })
-        .find(),
+    const [standards] = await Promise.all([
       queryContent<Standard>('/standaarden')
         .where({ _extension: 'json' })
         .find(),
     ])
 
     return {
-      content: content[0],
-      statistics: statistics[0],
       standards: useSorting(
         useSearch(useFilter(standards, selectedFilters.value), searchRef.value),
       ),
