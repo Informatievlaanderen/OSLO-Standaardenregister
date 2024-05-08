@@ -6,61 +6,59 @@
   />
   <vl-region>
     <vl-layout>
-      <vl-region>
-        <a href="/standaarden"
-          ><vl-button type="button">Terug naar het overzicht</vl-button></a
-        >
-      </vl-region>
-      <vl-region>
-        <vl-grid>
-          <vl-column width="12" width-s="12">
-            <vl-title tag-name="h1" id="datastandaard-title">{{
-              data?.standard?.title
-            }}</vl-title>
-          </vl-column>
-          <vl-column width="12">
-            <DescriptionData :items="descriptionElements" />
-          </vl-column>
-          <vl-column width="12">
-            <vl-region>
-              <vl-introduction>
-                {{ data?.markdown?.description }}
-              </vl-introduction>
-            </vl-region>
-          </vl-column>
-          <vl-column width="6" width-s="12">
-            <spotlight
-              title="Specificatiedocument"
-              subtitle="Normatief"
-              :links="data?.standard?.specificationDocuments"
-            />
-          </vl-column>
-          <vl-column width="6" width-s="12">
-            <!-- Combination of both the documentation ash the charter -->
-            <spotlight
-              title="Aanvullende documentatie"
-              subtitle="Niet-normatief"
-              :links="
-                data?.standard?.documentation?.concat(
-                  data?.standard?.charter,
-                ) ?? []
-              "
-            />
-          </vl-column>
-          <vl-column width="6" width-s="12">
-            <spotlight
-              title="Verslagen van werkgroepvergaderingen"
-              :links="data?.standard?.reports"
-            />
-          </vl-column>
-          <vl-column width="6" width-s="12">
-            <spotlight
-              title="Presentaties en ander materiaal"
-              :links="data?.standard?.presentations"
-            />
-          </vl-column>
-        </vl-grid>
-        <vl-region>
+      <vl-grid mod-center mod-stacked>
+        <vl-column width="12" width-s="12">
+          <vl-title
+            mod-no-space-bottom
+            tag-name="h1"
+            id="datastandaard-title"
+            >{{ data?.standard?.title }}</vl-title
+          >
+        </vl-column>
+        <vl-column>
+          <a href="/standaarden"
+            ><vl-button type="button">Terug naar het overzicht</vl-button></a
+          >
+        </vl-column>
+        <vl-column width="12">
+          <DescriptionData :items="descriptionElements" />
+        </vl-column>
+        <vl-column width="12">
+          <vl-introduction>
+            {{ data?.markdown?.description }}
+          </vl-introduction>
+        </vl-column>
+        <vl-column width="6" width-s="12">
+          <spotlight
+            title="Specificatiedocument"
+            subtitle="Normatief"
+            :links="data?.standard?.specificationDocuments"
+          />
+        </vl-column>
+        <vl-column width="6" width-s="12">
+          <!-- Combination of both the documentation ash the charter -->
+          <spotlight
+            title="Aanvullende documentatie"
+            subtitle="Niet-normatief"
+            :links="
+              data?.standard?.documentation?.concat(data?.standard?.charter) ??
+              []
+            "
+          />
+        </vl-column>
+        <vl-column width="6" width-s="12">
+          <spotlight
+            title="Verslagen van werkgroepvergaderingen"
+            :links="data?.standard?.reports"
+          />
+        </vl-column>
+        <vl-column width="6" width-s="12">
+          <spotlight
+            title="Presentaties en ander materiaal"
+            :links="data?.standard?.presentations"
+          />
+        </vl-column>
+        <vl-column>
           <vl-title tag-name="h2"> Detailinformatie </vl-title>
           <vl-icon-list>
             <vl-icon-list-item icon="tag">
@@ -121,8 +119,8 @@
               >
             </vl-icon-list-item>
           </vl-icon-list>
-        </vl-region>
-        <vl-region>
+        </vl-column>
+        <vl-column>
           <vl-title tag-name="h2"> Vragen en feedback</vl-title>
           <p>
             In geval van vragen of feedback kan u contact opnemen
@@ -134,8 +132,8 @@
               >GitHub issue-tracker</a
             >.
           </p>
-        </vl-region>
-      </vl-region>
+        </vl-column>
+      </vl-grid>
     </vl-layout>
   </vl-region>
   <content-footer />
