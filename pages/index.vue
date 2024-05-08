@@ -1,42 +1,38 @@
 <template>
-  <content-header
-    title="OSLO"
-    subtitle="OSLO Standaardenregister"
-  />
+  <content-header title="OSLO" subtitle="OSLO Standaardenregister" />
   <vl-region>
     <vl-layout>
-      <vl-region>
-        <vl-grid mod-v-center mod-center mod-stacked>
-          <vl-column width="12" width-s="12">
-            <vl-typography class="search__title">
-              <p>Zoek op titel van de standaard</p>
-            </vl-typography>
-            <vl-input-field
-              mod-block
-              placeholder="Zoeken op titel..."
-              type="search"
-              v-model="searchRef"
-            />
-          </vl-column>
-          <vl-column width="12" width-s="12">
-            <vl-action-group mod-collapse-s>
-              <vl-button icon="list" mod-icon-before @click="openSidebar"
-                >Filter resultaten</vl-button
-              >
-              <vl-button
-                v-if="!!Object.keys(selectedFilters)?.length || !!searchRef"
-                mod-link
-                type="button"
-                mod-icon-before
-                icon="cross"
-                @click="resetFilters"
-                >Verwijder filters</vl-button
-              >
-            </vl-action-group>
-          </vl-column>
-          <standards-table :standards="data?.standards" />
-        </vl-grid>
-      </vl-region>
+      <vl-grid mod-v-center mod-center mod-stacked>
+        <vl-column width="12">
+          <vl-title tag-name="h1">Standaarden</vl-title>
+          <vl-typography class="search__title">
+            <p>Zoek op titel van de standaard</p>
+          </vl-typography>
+          <vl-input-field
+            mod-block
+            placeholder="Zoeken op titel..."
+            type="search"
+            v-model="searchRef"
+          />
+        </vl-column>
+        <vl-column width="12" width-s="12">
+          <vl-action-group mod-collapse-s>
+            <vl-button icon="list" mod-icon-before @click="openSidebar"
+              >Filter resultaten</vl-button
+            >
+            <vl-button
+              v-if="!!Object.keys(selectedFilters)?.length || !!searchRef"
+              mod-link
+              type="button"
+              mod-icon-before
+              icon="cross"
+              @click="resetFilters"
+              >Verwijder filters</vl-button
+            >
+          </vl-action-group>
+        </vl-column>
+        <standards-table :standards="data?.standards" />
+      </vl-grid>
     </vl-layout>
     <sidebar ref="toggle">
       <template #header>
@@ -68,7 +64,6 @@ import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { defaultFilters } from '~/config/filter.config'
-import type { Statistics } from '~/types/statistics'
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)

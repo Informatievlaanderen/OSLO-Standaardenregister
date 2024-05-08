@@ -5,26 +5,26 @@
         <vl-badge
           mod-accent
           :initials="props.statistics?.standards?.length"
-          mod-large
+          mod-xlarge
         />
         <p>Standaarden</p>
       </div>
     </vl-column>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge mod-accent :initials="recognized?.length" mod-large />
+        <vl-badge mod-accent :initials="recognized?.length" mod-xlarge />
         <p>Erkende standaarden</p>
       </div>
     </vl-column>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge mod-accent :initials="candidates?.length" mod-large />
+        <vl-badge mod-accent :initials="candidates?.length" mod-xlarge />
         <p>Kandidaat standaarden</p>
       </div>
     </vl-column>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge mod-accent :initials="development?.length" mod-large />
+        <vl-badge mod-accent :initials="development?.length" mod-xlarge />
         <p>Standaarden in ontwikkeling</p>
       </div>
     </vl-column>
@@ -33,7 +33,7 @@
         <vl-badge
           mod-accent
           :initials="props.statistics?.uniqueContributors"
-          mod-large
+          mod-xlarge
         />
         <p>Mensen hielpen mee</p>
       </div>
@@ -43,7 +43,7 @@
         <vl-badge
           mod-accent
           :initials="props.statistics?.uniqueAffiliations"
-          mod-large
+          mod-xlarge
         />
         <p>Organisaties waren actief</p>
       </div>
