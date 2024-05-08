@@ -7,3 +7,6 @@
 
 1.1.13
   - Small tweaks to query params setup
+
+1.1.14
+  - Added support for a /statistieken pagina
