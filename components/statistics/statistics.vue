@@ -3,8 +3,8 @@
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
         <vl-badge
+        :initials="props.statistics?.numberOfStandardsConfigured"
           mod-accent
-          :initials="props.statistics?.standards?.length"
           mod-xlarge
         />
         <p>Standaarden</p>
