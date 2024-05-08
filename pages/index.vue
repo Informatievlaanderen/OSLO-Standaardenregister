@@ -17,7 +17,10 @@
         </vl-column>
         <vl-column width="12" width-s="12">
           <vl-action-group mod-collapse-s>
-            <vl-button icon="list" mod-icon-before @click="openSidebar"
+            <a href="/standaarden/statistieken"
+              ><vl-button icon="diagram" mod-icon-before type="button">Ontdek de statistieken</vl-button></a
+            >
+            <vl-button icon="list" mod-icon-before @click=""
               >Filter resultaten</vl-button
             >
             <vl-button

@@ -7,8 +7,15 @@
   <vl-region>
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
+        <vl-column width="12" width-s="12">
+          <vl-title mod-no-space-bottom tag-name="h1">Statistieken</vl-title>
+        </vl-column>
         <vl-column>
-          <vl-title tag-name="h1">Statistieken</vl-title>
+          <a href="/standaarden"
+            ><vl-button type="button">Terug naar het overzicht</vl-button></a
+          >
+        </vl-column>
+        <vl-column width="12" width-s="12">
           <vl-introduction>
             Op deze pagina vind je allerlei statistieken terug van de
             OSLO-standaarden. Deze statistieken zijn louter een indicatie op
