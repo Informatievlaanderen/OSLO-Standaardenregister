@@ -1,7 +1,6 @@
-const ALL = "All"
-const ITEMS_PER_PAGE = 20
-
-export {
-    ALL,
-    ITEMS_PER_PAGE
-}
+export const ALL = 'All'
+export const ITEMS_PER_PAGE = 20
+export const IMPLEMENTATION_MODEL_DESCRIPTION =
+  '<p>Technische standaarden: de technische specificaties voor gegevensuitwisseling, ze bieden manieren aan van gestandaardiseerde gegevensuitwisseling aan.</p> <p>Standaarden voor interoperabiliteit: een stabiele specificatie voor de standaard werd ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en feedback van buiten de thematische werkgroep verzameld.</p> <p>Vocabularium: de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling.</p> <p>Applicatieprofielen: een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten.</p> <p>Implementatiemodel: een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen, deze modellen kunnen een deel van de interne gegevensverwerking van specifieke applicaties bevatten. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. De ontwikkeling hiervan volgt dezelfe ideologie als applicatieprofielen en vocabularia, maar heeft nog geen officiele erkenning binnen het proces & methode van OSLO.</p>'
+export const RECOGNIZED_DESCRIPTION =
+  '<p>Erkende standaarden: werden na het doorlopen van een erkenningsprocedure goedgekeurd door de Werkgroep Datastandaarden van het Stuurorgaan Vlaams Informatie- en ICT-beleid als standaard binnen de Vlaamse overheid.</p><p>Kandidaat standaarden: een stabiele specificatie voor de standaard werd ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en feedback van buiten de thematische werkgroep verzameld.</p> <p>Standaarden in ontwikkeling: werden reeds aangemeld bij de Werkgroep Datastandaarden en worden uitgewerkt door een thematische werkgroep aan de hand van publieke werksessies.</p>'
