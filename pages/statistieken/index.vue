@@ -15,7 +15,7 @@
             basis van de data die we ter beschikking hebben.
           </vl-introduction>
         </vl-column>
-        <vl-column>
+        <vl-column v-if="data?.statistics">
           <statistics :statistics="data?.statistics" />
         </vl-column>
       </vl-grid>
