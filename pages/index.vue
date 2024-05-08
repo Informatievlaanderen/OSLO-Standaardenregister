@@ -20,7 +20,7 @@
             <a href="/standaarden/statistieken"
               ><vl-button icon="diagram" mod-icon-before type="button">Ontdek de statistieken</vl-button></a
             >
-            <vl-button icon="list" mod-icon-before @click=""
+            <vl-button icon="list" mod-icon-before @click="openSidebar"
               >Filter resultaten</vl-button
             >
             <vl-button
