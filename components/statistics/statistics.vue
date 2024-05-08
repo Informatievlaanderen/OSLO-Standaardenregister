@@ -28,7 +28,7 @@
         <p>Standaarden in ontwikkeling</p>
       </div>
     </vl-column>
-    <vl-column class="center" width="6" width-s="12">
+    <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
         <vl-badge
           mod-accent
