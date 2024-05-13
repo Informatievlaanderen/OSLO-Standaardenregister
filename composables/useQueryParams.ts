@@ -5,11 +5,7 @@ import {
   type SanitizedFilter,
 } from '~/types/custom-filter'
 
-const updateFilter = (
-  filter: FilterOption,
-  indexOption: number,
-  key: string,
-) => {
+const updateFilter = (filter: FilterOption, indexOption: number) => {
   let updatedFilter = { ...filter }
 
   if (filter.type === FilterType.RADIO) {
@@ -58,7 +54,7 @@ export const convertQueryParams = (
           ...sanitizedFilter,
           [key]: [filter?.options[indexOption].key],
         }
-        updatedFilters[index] = updateFilter(filter, indexOption, key)
+        updatedFilters[index] = updateFilter(filter, indexOption)
       }
     }
   }

@@ -11,3 +11,7 @@
 1.1.14
   - Added support for a /statistieken pagina
   - Copy changes
+
+1.1.15
+  - Added support for sorting inside the table
+  - Copy changes
