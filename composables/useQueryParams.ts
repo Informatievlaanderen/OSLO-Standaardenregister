@@ -37,9 +37,6 @@ export const convertQueryParams = (
     if (key === 'type') {
       key = 'usage'
     }
-    console.log(key)
-    console.log(key)
-    console.log(key)
     let filter = filters.find((filter) => filter.key === key)
 
     if (filter) {
