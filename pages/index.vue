@@ -18,7 +18,9 @@
         <vl-column width="12" width-s="12">
           <vl-action-group mod-collapse-s>
             <a href="/standaarden/statistieken"
-              ><vl-button icon="diagram" mod-icon-before type="button">Ontdek de statistieken</vl-button></a
+              ><vl-button icon="diagram" mod-icon-before type="button"
+                >Ontdek de statistieken</vl-button
+              ></a
             >
             <vl-button icon="list" mod-icon-before @click="openSidebar"
               >Filter resultaten</vl-button
@@ -34,7 +36,10 @@
             >
           </vl-action-group>
         </vl-column>
-        <standards-table :standards="data?.standards" />
+        <standards-table
+          :standards="data?.standards"
+          :setSorting="(val: any) => (sortingKey = val)"
+        />
       </vl-grid>
     </vl-layout>
     <sidebar ref="toggle">
@@ -67,11 +72,16 @@ import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { defaultFilters } from '~/config/filter.config'
+import type { Sorting } from '~/types/sorting'
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)
 let selectedFilters = ref<SanitizedFilter>({})
 let searchRef = ref<string>('')
+let sortingKey = ref<Sorting>({
+  key: 'publicationDate',
+  value: 1,
+})
 
 const toggle = ref({
   // Bit of a hacky way to call the toggleSidebar function from the sidebar component. Type the event
@@ -117,10 +127,11 @@ const { data } = await useAsyncData(
     return {
       standards: useSorting(
         useSearch(useFilter(standards, selectedFilters.value), searchRef.value),
+        compareKey(sortingKey.value ?? { key: 'publicationDate', value: 1 }),
       ),
     }
   },
-  { watch: [selectedFilters, searchRef] },
+  { watch: [selectedFilters, searchRef, sortingKey] },
 )
 </script>
 

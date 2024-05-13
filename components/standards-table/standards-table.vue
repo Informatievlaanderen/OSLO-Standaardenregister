@@ -2,7 +2,18 @@
   <vl-data-table class="standards-table">
     <thead>
       <tr>
-        <th>Titel</th>
+        <th>
+          <vl-button
+            class="sorting__button"
+            mod-icon-after
+            mod-naked-action
+            :icon="sortingIcon('title')"
+            :a11y-label="'Title'"
+            @click="onPressSorting('title')"
+          >
+            Titel
+          </vl-button>
+        </th>
         <th>
           Categorie
           <vl-button
@@ -37,7 +48,18 @@
         </th>
         <th>Verantwoordelijke organisatie</th>
         <th>Type toepassing</th>
-        <th>Publicatiedatum</th>
+        <th>
+          <vl-button
+            class="sorting__button"
+            mod-icon-after
+            mod-naked-action
+            :icon="sortingIcon('publicationDate')"
+            :a11y-label="'publicationDate'"
+            @click="onPressSorting('publicationDate')"
+          >
+            Publicatiedatum
+          </vl-button>
+        </th>
       </tr>
     </thead>
     <tbody>
@@ -110,17 +132,48 @@
 <script setup lang="ts" name="standardsTable">
 import { Usage, type Standard } from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
+import { SortingDirection } from '~/composables/useSorting'
 import {
   IMPLEMENTATION_MODEL_DESCRIPTION,
   RECOGNIZED_DESCRIPTION,
   ITEMS_PER_PAGE,
 } from '~/constants/constants'
+
 const paginationIndex = ref(1)
 const props = defineProps({
   standards: {
     type: Array<Standard>,
   },
+  setSorting: {
+    required: false,
+    type: Function,
+  },
 })
+
+const sortingDirection = ref<SortingDirection>(SortingDirection.ASC)
+const sortingKey = ref<SortingKey>('publicationDate')
+
+const sortingIcon = (key: SortingKey) =>
+  key !== sortingKey.value
+    ? 'expand-vertical'
+    : sortingDirection.value === SortingDirection.ASC
+      ? 'arrow-up'
+      : 'arrow-down'
+
+const onPressSorting = (key: SortingKey) => {
+  if (sortingKey.value !== key) {
+    sortingKey.value = key
+    sortingDirection.value = SortingDirection.ASC
+  } else {
+    sortingDirection.value =
+      sortingDirection.value === SortingDirection.ASC
+        ? SortingDirection.DESC
+        : SortingDirection.ASC
+  }
+  if (props.setSorting) {
+    props.setSorting({ key, value: sortingDirection.value })
+  }
+}
 
 const setPreviousIndex = () => {
   const value = paginationIndex.value - ITEMS_PER_PAGE
@@ -132,7 +185,7 @@ const setPreviousIndex = () => {
 const setNextIndex = () => {
   if (props?.standards?.length) {
     const value = paginationIndex.value + ITEMS_PER_PAGE
-    if (value <= props.standards?.length) {
+    if (value <= props?.standards?.length) {
       paginationIndex.value = value
     }
   }
@@ -141,8 +194,8 @@ const setNextIndex = () => {
 const maxTo = () => {
   if (props?.standards?.length) {
     const value = paginationIndex.value + ITEMS_PER_PAGE - 1
-    if (value > props?.standards?.length) {
-      return props?.standards?.length
+    if (value > props.standards?.length) {
+      return props.standards?.length
     } else {
       return value
     }
