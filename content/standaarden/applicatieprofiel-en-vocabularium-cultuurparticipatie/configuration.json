@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-doelgericht-digitaal-transformeren-config.md",
-  "responsibleOrganisation": {
-    "name": "Departement Cultuur, Jeugd en Media",
-    "uri": "http://data.vlaanderen.be/id/organisatie/OVO000067"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Departement Cultuur, Jeugd en Media",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO000067"
+    }
+  ],
   "publicationDate": "2022-04-28",
   "specificationDocuments": [
     {
@@ -23,69 +25,68 @@
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 16 november 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20211116_BusinessWorkshop_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20211116_BusinessWorkshop_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep I - 14 december 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20211214_ThematicWorkshop1_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20211214_ThematicWorkshop1_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep II - 18 januari 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20220118_ThematicWorkshop2_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20220118_ThematicWorkshop2_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep III - 8 februari 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20220208_ThematicWorkshop3_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20220208_ThematicWorkshop3_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep IV - 8 maart 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20220308_ThematicWorkshop4_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20220308_ThematicWorkshop4_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep V - 29 maart 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20220329_ThematicWorkshop5_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20220329_ThematicWorkshop5_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep VI - 6 februari 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/reports/20230206_ThematicWorkshop6_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20230206_ThematicWorkshop6_MeetingMinutes_OSLODoelgerichtDigitaalTransformeren.docx"
     }
   ],
   "charter": {
     "name": "Werkgroep Charter Doelgericht Digitaal Transformeren",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/charter/Werkgroep Charter OSLO Doelgericht Digitaal Transformeren.docx"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter OSLO Doelgericht Digitaal Transformeren.docx"
   },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep - 16 november 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20211116_BusinessWorkshop_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20211116_BusinessWorkshop_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep I - 14 december 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20211214_ThematicWorkshop1_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20211214_ThematicWorkshop1_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep II - 18 januari 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20220118_ThematicWorkshop2_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20220118_ThematicWorkshop2_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep III - 8 februari 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20220208_ThematicWorkshop3_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20220208_ThematicWorkshop3_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep IV - 8 maart 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20220308_ThematicWorkshop4_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20220308_ThematicWorkshop4_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep V - 29 maart 2022",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20220328_ThematicWorkshop5_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20220328_ThematicWorkshop5_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     },
     {
       "name": "Presentatie Thematische Werkgroep VI - 6 februari 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren/standaardenregister/presentations/20230206_ThematicWorkshop6_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20230206_ThematicWorkshop6_Powerpoint_OSLODoelgerichtDigitaalTransformeren.pptx"
     }
   ],
   "dateOfRegistration": "1 oktober 2021",
   "dateOfAcknowledgementByWorkingGroup": "28 april 2022",
-  "dateOfAcknowledgementBySteeringCommittee": "11 mei 2023",
-  "repository": "OSLOthema-DoelgerichtDigitaalTransformeren"
+  "dateOfAcknowledgementBySteeringCommittee": "11 mei 2023"
 }

@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "openbaar-domein.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "2021-09-30",
   "specificationDocuments": [
     {
@@ -99,24 +101,24 @@
   "reports": [
     {
       "name": "Plenaire publieke werkgroepsessie 8 oktober 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
     },
     {
       "name": "Diepte-overleg 5 december 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
     },
     {
       "name": "Diepte-overleg 20 februari 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
   },
   "presentations": [
     {
       "name": "Presentatie Kennisdelingsmoment 2 juli 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
     },
     {
       "name": "Webcast Kennisdelingsmoment 2 juli 2020",
@@ -125,6 +127,5 @@
   ],
   "dateOfRegistration": " 20 november 2019",
   "dateOfAcknowledgementByWorkingGroup": "17 juni 2021",
-  "dateOfAcknowledgementBySteeringCommittee": "10 november 2021",
-  "repository": "OSLOthema-openbaardomein"
+  "dateOfAcknowledgementBySteeringCommittee": "10 november 2021"
 }

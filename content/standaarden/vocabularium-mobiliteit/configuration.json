@@ -4,16 +4,16 @@
   "usage": "TBD",
   "status": "TBD",
   "descriptionFileName": "voc-mobiliteit.md",
-  "responsibleOrganisation": {
-    "name": [
-      "Agentschap Digitaal Vlaanderen",
-      "Agentschap Binnenlands Bestuur"
-    ],
-    "uri": [
-      "http://data.vlaanderen.be/id/organisatie/OVO002949",
-      "http://data.vlaanderen.be/id/organisatie/OVO001835"
-    ]
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    {
+      "name": "Agentschap Binnenlands Bestuur",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
   "publicationDate": "TBD",
   "specificationDocuments": [
     {
@@ -25,7 +25,7 @@
   "reports": [],
   "charter": {
     "name": "Werkgroep Charter OSLO Mobiliteit",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
   },
   "presentations": [
     {
@@ -43,6 +43,5 @@
   ],
   "dateOfRegistration": "29 Mei 2018",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLOthema-mobiliteit"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

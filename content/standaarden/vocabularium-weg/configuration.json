@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "voc-weg.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "2018-11-27",
   "specificationDocuments": [
     {
@@ -19,41 +21,40 @@
   "reports": [
     {
       "name": "Verslag eerste overleg Wegenregister 2017-09-26",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag eerste overleg Wegenregister dd26092017.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag eerste overleg Wegenregister dd26092017.docx"
     },
     {
       "name": "Verslag tweede overleg Wegenregister 2017-11-07",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag tweede overleg Wegenregister dd07112017.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag tweede overleg Wegenregister dd07112017.docx"
     },
     {
       "name": "Verslag derde overleg Wegenregister 2017-11-21",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag derde overleg Wegenregister dd21112017.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag derde overleg Wegenregister dd21112017.docx"
     },
     {
       "name": "Verslag viede overleg Wegenregister 2017-12-15",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag vierde overleg Wegenregister dd15122017.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag vierde overleg Wegenregister dd15122017.docx"
     }
   ],
   "charter": {
     "name": "Werkgroep Charter OSLO Weg",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/charter/WerkgroepcharterOSLOWegen.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/WerkgroepcharterOSLOWegen.pdf"
   },
   "presentations": [
     {
       "name": "Publieke Review OSLO Wegen - 2018-06-01",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/presentations/20180601 Publieke review_uitgestuurd.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20180601 Publieke review_uitgestuurd.pptx"
     },
     {
       "name": "Webcast OSLO Wegen - 2018-06-26",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/presentations/20180626 webcast OSLO Wegen.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20180626 webcast OSLO Wegen.pptx"
     },
     {
       "name": "Infosessie OSLO Wegen - 2018-07-06",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/presentations/AIV wegenregister - NL-DK-FI_v0.03.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/AIV wegenregister - NL-DK-FI_v0.03.pptx"
     }
   ],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "04 Oktober 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "27 November 2018",
-  "repository": "OSLOthema-weg"
+  "dateOfAcknowledgementBySteeringCommittee": "27 November 2018"
 }

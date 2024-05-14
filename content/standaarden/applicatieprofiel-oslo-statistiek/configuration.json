@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-statistiek.md",
-  "responsibleOrganisation": {
-    "name": "Vlaamse Milieumaatschappij (VMM)",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000092"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Vlaamse Milieumaatschappij (VMM)",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000092"
+    }
+  ],
   "publicationDate": "1 juni 2023",
   "specificationDocuments": [
     {
@@ -28,7 +30,7 @@
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
   },
   "presentations": [
     {
@@ -38,6 +40,5 @@
   ],
   "dateOfRegistration": "17 oktober 2022",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLOthema-Waterkwaliteit"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

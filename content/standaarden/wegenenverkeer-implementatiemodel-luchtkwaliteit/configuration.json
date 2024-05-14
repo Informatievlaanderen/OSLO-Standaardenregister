@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "Luchtkwaliteit.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Wegen en Verkeer",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000098"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Wegen en Verkeer",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000098"
+    }
+  ],
   "publicationDate": "2020-12-02",
   "specificationDocuments": [
     {
@@ -23,7 +25,7 @@
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
   },
   "presentations": [
     {
@@ -33,6 +35,5 @@
   ],
   "dateOfRegistration": "08 Maart 2020",
   "dateOfAcknowledgementByWorkingGroup": "10 April 2020",
-  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020",
-  "repository": "OSLOthema-wegenenverkeer"
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020"
 }

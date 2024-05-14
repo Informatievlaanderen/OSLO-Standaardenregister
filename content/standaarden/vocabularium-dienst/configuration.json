@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "voc-dienst.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "2018-07-03",
   "specificationDocuments": [
     {
@@ -44,12 +46,12 @@
   ],
   "charter": {
     "name": "Werkgroep Charter OSLO Dienst",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/charter/Werkgroep Charter - OSLO Dienst.docx"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter - OSLO Dienst.docx"
   },
   "presentations": [
     {
       "name": "Webcast OSLO-Dienst 2018-05-09 - Presentatie",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/presentations/Webcast OSLO-Dienst - 09-05-2018 - finale versie.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Webcast OSLO-Dienst - 09-05-2018 - finale versie.pptx"
     },
     {
       "name": "Thematische Werkgroep Dienstverlening 2016-10-03 - Presentatie",
@@ -58,6 +60,5 @@
   ],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018",
-  "repository": "OSLOthema-dienst"
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
 }

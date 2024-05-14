@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "leercredential-description.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "2022-12-20",
   "specificationDocuments": [
     {
@@ -23,25 +25,25 @@
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 16/02/2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/Verslag Business Werkgroep - 16-02-2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag Business Werkgroep - 16-02-2023.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep 1 - 09/03/2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/Verslag 1ste Thematische Werkgroep - 9-03-2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag 1ste Thematische Werkgroep - 9-03-2023.docx"
     },
     {
       "name": "Verslag Thematische Werkgroep 2 - 20/04/2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/Verslag 2de Thematische Werkgroep - 20-04-2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag 2de Thematische Werkgroep - 20-04-2023.docx"
     }
   ],
   "charter": {
     "name": "Charter",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/charter/Werkgroep charter OSLO Leercredential.docx"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Leercredential.docx"
   },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/Presentatie Business Werkgroep.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie Business Werkgroep.pptx"
     },
     {
       "name": "Opname Business Werkgroep",
@@ -49,7 +51,7 @@
     },
     {
       "name": "Presentatie Thematische Werkgroep 1",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/Presentatie 1ste Thematische Werkgroep - 09-03-2023.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie 1ste Thematische Werkgroep - 09-03-2023.pptx"
     },
     {
       "name": "Opname Thematische Werkgroep 1",
@@ -57,7 +59,7 @@
     },
     {
       "name": "Presentatie Thematische Werkgroep 2",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/Presentatie 2de Thematische Werkgroep - 20-04-2023.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie 2de Thematische Werkgroep - 20-04-2023.pptx"
     },
     {
       "name": "Opname Thematische Werkgroep 2",
@@ -66,6 +68,5 @@
   ],
   "dateOfRegistration": "25/01/2023",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLOthema-Leercredential"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

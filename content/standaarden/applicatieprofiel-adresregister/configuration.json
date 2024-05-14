@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-adresregister.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "TBD",
   "specificationDocuments": [
     {
@@ -19,15 +21,14 @@
   "reports": [
     {
       "name": "Thematische werkgroep Adres en Gebouw 1 - 2016-06-08",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/reports/Thematische Werkgroep Adres & Gebouw 1.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Thematische Werkgroep Adres & Gebouw 1.docx"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLOthema-gebouwEnAdres"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD"
 }

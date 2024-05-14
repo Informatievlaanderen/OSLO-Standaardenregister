@@ -4,10 +4,12 @@
   "usage": "Verplicht",
   "status": "TBD",
   "descriptionFileName": "ap-besluit-publicatie.md",
-  "responsibleOrganisation": {
-    "name": "Agentschap Binnenlands Bestuur",
-    "uri": "http://data.vlaanderen.be/id/organisatie/OVO001835"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Binnenlands Bestuur",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
   "publicationDate": "2018-07-20",
   "specificationDocuments": [
     {
@@ -36,7 +38,7 @@
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
   },
   "presentations": [
     {
@@ -46,6 +48,5 @@
   ],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018",
-  "repository": "OSLOthema-lokaleBesluiten"
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
 }

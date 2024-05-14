@@ -4,10 +4,12 @@
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "",
   "specificationDocuments": [
     {
@@ -22,11 +24,10 @@
   "documentation": [],
   "reports": [],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "",
   "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": "",
-  "repository": "ipdc-lpdc"
+  "dateOfAcknowledgementBySteeringCommittee": ""
 }
