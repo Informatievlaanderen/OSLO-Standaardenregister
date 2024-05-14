@@ -167,8 +167,10 @@ const { data } = await useAsyncData('data', async () => {
 const descriptionElements: DescriptionData[] = [
   {
     title: 'Verantwoordelijke organisatie',
-    element: data?.value?.standard?.responsibleOrganisation?.uri
-      ? `<a href=&quot;${data?.value?.standard?.responsibleOrganisation?.uri}&quot;>${data?.value?.standard?.responsibleOrganisation?.name}</a>`
+    element: data?.value?.standard?.responsibleOrganisation
+      ? data.value.standard.responsibleOrganisation
+          .map((org) => `<a href="${org.uri}">${org.name}</a>`)
+          .join(', ')
       : Usage.TBD,
   },
   {

@@ -84,9 +84,14 @@
           </p>
         </td>
         <td>
-          <a :href="standard?.responsibleOrganisation?.uri">{{
-            standard?.responsibleOrganisation?.name
-          }}</a>
+          <div
+            v-for="(organisation, index) in standard?.responsibleOrganisation"
+            :key="index"
+          >
+            <a :href="organisation?.resourceReference">{{
+              organisation?.name
+            }}</a>
+          </div>
         </td>
         <td>
           {{ !!standard?.usage ? standard.usage : Usage.TBD }}
