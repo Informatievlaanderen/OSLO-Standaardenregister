@@ -24,10 +24,11 @@
   "documentation": [],
   "reports": [],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "",
   "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": ""
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "repository": "ipdc-lpdc"
 }

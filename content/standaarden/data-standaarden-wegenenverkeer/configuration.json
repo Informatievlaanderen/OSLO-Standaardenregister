@@ -58,7 +58,7 @@
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/standaardenregister/charter/"
   },
   "presentations": [
     {
@@ -68,5 +68,6 @@
   ],
   "dateOfRegistration": "08 Maart 2020",
   "dateOfAcknowledgementByWorkingGroup": "10 April 2020",
-  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020"
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020",
+  "repository": "OSLOthema-wegenenverkeer"
 }

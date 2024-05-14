@@ -21,22 +21,23 @@
   "reports": [
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
     },
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
     },
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "08 Maart 2018",
   "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "07 februari 2019"
+  "dateOfAcknowledgementBySteeringCommittee": "07 februari 2019",
+  "repository": "OSLOthema-melding"
 }

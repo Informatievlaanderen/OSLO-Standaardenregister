@@ -34,36 +34,37 @@
   "reports": [
     {
       "name": "Verslag - Publieke werkgroep 1 - 26 okt 2018",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-werkgroep1-DCAT-AP-Vlaanderen.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/reports/Verslag-werkgroep1-DCAT-AP-Vlaanderen.docx"
     },
     {
       "name": "Verslag - Publieke werkgroep 2 - 14 dec 2018",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-werkgroep2-DCAT-AP-Vlaanderen.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/reports/Verslag-werkgroep2-DCAT-AP-Vlaanderen.docx"
     }
   ],
   "charter": {
     "name": "Werkgroep Charter DCAT-AP VL",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep Charter - DCAT AP VL.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/charter/Werkgroep Charter - DCAT AP VL.pdf"
   },
   "presentations": [
     {
       "name": "Presentatie Publieke Werkgroep 1 - 26 okt 2018",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/DCAT-AP-Vlaanderen-werkgroep1.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/DCAT-AP-Vlaanderen-werkgroep1.pptx"
     },
     {
       "name": "Presentatie Publieke Werkgroep 2 - 14 dec 2018",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/DCAT-AP-Vlaanderen-werkgroep2.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/DCAT-AP-Vlaanderen-werkgroep2.pptx"
     },
     {
       "name": "Webinar - Afsluiting Publieke Review - 11 jun 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/DCAT-AP-Vlaanderen-webinar.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/DCAT-AP-Vlaanderen-webinar.pptx"
     },
     {
       "name": "Slides Werkgroep Datastandaarden",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/DCAT-AP-Vlaanderen-wgdatastandaarden.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/DCAT-AP-Vlaanderen-wgdatastandaarden.pptx"
     }
   ],
   "dateOfRegistration": "28 Mei 2018",
   "dateOfAcknowledgementByWorkingGroup": "13 Juni 2019",
-  "dateOfAcknowledgementBySteeringCommittee": "03 Oktober 2019"
+  "dateOfAcknowledgementBySteeringCommittee": "03 Oktober 2019",
+  "repository": "OSLOthema-DCATAPVlaanderen"
 }

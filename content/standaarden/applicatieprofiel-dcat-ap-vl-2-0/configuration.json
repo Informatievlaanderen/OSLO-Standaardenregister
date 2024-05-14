@@ -42,17 +42,17 @@
   "reports": [
     {
       "name": "Verslag Webinar 1 – 4 juni 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/reports/Verslag-DCAT-AP-VL-2.0-Webinar-1.pdf"
     }
   ],
   "charter": {
     "name": "Werkgroep Charter DCAT-AP VL",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/charter/Werkgroep-charter-DCAT-AP-VL-2.0.pdf"
   },
   "presentations": [
     {
       "name": "Presentatie Webinar 1 – 4 juni 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie Webinar 1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/Presentatie Webinar 1.pdf"
     },
     {
       "name": "Opname Webinar 1 – 4 juni 2021",
@@ -60,7 +60,7 @@
     },
     {
       "name": "Presentatie Webinar 2 – 1 juli 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie webinar 2 OSLO DCAT-AP VL 2.0.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/Presentatie webinar 2 OSLO DCAT-AP VL 2.0.pdf"
     },
     {
       "name": "Opname Webinar 2 – 1 juli 2021",
@@ -69,5 +69,6 @@
   ],
   "dateOfRegistration": "04 Juni 2021",
   "dateOfAcknowledgementByWorkingGroup": "18 november 2021",
-  "dateOfAcknowledgementBySteeringCommittee": "2 december 2021"
+  "dateOfAcknowledgementBySteeringCommittee": "2 december 2021",
+  "repository": "OSLOthema-DCATAPVlaanderen"
 }

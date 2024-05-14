@@ -30,7 +30,7 @@
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vlaamseUriStandaard/standaardenregister/charter/"
   },
   "presentations": [
     {
@@ -44,5 +44,6 @@
   ],
   "dateOfRegistration": "23 maart 2017",
   "dateOfAcknowledgementByWorkingGroup": "10 April 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2018"
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2018",
+  "repository": "OSLOthema-vlaamseUriStandaard"
 }

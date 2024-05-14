@@ -21,22 +21,23 @@
   "reports": [
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
     },
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
     },
     {
       "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "08 Maart 2018",
   "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "02 februari 2019"
+  "dateOfAcknowledgementBySteeringCommittee": "02 februari 2019",
+  "repository": "OSLOthema-contactvoorkeuren"
 }

@@ -20,10 +20,11 @@
   "documentation": [],
   "reports": [],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-generiek/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "29 Mei 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018"
+  "dateOfAcknowledgementBySteeringCommittee": "03 Juli 2018",
+  "repository": "OSLOthema-generiek"
 }

@@ -20,71 +20,71 @@
   "documentation": [
     {
       "name": "Mapping op General Bikeshare Feed Specification (GBFS)",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/documents/mappingGBFS.xlsx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/documents/mappingGBFS.xlsx"
     },
     {
       "name": "Mapping op Mobility Data Specification (MDS)",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/documents/mappingMDS.xlsx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/documents/mappingMDS.xlsx"
     }
   ],
   "reports": [
     {
       "name": "Verslag business werkgroep - 25 september 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Mobiliteit - Business Workshop 25_09_19 verslag.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/reports/OSLO Mobiliteit - Business Workshop 25_09_19 verslag.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 1 - 9 oktober 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 1 09_10_19 - Verslag.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 1 09_10_19 - Verslag.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 2 - 23 oktober 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 2 23_10_19 - Verslag.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 2 23_10_19 - Verslag.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 3 - 6 november 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 3 06_11_19 - Verslag.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 3 06_11_19 - Verslag.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 4 - 20 november 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 4 20_11_19 - Verslag.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 4 20_11_19 - Verslag.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 5 - 4 december 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 5 04_12_19 - Verslag.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/reports/OSLO Mobiliteit - Thematische Workshop 5 04_12_19 - Verslag.pdf"
     }
   ],
   "charter": {
     "name": "Werkgroep Charter OSLO Mobiliteit Trips en Aanbod",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/OSLO Mobiliteit - Charter.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/charter/OSLO Mobiliteit - Charter.pdf"
   },
   "presentations": [
     {
       "name": "Presentatie kick-off werkgroep - 17 september 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Kick-off werkgroep standaardisatie mobiliteitsinformatie 20190916.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/Kick-off werkgroep standaardisatie mobiliteitsinformatie 20190916.pptx"
     },
     {
       "name": "Presentatie business werkgroep - 25 september 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Business werkgroep standaardisatie mobiliteitsinformatie 20190925.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/Business werkgroep standaardisatie mobiliteitsinformatie 20190925.pptx"
     },
     {
       "name": "Presentatie thematische werkgroep 1 - 9 oktober 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 1 09_10_19 - Presentatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 1 09_10_19 - Presentatie.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 2 - 23 oktober 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 2 23_10_19 - Presentatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 2 23_10_19 - Presentatie.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 3 - 6 november 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 3 06_11_19 - Presentatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 3 06_11_19 - Presentatie.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 4 - 20 november 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 4 20_11_19 - Presentatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 4 20_11_19 - Presentatie.pdf"
     },
     {
       "name": "Presentatie thematische werkgroep 5 - 4 december 2019",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 5 04_12_19 - Presentatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/OSLO Mobiliteit - Thematische Workshop 5 04_12_19 - Presentatie.pdf"
     },
     {
       "name": "Webinar einde publieke review - 9 april 2020",
@@ -92,10 +92,11 @@
     },
     {
       "name": "Overzichtspresentatie",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/OSLO Mobiliteit Trips en Aanbod - Overzichtspresentatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod/standaardenregister/presentations/OSLO Mobiliteit Trips en Aanbod - Overzichtspresentatie.pdf"
     }
   ],
   "dateOfRegistration": "17 September 2019",
   "dateOfAcknowledgementByWorkingGroup": "23 April 2020",
-  "dateOfAcknowledgementBySteeringCommittee": "23 April 2020"
+  "dateOfAcknowledgementBySteeringCommittee": "23 April 2020",
+  "repository": "OSLOthema-mobiliteit-trips-en-aanbod"
 }

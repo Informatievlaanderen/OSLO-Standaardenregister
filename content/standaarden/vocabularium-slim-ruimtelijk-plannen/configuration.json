@@ -21,52 +21,53 @@
   "reports": [
     {
       "name": "Verslag Business werkgroep - OSLO Slim Ruimtelijk Plannen 27 september 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag Business werkgroep SRP 2023-09-27.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag Business werkgroep SRP 2023-09-27.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 1 - OSLO Slim Ruimtelijk Plannen 25 oktober 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag 1e thematische werkgroep SRP 2023-09-25.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag 1e thematische werkgroep SRP 2023-09-25.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 2 - OSLO Slim Ruimtelijk Plannen 30 november 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag thematische werkgroep 2 - OSLO Slim Ruimtelijk Plannen 30 november 2023.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag thematische werkgroep 2 - OSLO Slim Ruimtelijk Plannen 30 november 2023.docx"
     },
     {
       "name": "Verslag thematische werkgroep 3 - OSLO Slim Ruimtelijk Plannen 21 december 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag thematische werkgroep 3 - OSLO Slim Ruimtelijk Plannen 21 december 2023.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag thematische werkgroep 3 - OSLO Slim Ruimtelijk Plannen 21 december 2023.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 4 - OSLO Slim Ruimtelijk Plannen 1 februari 2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Verslag 4e thematische werkgroep SRP 2024-02-01.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/reports/Verslag 4e thematische werkgroep SRP 2024-02-01.pdf"
     }
   ],
   "charter": {
     "name": "Projectcharter",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep-charter-OSLO_SlimRuimtelijkPlannen.docx"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/charter/Werkgroep-charter-OSLO_SlimRuimtelijkPlannen.docx"
   },
   "presentations": [
     {
       "name": "Business Werkgroep presentatie Slim Ruimtelijk Plannen 27 september 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Business Werkgroep presentatie Slim Ruimtelijk Plannen.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Business Werkgroep presentatie Slim Ruimtelijk Plannen.pdf"
     },
     {
       "name": "Eerste Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 25 oktober 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Eerste Thematische Werkgroep presentatie Slim Ruimtelijk Plannen.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Eerste Thematische Werkgroep presentatie Slim Ruimtelijk Plannen.pdf"
     },
     {
       "name": "Tweede Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 30 november 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 2 - 30 november 2023.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Presentatie thematische werkgroep 2 - 30 november 2023.pdf"
     },
     {
       "name": "Derde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 21 december 2023",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Derde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 21 december 2023.pptx.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Derde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 21 december 2023.pptx.pdf"
     },
     {
       "name": "Vierde Thematische Werkgroep presentatie Slim Ruimtelijk Plannen 1 februari 2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/Presentatie thematische werkgroep 4 - SRP.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/standaardenregister/presentations/Presentatie thematische werkgroep 4 - SRP.pdf"
     }
   ],
   "dateOfRegistration": "",
   "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": ""
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "repository": "OSLOthema-slimRuimtelijkPlannen"
 }

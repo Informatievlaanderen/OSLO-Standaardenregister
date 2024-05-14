@@ -21,14 +21,15 @@
   "reports": [
     {
       "name": "Thematische werkgroep Adres en Gebouw 1 - 2016-06-08",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/Thematische Werkgroep Adres & Gebouw 1.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/reports/Thematische Werkgroep Adres & Gebouw 1.docx"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "10 April 2018 (retroactief)",
   "dateOfAcknowledgementByWorkingGroup": "8 november 2018 (Kandidaat-standaard)",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-gebouwEnAdres"
 }

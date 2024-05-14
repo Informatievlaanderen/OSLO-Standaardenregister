@@ -25,7 +25,7 @@
   "reports": [],
   "charter": {
     "name": "Werkgroep Charter OSLO Mobiliteit",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
   },
   "presentations": [
     {
@@ -43,5 +43,6 @@
   ],
   "dateOfRegistration": "29 Mei 2018",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-mobiliteit"
 }

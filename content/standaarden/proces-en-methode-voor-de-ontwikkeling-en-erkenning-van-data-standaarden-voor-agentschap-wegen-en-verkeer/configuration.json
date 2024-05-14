@@ -14,16 +14,17 @@
   "specificationDocuments": [
     {
       "name": "Proces en methode voor het ontwikkelen van data standaarden voor wegenenverkeer.data.vlaanderen.be",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/documents/OSLO_Conformiteit_AWV_motiveren en uitleggen van afwijkingen.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/standaardenregister/documents/OSLO_Conformiteit_AWV_motiveren en uitleggen van afwijkingen.pdf"
     }
   ],
   "documentation": [],
   "reports": [],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/standaardenregister/charter/"
   },
   "presentations": [],
   "dateOfRegistration": "08 Maart 2018",
   "dateOfAcknowledgementByWorkingGroup": "10 April 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2018"
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2018",
+  "repository": "OSLOthema-procesEnMethode"
 }

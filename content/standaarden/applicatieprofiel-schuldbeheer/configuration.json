@@ -26,20 +26,21 @@
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 4 maart 2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/reports/20240304_BusinessWorkshop_Verslag_OSLOSchuldbeheer.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/reports/20240304_BusinessWorkshop_Verslag_OSLOSchuldbeheer.pdf"
     }
   ],
   "charter": {
     "name": "Charter Schuldbeheer",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/charter/Charter OSLO_Schuldbeheer.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/charter/Charter OSLO_Schuldbeheer.pdf"
   },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep - 4 maart 2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/undefined/standaardenregister/presentations/20240304_BusinessWorkshop_Presentatie_OSLOSchuldbeheer.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/presentations/20240304_BusinessWorkshop_Presentatie_OSLOSchuldbeheer.pptx"
     }
   ],
   "dateOfRegistration": "21 maart 2024",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD"
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-schuldbeheer"
 }
