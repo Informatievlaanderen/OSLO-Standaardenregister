@@ -142,6 +142,7 @@
 <script setup lang="ts">
 import type { Description } from '~/types/description'
 import type { DescriptionData } from '~/types/descriptionData'
+import type { NavigationLink } from '~/types/navigationLink';
 import { Usage, type Standard } from '~/types/standard'
 
 const { params } = useRoute()
@@ -169,7 +170,7 @@ const descriptionElements: DescriptionData[] = [
     title: 'Verantwoordelijke organisatie',
     element: data?.value?.standard?.responsibleOrganisation
       ? data.value.standard.responsibleOrganisation
-          .map((org) => `<a href="${org.uri}">${org.name}</a>`)
+          .map((org: NavigationLink) => `<a href="${org.resourceReference}">${org.name}</a>`)
           .join(', ')
       : Usage.TBD,
   },
