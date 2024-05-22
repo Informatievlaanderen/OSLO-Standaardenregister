@@ -10,14 +10,19 @@
       "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2022-06-23",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel",
+      "name": "Applicatieprofiel Bestuurlijk Sanctieregister",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bestuurlijk-sanctieregister"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Vocabularium Bestuurlijke Sanctieregister",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bestuurlijke-sancties"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag Business workshop - 30 juli 2020",

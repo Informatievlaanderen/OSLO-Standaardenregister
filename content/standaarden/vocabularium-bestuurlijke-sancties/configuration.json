@@ -1,7 +1,7 @@
 {
   "title": "Vocabularium Bestuurlijke Sancties",
   "category": "Vocabularium",
-  "usage": "TBD",
+  "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "voc-bestuurlijksanctieregister.md",
   "responsibleOrganisation": [
@@ -10,14 +10,19 @@
       "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2022-06-23",
   "specificationDocuments": [
     {
-      "name": "Vocabularium",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bestuurlijke-sancties/kandidaatstandaard/2022-06-23/"
+      "name": "Vocabularium Bestuurlijke Sancties",
+      "resourceReference": "https://data.vlaanderen.be/ns/bestuurlijke-sancties/"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Bestuurlijke Sancties",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bestuurlijke-sancties/"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag Business workshop - 30 juli 2020",
