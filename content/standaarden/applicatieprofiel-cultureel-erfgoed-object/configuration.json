@@ -17,7 +17,16 @@
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Cultureel Erfgoed Event",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event"
+    },
+    {
+      "name": "Vocabularium Cultureel Erfgoed",
+      "resourceReference": "https://data.vlaanderen.be/ns/cultureel-erfgoed"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag kick-off - 23 januari 2020",
