@@ -1,16 +1,16 @@
 {
   "title": "Vocabularium Financiële Rapportering",
-  "category": "vocabularium",
+  "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
-  "descriptionFileName": "voc-FinanciëleData.md",
+  "descriptionFileName": "voc-FinancieleData.md",
   "responsibleOrganisation": [
     {
       "name": "Departement Cultuur, Jeugd en Media",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000067"
     }
   ],
-  "publicationDate": "17/03/2022",
+  "publicationDate": "2022-03-17",
   "specificationDocuments": [
     {
       "name": "Financiële Rapportering vocabularium",
@@ -65,7 +65,7 @@
   ],
   "dateOfRegistration": "17/03/2022",
   "dateOfAcknowledgementByWorkingGroup": "25/01/2024",
-  "dateOfAcknowledgementBySteeringCommittee": "",
+  "dateOfAcknowledgementBySteeringCommittee": "17/04/2024",
   "repository": "OSLOthema-FinancieleData",
   "datePublicReviewEnd": "26/12/2023",
   "datePublicReviewStart": "",
