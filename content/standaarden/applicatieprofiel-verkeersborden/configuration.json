@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Verkeersborden",
   "category": "Applicatieprofiel",
-  "usage": "TBD",
+  "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-verkeersborden.md",
   "responsibleOrganisation": [
@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000098"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2020-04-23",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Verkeersborden",

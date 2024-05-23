@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Wegenregister",
   "category": "Applicatieprofiel",
-  "usage": "TBD",
+  "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-wegenregister.md",
   "responsibleOrganisation": [
@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2019-12-10",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Wegenregister",

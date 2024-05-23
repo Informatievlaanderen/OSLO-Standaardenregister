@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Inname openbaar domein",
   "category": "Applicatieprofiel",
-  "usage": "TBD",
+  "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-inname-openbaar-domein.md",
   "responsibleOrganisation": [
@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2020-04-23",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Inname openbaar domein",
