@@ -53,5 +53,8 @@
   "dateOfRegistration": "",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "2022-12-01",
-  "repository": "OSLOthema-passengerTransportHubs"
+  "repository": "OSLOthema-passengerTransportHubs",
+  "datePublicReviewEnd": "2022-10-11",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
 }

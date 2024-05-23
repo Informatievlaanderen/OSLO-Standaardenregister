@@ -43,5 +43,7 @@
   "dateOfRegistration": "TDB",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLO-Standaarden"
+  "repository": "OSLO-Standaarden",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
 }
