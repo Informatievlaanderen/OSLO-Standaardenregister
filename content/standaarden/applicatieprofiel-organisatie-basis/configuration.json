@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Organisatie Basis",
   "category": "Applicatieprofiel",
-  "usage": "TBD",
+  "usage": "Aanbevolen (vrijwillig)",
   "status": "TBD",
   "descriptionFileName": "ap-organisatie-basis.md",
   "responsibleOrganisation": [
@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2018-07-03",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Organisatie Basis",
