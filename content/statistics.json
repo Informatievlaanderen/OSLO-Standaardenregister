@@ -1,6 +1,6 @@
 {
     "numberOfTerms": 0,
-    "numberOfStandardsConfigured": 2,
+    "numberOfStandardsConfigured": 1,
     "reportErrors": 0,
     "reportsMissing": 228,
     "uniqueContributors": 0,
@@ -9,13 +9,6 @@
         {
             "standard": "null",
             "publicationDate": "null",
-            "status": "null",
-            "totalPeople": 0,
-            "contributors": []
-        },
-        {
-            "standard": "API guidelines",
-            "publicationDate": "TBD",
             "status": "null",
             "totalPeople": 0,
             "contributors": []
