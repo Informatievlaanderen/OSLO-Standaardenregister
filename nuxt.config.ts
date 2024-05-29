@@ -16,6 +16,13 @@ import { fileURLToPath } from 'url'
 // console.log(JSON.stringify(routes, null, 4))
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    // private runtime env variables. Think of api keys: https://nuxt.com/docs/guide/going-further/runtime-config#environment-variables
+    // This is needed to pass the .env variables to the build process
+    ENVIRONMENT: import.meta.env.VITE_ENVIRONMENT,
+    // public runtime env variables
+    // public: {}
+  },
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
   routeRules: {
     // serve root as ssr
