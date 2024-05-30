@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Fietsinfrastructuur",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "ap-fietsinfrastructuur-config.md",
   "responsibleOrganisation": [
     {
@@ -75,6 +75,6 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-fietsinfrastructuur",
-  "datePublicReviewStart": "",
+  "datePublicReviewStart": "2023-11-09",
   "endOfPublicationDate": ""
 }

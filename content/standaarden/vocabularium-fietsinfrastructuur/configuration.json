@@ -2,7 +2,7 @@
   "title": "Vocabularium Fietsinfrastructuur",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "voc-fietsinfrastructuur-config.md",
   "responsibleOrganisation": [
     {
@@ -75,6 +75,6 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-fietsinfrastructuur",
-  "datePublicReviewStart": "",
+  "datePublicReviewStart": "2023-11-09",
   "endOfPublicationDate": ""
 }
