@@ -4,7 +4,7 @@
   "reportErrors": 0,
   "reportsMissing": 228,
   "uniqueContributors": 2256,
-  "uniqueAffiliations": 0,
+  "uniqueAffiliations": 432,
   "standards": [
     {
       "standard": "Applicatieprofiel Omgevingsvergunning",
@@ -1595,6 +1595,5 @@
       "totalPeople": 0,
       "contributors": []
     }
-  ],
-  "totalOrganisations": 432
+  ]
 }
