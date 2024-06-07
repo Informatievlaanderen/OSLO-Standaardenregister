@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 227,
+  "numberOfStandardsConfigured": 228,
   "reportErrors": 0,
-  "reportsMissing": 228,
+  "reportsMissing": 229,
   "uniqueContributors": 2256,
   "uniqueAffiliations": 432,
   "standards": [
@@ -1414,7 +1414,14 @@
       "contributors": []
     },
     {
-      "standard": "Vocabularium en Applicatieprofiel Leercredential",
+      "standard": "Vocabularium Leercredential",
+      "publicationDate": "2022-12-20",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Leerprestatiecredential",
       "publicationDate": "2022-12-20",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,

@@ -21,30 +21,30 @@
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 26/02/2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/reports/260224 SA Verslag Business werkgroep.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/260224 SA Verslag Business werkgroep.pdf"
     },
     {
       "name": "Verslag Thematische Werkgroep 1 - 18/03/2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/reports/180324 SA Verslag Eerste thematische werkgroep.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/180324 SA Verslag Eerste thematische werkgroep.pdf"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/charter/"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/charter/"
   },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep - 26/02/2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/presentations/260224 SA Business werkgroep.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/260224 SA Business werkgroep.pdf"
     },
     {
       "name": "Presentatie Thematische Werkgroep 1 - 18/03/2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/presentations/180324 SA Thematische werkgroep 1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/180324 SA Thematische werkgroep 1.pdf"
     }
   ],
   "dateOfRegistration": "TBD",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLOthema-Leerinschrijfcredential",
+  "repository": "OSLOthema-Leercredential",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
 }
