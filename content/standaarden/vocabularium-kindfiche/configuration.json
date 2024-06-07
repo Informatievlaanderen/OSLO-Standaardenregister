@@ -1,6 +1,6 @@
 {
-  "title": "Applicatieprofiel Kindfiche",
-  "category": "Applicatieprofiel",
+  "title": "Vocabularium Kindfiche",
+  "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
   "descriptionFileName": "kind-fiche-description.md",
@@ -13,14 +13,14 @@
   "publicationDate": "2024-03-19",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Kindfiche",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kindfiche/"
+      "name": "Vocabularium Kindfiche",
+      "resourceReference": "https://data.vlaanderen.be/ns/kindfiche/"
     }
   ],
   "documentation": [
     {
-      "name": "Vocabularium Kindfiche",
-      "resourceReference": "https://data.vlaanderen.be/ns/kindfiche/"
+      "name": "Applicatieprofiel Kindfiche",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kindfiche/"
     }
   ],
   "reports": [

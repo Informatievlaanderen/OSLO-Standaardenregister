@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 228,
+  "numberOfStandardsConfigured": 229,
   "reportErrors": 0,
-  "reportsMissing": 229,
+  "reportsMissing": 230,
   "uniqueContributors": 2256,
   "uniqueAffiliations": 432,
   "standards": [
@@ -1534,6 +1534,13 @@
     },
     {
       "standard": "Applicatieprofiel Kindfiche",
+      "publicationDate": "2024-03-19",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Kindfiche",
       "publicationDate": "2024-03-19",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
