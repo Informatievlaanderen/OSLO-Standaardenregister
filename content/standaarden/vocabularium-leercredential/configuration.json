@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Leercredential",
-      "resourceReference": "https://data.test-vlaanderen.be/doc/vocabularium/leercredential/ontwerpstandaard/2023-02-21/"
+      "resourceReference": "https://data.vlaanderen.be/ns/leercredential"
     }
   ],
   "documentation": [],
