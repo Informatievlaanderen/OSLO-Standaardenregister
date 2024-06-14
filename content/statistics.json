@@ -4,7 +4,7 @@
   "reportErrors": 0,
   "reportsMissing": 230,
   "uniqueContributors": 2265,
-  "uniqueAffiliations": 432,
+  "uniqueAffiliations": 437,
   "standards": [
     {
       "standard": "Applicatieprofiel Omgevingsvergunning",
@@ -1603,7 +1603,7 @@
       "contributors": []
     },
     {
-      "standard": "Vocabularium Digitale Watermeter",
+      "standard": "Vocabularium Nutsvoorzieningen Meters",
       "publicationDate": "2024-04-30",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,

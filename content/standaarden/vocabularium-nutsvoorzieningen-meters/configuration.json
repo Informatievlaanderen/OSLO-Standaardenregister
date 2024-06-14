@@ -1,9 +1,9 @@
 {
-  "title": "Applicatieprofiel Digitale Watermeter",
-  "category": "Applicatieprofiel",
+  "title": "Vocabularium Nutsvoorzieningen Meters",
+  "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
-  "descriptionFileName": "ap-digitalewatermeter-config.md",
+  "descriptionFileName": "voc-digitalewatermeter-config.md",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
@@ -13,14 +13,14 @@
   "publicationDate": "2024-04-30",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Digitale Watermeter",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/DigitaleWatermeter"
+      "name": "Vocabularium Nutsvoorzieningen Meters",
+      "resourceReference": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters"
     }
   ],
   "documentation": [
     {
-      "name": "Vocabularium Nutsvoorzieningen Meters",
-      "resourceReference": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters"
+      "name": "Applicatieprofiel Digitale Watermeter",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/DigitaleWatermeter"
     }
   ],
   "reports": [
