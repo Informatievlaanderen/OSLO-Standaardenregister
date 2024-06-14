@@ -13,8 +13,8 @@
   "publicationDate": "2024-04-08",
   "specificationDocuments": [
     {
-      "name": "Vocabularium Leerinschrijfcredential",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/leerinschrijfcredential/"
+      "name": "Vocabularium Leercredential",
+      "resourceReference": "https://data.vlaanderen.be/ns/leercredential/"
     },
     {
       "name": "Applicatieprofiel Leerinschrijfcredential",
