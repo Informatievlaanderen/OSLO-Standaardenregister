@@ -7,21 +7,30 @@
   "responsibleOrganisation": [
     {
       "name": "Athumi",
-      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO052661"
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO051320"
     }
   ],
   "publicationDate": "2024-04-08",
   "specificationDocuments": [
     {
-      "name": "Vocabularium Leercredential",
-      "resourceReference": "https://data.vlaanderen.be/ns/leercredential/"
-    },
-    {
       "name": "Applicatieprofiel Leerinschrijfcredential",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leerinschrijfcredential/"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Vocabularium Leercredential",
+      "resourceReference": "https://data.vlaanderen.be/ns/leercredential/"
+    },
+    {
+      "name": "Applicatieprofiel Leerprestatiecredential",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leerprestatiecredential/"
+    },
+    {
+      "name": "Implementatiemodel Leerinschrijfcredential",
+      "resourceReference": "https://solid.data.vlaanderen.be/doc/implementatiemodel/leerinschrijfcredential/"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 26/02/2024",

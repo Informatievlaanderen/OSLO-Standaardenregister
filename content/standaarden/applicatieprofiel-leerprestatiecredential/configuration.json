@@ -6,18 +6,31 @@
   "descriptionFileName": "leercredential-description.md",
   "responsibleOrganisation": [
     {
-      "name": "Agentschap Digitaal Vlaanderen",
-      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+      "name": "Athumi",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO051320"
     }
   ],
   "publicationDate": "2022-12-20",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Leercredential",
+      "name": "Applicatieprofiel Leerprestatiecredential",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leerprestatiecredential"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Vocabularium Leercredential",
+      "resourceReference": "https://data.vlaanderen.be/ns/leercredential/"
+    },
+    {
+      "name": "Applicatieprofiel Leerinschrijfcredential",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leerinschrijfcredential/"
+    },
+    {
+      "name": "Implementatiemodel Leerinschrijfcredential",
+      "resourceReference": "https://solid.data.vlaanderen.be/doc/implementatiemodel/leerinschrijfcredential"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 16/02/2023",
@@ -62,7 +75,7 @@
       "resourceReference": "https://wetransfer.com/downloads/6c58ec467ce7dc54a5bf404ad87dcfc920230427092916/9d6ccb"
     }
   ],
-  "dateOfRegistration": "25/01/2023",
+  "dateOfRegistration": "2023-01-25",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-Leercredential",
