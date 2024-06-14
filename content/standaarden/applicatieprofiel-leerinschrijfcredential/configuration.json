@@ -42,12 +42,12 @@
     },
     {
       "name": "Verslag Thematische Werkgroep 2 - 16/04/2024",
-      "resourceReference": "160424 SA Verslag thematische werkgroep 2.docx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/reports/160424 SA Verslag thematische werkgroep 2.docx"
     }
   ],
   "charter": {
     "name": "Werkgroep Charter Document",
-    "resourceReference": "Charter_OSLO_Athumi.docx"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/charter/Charter_OSLO_Athumi.docx"
   },
   "presentations": [
     {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Presentatie Thematische Werkgroep 2 - 16/04/2024",
-      "resourceReference": "Thematische werkgroep 2 presentatie Studentenattesten.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leerinschrijfcredential/standaardenregister/presentations/Thematische werkgroep 2 presentatie Studentenattesten.pptx"
     }
   ],
   "dateOfRegistration": "2024-03-21",
