@@ -14,13 +14,13 @@
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Cultuur- & Jeugdinfrastructuur",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur"
     }
   ],
   "documentation": [
     {
       "name": "Vocabularium Cultuur- & Jeugdinfrastructuur",
-      "resourceReference": "https://data.vlaanderen.be/ns/cultuur-en-jeugdinfrastructuur"
+      "resourceReference": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur"
     }
   ],
   "reports": [
