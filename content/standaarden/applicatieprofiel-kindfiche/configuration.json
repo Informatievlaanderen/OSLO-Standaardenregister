@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Kindfiche",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "kind-fiche-description.md",
   "responsibleOrganisation": [
     {
@@ -67,6 +67,6 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-kindFiche",
-  "datePublicReviewStart": "",
+  "datePublicReviewStart": "2024-06-24",
   "endOfPublicationDate": ""
 }
