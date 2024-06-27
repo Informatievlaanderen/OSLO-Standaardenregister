@@ -114,7 +114,7 @@
         </td>
       </tr>
       <tr v-else>
-        <td colspan="5" class="vl-u-align-center">Geen data gevonden</td>
+        <td colspan="6" class="vl-u-align-center">Geen data gevonden</td>
       </tr>
     </tbody>
   </vl-data-table>
