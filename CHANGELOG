@@ -19,3 +19,7 @@
 1.2.0
   - Added support for direct navigation to publication
   - Extra icon for navigating to publication page
+
+1.2.1
+  - Added script to generate overview of all organizations and their titles
+  - Bumped minimal Node version to 18
