@@ -1,17 +1,18 @@
 {
   "name": "standaardenregister",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "private": true,
   "engines": {
     "npm": ">=8.0.0",
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxt build",
     "start": "nuxi preview",
     "generate": "nuxt generate",
+    "mergeTitleAndOrganization": "tsc ./scripts/mergeTitleAndOrganization.ts && node ./scripts/mergeTitleAndOrganization.js",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },
