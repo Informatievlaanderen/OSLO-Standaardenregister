@@ -3,8 +3,8 @@
   "numberOfStandardsConfigured": 229,
   "reportErrors": 0,
   "reportsMissing": 230,
-  "uniqueContributors": 2281,
-  "uniqueAffiliations": 450,
+  "uniqueContributors": 2356,
+  "uniqueAffiliations": 469,
   "standards": [
     {
       "standard": "Applicatieprofiel Omgevingsvergunning",
@@ -1450,7 +1450,7 @@
     },
     {
       "standard": "Vocabularium en applicatieprofiel OSLO Slimme Stadsdistributie",
-      "publicationDate": "TBD",
+      "publicationDate": "2024-07-16",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
