@@ -14,11 +14,11 @@
   "specificationDocuments": [
     {
       "name": "Slimme Stadsdistributie - ApplicatieProfiel",
-      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/slimme-stadsdistributie"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/slimme-stadsdistributie"
     },
     {
       "name": "Slimme Stadsdistributie - Vocabularium",
-      "resourceReference": "https://test.data.vlaanderen.be/ns/slimme-stadsdistributie"
+      "resourceReference": "https://data.vlaanderen.be/ns/slimme-stadsdistributie"
     }
   ],
   "documentation": [],
