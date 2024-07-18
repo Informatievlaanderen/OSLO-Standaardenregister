@@ -1,9 +1,9 @@
 {
-  "title": "Applicatieprofiel Schuldbeheer",
-  "category": "Applicatieprofiel",
+  "title": "Vocabularium Schuldbeheer",
+  "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
-  "descriptionFileName": "ap-schuldbeheer-config.md",
+  "descriptionFileName": "voc-schuldbeheer-config.md",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
@@ -13,14 +13,14 @@
   "publicationDate": "2024-07-18",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Schuldbeheer",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/schuldbeheer"
+      "name": "Vocabularium Schuldbeheer",
+      "resourceReference": "https://data.vlaanderen.be/ns/schuldbeheer"
     }
   ],
   "documentation": [
     {
-      "name": "Vocabularium Schuldbeheer",
-      "resourceReference": "https://data.vlaanderen.be/ns/schuldbeheer"
+      "name": "Applicatieprofiel Schuldbeheer",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/schuldbeheer"
     }
   ],
   "reports": [

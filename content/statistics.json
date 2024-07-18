@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 229,
+  "numberOfStandardsConfigured": 230,
   "reportErrors": 0,
-  "reportsMissing": 230,
+  "reportsMissing": 231,
   "uniqueContributors": 2356,
   "uniqueAffiliations": 469,
   "standards": [
@@ -22,7 +22,14 @@
     },
     {
       "standard": "Applicatieprofiel Schuldbeheer",
-      "publicationDate": "2024-04-11",
+      "publicationDate": "2024-07-18",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Schuldbeheer",
+      "publicationDate": "2024-07-18",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
