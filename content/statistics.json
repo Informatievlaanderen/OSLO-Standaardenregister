@@ -3,8 +3,8 @@
   "numberOfStandardsConfigured": 230,
   "reportErrors": 0,
   "reportsMissing": 231,
-  "uniqueContributors": 2356,
-  "uniqueAffiliations": 469,
+  "uniqueContributors": 2399,
+  "uniqueAffiliations": 475,
   "standards": [
     {
       "standard": "Applicatieprofiel Omgevingsvergunning",
@@ -22,15 +22,15 @@
     },
     {
       "standard": "Applicatieprofiel Schuldbeheer",
-      "publicationDate": "2024-07-18",
-      "status": "standaard-in-ontwikkeling",
+      "publicationDate": "2024-09-05",
+      "status": "kandidaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Schuldbeheer",
-      "publicationDate": "2024-07-18",
-      "status": "standaard-in-ontwikkeling",
+      "publicationDate": "2024-09-05",
+      "status": "kandiaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
