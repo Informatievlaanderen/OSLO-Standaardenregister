@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 230,
+  "numberOfStandardsConfigured": 232,
   "reportErrors": 0,
-  "reportsMissing": 231,
+  "reportsMissing": 233,
   "uniqueContributors": 2409,
   "uniqueAffiliations": 475,
   "standards": [
@@ -1612,6 +1612,20 @@
     {
       "standard": "Vocabularium Nutsvoorzieningen Meters",
       "publicationDate": "2024-04-30",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Vrachtwagenparkeren",
+      "publicationDate": "2024-07-30",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Vrachtwagenparkeren",
+      "publicationDate": "2024-07-30",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
