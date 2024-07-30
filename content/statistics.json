@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 232,
+  "numberOfStandardsConfigured": 233,
   "reportErrors": 0,
-  "reportsMissing": 233,
+  "reportsMissing": 234,
   "uniqueContributors": 2409,
   "uniqueAffiliations": 475,
   "standards": [
@@ -1456,7 +1456,14 @@
       "contributors": []
     },
     {
-      "standard": "Vocabularium en applicatieprofiel OSLO Slimme Stadsdistributie",
+      "standard": "Applicatieprofiel OSLO Slimme Stadsdistributie",
+      "publicationDate": "2024-07-16",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium OSLO Slimme Stadsdistributie",
       "publicationDate": "2024-07-16",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
