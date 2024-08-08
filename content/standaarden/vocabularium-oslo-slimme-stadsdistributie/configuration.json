@@ -13,10 +13,6 @@
   "publicationDate": "2024-07-16",
   "specificationDocuments": [
     {
-      "name": "Slimme Stadsdistributie - ApplicatieProfiel",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/slimme-stadsdistributie"
-    },
-    {
       "name": "Slimme Stadsdistributie - Vocabularium",
       "resourceReference": "https://data.vlaanderen.be/ns/slimme-stadsdistributie"
     }
