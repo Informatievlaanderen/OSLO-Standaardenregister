@@ -3,8 +3,8 @@
   "numberOfStandardsConfigured": 233,
   "reportErrors": 0,
   "reportsMissing": 234,
-  "uniqueContributors": 2409,
-  "uniqueAffiliations": 475,
+  "uniqueContributors": 2441,
+  "uniqueAffiliations": 481,
   "standards": [
     {
       "standard": "Applicatieprofiel Omgevingsvergunning",
@@ -1612,14 +1612,14 @@
     {
       "standard": "Applicatieprofiel Digitale Watermeter",
       "publicationDate": "2024-04-30",
-      "status": "standaard-in-ontwikkeling",
+      "status": "kandidaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Nutsvoorzieningen Meters",
       "publicationDate": "2024-04-30",
-      "status": "standaard-in-ontwikkeling",
+      "status": "kandidaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
