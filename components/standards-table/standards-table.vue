@@ -14,6 +14,7 @@
             Titel
           </vl-button>
         </th>
+        <th>Detailpagina</th>
         <th>
           Categorie
           <vl-button
@@ -60,18 +61,21 @@
             Publicatiedatum
           </vl-button>
         </th>
-        <th>Details</th>
       </tr>
     </thead>
     <tbody>
       <tr v-if="standards?.length" v-for="standard in pagedDatasets()">
         <td>
-          <a  target="_blank" :href="standard?.specificationDocuments?.[0]?.resourceReference">{{
-            standard?.title
-          }}</a>
-          <!-- <a :href="standard?._path?.replace('configuration', '')">{{
-            standard?.title
-          }}</a> -->
+          <a
+            target="_blank"
+            :href="standard?.specificationDocuments?.[0]?.resourceReference"
+            >{{ standard?.title }}</a
+          >
+        </td>
+        <td>
+          <a :href="standard?._path?.replace('configuration', '')">
+            <vl-icon mod-large icon="news"></vl-icon>
+          </a>
         </td>
         <td>
           <p>
@@ -106,11 +110,6 @@
               !!standard?.publicationDate ? standard.publicationDate : Usage.TBD
             }}
           </p>
-        </td>
-        <td>
-          <a :href="standard?._path?.replace('configuration', '')">
-            <vl-icon mod-large icon="news"></vl-icon>
-          </a>
         </td>
       </tr>
       <tr v-else>

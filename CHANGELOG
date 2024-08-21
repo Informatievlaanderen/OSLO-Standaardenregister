@@ -29,3 +29,6 @@
 * Date for the start of a public review
 * Date for the end of a public review
 * Date for the end of a publication (new version of the publication, deprecated,...)
+
+1.2.3
+* Reordered the table view of the standards
