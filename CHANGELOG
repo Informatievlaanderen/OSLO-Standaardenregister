@@ -1,25 +1,31 @@
 2023-11-21
-  - add Docker build scripts
+- add Docker build scripts
 
 
 1.1.1
-  - small tweaks to dockerfiles
+- small tweaks to dockerfiles
 
 1.1.13
-  - Small tweaks to query params setup
+- Small tweaks to query params setup
 
 1.1.14
-  - Added support for a /statistieken pagina
-  - Copy changes
+- Added support for a /statistieken pagina
+- Copy changes
 
 1.1.15
-  - Added support for sorting inside the table
-  - Copy changes
+- Added support for sorting inside the table
+- Copy changes
 
 1.2.0
-  - Added support for direct navigation to publication
-  - Extra icon for navigating to publication page
+- Added support for direct navigation to publication
+- Extra icon for navigating to publication page
 
 1.2.1
-  - Added script to generate overview of all organizations and their titles
-  - Bumped minimal Node version to 18
+- Added script to generate overview of all organizations and their titles
+- Bumped minimal Node version to 18
+
+1.2.2
+- added the following keys
+* Date for the start of a public review
+* Date for the end of a public review
+* Date for the end of a publication (new version of the publication, deprecated,...)
