@@ -86,6 +86,26 @@
             </vl-icon-list-item>
             <vl-icon-list-item
               icon="tag"
+              v-if="data?.standard?.datePublicReviewStart"
+            >
+              <span
+                ><strong>Start publieke review:</strong>&nbsp;{{
+                  data?.standard?.datePublicReviewStart
+                }}</span
+              >
+            </vl-icon-list-item>
+            <vl-icon-list-item
+              icon="tag"
+              v-if="data?.standard?.datePublicReviewEnd"
+            >
+              <span
+                ><strong>Einde publieke review:</strong>&nbsp;{{
+                  data?.standard?.datePublicReviewEnd
+                }}</span
+              >
+            </vl-icon-list-item>
+            <vl-icon-list-item
+              icon="tag"
               v-if="data?.standard?.dateOfAcknowledgementByWorkingGroup"
             >
               <span
@@ -118,6 +138,16 @@
                 }}</span
               >
             </vl-icon-list-item>
+            <vl-icon-list-item
+              icon="tag"
+              v-if="data?.standard?.endOfPublicationDate"
+            >
+              <span
+                ><strong>Publicatie uit dienst sinds:</strong>&nbsp;{{
+                  data?.standard?.endOfPublicationDate
+                }}</span
+              >
+            </vl-icon-list-item>
           </vl-icon-list>
         </vl-column>
         <vl-column>
@@ -142,7 +172,7 @@
 <script setup lang="ts">
 import type { Description } from '~/types/description'
 import type { DescriptionData } from '~/types/descriptionData'
-import type { NavigationLink } from '~/types/navigationLink';
+import type { NavigationLink } from '~/types/navigationLink'
 import { Usage, type Standard } from '~/types/standard'
 
 const { params } = useRoute()
@@ -170,7 +200,10 @@ const descriptionElements: DescriptionData[] = [
     title: 'Verantwoordelijke organisatie',
     element: data?.value?.standard?.responsibleOrganisation
       ? data.value.standard.responsibleOrganisation
-          .map((org: NavigationLink) => `<a href="${org.resourceReference}">${org.name}</a>`)
+          .map(
+            (org: NavigationLink) =>
+              `<a href="${org.resourceReference}">${org.name}</a>`,
+          )
           .join(', ')
       : Usage.TBD,
   },

@@ -36,5 +36,8 @@ export interface Standard {
   dateOfRegistration: string
   dateOfAcknowledgementByWorkingGroup: string
   dateOfAcknowledgementBySteeringCommittee: string
+  datePublicReviewStart: string
+  datePublicReviewEnd: string
+  endOfPublicationDate: string
   _path: string
 }
