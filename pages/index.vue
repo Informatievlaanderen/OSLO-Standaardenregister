@@ -1,16 +1,16 @@
 <template>
-  <content-header title="OSLO" subtitle="OSLO Standaardenregister" />
+  <content-header title="OSLO" :subtitle="`OSLO ${$t('standardsRegistry')}`" />
   <vl-region>
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12">
-          <vl-title tag-name="h1">Standaarden</vl-title>
+          <vl-title tag-name="h1">{{ $t('standards') }}</vl-title>
           <vl-typography class="search__title">
-            <p>Zoek op titel van de standaard</p>
+            <p>{{ $t('searchStandard') }}</p>
           </vl-typography>
           <vl-input-field
             mod-block
-            placeholder="Zoeken op titel..."
+            :placeholder="`${$t('searchByTitle')}...`"
             type="search"
             v-model="searchRef"
           />
@@ -19,11 +19,11 @@
           <vl-action-group mod-collapse-s>
             <a href="/standaarden/statistieken"
               ><vl-button icon="diagram" mod-icon-before type="button"
-                >Ontdek de statistieken</vl-button
+                >{{$t("discoverStatistics")}}</vl-button
               ></a
             >
             <vl-button icon="list" mod-icon-before @click="openSidebar"
-              >Filter resultaten</vl-button
+              >{{ $t('filterResults') }}</vl-button
             >
             <vl-button
               v-if="!!Object.keys(selectedFilters)?.length || !!searchRef"
@@ -32,7 +32,7 @@
               mod-icon-before
               icon="cross"
               @click="resetFilters"
-              >Verwijder filters</vl-button
+              >{{ $t('removeFilters') }}</vl-button
             >
           </vl-action-group>
         </vl-column>
@@ -44,7 +44,7 @@
     </vl-layout>
     <sidebar ref="toggle">
       <template #header>
-        <h5 class="filter__title">Filter standaarden</h5>
+        <h5 class="filter__title">{{ $t('filterStandards') }}</h5>
       </template>
       <template #content>
         <custom-filter

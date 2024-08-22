@@ -2,7 +2,7 @@
   <content-header
     title="OSLO"
     href="/standaarden"
-    subtitle="OSLO Standaardenregister"
+    :subtitle="`OSLO ${$t('standardsRegistry')}`"
   />
   <vl-region>
     <vl-layout>

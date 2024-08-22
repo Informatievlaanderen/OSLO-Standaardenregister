@@ -1,7 +1,5 @@
 import {
   ALL,
-  IMPLEMENTATION_MODEL_DESCRIPTION,
-  RECOGNIZED_DESCRIPTION,
 } from '~/constants/constants'
 import { FilterType, type FilterOption } from '~/types/custom-filter'
 import { Category, Status, Usage } from '~/types/standard'
@@ -37,8 +35,8 @@ export const defaultFilters: FilterOption[] = [
   },
   {
     modal: {
-      title: 'Status standaard',
-      content: RECOGNIZED_DESCRIPTION,
+      title: translate('statusStandard'),
+      content: translate('content.overview.statusStandard'),
     },
     type: FilterType.CHECKBOX,
     title: 'Status standaard',
@@ -64,8 +62,8 @@ export const defaultFilters: FilterOption[] = [
   },
   {
     modal: {
-      title: 'Categorie standaard',
-      content: IMPLEMENTATION_MODEL_DESCRIPTION,
+      title: translate('categoryStandard'),
+      content: translate('content.overview.categoryStandard'),
     },
     type: FilterType.RADIO,
     title: 'Categorie standaard',

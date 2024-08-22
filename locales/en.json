@@ -1,0 +1,38 @@
+{
+  "standards": "Standards",
+  "recognizedStandards": "Recognized standards",
+  "candidateStandards": "Candidate standards",
+  "developmentStandards": "Standards in development",
+  "peopleWhoHelped": "People who helped",
+  "organizationsWhoHelped": "Organizations that were active",
+  "searchStandard": "Search by standard title",
+  "discoverStatistics": "Discover the statistics",
+  "removeFilters": "Remove filters",
+  "filterStandards": "Filter standards",
+  "filterResults": "Filter results",
+  "title": "Title",
+  "detailPage": "Detail page",
+  "category": "Category",
+  "status": "Status",
+  "publicationDate": "Publication date",
+  "responsibleOrganisation": "Responsible organization",
+  "language": "Language",
+  "version": "Version",
+  "typeOfApplication": "Type of application",
+  "noDataFound": "No data found",
+  "categoryStandard": "Category Standard",
+  "statusStandard": "Status Standard",
+  "searchByTitle": "Search by title",
+  "standardsRegistry": "Standards registry",
+  "statistics": "Statistics",
+  "backToOverview": "Back to overview",
+  "content": {
+    "overview": {
+      "categoryStandard": "<p>Technical standards: the technical specifications for data exchange, they provide ways of standardized data exchange.</p> <p>Standards for interoperability: a stable specification for the standard was developed, through a public review period implementation experience is gained and feedback from outside the thematic working group is collected.</p> <p>Vocabulary: the basis for open semantic information standards, they provide a shared conceptual framework for certain concepts with a focus on data exchange.</p> <p>Application profiles: a specification for data exchange for applications that fulfill a certain use case. It allows for additional restrictions to be imposed, such as setting cardinalities or using specific code lists, in addition to shared semantics.</p> <p>Implementation model: a specification for data exchange for applications that fulfill a certain use case, these models may contain part of the internal data processing of specific applications. It allows for additional restrictions to be imposed, such as setting cardinalities or using specific code lists, in addition to shared semantics. The development of these follows the same ideology as application profiles and vocabularies, but has not yet received official recognition within the OSLO process & method.</p>",
+      "statusStandard": "<p>Recognized standards: were approved as a standard within the Flemish government by the Data Standards Working Group of the Steering Committee for Flemish Information and ICT Policy after undergoing a recognition procedure.</p><p>Candidate standards: a stable specification for the standard was developed, through a public review period implementation experience is gained and feedback from outside the thematic working group is collected.</p> <p>Standards in development: have already been registered with the Data Standards Working Group and are being developed by a thematic working group through public work sessions.</p>"
+    },
+    "statistics": {
+      "introduction": "On this page, you will find various statistics of the OSLO standards. These statistics are merely an indication based on the data we have available."
+    }
+  }
+}
