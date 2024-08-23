@@ -10,7 +10,6 @@ import {
 } from '~/types/standard'
 
 export const getDefaultFilters = (translate: Function): FilterOption[] => {
-  console.log(translate(Usage.MANDATORY))
   return [
     {
       type: FilterType.CHECKBOX,
