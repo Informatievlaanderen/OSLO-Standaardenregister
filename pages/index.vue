@@ -18,13 +18,13 @@
         <vl-column width="12" width-s="12">
           <vl-action-group mod-collapse-s>
             <a href="/standaarden/statistieken"
-              ><vl-button icon="diagram" mod-icon-before type="button"
-                >{{$t("discoverStatistics")}}</vl-button
-              ></a
+              ><vl-button icon="diagram" mod-icon-before type="button">{{
+                $t('discoverStatistics')
+              }}</vl-button></a
             >
-            <vl-button icon="list" mod-icon-before @click="openSidebar"
-              >{{ $t('filterResults') }}</vl-button
-            >
+            <vl-button icon="list" mod-icon-before @click="openSidebar">{{
+              $t('filterResults')
+            }}</vl-button>
             <vl-button
               v-if="!!Object.keys(selectedFilters)?.length || !!searchRef"
               mod-link
@@ -56,7 +56,7 @@
       <template #footer>
         <div class="filter__footer">
           <vl-button class="filter__footer__button" @click="openSidebar">{{
-            `Toon resultaten (${data?.standards?.length})`
+            `${$t('showResults')} (${data?.standards?.length})`
           }}</vl-button>
         </div>
       </template>
@@ -71,8 +71,10 @@
 import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
-import { defaultFilters } from '~/config/filter.config'
+import { getDefaultFilters } from '~/config/filter.config'
 import type { Sorting } from '~/types/sorting'
+
+const { t } = useI18n()
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)
@@ -87,6 +89,8 @@ const toggle = ref({
   // Bit of a hacky way to call the toggleSidebar function from the sidebar component. Type the event
   toggleSidebar: () => {},
 })
+
+const defaultFilters = getDefaultFilters(t)
 
 let filters: FilterOption[] = structuredClone(defaultFilters)
 

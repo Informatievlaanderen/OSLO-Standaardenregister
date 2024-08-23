@@ -121,22 +121,22 @@
     <vl-pager-bounds
       v-if="standards?.length"
       :from="paginationIndex.toString()"
+      :prefix="$t('of')"
       :to="maxTo().toString()"
       :total="standards?.length?.toString()"
-      page-label="evenementen"
     />
     <vl-pager-item
       v-if="standards?.length"
-      a11yLabel="vorige"
-      label="Vorige"
+      :a11yLabel="$t('previous')"
+      :label="$t('previous')"
       type="previous"
       @click="setPreviousIndex"
     />
     <vl-pager-item
       v-if="standards?.length"
-      a11yLabel="volgende"
+      :a11yLabel="$t('next')"
       type="next"
-      label="Volgende"
+      :label="$t('next')"
       @click="setNextIndex"
     />
   </vl-pager>

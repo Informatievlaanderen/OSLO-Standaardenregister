@@ -26,11 +26,13 @@ export default defineNuxtConfig({
     // public runtime env variables
     // public: {}
   },
+
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
   routeRules: {
     // serve root as ssr
     '/': { ssr: true, cors: true },
   },
+
   app: {
     baseURL: '/standaarden',
     head: {
@@ -80,6 +82,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   // Alias declaration for easier access to components directory
   alias: {
     '@components': fileURLToPath(new URL('./components', import.meta.url)),
@@ -88,31 +91,44 @@ export default defineNuxtConfig({
     '@types': fileURLToPath(new URL('./types', import.meta.url)),
     '@config': fileURLToPath(new URL('./config', import.meta.url)),
   },
+
   // Global CSS: https://nuxt.com/docs/api/configuration/nuxt-config#css
   css: ['~/css/styles.scss'],
+
   build: {
     transpile: ['@govflanders/vl-widget-polyfill'],
   },
+
   // Plugins to run before rendering page: https://nuxt.com/docs/api/configuration/nuxt-config#plugins-1
-  plugins: [{ src: '~/plugins/webcomponents.js', mode: 'client' }],
+  plugins: [
+    { src: '~/plugins/webcomponents.js', mode: 'client' },
+  ],
+
   // Modules: https://nuxt.com/docs/api/configuration/nuxt-config#modules-1
   modules: [
-  // https://content.nuxtjs.org/
-  '@nuxt/content',
-  // https://i18n.nuxtjs.org/
-  '@nuxtjs/i18n'],
+    // https://content.nuxtjs.org/
+    '@nuxt/content',
+    // https://i18n.nuxtjs.org/
+    '@nuxtjs/i18n',
+  ],
+
   nitro: {
     prerender: {
       routes: ['/404.html'],
     },
   },
+
+  hooks: {
+    close: (nuxt) => {
+      if (!nuxt.options._prepare) process.exit()
+    },
+  },
+
+  // i18n module configuration: https://i18n.nuxtjs.org/
   i18n: {
     //https://i18n.nuxtjs.org/docs/guide#strategies
     strategy: 'no_prefix',
     locales: generateLocales(),
-    detectBrowserLanguage: {
-      alwaysRedirect: true,
-    },
     lazy: false,
     langDir: 'locales/',
     defaultLocale: 'nl',
@@ -122,4 +138,6 @@ export default defineNuxtConfig({
     },
     vueI18n: './i18n.config.ts', // if you are using custom path, default
   },
+
+  compatibilityDate: '2024-08-22',
 })

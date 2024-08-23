@@ -1,4 +1,4 @@
-import type { LocationQuery } from '#vue-router'
+import type { LocationQuery } from 'vue-router'
 import {
   FilterType,
   type FilterOption,
@@ -32,7 +32,7 @@ export const convertQueryParams = (
   let sanitizedFilter: SanitizedFilter = {}
 
   for (let key in query) {
-    // Hardcoded fix to map type to usage. The label in the table from the fronend is 'type' but the key in the filter is 'usage'
+    // Hardcoded fix to map type to usage. The label in the table from the frontend is 'type' but the key in the filter is 'usage'
     const value = query[key]
     if (key === 'type') {
       key = 'usage'

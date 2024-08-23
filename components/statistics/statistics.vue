@@ -45,7 +45,7 @@
           :initials="props.statistics?.uniqueAffiliations"
           mod-xlarge
         />
-        <p>{{ $t('organisationsWhoHelped') }}</p>
+        <p>{{ $t('organizationsWhoHelped') }}</p>
       </div>
     </vl-column>
   </vl-grid>
