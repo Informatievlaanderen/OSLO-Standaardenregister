@@ -1,16 +1,16 @@
 <template>
-  <content-header title="OSLO" subtitle="OSLO Standaardenregister" />
+  <content-header title="OSLO" :subtitle="`OSLO ${$t('standardsRegistry')}`" />
   <vl-region>
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12">
-          <vl-title tag-name="h1">Standaarden</vl-title>
+          <vl-title tag-name="h1">{{ $t('standards') }}</vl-title>
           <vl-typography class="search__title">
-            <p>Zoek op titel van de standaard</p>
+            <p>{{ $t('searchStandard') }}</p>
           </vl-typography>
           <vl-input-field
             mod-block
-            placeholder="Zoeken op titel..."
+            :placeholder="`${$t('searchByTitle')}...`"
             type="search"
             v-model="searchRef"
           />
@@ -18,13 +18,13 @@
         <vl-column width="12" width-s="12">
           <vl-action-group mod-collapse-s>
             <a href="/standaarden/statistieken"
-              ><vl-button icon="diagram" mod-icon-before type="button"
-                >Ontdek de statistieken</vl-button
-              ></a
+              ><vl-button icon="diagram" mod-icon-before type="button">{{
+                $t('discoverStatistics')
+              }}</vl-button></a
             >
-            <vl-button icon="list" mod-icon-before @click="openSidebar"
-              >Filter resultaten</vl-button
-            >
+            <vl-button icon="list" mod-icon-before @click="openSidebar">{{
+              $t('filterResults')
+            }}</vl-button>
             <vl-button
               v-if="!!Object.keys(selectedFilters)?.length || !!searchRef"
               mod-link
@@ -32,7 +32,7 @@
               mod-icon-before
               icon="cross"
               @click="resetFilters"
-              >Verwijder filters</vl-button
+              >{{ $t('removeFilters') }}</vl-button
             >
           </vl-action-group>
         </vl-column>
@@ -44,7 +44,7 @@
     </vl-layout>
     <sidebar ref="toggle">
       <template #header>
-        <h5 class="filter__title">Filter standaarden</h5>
+        <h5 class="filter__title">{{ $t('filterStandards') }}</h5>
       </template>
       <template #content>
         <custom-filter
@@ -56,7 +56,7 @@
       <template #footer>
         <div class="filter__footer">
           <vl-button class="filter__footer__button" @click="openSidebar">{{
-            `Toon resultaten (${data?.standards?.length})`
+            `${$t('showResults')} (${data?.standards?.length})`
           }}</vl-button>
         </div>
       </template>
@@ -71,8 +71,10 @@
 import { convertQueryParams } from '~/composables/useQueryParams'
 import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
-import { defaultFilters } from '~/config/filter.config'
+import { getDefaultFilters } from '~/config/filter.config'
 import type { Sorting } from '~/types/sorting'
+
+const { t } = useI18n()
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)
@@ -87,6 +89,8 @@ const toggle = ref({
   // Bit of a hacky way to call the toggleSidebar function from the sidebar component. Type the event
   toggleSidebar: () => {},
 })
+
+const defaultFilters = getDefaultFilters(t)
 
 let filters: FilterOption[] = structuredClone(defaultFilters)
 
