@@ -1,0 +1,78 @@
+{
+  "standards": "Standaarden",
+  "recognizedStandards": "Erkende standaarden",
+  "candidateStandards": "Kandidaat standaarden",
+  "developmentStandards": "Standaarden in ontwikkeling",
+  "peopleWhoHelped": "Mensen die hebben geholpen",
+  "organizationsWhoHelped": "Organisaties waren actief",
+  "searchStandard": "Zoek op titel van de standaard",
+  "discoverStatistics": "Ontdek de statistieken",
+  "removeFilters": "Verwijder filters",
+  "filterStandards": "Filter standaarden",
+  "filterResults": "Filter resultaten",
+  "title": "Titel",
+  "detailPage": "Detailpagina",
+  "category": "Categorie",
+  "status": "Status",
+  "applicationProfile": "Applicatieprofiel",
+  "vocabulary": "Vocabularium",
+  "implementationModel": "Implementatiemodel",
+  "publicationDate": "Publicatiedatum",
+  "responsibleOrganisation": "Verantwoordelijke organisatie",
+  "language": "Taal",
+  "version": "Versie",
+  "typeOfApplication": "Type toepassing",
+  "noDataFound": "Geen gegevens gevonden",
+  "categoryStandard": "Categorie Standaard",
+  "statusStandard": "Status Standaard",
+  "searchByTitle": "Zoek op titel",
+  "standardsRegistry": "Standaardenregister",
+  "statistics": "Statistieken",
+  "backToOverview": "Terug naar overzicht",
+  "detailInformation": "Detailinformatie",
+  "functionalScope": "Functioneel toepassingsgebied",
+  "organizationalScope": "Organisatorisch toepassingsgebied",
+  "flemishAndLocalGovernments": "Vlaamse en lokale overheden",
+  "dateOfRegistration": "Datum van aanmelding",
+  "datePublicReviewStart": "Start publieke review",
+  "datePublicReviewEnd": "Einde publieke review",
+  "dateOfAcknowledgementByWorkingGroup": "Erkenning door werkgroep datastandaarden",
+  "dateOfAcknowledgementBySteeringCommittee": "Erkenning door stuurorgaan Vlaams Informatie- en ICT-beleid",
+  "endOfPublicationDate": "Publicatie uit dienst sinds",
+  "questionsAndFeedback": "Vragen en feedback",
+  "specificationDocument": "Specificatiedocument",
+  "normative": "Normatief",
+  "notNormative": "Niet-normatief",
+  "documentationAndCharter": "Aanvullende documentatie",
+  "reportsWorkgroups": "Verslagen van werkgroepvergaderingen",
+  "presentationsAndOtherSources": "Presentaties en ander materiaal",
+  "showResults": "Toon resultaten",
+  "next": "Volgende",
+  "previous": "Vorige",
+  "of": "van",
+  "standard": {
+    "usage": {
+      "recommended": "Aanbevolen (vrijwillig)",
+      "mandatory": "Verplicht",
+      "applyOrExplain": "Pas toe of leg uit"
+    },
+    "status": {
+      "development": "standaard-in-ontwikkeling",
+      "candidate": "kandidaat-standaard",
+      "recognized": "erkende-standaard"
+    }
+  },
+  "content": {
+    "slug": {
+      "semanticStandard": "Semantische standaard voor informatie met dossieren",
+      "feedback": "<p>In geval van vragen of feedback kan u contact opnemen <a href={ email }>via e-mail</a> of een topic aanmaken in onze publieke <a href='{ github }' title='GitHub issue-tracker' >GitHub issue-tracker</a>. </p>"
+    },
+    "overview": {
+      "categoryStandard": "<p>Technische standaarden: de technische specificaties voor gegevensuitwisseling, ze bieden manieren aan van gestandaardiseerde gegevensuitwisseling aan.</p> <p>Standaarden voor interoperabiliteit: een stabiele specificatie voor de standaard werd ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en feedback van buiten de thematische werkgroep verzameld.</p> <p>Vocabularium: de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling.</p> <p>Applicatieprofielen: een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten.</p> <p>Implementatiemodel: een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen, deze modellen kunnen een deel van de interne gegevensverwerking van specifieke applicaties bevatten. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. De ontwikkeling hiervan volgt dezelfe ideologie als applicatieprofielen en vocabularia, maar heeft nog geen officiele erkenning binnen het proces & methode van OSLO.</p>",
+      "statusStandard": "<p>Erkende standaarden: werden na het doorlopen van een erkenningsprocedure goedgekeurd door de Werkgroep Datastandaarden van het Stuurorgaan Vlaams Informatie- en ICT-beleid als standaard binnen de Vlaamse overheid.</p><p>Kandidaat standaarden: een stabiele specificatie voor de standaard werd ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en feedback van buiten de thematische werkgroep verzameld.</p> <p>Standaarden in ontwikkeling: werden reeds aangemeld bij de Werkgroep Datastandaarden en worden uitgewerkt door een thematische werkgroep aan de hand van publieke werksessies.</p>"
+    },
+    "statistics": {
+      "introduction": "Op deze pagina vind je allerlei statistieken terug van de OSLO-standaarden. Deze statistieken zijn louter een indicatie op basis van de data die we ter beschikking hebben."
+    }
+  }
+}

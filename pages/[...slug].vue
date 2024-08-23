@@ -2,7 +2,7 @@
   <content-header
     title="OSLO"
     href="/standaarden"
-    subtitle="OSLO Standaardenregister"
+    :subtitle="`OSLO ${$t('standardsRegistry')}`"
   />
   <vl-region>
     <vl-layout>
@@ -17,7 +17,7 @@
         </vl-column>
         <vl-column>
           <a href="/standaarden"
-            ><vl-button type="button">Terug naar het overzicht</vl-button></a
+            ><vl-button type="button">{{ $t('backToOverview') }}</vl-button></a
           >
         </vl-column>
         <vl-column width="12">
@@ -30,16 +30,16 @@
         </vl-column>
         <vl-column width="6" width-s="12">
           <spotlight
-            title="Specificatiedocument"
-            subtitle="Normatief"
+            :title="$t('specificationDocument')"
+            :subtitle="$t('normative')"
             :links="data?.standard?.specificationDocuments"
           />
         </vl-column>
         <vl-column width="6" width-s="12">
           <!-- Combination of both the documentation ash the charter -->
           <spotlight
-            title="Aanvullende documentatie"
-            subtitle="Niet-normatief"
+            :title="$t('documentationAndCharter')"
+            :subtitle="$t('notNormative')"
             :links="
               data?.standard?.documentation?.concat(data?.standard?.charter) ??
               []
@@ -48,30 +48,31 @@
         </vl-column>
         <vl-column width="6" width-s="12">
           <spotlight
-            title="Verslagen van werkgroepvergaderingen"
+            :title="$t('reportsWorkgroups')"
             :links="data?.standard?.reports"
           />
         </vl-column>
         <vl-column width="6" width-s="12">
           <spotlight
-            title="Presentaties en ander materiaal"
+            :title="$t('presentationsAndOtherSources')"
             :links="data?.standard?.presentations"
           />
         </vl-column>
         <vl-column>
-          <vl-title tag-name="h2"> Detailinformatie </vl-title>
+          <vl-title tag-name="h2"> {{ $t('detailInformation') }} </vl-title>
           <vl-icon-list>
             <vl-icon-list-item icon="tag">
               <span
-                ><strong>Functioneel toepassingsgebied:</strong
-                >&nbsp;Semantische standaard voor informatie met
-                dossieren.</span
+                ><strong>{{ $t('functionalScope') }}:</strong>&nbsp;{{
+                  $t('content.slug.semanticStandard')
+                }}</span
               >
             </vl-icon-list-item>
             <vl-icon-list-item icon="tag">
               <span
-                ><strong>Organisatorisch werkingsgebied:</strong>&nbsp;Vlaamse
-                en lokale overheden</span
+                ><strong>{{ $t('organizationalScope') }}:</strong>&nbsp;{{
+                  $t('flemishAndLocalGovernments')
+                }}</span
               >
             </vl-icon-list-item>
             <vl-icon-list-item
@@ -79,7 +80,7 @@
               v-if="data?.standard?.dateOfRegistration"
             >
               <span
-                ><strong>Datum van aanmelding:</strong>&nbsp;{{
+                ><strong>{{ $t('dateOfRegistration') }}:</strong>&nbsp;{{
                   data?.standard?.dateOfRegistration
                 }}</span
               >
@@ -89,7 +90,7 @@
               v-if="data?.standard?.datePublicReviewStart"
             >
               <span
-                ><strong>Start publieke review:</strong>&nbsp;{{
+                ><strong>{{ $t('datePublicReviewStart') }}:</strong>&nbsp;{{
                   data?.standard?.datePublicReviewStart
                 }}</span
               >
@@ -99,7 +100,7 @@
               v-if="data?.standard?.datePublicReviewEnd"
             >
               <span
-                ><strong>Einde publieke review:</strong>&nbsp;{{
+                ><strong>{{ $t('datePublicReviewEnd') }}:</strong>&nbsp;{{
                   data?.standard?.datePublicReviewEnd
                 }}</span
               >
@@ -109,7 +110,8 @@
               v-if="data?.standard?.dateOfAcknowledgementByWorkingGroup"
             >
               <span
-                ><strong>Erkenning door werkgroep datastandaarden:</strong
+                ><strong
+                  >{{ $t('dateOfAcknowledgementByWorkingGroup') }}:</strong
                 >&nbsp;{{
                   data?.standard?.dateOfAcknowledgementByWorkingGroup
                 }}</span
@@ -121,8 +123,7 @@
             >
               <span
                 ><strong
-                  >Erkenning door stuurorgaan Vlaams Informatie- en
-                  ICT-beleid:</strong
+                  >{{ $t('dateOfAcknowledgementBySteeringCommittee') }}:</strong
                 >&nbsp;{{
                   data?.standard?.dateOfAcknowledgementBySteeringCommittee
                 }}</span
@@ -133,7 +134,7 @@
               v-if="data?.standard?.publicationDate"
             >
               <span
-                ><strong>Publicatiedatum:</strong>&nbsp;{{
+                ><strong>{{ $t('publicationDate') }}:</strong>&nbsp;{{
                   data?.standard?.publicationDate
                 }}</span
               >
@@ -143,7 +144,7 @@
               v-if="data?.standard?.endOfPublicationDate"
             >
               <span
-                ><strong>Publicatie uit dienst sinds:</strong>&nbsp;{{
+                ><strong>{{ $t('endOfPublicationDate') }}:</strong>&nbsp;{{
                   data?.standard?.endOfPublicationDate
                 }}</span
               >
@@ -151,17 +152,16 @@
           </vl-icon-list>
         </vl-column>
         <vl-column>
-          <vl-title tag-name="h2"> Vragen en feedback</vl-title>
-          <p>
-            In geval van vragen of feedback kan u contact opnemen
-            <a :href="`mailto:digitaal.vlaanderen@vlaanderen.be`">via e-mail</a>
-            of een topic aanmaken in onze publieke
-            <a
-              href="https://github.com/Informatievlaanderen/OSLO-Discussion"
-              title="GitHub issue-tracker"
-              >GitHub issue-tracker</a
-            >.
-          </p>
+          <vl-title tag-name="h2"> {{ $t('questionsAndFeedback') }}</vl-title>
+          <div
+            v-html="
+              $t('content.slug.feedback', {
+                email: 'mailto:digitaal.vlaanderen@vlaanderen.be',
+                github:
+                  'https://github.com/Informatievlaanderen/OSLO-Discussion',
+              })
+            "
+          />
         </vl-column>
       </vl-grid>
     </vl-layout>
@@ -173,7 +173,8 @@
 import type { Description } from '~/types/description'
 import type { DescriptionData } from '~/types/descriptionData'
 import type { NavigationLink } from '~/types/navigationLink'
-import { Usage, type Standard } from '~/types/standard'
+import { getUsageTranslation, Usage, type Standard } from '~/types/standard'
+const { t } = useI18n()
 
 const { params } = useRoute()
 
@@ -197,7 +198,7 @@ const { data } = await useAsyncData('data', async () => {
 
 const descriptionElements: DescriptionData[] = [
   {
-    title: 'Verantwoordelijke organisatie',
+    title: t('responsibleOrganisation'),
     element: data?.value?.standard?.responsibleOrganisation
       ? data.value.standard.responsibleOrganisation
           .map(
@@ -205,21 +206,22 @@ const descriptionElements: DescriptionData[] = [
               `<a href="${org.resourceReference}">${org.name}</a>`,
           )
           .join(', ')
-      : Usage.TBD,
+      : getUsageTranslation(Usage.TBD, t),
   },
   {
-    title: 'Status',
+    title: t('status'),
     element: !!data?.value?.standard?.status
       ? useRemoveDashes(useCapitalizeFirstLetter(data?.value?.standard?.status))
-      : Usage.TBD,
+      : getUsageTranslation(Usage.TBD, t),
   },
   {
-    title: 'Type toepassing',
-    element: data?.value?.standard?.usage ?? Usage.TBD,
+    title: t('typeOfApplication'),
+    element: data?.value?.standard?.usage ?? getUsageTranslation(Usage.TBD, t),
   },
   {
-    title: 'Categorie',
-    element: data?.value?.standard?.category ?? Usage.TBD,
+    title: t('category'),
+    element:
+      data?.value?.standard?.category ?? getUsageTranslation(Usage.TBD, t),
   },
 ]
 

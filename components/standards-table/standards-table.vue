@@ -11,12 +11,12 @@
             :a11y-label="'Title'"
             @click="onPressSorting('title')"
           >
-            Titel
+          {{ $t('title') }}
           </vl-button>
         </th>
-        <th>Detailpagina</th>
+        <th>{{ $t('detailPage') }}</th>
         <th>
-          Categorie
+          {{ $t('category') }}
           <vl-button
             class="modal__button"
             icon="info-filled"
@@ -25,14 +25,14 @@
             @click="
               (e: Event) =>
                 onModalClick(e, {
-                  title: 'Categorie standaard',
-                  content: IMPLEMENTATION_MODEL_DESCRIPTION,
+                  title: $t('categoryStandard'),
+                  content: $t('content.overview.categoryStandard'),
                 })
             "
           />
         </th>
         <th>
-          Status
+          {{ $t('status') }}
           <vl-button
             class="modal__button"
             icon="info-filled"
@@ -41,14 +41,14 @@
             @click="
               (e: Event) =>
                 onModalClick(e, {
-                  title: 'Status standaard',
-                  content: RECOGNIZED_DESCRIPTION,
+                  title: $t('statusStandard'),
+                  content: $t('content.overview.statusStandard'),
                 })
             "
           />
         </th>
-        <th>Verantwoordelijke organisatie</th>
-        <th>Type toepassing</th>
+        <th>{{ $t('responsibleOrganisation') }}</th>
+        <th>{{ $t('typeOfApplication') }}</th>
         <th>
           <vl-button
             class="sorting__button"
@@ -58,7 +58,7 @@
             :a11y-label="'publicationDate'"
             @click="onPressSorting('publicationDate')"
           >
-            Publicatiedatum
+          {{ $t('publicationDate') }}
           </vl-button>
         </th>
       </tr>
@@ -113,7 +113,7 @@
         </td>
       </tr>
       <tr v-else>
-        <td colspan="6" class="vl-u-align-center">Geen data gevonden</td>
+        <td colspan="7  " class="vl-u-align-center">{{ $t('noDataFound') }}</td>
       </tr>
     </tbody>
   </vl-data-table>
@@ -121,22 +121,22 @@
     <vl-pager-bounds
       v-if="standards?.length"
       :from="paginationIndex.toString()"
+      :prefix="$t('of')"
       :to="maxTo().toString()"
       :total="standards?.length?.toString()"
-      page-label="evenementen"
     />
     <vl-pager-item
       v-if="standards?.length"
-      a11yLabel="vorige"
-      label="Vorige"
+      :a11yLabel="$t('previous')"
+      :label="$t('previous')"
       type="previous"
       @click="setPreviousIndex"
     />
     <vl-pager-item
       v-if="standards?.length"
-      a11yLabel="volgende"
+      :a11yLabel="$t('next')"
       type="next"
-      label="Volgende"
+      :label="$t('next')"
       @click="setNextIndex"
     />
   </vl-pager>
@@ -147,8 +147,6 @@ import { Usage, type Standard } from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
 import { SortingDirection } from '~/composables/useSorting'
 import {
-  IMPLEMENTATION_MODEL_DESCRIPTION,
-  RECOGNIZED_DESCRIPTION,
   ITEMS_PER_PAGE,
 } from '~/constants/constants'
 

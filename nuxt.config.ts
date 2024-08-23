@@ -1,19 +1,22 @@
+import fs from 'fs'
+import path from 'path'
 import { defineNuxtConfig } from 'nuxt/config'
 import { fileURLToPath } from 'url'
 
-// UNNEEDED CODE TO PRERENDER PROJECT. NO LONGER NEEDED
-// import path from 'path';
-// import fs from 'fs';
+// Function to generate locales array
+const generateLocales = () => {
+  const localesDir = path.resolve(__dirname, 'locales')
+  const files = fs.readdirSync(localesDir)
 
-// const getDirectories = (basePath: string, srcPath: string) => {
-//   const dirs = fs.readdirSync(`${basePath}/${srcPath}`).filter(file => fs.statSync(path.join(`${basePath}/${srcPath}`, file)).isDirectory())
-//   return dirs.map((dir) => `${srcPath}/${dir}`)
-// }
-
-// const base = path.join(__dirname, 'content');
-// const routes = getDirectories(base, '')
-
-// console.log(JSON.stringify(routes, null, 4))
+  return files.map((file: string) => {
+    const code = path.basename(file, '.json')
+    return {
+      code,
+      name: code.toUpperCase(),
+      file,
+    }
+  })
+}
 
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -23,11 +26,13 @@ export default defineNuxtConfig({
     // public runtime env variables
     // public: {}
   },
+
   // https://nuxt.com/docs/getting-started/deployment#static-hosting
   routeRules: {
     // serve root as ssr
     '/': { ssr: true, cors: true },
   },
+
   app: {
     baseURL: '/standaarden',
     head: {
@@ -36,8 +41,12 @@ export default defineNuxtConfig({
         lang: 'nl',
       },
       script: [
-        { src: 'https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/node_modules/@govflanders/vl-widget-polyfill/dist/index.js', },
-        { src: 'https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/node_modules/@govflanders/vl-widget-client/dist/index.js' },
+        {
+          src: 'https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/node_modules/@govflanders/vl-widget-polyfill/dist/index.js',
+        },
+        {
+          src: 'https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/node_modules/@govflanders/vl-widget-client/dist/index.js',
+        },
       ],
       meta: [
         { charset: 'utf-8' },
@@ -73,33 +82,62 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   // Alias declaration for easier access to components directory
   alias: {
-    "@components": fileURLToPath(new URL('./components', import.meta.url)),
-    "@constants": fileURLToPath(new URL('./constants', import.meta.url)),
-    "@content": fileURLToPath(new URL('./content', import.meta.url)),
-    "@types": fileURLToPath(new URL('./types', import.meta.url)),
-    "@config": fileURLToPath(new URL('./config', import.meta.url)),
+    '@components': fileURLToPath(new URL('./components', import.meta.url)),
+    '@constants': fileURLToPath(new URL('./constants', import.meta.url)),
+    '@content': fileURLToPath(new URL('./content', import.meta.url)),
+    '@types': fileURLToPath(new URL('./types', import.meta.url)),
+    '@config': fileURLToPath(new URL('./config', import.meta.url)),
   },
+
   // Global CSS: https://nuxt.com/docs/api/configuration/nuxt-config#css
   css: ['~/css/styles.scss'],
+
   build: {
     transpile: ['@govflanders/vl-widget-polyfill'],
   },
+
   // Plugins to run before rendering page: https://nuxt.com/docs/api/configuration/nuxt-config#plugins-1
   plugins: [
     { src: '~/plugins/webcomponents.js', mode: 'client' },
   ],
+
   // Modules: https://nuxt.com/docs/api/configuration/nuxt-config#modules-1
   modules: [
     // https://content.nuxtjs.org/
     '@nuxt/content',
+    // https://i18n.nuxtjs.org/
+    '@nuxtjs/i18n',
   ],
+
   nitro: {
     prerender: {
-      routes: [
-        '/404.html',
-      ],
-    }
-  }
+      routes: ['/404.html'],
+    },
+  },
+
+  hooks: {
+    close: (nuxt) => {
+      if (!nuxt.options._prepare) process.exit()
+    },
+  },
+
+  // i18n module configuration: https://i18n.nuxtjs.org/
+  i18n: {
+    //https://i18n.nuxtjs.org/docs/guide#strategies
+    strategy: 'no_prefix',
+    locales: generateLocales(),
+    lazy: false,
+    langDir: 'locales/',
+    defaultLocale: 'nl',
+    compilation: {
+      strictMessage: false,
+      escapeHtml: false,
+    },
+    vueI18n: './i18n.config.ts', // if you are using custom path, default
+  },
+
+  compatibilityDate: '2024-08-22',
 })

@@ -2,24 +2,22 @@
   <content-header
     title="OSLO"
     href="/standaarden"
-    subtitle="OSLO Standaardenregister"
+    :subtitle="`OSLO ${$t('standardsRegistry')}`"
   />
   <vl-region>
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12" width-s="12">
-          <vl-title mod-no-space-bottom tag-name="h1">Statistieken</vl-title>
+          <vl-title mod-no-space-bottom tag-name="h1">{{ $t('statistics') }}</vl-title>
         </vl-column>
         <vl-column>
           <a href="/standaarden"
-            ><vl-button type="button">Terug naar het overzicht</vl-button></a
+            ><vl-button type="button">{{ $t('backToOverview') }}</vl-button></a
           >
         </vl-column>
         <vl-column width="12" width-s="12">
           <vl-introduction>
-            Op deze pagina vind je allerlei statistieken terug van de
-            OSLO-standaarden. Deze statistieken zijn louter een indicatie op
-            basis van de data die we ter beschikking hebben.
+            {{ $t('content.statistics.introduction') }}
           </vl-introduction>
         </vl-column>
         <vl-column v-if="data?.statistics">
