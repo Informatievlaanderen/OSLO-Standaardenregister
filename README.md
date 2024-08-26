@@ -86,13 +86,13 @@ This file serves as a config file, specifically for npm. We use this file to sto
 In this file, we mention a secret authentication token.
 
 ```
-registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
+registry.npmjs.org/:_authToken=${NPM_TOKEN}
 ```
 
-This is a secret token that needs to exist in your own session. If you try installing the dependencies without this token present, it will not work. You can set a token using the command below, where `NPM_AUTH_TOKEN` contains the actual token. For more information, please read this [stackoverflow issue](https://stackoverflow.com/questions/53099434/using-auth-tokens-in-npmrc/61666885#61666885).
+This is a secret token that needs to exist in your own session. If you try installing the dependencies without this token present, it will not work. You can set a token using the command below, where `NPM_TOKEN` contains the actual token. For more information, please read this [stackoverflow issue](https://stackoverflow.com/questions/53099434/using-auth-tokens-in-npmrc/61666885#61666885).
 
 ```bash
-export NPM_AUTH_TOKEN="${NPM_AUTH_TOKEN}"
+export NPM_TOKEN="${NPM_TOKEN}"
 ```
 
 ### .env
