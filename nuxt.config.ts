@@ -136,7 +136,6 @@ export default defineNuxtConfig({
       strictMessage: false,
       escapeHtml: false,
     },
-    vueI18n: './i18n.config.ts', // if you are using custom path, default
   },
 
   compatibilityDate: '2024-08-22',
