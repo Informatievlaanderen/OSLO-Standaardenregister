@@ -65,6 +65,12 @@ The plugins directory contains JavaScript plugins that you want to run before in
 
 More information about the usage of this directory in [the documentation](https://nuxt.com/docs/guide/directory-structure/plugins#plugins-directory).
 
+### `middleware`
+
+The middleware directory contains your application middleware. Middleware lets you define custom functions that can be run before rendering a page. This is a great place to add locale detection, authentication, or any other logic you want to run before a page is rendered.
+
+More information about the usage of this directory in [the documentation](https://nuxt.com/docs/guide/directory-structure/middleware#middleware-directory).
+
 ### `css`
 
 The css directory contains your custom imported css or Sass files. We use this to import the custom styling from the `@govflanders/vl-ui-design-system-style` library. you should create a file in `css/` and add its path to css in `nuxt.config.ts`.

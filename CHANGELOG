@@ -54,3 +54,5 @@
 
 * Rename NPM_AUTH_TOKEN to NPM_TOKEN
 * Disabled detectBrowserLanguage from i18n
+* Added translation logic to all pages
+

@@ -137,6 +137,10 @@ const { data } = await useAsyncData(
   },
   { watch: [selectedFilters, searchRef, sortingKey] },
 )
+
+definePageMeta({
+  middleware: ['i18n'],
+})
 </script>
 
 <style lang="scss" src="./style.scss" />

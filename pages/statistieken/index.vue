@@ -8,7 +8,9 @@
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12" width-s="12">
-          <vl-title mod-no-space-bottom tag-name="h1">{{ $t('statistics') }}</vl-title>
+          <vl-title mod-no-space-bottom tag-name="h1">{{
+            $t('statistics')
+          }}</vl-title>
         </vl-column>
         <vl-column>
           <a href="/standaarden"
@@ -48,4 +50,8 @@ const { data } = await useAsyncData(
     }
   },
 )
+
+definePageMeta({
+  middleware: ['i18n'],
+})
 </script>
