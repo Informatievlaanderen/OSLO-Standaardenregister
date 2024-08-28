@@ -6,10 +6,10 @@ VERSION := $(shell cat VERSION)
 PUBLISHEDIMAGE := $(shell if [ -f PUBLISHED ]; then cat PUBLISHED; else echo $(DOCKER_IMAGE); fi)
 
 build-base:
-	docker build -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
+	docker build -f Dockerfile.base --build-arg "NPM_TOKEN=${NPM_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
 
 build-base-linux:
-	docker build --platform=linux/amd64 -f Dockerfile.base --build-arg "NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
+	docker build --platform=linux/amd64 -f Dockerfile.base --build-arg "NPM_TOKEN=${NPM_TOKEN}" -t informatievlaanderen/standaardenregister-base:${VERSION} .
 
 # first build-base should have been run
 build:

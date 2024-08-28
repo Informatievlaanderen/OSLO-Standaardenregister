@@ -3,8 +3,8 @@ FROM node:20-alpine
 ADD . /app
 WORKDIR /app
 
-ARG NPM_AUTH_TOKEN
-RUN echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > /app/.npmrc
+ARG NPM_TOKEN
+RUN echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > /app/.npmrc
 
 RUN apk update
 RUN apk add python3 vim make gcc g++ curl

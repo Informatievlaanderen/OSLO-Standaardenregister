@@ -134,7 +134,7 @@ So by this separation, a developer can use the two Docker images to rebuild a ne
 
 ### Build steps
 
-1. on the terminal ensure that NPM_AUTH_TOKEN is set as environment variable
+1. on the terminal ensure that NPM_TOKEN is set as environment variable
 2. make build-base
 3. make build
 

@@ -132,6 +132,7 @@ export default defineNuxtConfig({
     lazy: false,
     langDir: 'locales/',
     defaultLocale: 'nl',
+    detectBrowserLanguage: false,
     compilation: {
       strictMessage: false,
       escapeHtml: false,
