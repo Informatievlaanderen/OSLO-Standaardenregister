@@ -175,16 +175,10 @@ import type { DescriptionData } from '~/types/descriptionData'
 import type { NavigationLink } from '~/types/navigationLink'
 import { getUsageTranslation, Usage, type Standard } from '~/types/standard'
 
-const { defaultLocale, availableLocales, t, setLocale } = useI18n()
+const { defaultLocale, t } = useI18n()
 const cookie = useCookie('i18n_redirected').value ?? defaultLocale
 
 const { params } = useRoute()
-
-await setLocale(
-  cookie
-    ? validateLocaleCookie(cookie, defaultLocale, availableLocales)
-    : defaultLocale,
-)
 
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData('data', async () => {
