@@ -174,7 +174,6 @@ import type { Description } from '~/types/description'
 import type { DescriptionData } from '~/types/descriptionData'
 import type { NavigationLink } from '~/types/navigationLink'
 import { getUsageTranslation, Usage, type Standard } from '~/types/standard'
-import { validateLocaleCookie } from '~/utils/i18n'
 
 const { defaultLocale, availableLocales, t, setLocale } = useI18n()
 const cookie = useCookie('i18n_redirected').value ?? defaultLocale
