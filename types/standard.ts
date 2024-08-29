@@ -3,7 +3,7 @@ import type { NavigationLink } from '~/types/navigationLink'
 export enum Usage {
   TBD = 'TBD',
   RECOMMENDED = 'Aanbevolen (vrijwillig)',
-  MANDATORY = 'mandatory',
+  MANDATORY = 'Verplicht',
   APPLY_OR_EXPLAIN = 'Pas toe of leg uit',
 }
 
