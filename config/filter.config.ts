@@ -20,22 +20,22 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
         {
           default: false,
           label: getUsageTranslation(Usage.MANDATORY, translate),
-          key: Usage.MANDATORY,
+          key: getUsageTranslation(Usage.MANDATORY, translate),
         },
         {
           default: false,
           label: getUsageTranslation(Usage.RECOMMENDED, translate),
-          key: Usage.RECOMMENDED,
+          key: getUsageTranslation(Usage.RECOMMENDED, translate),
         },
         {
           default: false,
           label: getUsageTranslation(Usage.APPLY_OR_EXPLAIN, translate),
-          key: Usage.APPLY_OR_EXPLAIN,
+          key: getUsageTranslation(Usage.APPLY_OR_EXPLAIN, translate),
         },
         {
           default: false,
           label: getUsageTranslation(Usage.TBD, translate),
-          key: Usage.TBD,
+          key: getUsageTranslation(Usage.TBD, translate),
         },
       ],
     },
@@ -56,7 +56,7 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
               getStatusTranslation(Status.DEVELOPMENT, translate),
             ),
           ),
-          key: Status.DEVELOPMENT,
+          key: getStatusTranslation(Status.DEVELOPMENT, translate),
         },
         {
           default: false,
@@ -65,7 +65,7 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
               getStatusTranslation(Status.CANDIDATE, translate),
             ),
           ),
-          key: Status.CANDIDATE,
+          key: getStatusTranslation(Status.CANDIDATE, translate),
         },
         {
           default: false,
@@ -74,7 +74,7 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
               getStatusTranslation(Status.RECOGNIZED, translate),
             ),
           ),
-          key: Status.RECOGNIZED,
+          key: getStatusTranslation(Status.RECOGNIZED, translate),
         },
       ],
     },
@@ -90,29 +90,29 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
       options: [
         {
           default: '1',
-          key: Category.VOCABULARY,
           label: getCategoryTranslation(Category.VOCABULARY, translate),
+          key: getCategoryTranslation(Category.VOCABULARY, translate),
         },
         {
           default: '2',
-          key: Category.APPLICATION_PROFILE,
           label: getCategoryTranslation(
             Category.APPLICATION_PROFILE,
             translate,
           ),
+          key: getCategoryTranslation(Category.APPLICATION_PROFILE, translate),
         },
         {
           default: '3',
-          key: Category.IMPLEMENTATION_MODEL,
           label: getCategoryTranslation(
             Category.IMPLEMENTATION_MODEL,
             translate,
           ),
+          key: getCategoryTranslation(Category.IMPLEMENTATION_MODEL, translate),
         },
         {
           default: '4',
           key: ALL,
-          label: 'Toon alle standaarden',
+          label: translate('showAllStandards'),
         },
       ],
     },
