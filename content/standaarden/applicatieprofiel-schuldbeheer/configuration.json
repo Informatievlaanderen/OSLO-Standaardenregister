@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Schuldbeheer",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "ap-schuldbeheer-config.md",
   "responsibleOrganisation": [
     {
@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2024-07-23",
+  "publicationDate": "2024-09-05",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Schuldbeheer",
@@ -75,6 +75,6 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-schuldbeheer",
-  "datePublicReviewStart": "",
+  "datePublicReviewStart": "2024-09-05",
   "endOfPublicationDate": ""
 }
