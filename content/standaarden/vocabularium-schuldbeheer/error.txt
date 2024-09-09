@@ -1,0 +1,9 @@
+Error repo name: OSLOthema-imkl
+start updating config file
+start reading file /tmp/workspace/nuxt/applicatieprofiel-kabels-en-leidingen/configuration.json
+start translating
+start writing file ap-kabels-en-leidingen-config-multilang.json
+start converting config file
+Moving input file to subdirectory
+start reading file /tmp/workspace/nuxt/applicatieprofiel-kabels-en-leidingen/nl/description.md
+start writing file /tmp/workspace/nuxt/applicatieprofiel-kabels-en-leidingen/en/description.md

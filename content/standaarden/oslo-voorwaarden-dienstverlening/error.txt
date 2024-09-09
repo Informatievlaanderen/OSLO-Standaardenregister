@@ -1,0 +1,9 @@
+Error repo name: OSLOthema-incentiveringsplatform
+start updating config file
+start reading file /tmp/workspace/nuxt/applicatieprofiel-incentiveringsplatform/configuration.json
+start translating
+start writing file ap-config-multilang.json
+start converting config file
+Moving input file to subdirectory
+start reading file /tmp/workspace/nuxt/applicatieprofiel-incentiveringsplatform/nl/description.md
+start writing file /tmp/workspace/nuxt/applicatieprofiel-incentiveringsplatform/en/description.md

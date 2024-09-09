@@ -1,0 +1,9 @@
+Error repo name: OSLOthema-omgevingsvergunning
+start updating config file
+start reading file /tmp/workspace/nuxt/applicatieprofiel-omgevingsvergunning/configuration.json
+start translating
+start writing file ap-omgevingsvergunning-config-multilang.json
+start converting config file
+Moving input file to subdirectory
+start reading file /tmp/workspace/nuxt/applicatieprofiel-omgevingsvergunning/nl/description.md
+start writing file /tmp/workspace/nuxt/applicatieprofiel-omgevingsvergunning/en/description.md
