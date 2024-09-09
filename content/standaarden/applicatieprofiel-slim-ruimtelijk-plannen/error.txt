@@ -1,2 +1,1 @@
-Error repo name: OSLOthema-slimRuimtelijkPlannen
 Copy failed : cp descriptions/slim-ruimtelijk-plannen-description.md /tmp/workspace/nuxt/applicatieprofiel-slim-ruimtelijk-plannen/description.md
