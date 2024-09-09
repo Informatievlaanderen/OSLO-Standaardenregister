@@ -1,1 +1,1 @@
-Het OSLO-publicatieproject 'Kabels en Leidingen' moet helpen om samen te werken met verschillende belanghebbenden om de gegevensstromen van kabel- en pijpleidinginformatie semantisch te modelleren en de structuur van de gegevens te standaardiseren.
+The OSLO publication project 'Cables and Pipelines' aims to help to work together with different stakeholders to semantically model the data flows of cable and pipeline information and to standardize the structure of the data.
