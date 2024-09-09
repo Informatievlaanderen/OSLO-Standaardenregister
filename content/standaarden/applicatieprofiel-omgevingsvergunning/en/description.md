@@ -1,1 +1,1 @@
-Het OSLO-traject "Omgevingsvergunning" moet helpen om samen te werken met verschillende belanghebbenden om de gegevensstromen van omgevingsvergunningen semantisch te modelleren en de structuur van de gegevens te standaardiseren.
+The OSLO project "Environmental Permit" should help to work together with various stakeholders to semantically model the data flows of environmental permits and to standardize the structure of the data.

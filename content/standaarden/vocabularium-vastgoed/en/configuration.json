@@ -1,38 +1,38 @@
 {
-  "title": "Vocabularium Vastgoed",
-  "category": "Vocabularium",
-  "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "title": "Vocabulary Real Estate",
+  "category": "Vocabulary",
+  "usage": "Recommended (voluntary)",
+  "status": "Standard-in-development",
   "descriptionFileName": "vastgoed.md",
   "responsibleOrganisation": [
     {
-      "name": "Agentschap Digitaal Vlaanderen",
+      "name": "Digital Flanders Agency",
       "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
   "publicationDate": "2021-06-30",
   "specificationDocuments": [
     {
-      "name": "Vastgoed Vocabularium",
+      "name": "Real Estate Vocabulary",
       "resourceReference": "https://data.vlaanderen.be/ns/vastgoed"
     }
   ],
   "documentation": [],
   "reports": [
     {
-      "name": "Verslag business werkgroep - 19 januari 2021",
+      "name": "Report business working group - 19 January 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/reports/OSLO vastgoed - Business werkgroep - 19012021 - verslag.pdf"
     },
     {
-      "name": "Verslag thematische werkgroep 1 - 9 februari 2021",
+      "name": "Report of the thematic working group 1 - 9 February 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/reports/OSLO vastgoed - Thematische werkgroep 1 - 09022021 - verslag.pdf"
     },
     {
-      "name": "Verslag thematische werkgroep 2 - 1 april 2021",
+      "name": "Report thematic working group 2 - 1 April 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/reports/OSLO vastgoed - Thematische werkgroep 2 - 01042021 - verslag.pdf"
     },
     {
-      "name": "Verslag thematische werkgroep 3 - 12 mei 2021",
+      "name": "Report of the thematic working group 3 - 12 May 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/reports/OSLO vastgoed - Thematische werkgroep 3 - 12052021 - verslag.pdf"
     }
   ],
@@ -41,23 +41,23 @@
   },
   "presentations": [
     {
-      "name": "Presentatie business werkgroep - 19 januari 2021",
+      "name": "Presentation business working group - 19 January 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/presentations/OSLO vastgoed - Business werkgroep - 19012021 - presentatie.pdf"
     },
     {
-      "name": "Presentatie thematische werkgroep 1 - 9 februari 2021",
+      "name": "Presentation thematic working group 1 - 9 February 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/presentations/OSLO vastgoed - Thematische werkgroep 1 - 09022021 - presentatie.pdf"
     },
     {
-      "name": "Presentatie thematische werkgroep 2 - 1 april 2021",
+      "name": "Presentation thematic working group 2 - 1 April 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/presentations/OSLO vastgoed - Thematische werkgroep 2 - 01042021 - presentatie.pdf"
     },
     {
-      "name": "Presentatie thematische werkgroep 3 - 12 mei 2021",
+      "name": "Presentation thematic working group 3 - 12 May 2021",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/presentations/OSLO vastgoed - Thematische werkgroep 3 - 12052021 - presentatie.pdf"
     },
     {
-      "name": "Presentatie wijzigingen voor publieke review",
+      "name": "Presentation of changes for public review",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-vastgoed/standaardenregister/presentations/OSLO vastgoed - Wijzigingen Publieke Review.pdf"
     }
   ],
