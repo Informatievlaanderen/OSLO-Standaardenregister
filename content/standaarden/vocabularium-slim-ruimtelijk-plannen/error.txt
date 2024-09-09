@@ -1,9 +1,2 @@
-Error repo name: OSLOthema-voorwaarden-dienstverlening
-start updating config file
-start reading file /tmp/workspace/nuxt/oslo-voorwaarden-dienstverlening/configuration.json
-start translating
-start writing file ap-config-multilang.json
-start converting config file
-Moving input file to subdirectory
-start reading file /tmp/workspace/nuxt/oslo-voorwaarden-dienstverlening/nl/description.md
-start writing file /tmp/workspace/nuxt/oslo-voorwaarden-dienstverlening/en/description.md
+Error repo name: OSLOthema-slimRuimtelijkPlannen
+Copy failed : cp descriptions/slim-ruimtelijk-plannen-description.md /tmp/workspace/nuxt/vocabularium-slim-ruimtelijk-plannen/description.md

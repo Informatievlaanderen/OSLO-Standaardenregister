@@ -1,8 +1,1 @@
-Error repo name: OSLOthema-slimRuimtelijkPlannen
-start updating config file
-start reading file /tmp/workspace/nuxt/applicatieprofiel-slim-ruimtelijk-plannen/configuration.json
-start translating
-start writing file ap-config-multilang.json
-start converting config file
-Copy failed : cp descriptions/slim-ruimtelijk-plannen-description.md /tmp/workspace/nuxt/applicatieprofiel-slim-ruimtelijk-plannen/description.md
-Moving input file to subdirectory
+Error repo name: OSLOthema-vastgoed

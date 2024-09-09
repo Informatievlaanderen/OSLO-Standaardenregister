@@ -1,9 +1,1 @@
-Error repo name: OSLOthema-vastgoed
-start updating config file
-start reading file /tmp/workspace/nuxt/applicatieprofiel-vastgoed/configuration.json
-start translating
-start writing file ap-config-multilang.json
-start converting config file
-Moving input file to subdirectory
-start reading file /tmp/workspace/nuxt/applicatieprofiel-vastgoed/nl/description.md
-start writing file /tmp/workspace/nuxt/applicatieprofiel-vastgoed/en/description.md
+Error repo name: OSLOthema-imkl
