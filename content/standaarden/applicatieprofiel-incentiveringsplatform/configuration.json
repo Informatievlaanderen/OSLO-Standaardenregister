@@ -1,105 +1,60 @@
 {
-  "title": {
-    "nl": "Applicatieprofiel Incentiveringsplatform",
-    "en": "Application Profile Incentive Platform"
-  },
-  "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
-  },
-  "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
-  },
-  "status": {
-    "nl": "standaard-in-ontwikkeling",
-    "en": "Standard-in-development"
-  },
+  "title": "Applicatieprofiel Incentiveringsplatform",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "standaard-in-ontwikkeling",
   "descriptionFileName": "ap-Incentiveringsplatform.md",
   "responsibleOrganisation": [
     {
-      "name": {
-        "nl": "Agentschap Digitaal Vlaanderen",
-        "en": "Digital Flanders Agency"
-      },
+      "name": "Agentschap Digitaal Vlaanderen",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
   "publicationDate": "2024-03-21",
   "specificationDocuments": [
     {
-      "name": {
-        "nl": "Incentiveringsplatform Applicatieprofiel",
-        "en": "Incentive Platform Application Profile"
-      },
+      "name": "Incentiveringsplatform Applicatieprofiel",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/incentiveringsplatform"
     }
   ],
   "documentation": [],
   "reports": [
     {
-      "name": {
-        "nl": "Verslag Business werkgroep - OSLO Incentiveringsplatform 18 april 2023",
-        "en": "Report Business Working Group - OSLO Incentive Platform April 18, 2023"
-      },
+      "name": "Verslag Business werkgroep - OSLO Incentiveringsplatform 18 april 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/reports/Verslag Business Werkgroep - OSLO Incentiveringsplatform 2.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 1 - OSLO Incentiveringsplatform 9 mei 2023",
-        "en": "Report Thematic Working Group 1 - OSLO Incentive Platform 9 May 2023"
-      },
+      "name": "Verslag thematische werkgroep 1 - OSLO Incentiveringsplatform 9 mei 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/reports/Verslag Thematische Werkgroep - OSLO Incentiveringsplatform (1) (1).pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 2 - OSLO Incentiveringsplatform 13 juni 2023",
-        "en": "Report thematic working group 2 - OSLO Incentive Platform 13 June 2023"
-      },
+      "name": "Verslag thematische werkgroep 2 - OSLO Incentiveringsplatform 13 juni 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/reports/Verslag Thematische Werkgroep 2 - OSLO Incentiveringsplatform.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 3 - OSLO Incentiveringsplatform 4 juli 2023",
-        "en": "Report thematic working group 3 - OSLO Incentive Platform 4 July 2023"
-      },
+      "name": "Verslag thematische werkgroep 3 - OSLO Incentiveringsplatform 4 juli 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO Incentiveringsplatform.pdf"
     }
   ],
   "charter": {
-    "name": {
-      "nl": "OSLO Incentiveringsplatform Charter",
-      "en": "OSLO Incentive Platform Charter"
-    },
+    "name": "OSLO Incentiveringsplatform Charter",
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/charter/Charter Incentiveringsplatform Lokale Economie.docx"
   },
   "presentations": [
     {
-      "name": {
-        "nl": "Presentatie Business werkgroep -OSLO Incentiveringsplatform 18 april mei 2023",
-        "en": "Presentation Business Working Group -OSLO Incentive Platform April 18, May 2023"
-      },
+      "name": "Presentatie Business werkgroep -OSLO Incentiveringsplatform 18 april mei 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/presentations/Business workshop (1).pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 1 - OSLO Incentiveringsplatform 9 mei 2023",
-        "en": "Presentation thematic working group 1 - OSLO Incentive Platform 9 May 2023"
-      },
+      "name": "Presentatie thematische werkgroep 1 - OSLO Incentiveringsplatform 9 mei 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/presentations/Presentatie thematische werkgroep 1 - Incentiveringplatform (1).pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 2 - OSLO Incentiveringsplatform 13 juni 2023",
-        "en": "Presentation thematic working group 2 - OSLO Incentive Platform 13 June 2023"
-      },
+      "name": "Presentatie thematische werkgroep 2 - OSLO Incentiveringsplatform 13 juni 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/presentations/Presentatie tweede thematische werkgroep - Incentiveringsplatform 13 juni 2023.pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 3 - OSLO Incentiveringsplatform 4 juli 2023",
-        "en": "Presentation thematic working group 3 - OSLO Incentive Platform 4 July 2023"
-      },
+      "name": "Presentatie thematische werkgroep 3 - OSLO Incentiveringsplatform 4 juli 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-incentiveringsplatform/standaardenregister/presentations/Presentatie derde thematische werkgroep - Incentiveringsplatform 4 juli 2023.pdf"
     }
   ],

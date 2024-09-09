@@ -1,127 +1,73 @@
 {
-  "title": {
-    "nl": "Applicatieprofiel Schuldbeheer",
-    "en": "Debt Management Application Profile"
-  },
-  "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
-  },
-  "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
-  },
-  "status": {
-    "nl": "kandidaat-standaard",
-    "en": "Candidate standard"
-  },
+  "title": "Applicatieprofiel Schuldbeheer",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "ap-schuldbeheer-config.md",
   "responsibleOrganisation": [
     {
-      "name": {
-        "nl": "Agentschap Digitaal Vlaanderen",
-        "en": "Digital Flanders Agency"
-      },
+      "name": "Agentschap Digitaal Vlaanderen",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
   "publicationDate": "2024-09-05",
   "specificationDocuments": [
     {
-      "name": {
-        "nl": "Applicatieprofiel Schuldbeheer",
-        "en": "Debt Management Application Profile"
-      },
+      "name": "Applicatieprofiel Schuldbeheer",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/schuldbeheer"
     }
   ],
   "documentation": [
     {
-      "name": {
-        "nl": "Vocabularium Schuldbeheer",
-        "en": "Debt Management Vocabulary"
-      },
+      "name": "Vocabularium Schuldbeheer",
       "resourceReference": "https://data.vlaanderen.be/ns/schuldbeheer"
     }
   ],
   "reports": [
     {
-      "name": {
-        "nl": "Verslag Business Werkgroep - 4 maart 2024",
-        "en": "Report Business Working Group - 4 March 2024"
-      },
+      "name": "Verslag Business Werkgroep - 4 maart 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/reports/20240304_BusinessWorkshop_Verslag_OSLOSchuldbeheer.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag Werksessie Lokale Besturen - 16 april 2024",
-        "en": "Report Work Session Local Authorities - 16 April 2024"
-      },
+      "name": "Verslag Werksessie Lokale Besturen - 16 april 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/reports/20240416_WerksessieLokaleBesturen_Verslag_OSLOSchuldbeheer.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag Eerste Thematische Werkgroep - 16 mei 2024",
-        "en": "Report of the First Thematic Working Group - 16 May 2024"
-      },
+      "name": "Verslag Eerste Thematische Werkgroep - 16 mei 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/reports/20240516_ThematicWorkshop1_Verslag_OSLOSchuldbeheer.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag Tweede Thematische Werkgroep - 11 juni 2024",
-        "en": "Report of the Second Thematic Working Group - 11 June 2024"
-      },
+      "name": "Verslag Tweede Thematische Werkgroep - 11 juni 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/reports/20240611_ThematicWorkshop2_Verslag_OSLOSchuldbeheer.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag Derde Thematische Werkgroep - 2 juli 2024",
-        "en": "Report of the Third Thematic Working Group - 2 July 2024"
-      },
+      "name": "Verslag Derde Thematische Werkgroep - 2 juli 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/reports/20240702_ThematicWorkshop3_Verslag_OSLOSchuldbeheer.pdf"
     }
   ],
   "charter": {
-    "name": {
-      "nl": "Charter Schuldbeheer",
-      "en": "Debt Management Charter"
-    },
+    "name": "Charter Schuldbeheer",
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/charter/Projectcharter_OSLOSchuldbeheer.pdf"
   },
   "presentations": [
     {
-      "name": {
-        "nl": "Presentatie Business Werkgroep - 4 maart 2024",
-        "en": "Presentation Business Working Group - 4 March 2024"
-      },
+      "name": "Presentatie Business Werkgroep - 4 maart 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/presentations/20240304_BusinessWorkshop_Presentatie_OSLOSchuldbeheer.pptx"
     },
     {
-      "name": {
-        "nl": "Presentatie Werksessie Lokale Besturen - 16 april 2024",
-        "en": "Presentation Work Session Local Governments - 16 April 2024"
-      },
+      "name": "Presentatie Werksessie Lokale Besturen - 16 april 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/presentations/20240416_PresentatieWerksessieLokaleBesturen.pptx"
     },
     {
-      "name": {
-        "nl": "Presentatie Eerste Thematische Werkgroep - 16 mei 2024",
-        "en": "Presentation of the First Thematic Working Group - 16 May 2024"
-      },
+      "name": "Presentatie Eerste Thematische Werkgroep - 16 mei 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/presentations/20240516_ThematicWorkshop1_Powerpoint_OSLOSchuldbeheer.pptx"
     },
     {
-      "name": {
-        "nl": "Presentatie Tweede Thematische Werkgroep - 11 juni 2024",
-        "en": "Presentation Second Thematic Working Group - 11 June 2024"
-      },
+      "name": "Presentatie Tweede Thematische Werkgroep - 11 juni 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/presentations/20240611_ThematicWorkshop2_Powerpoint_OSLOSchuldbeheer.pptx"
     },
     {
-      "name": {
-        "nl": "Presentatie Derde Thematische Werkgroep - 2 juli 2024",
-        "en": "Presentation Third Thematic Working Group - 2 July 2024"
-      },
+      "name": "Presentatie Derde Thematische Werkgroep - 2 juli 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-schuldbeheer/standaardenregister/presentations/20240702_ThematicWorkshop3_Powerpoint_OSLOSchuldbeheer.pptx"
     }
   ],

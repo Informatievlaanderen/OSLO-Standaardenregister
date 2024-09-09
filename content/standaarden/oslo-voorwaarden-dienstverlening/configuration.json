@@ -1,119 +1,68 @@
 {
-  "title": {
-    "nl": "OSLO Voorwaarden Dienstverlening",
-    "en": "OSLO Terms and Conditions of Service"
-  },
-  "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
-  },
-  "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
-  },
-  "status": {
-    "nl": "standaard-in-ontwikkeling",
-    "en": "Standard-in-development"
-  },
+  "title": "OSLO Voorwaarden Dienstverlening",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "standaard-in-ontwikkeling",
   "descriptionFileName": "template-description.md",
   "responsibleOrganisation": [
     {
-      "name": {
-        "nl": "Agentschap Digitaal Vlaanderen",
-        "en": "Digital Flanders Agency"
-      },
+      "name": "Agentschap Digitaal Vlaanderen",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
   "publicationDate": "2023-07-11",
   "specificationDocuments": [
     {
-      "name": {
-        "nl": "Applicatieprofiel Voorwaarden Dienstverlening",
-        "en": "Application Profile Terms and Conditions of Service"
-      },
+      "name": "Applicatieprofiel Voorwaarden Dienstverlening",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11"
     }
   ],
   "documentation": [],
   "reports": [
     {
-      "name": {
-        "nl": "Verslag business werkgroep - 6 april 2023",
-        "en": "Report business working group - 6 April 2023"
-      },
+      "name": "Verslag business werkgroep - 6 april 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/reports/Verslag Business Workshop Voorwaarden Dienstverlening.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 1 - 4 mei 2023",
-        "en": "Report thematic working group 1 - 4 May 2023"
-      },
+      "name": "Verslag thematische werkgroep 1 - 4 mei 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/reports/Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 1.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 2 - 15 juni 2023",
-        "en": "Report thematic working group 2 - 15 June 2023"
-      },
+      "name": "Verslag thematische werkgroep 2 - 15 juni 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/reports/Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 2.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 3 - 27 juli 2023",
-        "en": "Report thematic working group 3 - 27 July 2023"
-      },
+      "name": "Verslag thematische werkgroep 3 - 27 juli 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/reports/Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 3.pdf"
     },
     {
-      "name": {
-        "nl": "Verslag thematische werkgroep 4 - 13 oktober 2023",
-        "en": "Report thematic working group 4 - 13 October 2023"
-      },
+      "name": "Verslag thematische werkgroep 4 - 13 oktober 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/reports/Verslag OSLO voorwaarden dienstverlening - thematische werkgroep 4.pdf"
     }
   ],
   "charter": {
-    "name": {
-      "nl": "Charter",
-      "en": "Charter"
-    },
+    "name": "Charter",
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/charter/Charter OSLO Voorwaarden Dienstverlening.docx.pdf"
   },
   "presentations": [
     {
-      "name": {
-        "nl": "Presentatie business werkgroep - 6 april 2023",
-        "en": "Presentation business working group - 6 April 2023"
-      },
+      "name": "Presentatie business werkgroep - 6 april 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/presentations/Business Werkgroep presentatie - Voorwaarden Dienstverlening.pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 1 - 4 mei 2023",
-        "en": "Presentation thematic working group 1 - 4 May 2023"
-      },
+      "name": "Presentatie thematische werkgroep 1 - 4 mei 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/presentations/Presentatie eerste thematische werkgroep - Voorwaarden Dienstverlening-  4 mei 2023.pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 2 - 15 juni 2023",
-        "en": "Presentation thematic working group 2 - 15 June 2023"
-      },
+      "name": "Presentatie thematische werkgroep 2 - 15 juni 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/presentations/Presentatie tweede thematische werkgroep - Voorwaarden Dienstverlening- 15 juni 2023.pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 3 - 27 juli 2023",
-        "en": "Presentation thematic working group 3 - 27 July 2023"
-      },
+      "name": "Presentatie thematische werkgroep 3 - 27 juli 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/presentations/Presentatie derde thematische werkgroep - Voorwaarden Dienstverlening- 27 juli 2023.pptx (1).pdf"
     },
     {
-      "name": {
-        "nl": "Presentatie thematische werkgroep 4 - 13 oktober 2023",
-        "en": "Presentation thematic working group 4 - 13 October 2023"
-      },
+      "name": "Presentatie thematische werkgroep 4 - 13 oktober 2023",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening/standaardenregister/presentations/Presentatie vierde thematische werkgroep - Voorwaarden Dienstverlening-13oktober  2023.pdf"
     }
   ],
