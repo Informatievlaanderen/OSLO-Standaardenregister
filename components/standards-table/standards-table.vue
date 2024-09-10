@@ -113,7 +113,7 @@
         </td>
       </tr>
       <tr v-else>
-        <td colspan="7  " class="vl-u-align-center">{{ $t('noDataFound') }}</td>
+        <td colspan="7" class="vl-u-align-center">{{ $t('noDataFound') }}</td>
       </tr>
     </tbody>
   </vl-data-table>
