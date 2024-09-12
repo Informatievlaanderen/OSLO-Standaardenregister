@@ -175,19 +175,19 @@ import type { DescriptionData } from '~/types/descriptionData'
 import type { NavigationLink } from '~/types/navigationLink'
 import { getUsageTranslation, Usage, type Standard } from '~/types/standard'
 
-const { defaultLocale, t } = useI18n()
-const cookie = useCookie('i18n_redirected').value ?? defaultLocale
+const { locale, t } = useI18n()
 
 const { params } = useRoute()
 
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData('data', async () => {
+  const basePath = `standaarden/${params?.slug?.[0]}/${locale?.value}`
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   const [data, description] = await Promise.all([
-    queryContent<Standard>(`standaarden/${params?.slug?.[0]}`)
+    queryContent<Standard>(`${basePath}/configuration`)
       .where({ _extension: 'json' })
       .find(),
-    queryContent<Description>(`standaarden/${params?.slug?.[0]}/`)
+    queryContent<Description>(`${basePath}/description`)
       .where({ _extension: 'md' })
       .find(),
   ])

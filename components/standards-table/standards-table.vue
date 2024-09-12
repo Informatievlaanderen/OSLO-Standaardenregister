@@ -11,7 +11,7 @@
             :a11y-label="'Title'"
             @click="onPressSorting('title')"
           >
-          {{ $t('title') }}
+            {{ $t('title') }}
           </vl-button>
         </th>
         <th>{{ $t('detailPage') }}</th>
@@ -58,7 +58,7 @@
             :a11y-label="'publicationDate'"
             @click="onPressSorting('publicationDate')"
           >
-          {{ $t('publicationDate') }}
+            {{ $t('publicationDate') }}
           </vl-button>
         </th>
       </tr>
@@ -73,7 +73,7 @@
           >
         </td>
         <td>
-          <a :href="standard?._path?.replace('configuration', '')">
+          <a :href="standard?._path.split('/')[2]">
             <vl-icon mod-large icon="news"></vl-icon>
           </a>
         </td>
@@ -113,7 +113,7 @@
         </td>
       </tr>
       <tr v-else>
-        <td colspan="7  " class="vl-u-align-center">{{ $t('noDataFound') }}</td>
+        <td colspan="7" class="vl-u-align-center">{{ $t('noDataFound') }}</td>
       </tr>
     </tbody>
   </vl-data-table>
@@ -146,9 +146,7 @@
 import { Usage, type Standard } from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
 import { SortingDirection } from '~/composables/useSorting'
-import {
-  ITEMS_PER_PAGE,
-} from '~/constants/constants'
+import { ITEMS_PER_PAGE } from '~/constants/constants'
 
 const paginationIndex = ref(1)
 const props = defineProps({

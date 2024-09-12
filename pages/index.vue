@@ -74,7 +74,8 @@ import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { getDefaultFilters } from '~/config/filter.config'
 import type { Sorting } from '~/types/sorting'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+const route = useRoute()
 
 // force rerender of child component when filters change
 let rerenderRef = ref<number>(0)
@@ -112,7 +113,6 @@ const resetFilters = () => {
   rerenderRef.value += 1
 }
 
-const route = useRoute()
 // Save query params inside the filter object
 const converted = convertQueryParams(route?.query, filters)
 selectedFilters.value = converted.sanitized
@@ -120,11 +120,17 @@ filters = converted.filters
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData(
   'data',
-  // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   async () => {
+    const basePath = `/standaarden`
     const [standards] = await Promise.all([
-      queryContent<Standard>('/standaarden')
-        .where({ _extension: 'json' })
+      queryContent<Standard>(basePath)
+        .where({
+          _extension: 'json',
+          // make sure the directory we're looking in is the same as the current locale
+          _dir: { $eq: `${locale?.value}` },
+          // /standaarden/vocabularium-vrachtwagenparkeren/en/configuration
+          _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
+        })
         .find(),
     ])
 

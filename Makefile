@@ -15,6 +15,9 @@ build-base-linux:
 build:
 	docker build -f Dockerfile.build --build-arg "VERSION=${VERSION}" -t informatievlaanderen/standaardenregister:${VERSION} .
 
+build-linux:
+	docker build --platform=linux/amd64 -f Dockerfile.build --build-arg "VERSION=${VERSION}" -t informatievlaanderen/standaardenregister:${VERSION} .
+
 # first build-base should have been run
 # Build latest to always contain the most recent information of all the standards inside the /content folder
 build-latest:
