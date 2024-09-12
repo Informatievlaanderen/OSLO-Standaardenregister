@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 233,
+  "numberOfStandardsConfigured": 13,
   "reportErrors": 0,
-  "reportsMissing": 234,
+  "reportsMissing": 13,
   "uniqueContributors": 2441,
   "uniqueAffiliations": 481,
   "standards": [
@@ -96,6 +96,7 @@
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
+<<<<<<< HEAD
     },
     {
       "standard": "Applicatieprofiel Verkeersmetingen",
@@ -1640,6 +1641,8 @@
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
+=======
+>>>>>>> 07d2956 (Applying changes from commit 839d180d56b2d09010af37003780678738addfbd)
     }
   ]
 }
