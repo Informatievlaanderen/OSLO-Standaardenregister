@@ -96,7 +96,6 @@
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
-<<<<<<< HEAD
     },
     {
       "standard": "Applicatieprofiel Verkeersmetingen",
@@ -205,11 +204,7 @@
     },
     {
       "standard": "Applicatieprofiel Ruimtelijke Bereiken",
-<<<<<<< HEAD
       "publicationDate": "2024-09-05",
-=======
-      "publicationDate": "2024-09-04",
->>>>>>> 4669f2a (Applying changes from commit eacecae2278ede4a3e8c9bc43d8a25129b67c09d)
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []

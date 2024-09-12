@@ -1,1 +1,0 @@
-The OSLO project "Environmental Permit" should help to work together with various stakeholders to semantically model the data flows of environmental permits and to standardize the structure of the data.
