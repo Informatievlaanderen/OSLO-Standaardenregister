@@ -127,9 +127,9 @@ const { data } = await useAsyncData(
         .where({
           _extension: 'json',
           // make sure the directory we're looking in is the same as the current locale
-          _dir: { $eq: `${locale?.value}` },
-          // /standaarden/vocabularium-vrachtwagenparkeren/en/configuration
-          _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
+          // _dir: { $eq: `${locale?.value}` },
+          _path: { $regex: `^/standaarden/.*/configuration$` },
+          // _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
         })
         .find(),
     ])
