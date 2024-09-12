@@ -27,11 +27,19 @@ for dir in "$base_dir"/*/; do
         cp "${dir}${description_file}" "$lang_dir/"
       fi
 
+<<<<<<< HEAD
       echo "Processed directory: $dir for language: $language"
     done
     # delete configuration.json and description.md from the base directory
     rm "${dir}configuration.json"
     rm "${dir}description.md"
+=======
+      rm "${dir}configuration.json"
+      rm "${dir}description.md"
+
+      echo "Processed directory: $dir for language: $language"
+    done
+>>>>>>> 23996ab (create-lang Bash script to create language dirs inside the content-dir and forgotten translation key added)
   else
     echo "No configuration.json found in directory: $dir"
   fi
