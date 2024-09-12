@@ -55,9 +55,9 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/presentations/OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
     }
   ],
-  "dateOfRegistration": "01 April 2018",
-  "dateOfAcknowledgementByWorkingGroup": "8 November 2018",
-  "dateOfAcknowledgementBySteeringCommittee": "7 Februari 2019",
+  "dateOfRegistration": "2018-04-01",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-07",
   "repository": "OSLOthema-GeneriekeHypermediaAPI",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""

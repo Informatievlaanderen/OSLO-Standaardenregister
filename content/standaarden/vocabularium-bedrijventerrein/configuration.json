@@ -70,11 +70,11 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/finaal-webinar-perceel-24apr2020.pptx"
     }
   ],
-  "dateOfRegistration": "14 Maart 2019 (retroactief)",
-  "dateOfAcknowledgementByWorkingGroup": "23 April 2020",
-  "dateOfAcknowledgementBySteeringCommittee": "18 Juni 2020",
+  "dateOfRegistration": "2019-03-14",
+  "dateOfAcknowledgementByWorkingGroup": "2020-04-23",
+  "dateOfAcknowledgementBySteeringCommittee": "2020-06-18",
   "repository": "OSLOthema-perceel",
-  "datePublicReviewEnd": "15 April 2020",
+  "datePublicReviewEnd": "2020-04-15",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
 }

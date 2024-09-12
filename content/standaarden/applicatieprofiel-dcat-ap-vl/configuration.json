@@ -63,11 +63,11 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/standaardenregister/presentations/DCAT-AP-Vlaanderen-wgdatastandaarden.pptx"
     }
   ],
-  "dateOfRegistration": "28 Mei 2018",
-  "dateOfAcknowledgementByWorkingGroup": "13 Juni 2019",
-  "dateOfAcknowledgementBySteeringCommittee": "03 Oktober 2019",
+  "dateOfRegistration": "2018-05-28",
+  "dateOfAcknowledgementByWorkingGroup": "2019-06-13",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-10-03",
   "repository": "OSLOthema-DCATAPVlaanderen",
-  "datePublicReviewEnd": "15 Mei 2019",
+  "datePublicReviewEnd": "2019-05-15",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
 }

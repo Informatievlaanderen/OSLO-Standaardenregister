@@ -63,11 +63,11 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-FinancieleData/standaardenregister/presentations/220519_Presentatie_thematische_werkgroep_3_OSLO_FinancieleData.pdf"
     }
   ],
-  "dateOfRegistration": "17/03/2022",
-  "dateOfAcknowledgementByWorkingGroup": "25/01/2024",
-  "dateOfAcknowledgementBySteeringCommittee": "17/04/2024",
+  "dateOfRegistration": "2022-03-17",
+  "dateOfAcknowledgementByWorkingGroup": "2024-01-25",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-04-17",
   "repository": "OSLOthema-FinancieleData",
-  "datePublicReviewEnd": "26/12/2023",
+  "datePublicReviewEnd": "2023-12-26",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
 }
