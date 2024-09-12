@@ -1,0 +1,45 @@
+{
+  "title": "Applicatieprofiel Contactvoorkeuren",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "erkende-standaard",
+  "descriptionFileName": "ap-contactvoorkeuren.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Contactvoorkeuren",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/contactvoorkeuren/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
+    },
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
+    },
+    {
+      "name": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "08 Maart 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 november 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "02 februari 2019",
+  "repository": "OSLOthema-contactvoorkeuren",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

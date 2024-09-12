@@ -28,11 +28,15 @@ for dir in "$base_dir"/*/; do
       fi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98f8425 (Updated POC of translations in standaardenregister)
       echo "Processed directory: $dir for language: $language"
     done
     # delete configuration.json and description.md from the base directory
     rm "${dir}configuration.json"
     rm "${dir}description.md"
+<<<<<<< HEAD
 =======
       rm "${dir}configuration.json"
       rm "${dir}description.md"
@@ -40,6 +44,8 @@ for dir in "$base_dir"/*/; do
       echo "Processed directory: $dir for language: $language"
     done
 >>>>>>> 23996ab (create-lang Bash script to create language dirs inside the content-dir and forgotten translation key added)
+=======
+>>>>>>> 98f8425 (Updated POC of translations in standaardenregister)
   else
     echo "No configuration.json found in directory: $dir"
   fi
