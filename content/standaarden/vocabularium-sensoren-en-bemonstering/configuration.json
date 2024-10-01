@@ -17,7 +17,20 @@
       "resourceReference": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Vocabularium Observaties en Metingen",
+      "resourceReference": "https://data.vlaanderen.be/ns/observaties-en-metingen/"
+    },
+    {
+      "name": "W3C Semantic Sensor Network Ontology",
+      "resourceReference": "https://www.w3.org/TR/vocab-ssn/"
+    },
+    {
+      "name": "W3C Semantic Sensor Network Ontology Extensions",
+      "resourceReference": "https://www.w3.org/TR/vocab-ssn-ext/"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag business werkgroep - 9 juli 2020",
