@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 232,
+  "numberOfStandardsConfigured": 233,
   "reportErrors": 0,
-  "reportsMissing": 233,
+  "reportsMissing": 234,
   "uniqueContributors": 2651,
   "uniqueAffiliations": 521,
   "standards": [
@@ -808,6 +808,13 @@
       "standard": "Vocabularium Cultureel Erfgoed",
       "publicationDate": "2021-04-22",
       "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Basisregistratie Cultureel Erfgoed Event",
+      "publicationDate": "2024-10-02",
+      "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
     },
