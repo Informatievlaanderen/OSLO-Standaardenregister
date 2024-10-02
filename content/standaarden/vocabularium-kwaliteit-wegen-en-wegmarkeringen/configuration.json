@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
-      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/ns/kwaliteit-wegen-en-wegmarkeringen"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen"
     }
   ],
   "documentation": [],
