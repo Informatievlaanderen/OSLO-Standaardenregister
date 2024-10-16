@@ -183,6 +183,7 @@ const { params } = useRoute()
 const { data } = await useAsyncData('data', async () => {
   // const basePath = `standaarden/${params?.slug?.[0]}/${locale?.value}`
   const basePath = `standaarden/${params?.slug?.[0]}`
+  console.log('basePath', basePath)
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   const [data, description] = await Promise.all([
     queryContent<Standard>(`${basePath}/configuration`)
