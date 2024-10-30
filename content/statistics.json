@@ -1,101 +1,13 @@
 {
-  "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 13,
-  "reportErrors": 0,
-  "reportsMissing": 13,
-  "uniqueContributors": 2441,
-  "uniqueAffiliations": 481,
-  "standards": [
-    {
-      "standard": "Applicatieprofiel Omgevingsvergunning",
-      "publicationDate": "2024-03-18",
-      "status": "kandidaat-standaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Omgevingsvergunning",
-      "publicationDate": "2024-03-18",
-      "status": "kandidaat-standaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Applicatieprofiel Schuldbeheer",
-      "publicationDate": "2024-09-05",
-      "status": "kandidaat-standaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Schuldbeheer",
-      "publicationDate": "2024-09-05",
-      "status": "kandidaat-standaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Applicatieprofiel Kabels en Leidingen",
-      "publicationDate": "",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Nutsvoorzieningen",
-      "publicationDate": "",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Applicatieprofiel Vastgoed",
-      "publicationDate": "2021-06-30",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Vastgoed",
-      "publicationDate": "2021-06-30",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Applicatieprofiel Slim Ruimtelijk Plannen",
-      "publicationDate": "2023-10-23",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Slim Ruimtelijk Plannen",
-      "publicationDate": "2023-10-23",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "OSLO Voorwaarden Dienstverlening",
-      "publicationDate": "2023-07-11",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Applicatieprofiel Incentiveringsplatform",
-      "publicationDate": "2024-03-21",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Incentiveringsplatform",
-      "publicationDate": "2024-03-21",
-      "status": "standaard-in-ontwikkeling",
-      "totalPeople": 0,
-      "contributors": []
-    }
-  ]
+  "uniqueContributors": 356,
+  "uniqueAffiliations": 87,
+  "classes": 79,
+  "properties": 113,
+  "externalClasses": 221,
+  "externalProperties": 249,
+  "totalTerms": 661,
+  "totalKandidaat": 7,
+  "totalOntwerp": 2,
+  "totalErkend": 0,
+  "totalZonder": 0
 }

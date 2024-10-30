@@ -2,29 +2,37 @@
   <vl-grid mod-stacked mod-center>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge
-        :initials="props.statistics?.numberOfStandardsConfigured"
-          mod-accent
-          mod-xlarge
-        />
+        <vl-badge :initials="totalAmount.toString()" mod-accent mod-xlarge />
         <p>{{ $t('standards') }}</p>
       </div>
     </vl-column>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge mod-accent :initials="recognized?.length" mod-xlarge />
+        <vl-badge
+          mod-accent
+          :initials="statistics.totalErkend.toString()"
+          mod-xlarge
+        />
         <p>{{ $t('recognizedStandards') }}</p>
       </div>
     </vl-column>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge mod-accent :initials="candidates?.length" mod-xlarge />
+        <vl-badge
+          mod-accent
+          :initials="statistics.totalKandidaat.toString()"
+          mod-xlarge
+        />
         <p>{{ $t('candidateStandards') }}</p>
       </div>
     </vl-column>
     <vl-column class="center" width="4" width-s="12">
       <div class="vertical-center">
-        <vl-badge mod-accent :initials="development?.length" mod-xlarge />
+        <vl-badge
+          mod-accent
+          :initials="statistics.totalOntwerp.toString()"
+          mod-xlarge
+        />
         <p>{{ $t('developmentStandards') }}</p>
       </div>
     </vl-column>
@@ -62,18 +70,10 @@ const props = defineProps({
   },
 })
 
-const recognized: StatisticStandard[] | undefined =
-  props.statistics?.standards?.filter(
-    (standard) => standard?.status === Status.RECOGNIZED,
-  )
-const candidates: StatisticStandard[] | undefined =
-  props.statistics?.standards?.filter(
-    (standard) => standard?.status === Status.CANDIDATE,
-  )
-const development: StatisticStandard[] | undefined =
-  props.statistics?.standards?.filter(
-    (standard) => standard?.status === Status.DEVELOPMENT,
-  )
+const totalAmount: number =
+  props.statistics?.totalErkend +
+  props.statistics?.totalKandidaat +
+  props.statistics?.totalOntwerp
 </script>
 
 <style lang="scss" src="./style.scss" />

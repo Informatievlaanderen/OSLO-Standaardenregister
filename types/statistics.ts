@@ -1,22 +1,22 @@
+// export interface Statistics {
+//   numberOfTerms: number
+//   numberOfStandardsConfigured: number
+//   reportErrors: number
+//   reportsMissing: number
+//   uniqueContributors: number
+//   uniqueAffiliations: number
+// }
+
 export interface Statistics {
-  numberOfTerms: number
-  numberOfStandardsConfigured: number
-  reportErrors: number
-  reportsMissing: number
   uniqueContributors: number
   uniqueAffiliations: number
-  standards: StatisticStandard[]
-}
-
-export interface StatisticStandard {
-  standard: string
-  publicationDate: string
-  status: string
-  totalPeople: number
-  contributors: Affiliate[]
-}
-
-interface Affiliate {
-  affiliation: string
-  count: number
+  classes: number
+  properties: number
+  externalClasses: number
+  externalProperties: number
+  totalTerms: number
+  totalKandidaat: number
+  totalOntwerp: number
+  totalErkend: number
+  totalZonder: number
 }
