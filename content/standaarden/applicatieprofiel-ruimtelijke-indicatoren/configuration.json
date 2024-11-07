@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Ruimtelijke Indicatoren",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "ap-ruimtelijke-indicatoren-description.md",
   "responsibleOrganisation": [
     {
@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Ruimtelijke Indicatoren Applicatieprofiel",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22/"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-indicatoren"
     }
   ],
   "documentation": [],

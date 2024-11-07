@@ -2,7 +2,7 @@
   "title": "Vocabularium Ruimtelijke Indicatoren",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "kandidaat-standaard",
   "descriptionFileName": "voc-ruimtelijke-indicatoren-description.md",
   "responsibleOrganisation": [
     {
@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Ruimtelijke Indicatoren Vocabularium",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22"
+      "resourceReference": "https://data.vlaanderen.be/ns/ruimtelijke-indicatoren"
     }
   ],
   "documentation": [],
