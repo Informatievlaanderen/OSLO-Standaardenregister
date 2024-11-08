@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Incentiveringsplatform",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "erkende-standaard",
   "descriptionFileName": "ap-Incentiveringsplatform.md",
   "responsibleOrganisation": [
     {
@@ -60,7 +60,7 @@
   ],
   "dateOfRegistration": "2023-03-16",
   "dateOfAcknowledgementByWorkingGroup": "2024-03-21",
-  "dateOfAcknowledgementBySteeringCommittee": "",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-10-03",
   "repository": "OSLOthema-incentiveringsplatform",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
