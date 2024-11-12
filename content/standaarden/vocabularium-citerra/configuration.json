@@ -3,10 +3,12 @@
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
-  "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
   "publicationDate": "2024-11-08",
   "descriptionFileName": "description.md",
   "specificationDocuments": [
