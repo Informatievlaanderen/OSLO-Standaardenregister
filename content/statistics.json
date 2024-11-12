@@ -1,11 +1,25 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 233,
+  "numberOfStandardsConfigured": 235,
   "reportErrors": 0,
-  "reportsMissing": 234,
+  "reportsMissing": 236,
   "uniqueContributors": 2651,
   "uniqueAffiliations": 521,
   "standards": [
+    {
+      "standard": "Applicatieprofiel Citerra",
+      "publicationDate": "2024-11-08",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Citerra",
+      "publicationDate": "2024-11-08",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
     {
       "standard": "Applicatieprofiel Omgevingsvergunning",
       "publicationDate": "2024-03-18",
