@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Citerra Vocabularium",
-      "resourceReference": "https://data.vlaanderen.be/ns/citerra"
+      "resourceReference": "https://test.data.vlaanderen.be/doc/vocabularium/citerra/ontwerpstandaard/2024-11-13/"
     }
   ],
   "documentation": [],
