@@ -17,7 +17,12 @@
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/incentiveringsplatform"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Incentiveringsplatform Vocabularium",
+      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/incentiveringsplatform"
+    }
+  ],
   "reports": [
     {
       "name": "Verslag Business werkgroep - OSLO Incentiveringsplatform 18 april 2023",
@@ -62,6 +67,6 @@
   "dateOfAcknowledgementByWorkingGroup": "2024-03-21",
   "dateOfAcknowledgementBySteeringCommittee": "2024-10-03",
   "repository": "OSLOthema-incentiveringsplatform",
-  "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "datePublicReviewStart": "2023-11-09",
+  "endOfPublicationDate": "2024-02-28"
 }
