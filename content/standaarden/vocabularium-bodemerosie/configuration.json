@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Bodemerosie Vocabularium",
-      "resourceReference": "https://data.vlaanderen.be/ns/bodemerosie"
+      "resourceReference": "https://test.data.vlaanderen.be/ns/bodemerosie/"
     }
   ],
   "documentation": [],
