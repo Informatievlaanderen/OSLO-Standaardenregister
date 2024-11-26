@@ -1,11 +1,25 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 235,
+  "numberOfStandardsConfigured": 237,
   "reportErrors": 0,
-  "reportsMissing": 236,
+  "reportsMissing": 238,
   "uniqueContributors": 2658,
   "uniqueAffiliations": 521,
   "standards": [
+    {
+      "standard": "Applicatieprofiel Bodemerosie",
+      "publicationDate": "2024-10-07",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bodemerosie",
+      "publicationDate": "2024-10-07",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
     {
       "standard": "Applicatieprofiel Citerra",
       "publicationDate": "2024-11-08",

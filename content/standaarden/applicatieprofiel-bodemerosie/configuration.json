@@ -1,0 +1,50 @@
+{
+  "title": "Applicatieprofiel Bodemerosie",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "standaard-in-ontwikkeling",
+  "responsibleOrganisation": {
+    "name": "Agentschap Digitaal Vlaanderen",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "2024-10-07",
+  "descriptionFileName": "description.md",
+  "specificationDocuments": [
+    {
+      "name": "Bodemerosie Applicatieprofiel",
+      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/bodemerosie/ontwerpstandaard/2024-11-26/"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/charter/Werkgroep%20charter%20OSLO_ModderstroomMonitoring%20-%20OSLO.docx"
+  },
+  "reports": [
+    {
+      "name": "Verslag thematische werkgroep 1 -  20 juni 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematicWorkshop1.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 -  6 september 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematicWorkshop2.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie thematische werkgroep 1 - 20 juni 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep1.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 6 september 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep2.pdf"
+    }
+  ],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-modderstromen"
+}
