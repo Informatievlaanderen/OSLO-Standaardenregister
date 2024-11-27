@@ -13,11 +13,16 @@
   "descriptionFileName": "description.md",
   "specificationDocuments": [
     {
-      "name": "Bodemerosie Vocabularium",
+      "name": "Vocabularium Bodemerosie",
       "resourceReference": "https://test.data.vlaanderen.be/ns/bodemerosie/"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Bodemerosie",
+      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/bodemerosie/ontwerpstandaard/2024-11-26/"
+    }
+  ],
   "charter": {
     "name": "Charter",
     "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/charter/Werkgroep%20charter%20OSLO_ModderstroomMonitoring%20-%20OSLO.docx"
