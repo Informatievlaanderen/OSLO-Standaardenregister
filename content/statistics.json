@@ -1,11 +1,25 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 237,
+  "numberOfStandardsConfigured": 239,
   "reportErrors": 0,
-  "reportsMissing": 238,
+  "reportsMissing": 240,
   "uniqueContributors": 2658,
   "uniqueAffiliations": 521,
   "standards": [
+    {
+      "standard": "Applicatieprofiel Hulp- en Dienstverlening aan Gedetineerden",
+      "publicationDate": "2024-11-29",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Hulp- en Dienstverlening aan Gedetineerden",
+      "publicationDate": "2024-11-29",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
     {
       "standard": "Applicatieprofiel Erosiepoel",
       "publicationDate": "2024-10-07",
