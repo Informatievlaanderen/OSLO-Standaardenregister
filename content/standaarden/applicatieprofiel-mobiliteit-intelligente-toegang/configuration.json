@@ -14,13 +14,13 @@
   "specificationDocuments": [
     {
       "name": "Applicationprofiel Mobiliteit: Intelligente Toegang",
-      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/citerra/ontwerpstandaard/2024-11-13/"
+      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-02"
     }
   ],
   "documentation": [
     {
       "name": "Vocabularium Mobiliteit: Intelligente Toegang",
-      "resourceReference": "https://test.data.vlaanderen.be/doc/vocabularium/citerra/ontwerpstandaard/2024-11-13/"
+      "resourceReference": "https://test.data.vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-02"
     }
   ],
   "charter": {
