@@ -1,0 +1,80 @@
+{
+  "title": "Applicatieprofiel Bedrijventerrein",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "erkende-standaard",
+  "descriptionFileName": "ap-bedrijventerrein.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Innoveren en Ondernemen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000039"
+    }
+  ],
+  "publicationDate": "2020-06-18",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Bedrijventerrein",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/"
+    },
+    {
+      "name": "Vocabularium Bedrijventerrein",
+      "resourceReference": "https://data.vlaanderen.be/ns/bedrijventerrein"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag Business werkgroep Bedrijventerreinen 2019-04-23",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-BW-Bedrijventerreinen-20190423.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-TW1-Bedrijventerreinen-20190522.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-TW2-Bedrijventerreinen-20190605.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-TW3-Bedrijventerreinen-20190718.docx"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/charter/Werkgroep charter OSLO Percelen_v0.04.docx"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie Business werkgroep Bedrijventerreinen 2019-04-23",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-BW-Bedrijventerreinen-20190423.pptx"
+    },
+    {
+      "name": "Presentatie Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-TW1-Bedrijventerreinen-20190522.pptx"
+    },
+    {
+      "name": "Presentatie Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-TW2-Bedrijventerreinen-20190605.pptx"
+    },
+    {
+      "name": "Presentatie Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-TW3-Bedrijventerreinen-20190718.pptx"
+    },
+    {
+      "name": "Presentatie Werkgroep Datastandaarden 2020-04-23",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/wg-datastandaarden-23april2020.pptx"
+    },
+    {
+      "name": "Webinar Percelen & Bedrijventerreinen 2020-04-24",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/finaal-webinar-perceel-24apr2020.pptx"
+    }
+  ],
+  "dateOfRegistration": "2019-03-14",
+  "dateOfAcknowledgementByWorkingGroup": "2020-04-23",
+  "dateOfAcknowledgementBySteeringCommittee": "2020-06-18",
+  "repository": "OSLOthema-perceel",
+  "datePublicReviewEnd": "2020-04-15",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

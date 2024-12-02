@@ -1,0 +1,32 @@
+{
+  "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
+  "category": "Standaard vor organisatorische interoperabiliteit",
+  "usage": "Pas toe of leg uit",
+  "status": "erkende-standaard",
+  "descriptionFileName": "proces-en-methode-awv.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-05-22",
+  "specificationDocuments": [
+    {
+      "name": "Proces en methode voor het ontwikkelen van data standaarden voor wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/refs/heads/standaardenregister/reports/OSLO_Conformiteit_AWV_motiveren%20en%20uitleggen%20van%20afwijkingen.pdf"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-04-10",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-05-22",
+  "repository": "OSLOthema-procesEnMethode",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Vocabularium Notificatie",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "erkende-standaard",
+  "descriptionFileName": "voc-notificatie.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Notificatie",
+      "resourceReference": "https://data.vlaanderen.be/ns/notificatie"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag - Notificatie - Publieke Werkgroep 1 - 2018-04-27",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-notificatie/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Notificatie - Werkgroep 1.docx"
+    },
+    {
+      "name": "Verslag - Notificatie - Publieke Werkgroep 2 - 2018-05-22",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-notificatie/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Notificatie - Werkgroep 2.docx"
+    },
+    {
+      "name": "Verslag - Notificatie - Publieke Werkgroep 3 - 2018-06-28",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-notificatie/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Notificatie - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-notificatie/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-02",
+  "repository": "OSLOthema-notificatie",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}
