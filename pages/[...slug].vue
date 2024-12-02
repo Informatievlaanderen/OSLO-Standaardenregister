@@ -24,8 +24,8 @@
           <DescriptionData :items="descriptionElements" />
         </vl-column>
         <vl-column width="12">
-          <vl-introduction>
-            {{ data?.markdown?.description }}
+          <vl-introduction v-if="data?.markdown">
+            <Markdown :markdown="data.markdown" />
           </vl-introduction>
         </vl-column>
         <vl-column width="6" width-s="12">
@@ -170,8 +170,8 @@
 </template>
 
 <script setup lang="ts">
-import type { Description } from '~/types/description'
 import type { DescriptionData } from '~/types/descriptionData'
+import type { Markdown } from '~/types/markdown'
 import type { NavigationLink } from '~/types/navigationLink'
 import { getUsageTranslation, Usage, type Standard } from '~/types/standard'
 
@@ -189,7 +189,7 @@ const { data } = await useAsyncData('data', async () => {
     queryContent<Standard>(`${basePath}/configuration`)
       .where({ _extension: 'json' })
       .find(),
-    queryContent<Description>(`${basePath}/description`)
+    queryContent<Markdown>(`${basePath}/description`)
       .where({ _extension: 'md' })
       .find(),
   ])

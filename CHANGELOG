@@ -56,3 +56,6 @@
 * Disabled detectBrowserLanguage from i18n
 * Added translation logic to all pages
 
+  1.4.0
+
+* Added full support for Markdown files in the publication
