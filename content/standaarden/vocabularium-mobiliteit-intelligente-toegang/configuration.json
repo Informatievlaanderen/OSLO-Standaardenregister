@@ -29,6 +29,10 @@
   },
   "reports": [
     {
+      "name": "Verslag business werkgroep - 27 februari 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/reports/20240227_BW_Verslag_CoTCiterra.pdf"
+    },
+    {
       "name": "Verslag thematische werkgroep 1 - 5 juni 2024",
       "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/reports/20240905_ThematischeWerkgroep1_Verslag_OSLOCiterra.pdf"
     },
