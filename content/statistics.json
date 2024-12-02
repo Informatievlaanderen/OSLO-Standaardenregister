@@ -1,22 +1,64 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 13,
+  "numberOfStandardsConfigured": 239,
   "reportErrors": 0,
-  "reportsMissing": 13,
-  "uniqueContributors": 2441,
-  "uniqueAffiliations": 481,
+  "reportsMissing": 240,
+  "uniqueContributors": 2658,
+  "uniqueAffiliations": 521,
   "standards": [
     {
+      "standard": "Applicatieprofiel Hulp- en Dienstverlening aan Gedetineerden",
+      "publicationDate": "2024-11-29",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Hulp- en Dienstverlening aan Gedetineerden",
+      "publicationDate": "2024-11-29",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Erosiepoel",
+      "publicationDate": "2024-10-07",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Erosiepoel",
+      "publicationDate": "2024-10-07",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
+      "publicationDate": "2024-11-08",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Mobiliteit: Intelligente Toegang",
+      "publicationDate": "2024-11-08",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
       "standard": "Applicatieprofiel Omgevingsvergunning",
-      "publicationDate": "2024-03-18",
-      "status": "kandidaat-standaard",
+      "publicationDate": "2024-11-07",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Omgevingsvergunning",
-      "publicationDate": "2024-03-18",
-      "status": "kandidaat-standaard",
+      "publicationDate": "2024-11-07",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -63,16 +105,16 @@
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel Slim Ruimtelijk Plannen",
-      "publicationDate": "2023-10-23",
-      "status": "standaard-in-ontwikkeling",
+      "standard": "Applicatieprofiel Ruimtelijke Indicatoren",
+      "publicationDate": "2024-03-21",
+      "status": "kandidaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
-      "standard": "Vocabularium Slim Ruimtelijk Plannen",
-      "publicationDate": "2023-10-23",
-      "status": "standaard-in-ontwikkeling",
+      "standard": "Vocabularium Ruimtelijke Indicatoren",
+      "publicationDate": "2024-03-21",
+      "status": "kandidaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -86,13 +128,1553 @@
     {
       "standard": "Applicatieprofiel Incentiveringsplatform",
       "publicationDate": "2024-03-21",
-      "status": "standaard-in-ontwikkeling",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Incentiveringsplatform",
       "publicationDate": "2024-03-21",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Verkeersmetingen",
+      "publicationDate": "2023-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Verkeersmetingen",
+      "publicationDate": "2023-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Financiële Rapportering",
+      "publicationDate": "2022-03-17",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Financiële Rapportering",
+      "publicationDate": "2022-03-17",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Bodem",
+      "publicationDate": "2022-04-28",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bodem",
+      "publicationDate": "2021-08-01",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Bodem en Ondergrond",
+      "publicationDate": "2024-09-05",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bodem en Ondergrond",
+      "publicationDate": "2024-09-05",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Bodem en Ondergrond Observaties",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bodem en Ondergrond Observaties",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bodem en Ondergrond Interpretaties",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Grondboringen",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Grondboringen",
+      "publicationDate": "2021-08-01",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Grondwatermeetnet",
+      "publicationDate": "2021-08-01",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Ruimtelijke Bereiken",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Ruimtelijke Bereiken",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Sonderingen",
+      "publicationDate": "2021-08-01",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Sonderingen",
+      "publicationDate": "2021-08-01",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Sensoren en Bemonstering",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Sensoren en Bemonstering",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Observaties en Metingen",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Observaties en Metingen",
+      "publicationDate": "2024-09-05",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Cultuurparticipatie",
+      "publicationDate": "2022-04-28",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Cultuurparticipatie",
+      "publicationDate": "2022-04-28",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium loongegevens",
+      "publicationDate": "2021-09-16",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel loongegevens",
+      "publicationDate": "2021-09-16",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Feitelijke Verenigingen",
+      "publicationDate": "2022-02-03",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Feitelijke Verenigingen",
+      "publicationDate": "2022-02-03",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Stopplaatsen",
+      "publicationDate": "2022-04-21",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Tijdstabellen",
+      "publicationDate": "2022-04-21",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Voertuigplanning",
+      "publicationDate": "2022-04-21",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Mobiliteit: Dienstregeling en Planning",
+      "publicationDate": "2022-04-21",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Persoon",
+      "publicationDate": "2018-07-03",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Persoon basis",
+      "publicationDate": "2019-12-10",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Weg",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Wegenregister",
+      "publicationDate": "2019-12-10",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Dienst Transactiemodel",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Transactie",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Dienst",
+      "publicationDate": "2018-07-03",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Dienstencataloog",
+      "publicationDate": "2019-12-10",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Vlaamse Codex",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Organisatie",
+      "publicationDate": "2018-07-03",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Organisatie Basis",
+      "publicationDate": "2018-07-03",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Toeristische Logies Basis",
+      "publicationDate": "2019-12-05",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Toeristische Logies",
+      "publicationDate": "2019-12-05",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Adresregister",
+      "publicationDate": "2019-12-10",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Adres",
+      "publicationDate": "2018-07-03",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Gebouwenregister",
+      "publicationDate": "2018-11-08",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Gebouw",
+      "publicationDate": "2018-11-08",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Inname openbaar domein",
+      "publicationDate": "2020-04-23",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Notificatie Basis",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Notificatie",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Melding",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Issue tracking voor burgers en organisaties",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Generieke Terugmeldfaciliteit",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Dossier",
+      "publicationDate": "2023-09-25",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Dossier",
+      "publicationDate": "2023-09-25",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Besluit Subsidies",
+      "publicationDate": "2019-01-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Subsidies",
+      "publicationDate": "2019-01-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mobiliteit: Trips en Aanbod",
+      "publicationDate": "2020-04-23",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Mobiliteit Trips en Aanbod",
+      "publicationDate": "2020-04-23",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Netwerk",
+      "publicationDate": "2020-04-23",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Transportnetwerk",
+      "publicationDate": "2020-04-23",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel DCAT-AP VL",
+      "publicationDate": "2021-12-02",
+      "status": "herroepen-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Generieke Hypermedia API",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Toestemming",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Contactvoorkeuren",
+      "publicationDate": "2019-02-07",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Perceel",
+      "publicationDate": "2020-06-18",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Perceel",
+      "publicationDate": "2020-06-18",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bedrijventerrein",
+      "publicationDate": "2020-06-18",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Bedrijventerrein",
+      "publicationDate": "2020-06-18",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Mandaat",
+      "publicationDate": "2018-07-20",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mandatendatabank",
+      "publicationDate": "2018-07-20",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Besluit",
+      "publicationDate": "2018-07-20",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Besluit Publicatie",
+      "publicationDate": "2018-07-20",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bestuur",
+      "publicationDate": "2018-06-26",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
+      "publicationDate": "2018-05-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
+      "publicationDate": "2018-05-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vlaamse URI-Standaard voor Data",
+      "publicationDate": "2018-05-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Conceptueel Gegevensmodel Openbaar Domein",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Uitbreiding Gebieden (Vocabularium)",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Uitbreiding Infrastructuurelementen (Vocabularium)",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Uitbreiding Vegetatie-elementen (Vocabularium)",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Uitbreiding Terreindelen (Vocabularium)",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Uitbreiding Waterdelen (Vocabularium)",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Uitbreiding Begraafplaats (Vocabularium)",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Openbaar Domein",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Infrastructuurelementen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Vegetatie-elementen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Terreindelen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Begroeid Voorkomen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Onbegroeid Voorkomen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Waterdelen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Water voorkomen",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein - Applicatieprofiel Begraafplaatsenbeheer",
+      "publicationDate": "2018-11-27",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Verkeersborden",
+      "publicationDate": "2020-04-23",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Besluitvorming",
+      "publicationDate": "2021-02-04",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Besluitvorming",
+      "publicationDate": "2021-02-04",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Cultureel Erfgoed Event",
+      "publicationDate": "2021-04-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Cultureel Erfgoed Object",
+      "publicationDate": "2021-04-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Cultureel Erfgoed",
+      "publicationDate": "2021-04-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Basisregistratie Cultureel Erfgoed",
+      "publicationDate": "2024-10-02",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Besluit Mobiliteit",
+      "publicationDate": "2018-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Mobiliteit",
+      "publicationDate": "2018-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Generiek basis",
+      "publicationDate": "2017-03-23",
+      "status": "zonder-status",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Generiek",
+      "publicationDate": "2017-03-31",
+      "status": "zonder-status",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsenbeheer",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Gebieden",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Infrastructuurelementen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Onbegroeid Voorkomen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Basisprofiel Openbaar Domein",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Terreindelen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Vegetatie-elementen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Waterdelen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Watervoorkomen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Begraafplaats",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Begroeid Voorkomen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Gebied",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Infrastructuur",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Onbegroeid Voorkomen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Terreindeel",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Vegetatie",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Waterdeel",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Openbaar Domein 2.0.0 - Uitbreiding Watervoorkomen",
+      "publicationDate": "2021-09-30",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "API guidelines",
+      "publicationDate": "TBD",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Conformiteitsraamwerk voor data standaarden",
+      "publicationDate": "TBD",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel metadata DCAT",
+      "publicationDate": "2021-04-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium metadata DCAT",
+      "publicationDate": "2021-04-22",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel AIM Object",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel ANPR en trajectcontrole",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Brandleiding",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Camerainstallatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Complexe datatypes",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Draagconstructies",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Dynamische borden",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Ecologische maatregelen",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Eenvoudige datatypes",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Elektrische componenten",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Fietstelinstallatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Hulpposten",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Inbreuken zwaar vervoer",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Kasten, cabines, behuizing",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Lijnvormige elementen",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Luchtkwaliteit",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Luidsprekers en intercom",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Master-implementatiemodel",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Meten in Vlaanderen",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Optisch transport netwerk",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Proeven en metingen",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Relaties",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Riolering",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Signalisatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Slagbomen en doorsteken",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Software en hardware",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Tunnelevacuatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Union datatypes",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Vegetatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Ventilatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Verharding en wegfundering",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Verkeersregelinstallatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Verlichtingsinstallatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer implementatiemodel Zone 30",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer vocabularium abstracten",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer vocabularium implementatieelementen",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer vocabularium installatie",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer vocabularium levenscyclus",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer vocabularium onderdeel",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "wegenenverkeer vocabularium proefenmeting",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Data standaarden wegenenverkeer",
+      "publicationDate": "2020-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium en applicatieprofiel air and water",
+      "publicationDate": "TBD",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Fietsinfrastructuur",
+      "publicationDate": "2021-12-17",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Fietsinfrastructuur",
+      "publicationDate": "2021-12-17",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel DCAT-AP VL 2.0",
+      "publicationDate": "2021-12-02",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium en applicatieprofiel OSLO Consent",
+      "publicationDate": "TBD",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel GeoDCAT-AP VL",
+      "publicationDate": "2022-02-03",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Vervoersknooppunten",
+      "publicationDate": "2022-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Vervoersknooppunten",
+      "publicationDate": "2022-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel LDES",
+      "publicationDate": "2022-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium LDES",
+      "publicationDate": "2022-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Cultuur- en Jeugdinfrastructuur",
+      "publicationDate": "2022-03-21",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Cultuur- en Jeugdinfrastructuur",
+      "publicationDate": "2022-03-21",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Bestuurlijk Sanctieregister",
+      "publicationDate": "2022-06-23",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Bestuurlijke Sancties",
+      "publicationDate": "2022-06-23",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Passenger Transport Hubs",
+      "publicationDate": "2022-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Passenger Transport Hubs",
+      "publicationDate": "2022-12-01",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Leercredential",
+      "publicationDate": "2022-12-20",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Leerprestatiecredential",
+      "publicationDate": "2022-12-20",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Publicatie-Advertentie",
+      "publicationDate": "2023-11-09",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Publicatie-Advertentie",
+      "publicationDate": "2023-11-09",
+      "status": "erkende-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium en implementatiemodel IPDC - LPDC",
+      "publicationDate": "",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel OSLO Slimme Stadsdistributie",
+      "publicationDate": "2024-07-16",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium OSLO Slimme Stadsdistributie",
+      "publicationDate": "2024-07-16",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Mobiliteitsbudget",
+      "publicationDate": "2022-11-10",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Mobiliteitsbudget",
+      "publicationDate": "2022-11-10",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
+      "publicationDate": "2023-07-24",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
+      "publicationDate": "2023-07-24",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Slimme Raadpleegomgeving",
+      "publicationDate": "2024-02-08",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Slimme Raadpleegomgeving",
+      "publicationDate": "2024-02-08",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Lokale Economie",
+      "publicationDate": "2024-01-17",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Lokale Economie",
+      "publicationDate": "2024-01-17",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Overlijdensaangifte",
+      "publicationDate": "2024-02-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Overlijdensaangifte",
+      "publicationDate": "2024-02-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Gezondheidstoestand Persoon",
+      "publicationDate": "2024-04-11",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Kindfiche",
+      "publicationDate": "2024-03-19",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Kindfiche",
+      "publicationDate": "2024-03-19",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium OSLO Statistiek",
+      "publicationDate": "2023-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel OSLO Statistiek",
+      "publicationDate": "2023-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium OSLO Datakwaliteit",
+      "publicationDate": "2023-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Leerinschrijfcredential",
+      "publicationDate": "2024-04-08",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel OSLO Datakwaliteit",
+      "publicationDate": "2023-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel OSLO Waterkwaliteit",
+      "publicationDate": "2023-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium OSLO Waterkwaliteit",
+      "publicationDate": "2023-06-01",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Digitale Watermeter",
+      "publicationDate": "2024-04-30",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Nutsvoorzieningen Meters",
+      "publicationDate": "2024-04-30",
+      "status": "kandidaat-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Vrachtwagenparkeren",
+      "publicationDate": "2024-07-30",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Vrachtwagenparkeren",
+      "publicationDate": "2024-07-30",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
