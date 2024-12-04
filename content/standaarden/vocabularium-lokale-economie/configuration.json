@@ -66,10 +66,10 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische Werkgroep 4 - Lokale Economie - 23012024.pdf"
     }
   ],
-  "dateOfRegistration": "",
-  "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": "",
+  "dateOfRegistration": "2023-11-09",
+  "dateOfAcknowledgementByWorkingGroup": "2024-11-07",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-lokaleEconomie",
-  "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "datePublicReviewStart": "2024-03-21",
+  "endOfPublicationDate": "2024-11-06"
 }
