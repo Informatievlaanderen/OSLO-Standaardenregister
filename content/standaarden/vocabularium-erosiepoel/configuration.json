@@ -30,11 +30,15 @@
   "reports": [
     {
       "name": "Verslag thematische werkgroep 1 -  20 juni 2024",
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematicWorkshop1.pdf"
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematischeWerkgroep1.pdf"
     },
     {
       "name": "Verslag thematische werkgroep 2 -  6 september 2024",
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematicWorkshop2.pdf"
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematischeWerkgroep2.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 -  28 november 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematischeWerkgroep3.pdf"
     }
   ],
   "presentations": [
@@ -43,8 +47,12 @@
       "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep1.pdf"
     },
     {
-      "name": "Presentatie thematische werkgroep 1 - 6 september 2024",
+      "name": "Presentatie thematische werkgroep 2 - 6 september 2024",
       "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep2.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 28 november 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep3.pdf"
     }
   ],
   "dateOfRegistration": "",
