@@ -2,7 +2,7 @@
   "title": "Vocabularium Ruimtelijke Indicatoren",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "erkende-standaard",
   "descriptionFileName": "voc-ruimtelijke-indicatoren-description.md",
   "responsibleOrganisation": [
     {
@@ -66,10 +66,10 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/refs/heads/standaardenregister/presentations/Presentatie%20thematische%20werkgroep%204%20SRP%202024-02-01.pdf"
     }
   ],
-  "dateOfRegistration": "",
-  "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": "",
+  "dateOfRegistration": "2023-11-09",
+  "dateOfAcknowledgementByWorkingGroup": "2024-11-07",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-slimRuimtelijkPlannen",
-  "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "datePublicReviewStart": "2024-03-21",
+  "endOfPublicationDate": "2024-12-04"
 }
