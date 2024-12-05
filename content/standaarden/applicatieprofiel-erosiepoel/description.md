@@ -1,5 +1,13 @@
-Het doel van dit traject is om de datastromen semantisch te modelleren en de structuur van de data te standaardiseren 
-in de context van het monitoren van modderstromen. 
-Hierbij zal de focus gelegd worden op het opzetten van een gegevensuitwisseling tussen 
-onder andere gemeenten, landbouwers, milieudiensten, waterbeheerders, onderzoeksinstituten en burgers. 
-Hierdoor kunnen de betrokken partijen direct de gegevens van anderen gebruiken en begrijpen.
+Dit OSLO-traject richt zich op maatregelen die bodemerosie bestrijden, 
+zoals bijvoorbeeld erosiepoelen. 
+Wat volgt zijn een aantal use cases die hieronder vallen:
+
+- Het bekijken van de huidige toestand van een erosiebestrijdingsmaatregel.
+- Voorspellingen doen aan de hand van observaties over de erosiebestrijdingsmaatregelen en 
+  de zones die hierop betrekking hebben.
+- Het bijhouden van welk onderhoud er gebeurd is op welke erosiebestrijdingsmaatregelen.
+- Het beschrijven waar een bepaalde sensor staat ten op zichte van een erosiebestrijdingsmaatregel. 
+  Dit kan bijvoorbeeld zijn in het geval dat een sensor aan de ingang staat van een erosiepoel. 
+  Dit heeft belang om de waarde van een observatie door die sensor correct te gebruiken.
+
+Het applicatieprofiel en vocabularium heten "Erosiepoel" maar het OSLO-traject heet "Modderstroom Monitoring".
