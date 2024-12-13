@@ -14,13 +14,13 @@
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Erosiepoel",
-      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-11-29/"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/erosiepoel"
     }
   ],
   "documentation": [
     {
       "name": "Vocabularium Erosiepoel",
-      "resourceReference": "https://test.data.vlaanderen.be/ns/erosiepoel/"
+      "resourceReference": "https://data.vlaanderen.be/ns/erosiepoel/"
     }
   ],
   "charter": {
