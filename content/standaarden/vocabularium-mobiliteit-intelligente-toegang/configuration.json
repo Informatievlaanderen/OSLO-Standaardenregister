@@ -14,13 +14,13 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Mobiliteit: Intelligente Toegang",
-      "resourceReference": "https://test.data.vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-02"
+      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang"
     }
   ],
   "documentation": [
     {
       "name": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
-      "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-02"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang"
     }
   ],
   "charter": {
