@@ -2,8 +2,8 @@
   "title": "Applicatieprofiel Lokale Economie",
   "category": "applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
-  "descriptionFileName": "template-description.md",
+  "status": "erkende-standaard",
+  "descriptionFileName": "lokale-economie-description.md",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
