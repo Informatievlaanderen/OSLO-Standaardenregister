@@ -1,14 +1,21 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 239,
+  "numberOfStandardsConfigured": 240,
   "reportErrors": 0,
-  "reportsMissing": 240,
+  "reportsMissing": 241,
   "uniqueContributors": 2796,
   "uniqueAffiliations": 538,
   "standards": [
     {
-      "standard": "Vocabularium Energiehuis",
+      "standard": "Applicatieprofiel Energiehuis",
       "publicationDate": "",
+      "status": "ontwerp-standaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Energiehuis",
+      "publicationDate": "2025-01-09",
       "status": "ontwerp-standaard",
       "totalPeople": 0,
       "contributors": []
