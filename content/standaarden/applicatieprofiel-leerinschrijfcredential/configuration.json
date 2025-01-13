@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Leerinschrijfcredential",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "erkende-standaard",
   "descriptionFileName": "leerinschrijfcredential-description.md",
   "responsibleOrganisation": [
     {
@@ -68,8 +68,8 @@
     }
   ],
   "dateOfRegistration": "2024-03-21",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "2024-11-07",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-Leercredential",
   "datePublicReviewStart": "2024-05-16",
   "endOfPublicationDate": "TBD"

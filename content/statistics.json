@@ -3,7 +3,7 @@
   "numberOfStandardsConfigured": 240,
   "reportErrors": 0,
   "reportsMissing": 241,
-  "uniqueContributors": 2796,
+  "uniqueContributors": 2797,
   "uniqueAffiliations": 538,
   "standards": [
     {
@@ -1535,14 +1535,14 @@
     {
       "standard": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
       "publicationDate": "2023-07-24",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
       "publicationDate": "2023-07-24",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1577,21 +1577,21 @@
     {
       "standard": "Applicatieprofiel Overlijdensaangifte",
       "publicationDate": "2024-02-01",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Overlijdensaangifte",
       "publicationDate": "2024-02-01",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Gezondheidstoestand Persoon",
       "publicationDate": "2024-04-11",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1633,7 +1633,7 @@
     {
       "standard": "Applicatieprofiel Leerinschrijfcredential",
       "publicationDate": "2024-04-08",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },

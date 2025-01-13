@@ -2,7 +2,7 @@
   "title": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "erkende-standaard",
   "descriptionFileName": "template-description.md",
   "responsibleOrganisation": [
     {
@@ -56,7 +56,7 @@
   ],
   "dateOfRegistration": "2022-11-08",
   "dateOfAcknowledgementByWorkingGroup": "2023-11-09",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-wegenEnWegmarkeringen",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
