@@ -1,11 +1,18 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 240,
+  "numberOfStandardsConfigured": 241,
   "reportErrors": 0,
-  "reportsMissing": 241,
+  "reportsMissing": 243,
   "uniqueContributors": 2765,
   "uniqueAffiliations": 527,
   "standards": [
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
+      "totalPeople": 0,
+      "contributors": []
+    },
     {
       "standard": "Applicatieprofiel Energiehuis",
       "publicationDate": "",
@@ -1521,14 +1528,14 @@
     {
       "standard": "Applicatieprofiel Mobiliteitsbudget",
       "publicationDate": "2022-11-10",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Mobiliteitsbudget",
       "publicationDate": "2022-11-10",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
