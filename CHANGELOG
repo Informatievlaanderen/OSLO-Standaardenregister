@@ -62,5 +62,9 @@
 
   1.5.0
 
-- Fully switch to multilangual support for the specifications
-- Bumped minimal Node version and added support for Node 20
+* Fully switch to multilangual support for the specifications
+* Bumped minimal Node version and added support for Node 20
+
+  1.5.1
+
+* Small tweaks to the slug page and index page
