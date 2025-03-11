@@ -1,25 +1,10 @@
 {
-  "title": {
-    "nl": "",
-    "en": ""
-  },
-  "category": {
-    "nl": "",
-    "en": ""
-  },
-  "usage": {
-    "nl": "",
-    "en": ""
-  },
-  "status": {
-    "nl": "",
-    "en": ""
-  },
+  "title": "",
+  "category": "",
+  "usage": "",
+  "status": "",
   "responsibleOrganisation": {
-    "name": {
-      "nl": "Agentschap Digitaal Vlaanderen",
-      "en": "Digital Flanders Agency"
-    },
+    "name": "Agentschap Digitaal Vlaanderen",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
   },
   "publicationDate": "",
