@@ -128,8 +128,8 @@ const { data } = await useAsyncData(
           _extension: 'json',
           // make sure the directory we're looking in is the same as the current locale
           // _dir: { $eq: `${locale?.value}` },
-          _path: { $regex: `^/standaarden/.*/configuration$` },
-          // _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
+          // _path: { $regex: `^/standaarden/.*/configuration$` },
+          _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
         })
         .find(),
     ])
