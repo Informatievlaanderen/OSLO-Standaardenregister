@@ -1,0 +1,107 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Erosiepoel",
+    "en": "Application profile Erosion pool"
+  },
+  "category": {
+    "nl": "Applicatieprofiel",
+    "en": "Application Profile"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "standaard-in-ontwikkeling",
+    "en": "Standard-in-development"
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2024-10-07",
+  "descriptionFileName": "description.md",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Erosiepoel",
+        "en": "Application profile Erosion pool"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/erosiepoel"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium Erosiepoel",
+        "en": "Vocabularium Erosiepoel"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/erosiepoel/"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Charter",
+      "en": "Charter"
+    },
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/charter/Werkgroep%20charter%20OSLO_ModderstroomMonitoring%20-%20OSLO.docx"
+  },
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 1 -  20 juni 2024",
+        "en": "Report thematic working group 1 - 20 June 2024"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematischeWerkgroep1.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 2 -  6 september 2024",
+        "en": "Report thematic working group 2 - 6 September 2024"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematischeWerkgroep2.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 3 -  28 november 2024",
+        "en": "Report thematic working group 3 - 28 November 2024"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/reports/ThematischeWerkgroep3.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - 20 juni 2024",
+        "en": "Presentation thematic working group 1 - 20 June 2024"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep1.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 - 6 september 2024",
+        "en": "Presentation thematic working group 2 - 6 September 2024"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep2.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 3 - 28 november 2024",
+        "en": "Presentation thematic working group 3 - 28 November 2024"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen/blob/standaardenregister/presentations/ThematischeWerkgroep3.pdf"
+    }
+  ],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-modderstromen"
+}

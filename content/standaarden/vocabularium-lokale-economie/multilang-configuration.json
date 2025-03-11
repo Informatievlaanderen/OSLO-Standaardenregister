@@ -1,0 +1,126 @@
+{
+  "title": {
+    "nl": "Vocabularium Lokale Economie",
+    "en": "Local Economy Vocabulary"
+  },
+  "category": {
+    "nl": "vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "lokale-economie-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2024-01-17",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Lokale Economie Vocabularium",
+        "en": "Local Economy Vocabulary"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/lokale-economie"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag business werkgroep - 19-09-2023",
+        "en": "Report business working group - 19-09-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Business Werkgroep - Lokale Economie - 19092023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 1 - 17-10-2023",
+        "en": "Report thematic working group 1 - 17-10-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Thematische Werkgroep 1 - Lokale Economie - 17102023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 2 - 16-11-2023",
+        "en": "Report thematic working group 2 - 16-11-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Thematische Werkgroep 2 - Lokale Economie - 16112023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 3 - 19-12-2023",
+        "en": "Report thematic working group 3 - 19-12-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Thematische Werkgroep 3 - Lokale Economie - 19122023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 4 - 23-01-2024",
+        "en": "Report thematic working group 4 - 23-01-2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/reports/Verslag Thematische Werkgroep 4 - Lokale Economie - 23012024.pdf"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "OSLO Lokale Economie Charter",
+      "en": "OSLO Local Economy Charter"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/charter/Charter_OSLO_Lokale_Economie.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie business werkgroep - 19-09-2023",
+        "en": "Presentation business working group - 19-09-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Business Werkgroep - Lokale Economie - 19092023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - 17-10-2023",
+        "en": "Presentation thematic working group 1 - 17-10-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische Werkgroep 1 - Lokale Economie - 17102023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 - 16-11-2023",
+        "en": "Presentation thematic working group 2 - 16-11-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische Werkgroep 2 - Lokale Economie - 16112023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 3 - 19-12-2023",
+        "en": "Presentation thematic working group 3 - 19-12-2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische werkgroep 3 - Lokale Economie - 19122023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 4 - 23-01-2024",
+        "en": "Presentation thematic working group 4 - 23-01-2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleEconomie/standaardenregister/presentations/Presentatie Thematische Werkgroep 4 - Lokale Economie - 23012024.pdf"
+    }
+  ],
+  "dateOfRegistration": "2023-11-09",
+  "dateOfAcknowledgementByWorkingGroup": "2024-11-07",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
+  "repository": "OSLOthema-lokaleEconomie",
+  "datePublicReviewStart": "2024-03-21",
+  "endOfPublicationDate": "2024-11-06"
+}

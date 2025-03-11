@@ -1,0 +1,1 @@
+Application profile developed to describe spatial ranges, based on [ISO 19103](https://www.iso.org/standard/40121.html) Geographic information — Schema for coverage geometry and functions.

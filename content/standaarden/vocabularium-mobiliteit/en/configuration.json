@@ -1,0 +1,50 @@
+{
+  "title": "Vocabulary Mobility",
+  "category": "Vocabulary",
+  "usage": "Recommended (voluntary)",
+  "status": "Candidate standard",
+  "descriptionFileName": "voc-mobiliteit.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    },
+    {
+      "name": "Agency for Domestic Administration",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2018-06-01",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Mobility",
+      "resourceReference": "https://data.vlaanderen.be/ns/mobiliteit"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "name": "Working Group Charter OSLO Mobility",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteit/standaardenregister/charter/Werkgroep charter OSLO Mobiliteit.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentation Process Workshop 1 Mobility",
+      "resourceReference": "https://drive.google.com/file/d/19OiSynuYhsRjXL9j8JnNaINxg3yeZP56/view?usp=sharing"
+    },
+    {
+      "name": "Presentation Process Workshop 2 Mobility",
+      "resourceReference": "https://drive.google.com/file/d/1RkPKiIaxlNrQ7Enn0_KPCBBjCzlLVTWh/view?usp=sharing"
+    },
+    {
+      "name": "Presentation Process Workshop 3 Mobility",
+      "resourceReference": "https://drive.google.com/file/d/1qlRTR6w_AO3s5yiYbSfCt5TkxAdF2zUX/view?usp=sharing"
+    }
+  ],
+  "dateOfRegistration": "2018-05-29",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-mobiliteit",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

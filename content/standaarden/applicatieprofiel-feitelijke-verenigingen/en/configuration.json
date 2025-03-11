@@ -1,0 +1,79 @@
+{
+  "title": "Application profile de facto associations",
+  "category": "Application Profile",
+  "usage": "Recommended (voluntary)",
+  "status": "Candidate standard",
+  "descriptionFileName": "ap-feitelijke-verenigingen.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Department of Culture, Youth and Media",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO000067"
+    }
+  ],
+  "publicationDate": "2022-02-03",
+  "specificationDocuments": [
+    {
+      "name": "Application profile de facto associations",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/FeitelijkeVerenigingen/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Final report environmental analysis - de facto associations",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/documents/Eindrapport_omgevingsanalyse-feitelijke-verenigingen_Informatie-architectuur.pdf"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Report business working group - 20 April 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/reports/OSLO Feitelijke Verenigingen - Business Werkgroep - 20042021.pdf"
+    },
+    {
+      "name": "Report thematic working group 1 - 4 May 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/reports/OSLO Feitelijke Verenigingen - Thematische Werkgroep 1 - 04052021.docx"
+    },
+    {
+      "name": "Report thematic working group 2 - 25 May 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/reports/OSLO Feitelijke Verenigingen - Thematische Werkgroep 2 - 25052021.docx"
+    },
+    {
+      "name": "Report thematic working group 3 - 15 June 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/reports/OSLO Feitelijke Verenigingen - Thematische Werkgroep 3 - 15062021.docx"
+    },
+    {
+      "name": "Report thematic working group 4 - 6 July 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/reports/OSLO Feitelijke Verenigingen - Thematische Werkgroep 4 - 06072021.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "Presentation business working group - 20 April 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/presentations/OSLO feitelijke verenigingen - presentatie Business Werkgroep - 20042021.pdf"
+    },
+    {
+      "name": "Presentation thematic working group 1 - 4 May 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/presentations/OSLO Feitelijke verenigingen - Thematische werkgroep 1.pptx"
+    },
+    {
+      "name": "Presentation thematic working group 2 - 25 May 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/presentations/OSLO Feitelijke verenigingen - Thematische werkgroep 2.pptx"
+    },
+    {
+      "name": "Presentation thematic working group 3 - 15 June 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/presentations/OSLO Feitelijke verenigingen - Thematische werkgroep 3.pptx"
+    },
+    {
+      "name": "Presentation thematic working group 4 - 6 July 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/standaardenregister/presentations/OSLO Feitelijke verenigingen - Thematische werkgroep 4.pptx"
+    }
+  ],
+  "dateOfRegistration": "2021-04-01",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-feitelijkeVerenigingen",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

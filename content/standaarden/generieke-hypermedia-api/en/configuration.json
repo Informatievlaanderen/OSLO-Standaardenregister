@@ -1,0 +1,64 @@
+{
+  "title": "Generic Hypermedia API",
+  "category": "Technical standard",
+  "usage": "Recommended (voluntary)",
+  "status": "recognized-standard",
+  "descriptionFileName": "generieke-hypermedia-api.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Generic Hypermedia API specification",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api"
+    },
+    {
+      "name": "Building block pagination",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/paginering.md"
+    },
+    {
+      "name": "Building block CRUD operations",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/crud-operaties.md"
+    },
+    {
+      "name": "Building block Language selection/discovery",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/taal.md"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Client side NodeJS demo deployment",
+      "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client"
+    },
+    {
+      "name": "Server side NodeJS demo deployment",
+      "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client-testserver"
+    }
+  ],
+  "reports": [
+    {
+      "name": "OSLO Hypermedia Standard - Public Workgroup Session 2018-05-30",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/reports/OSLO Hypermedia Standaard - Publieke Werkgroepsessie 1 - 20180530.docx"
+    }
+  ],
+  "charter": {
+    "name": "Working Group Charter - OSLO Generic Hypermedia Standard",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/charter/Werkgroep Charter - OSLO Generic Hypermedia Standard.docx"
+  },
+  "presentations": [
+    {
+      "name": "OSLO Generic API Standard - Workgroup Session 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/presentations/OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
+    }
+  ],
+  "dateOfRegistration": "2018-04-01",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-07",
+  "repository": "OSLOthema-GeneriekeHypermediaAPI",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

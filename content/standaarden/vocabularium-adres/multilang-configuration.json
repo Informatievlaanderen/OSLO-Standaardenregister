@@ -1,0 +1,84 @@
+{
+  "title": {
+    "nl": "Vocabularium Adres",
+    "en": "Vocabulary Address"
+  },
+  "category": {
+    "nl": "Vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "voc-adres.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-07-03",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Adres",
+        "en": "Vocabulary Address"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/adres"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Thematische werkgroep Adres & Gebouw",
+        "en": "Thematic working group Address & Building"
+      },
+      "resourceReference": "https://drive.google.com/open?id=1DqNqZhsDQTxdw0J-ngF54PEz-7mldvyVsRh9v6CYQJs"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep Adres & Gebouw",
+        "en": "Report of the thematic working group Address & Building"
+      },
+      "resourceReference": "https://drive.google.com/open?id=1WWX-cQJUVJOIvz2JpKvcOdy94wXxotg-IGz1ZJCXLbU"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter - Adres",
+      "en": "Working Group Charter - Address"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/charter/Werkgroep Charter - OSLO Adres.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Webcast OSLO-Adres 2018-05-04 - Presentatie (PDF)",
+        "en": "OSLO Address Webcast: 2018-05-04 - Presentation (PDF)"
+      },
+      "resourceReference": "https://drive.google.com/open?id=17-McEa5pz73Tg2xyb-_GEmBcbLgDvx_L"
+    },
+    {
+      "name": {
+        "nl": "Webcast OSLO-Adres 2018-05-04",
+        "en": "OSLO Webcast Address 2018-05-04"
+      },
+      "resourceReference": "https://drive.google.com/open?id=1aLjUVsW_QoSR48CpRrwUOZ64wn4iOsac"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-gebouwEnAdres",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

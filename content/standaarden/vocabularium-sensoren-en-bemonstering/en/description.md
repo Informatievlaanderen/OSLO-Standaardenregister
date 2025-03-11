@@ -1,0 +1,1 @@
+This vocabulary contains new terminology for the application profile [Sensors and Sampling](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/).

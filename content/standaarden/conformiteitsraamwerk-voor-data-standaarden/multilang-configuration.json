@@ -1,0 +1,66 @@
+{
+  "title": {
+    "nl": "Conformiteitsraamwerk voor data standaarden",
+    "en": "Conformity framework for data standards"
+  },
+  "category": {
+    "nl": "Standaard voor technische interoperabiliteit",
+    "en": "Technical interoperability standard"
+  },
+  "usage": {
+    "nl": "TBD",
+    "en": "TBD"
+  },
+  "status": {
+    "nl": "standaard-in-ontwikkeling",
+    "en": "Standard-in-development"
+  },
+  "descriptionFileName": "conformiteitsraamwerk.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "TBD",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Draft conformiteitsraamwerk",
+        "en": "Draft Compliance Framework"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/specifications/OSLO%20Conformiteitsraamwerk%20v1.00_DRAFT.pdf"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag workshop - 30 november 2020",
+        "en": "Report workshop - 30 November 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/reports/Verslag%20werkgroep%20OSLO%20conformiteit.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie workshop - 30 november 2020",
+        "en": "Presentation workshop - 30 November 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/presentations/20201130%20Workshop%20conformiteitsraamwerk.pdf"
+    }
+  ],
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-metadataVoorServices",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

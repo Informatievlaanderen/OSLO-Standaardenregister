@@ -1,0 +1,1 @@
+Provides an overview of the objects associated with cabinets, cabins or enclosures as a "casing" for EM components.

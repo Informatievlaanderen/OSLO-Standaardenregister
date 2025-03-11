@@ -1,0 +1,50 @@
+{
+  "title": {
+    "nl": "Vocabularium Bestuur",
+    "en": "Vocabulary Governance"
+  },
+  "category": {
+    "nl": "Vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Verplicht",
+    "en": "Obligatory"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "voc-bestuur.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Binnenlands Bestuur",
+        "en": "Agency for Domestic Administration"
+      },
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2018-06-26",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Bestuur",
+        "en": "Vocabulary Governance"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/bestuur"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-04-10 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-lokaleBesluiten",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

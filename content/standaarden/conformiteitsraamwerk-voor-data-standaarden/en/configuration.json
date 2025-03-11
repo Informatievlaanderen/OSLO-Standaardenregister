@@ -1,0 +1,42 @@
+{
+  "title": "Conformity framework for data standards",
+  "category": "Technical interoperability standard",
+  "usage": "TBD",
+  "status": "Standard-in-development",
+  "descriptionFileName": "conformiteitsraamwerk.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "TBD",
+  "specificationDocuments": [
+    {
+      "name": "Draft Compliance Framework",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/specifications/OSLO%20Conformiteitsraamwerk%20v1.00_DRAFT.pdf"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report workshop - 30 November 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/reports/Verslag%20werkgroep%20OSLO%20conformiteit.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "Presentation workshop - 30 November 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/presentations/20201130%20Workshop%20conformiteitsraamwerk.pdf"
+    }
+  ],
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-metadataVoorServices",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

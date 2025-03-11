@@ -1,0 +1,133 @@
+{
+  "title": {
+    "nl": "Vocabularium en applicatieprofiel OSLO Consent",
+    "en": "Vocabulary and application profile OSLO Consent"
+  },
+  "category": {
+    "nl": "Vocabularium en applicatieprofielen",
+    "en": "Vocabulary and application profiles"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "standaard-in-ontwikkeling",
+    "en": "Standard-in-development"
+  },
+  "descriptionFileName": "core-concept.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "TBD",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Consent",
+        "en": "Application Profile Consent"
+      },
+      "resourceReference": "https://purl.eu/doc/applicationprofile/consent/"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium Consent",
+        "en": "Vocabulary Consent"
+      },
+      "resourceReference": "https://purl.eu/ns/consent"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business werkgroep - 20 augustus 2021",
+        "en": "Report Business working group - 20 August 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20210820_BusinessWorkshop_MeetingMinutes__OSLOTrapeze.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 1 - 23 september 2021",
+        "en": "Report Thematic Working Group 1 - 23 September 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20210923_ThematicWorkshop1_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 2 - 21 oktober 2021",
+        "en": "Report Thematic Working Group 2 - 21 October 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20211021_ThematicWorkshop2_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 3 - 18 november 2021",
+        "en": "Report Thematic Working Group 3 - 18 November 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20211118_ThematicWorkshop3_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 4 - 16 december 2021",
+        "en": "Report Thematic Working Group 4 - 16 December 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20211216_ThematicWorkshop4_MeetingMinutes_OSLOTrapeze.docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter Consent (TRAPEZE)",
+      "en": "Working Group Charter Consent (TRAPEZE)"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/charter/Working Group Charter OSLO Consent (TRAPEZE).docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business werkgroep - 20 augustus 2021",
+        "en": "Presentation Business working group - 20 August 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20210819_BusinessWorkshop_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 1 - 23 september 2021",
+        "en": "Presentation Thematic Working Group 1 - 23 September 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20210923_ThematicWorkshop1_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 2 - 21 oktober 2021",
+        "en": "Presentation Thematic Working Group 2 - 21 October 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20211021_ThematicWorkshop2_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 3 - 18 november 2021",
+        "en": "Presentation Thematic Working Group 3 - 18 November 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20211118_ThematicWorkshop3_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 4 - 16 december 2021",
+        "en": "Presentation Thematic Working Group 4 - 16 December 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20211216_ThematicWorkshop4_PowerPoint_OSLOTrapeze.pptx"
+    }
+  ],
+  "dateOfRegistration": "Juni 2021",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-consent",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

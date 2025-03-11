@@ -1,0 +1,141 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Perceel",
+    "en": "Application Profile Plot"
+  },
+  "category": {
+    "nl": "Applicatieprofiel",
+    "en": "Application Profile"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "ap-percelen.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Innoveren en Ondernemen",
+        "en": "Flanders Innovation and Entrepreneurship"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000039"
+    }
+  ],
+  "publicationDate": "2020-06-18",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Perceel",
+        "en": "Application Profile Plot"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/perceel/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business werkgroep - Perceel 2019-03-25",
+        "en": "Report Business working group - Lot 2019-03-25"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag BW1 - OSLO-Percelen- 20190325.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 1 - Perceel 2019-04-05",
+        "en": "Report Thematic Working Group 1 - Lot 2019-04-05"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag Thematische werkgroep 1 - OSLO-Percelen- 20190405.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 2 - Perceel 2019-05-06",
+        "en": "Report Thematic Working Group 2 - Lot 2019-05-06"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag Thematische werkgroep 2 - OSLO-Percelen- 20190506.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 3 - Perceel 2019-06-12",
+        "en": "Report Thematic Working Group 3 - Lot 2019-06-12"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag Thematische werkgroep 3 - OSLO-Percelen- 20190612.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 4 - Perceel 2019-06-26",
+        "en": "Report Thematic Working Group 4 - Lot 2019-06-26"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag Thematische werkgroep 4 - OSLO-Perceel- 20190626.docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
+      "en": "Working Group Charter OSLO Plots & Business Parks"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/charter/Werkgroep charter OSLO Percelen_v0.04.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business werkgroep - Perceel 2019-03-25",
+        "en": "Presentation Business working group - Lot 2019-03-25"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/OSLO-Presentatie-Percelen_businessworkshop_v1.2.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 1 - Perceel 2019-04-05",
+        "en": "Presentation Thematic Working Group 1 - Lot 2019-04-05"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Thematische werkgroep 1 - OSLO Percelen 20190405.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 2 - Perceel 2019-05-06",
+        "en": "Presentation Thematic Working Group 2 - Lot 2019-05-06"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Thematische werkgroep 2 - OSLO Percelen 20190506.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 3 - Perceel 2019-06-12",
+        "en": "Presentation Thematic Working Group 3 - Lot 2019-06-12"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Thematische werkgroep 3 - OSLO Percelen 20190612 v1.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 4 OSLO Percelen 2019-06-26",
+        "en": "Presentation Thematic Working Group 4 OSLO Lots 2019-06-26"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Thematische werkgroep 4 - OSLO Percelen 20190626.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Werkgroep Datastandaarden 2020-04-23",
+        "en": "Presentation Data Standards Working Group 2020-04-23"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/wg-datastandaarden-23april2020.pptx"
+    },
+    {
+      "name": {
+        "nl": "Webinar Percelen & Bedrijventerreinen 2020-04-24",
+        "en": "Webinar Plots & Business Parks 2020-04-24"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/finaal-webinar-perceel-24apr2020.pptx"
+    }
+  ],
+  "dateOfRegistration": "2019-03-14",
+  "dateOfAcknowledgementByWorkingGroup": "2020-04-23",
+  "dateOfAcknowledgementBySteeringCommittee": "2020-06-18",
+  "repository": "OSLOthema-perceel",
+  "datePublicReviewEnd": "2020-04-15",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

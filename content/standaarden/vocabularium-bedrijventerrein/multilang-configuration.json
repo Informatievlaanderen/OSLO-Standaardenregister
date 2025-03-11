@@ -1,0 +1,134 @@
+{
+  "title": {
+    "nl": "Vocabularium Bedrijventerrein",
+    "en": "Vocabularium Business Park"
+  },
+  "category": {
+    "nl": "Vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "voc-bedrijventerrein.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Innoveren en Ondernemen",
+        "en": "Flanders Innovation and Entrepreneurship"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000039"
+    }
+  ],
+  "publicationDate": "2020-06-18",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Bedrijventerrein",
+        "en": "Vocabularium Business Park"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/bedrijventerrein"
+    },
+    {
+      "name": {
+        "nl": "Applicatieprofiel Bedrijventerrein",
+        "en": "Application profile Business Park"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business werkgroep Bedrijventerreinen 2019-04-23",
+        "en": "Report Business Working Group Business Parks 2019-04-23"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-BW-Bedrijventerreinen-20190423.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
+        "en": "Report Thematic Working Group 1 Business Parks 2019-05-22"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-TW1-Bedrijventerreinen-20190522.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
+        "en": "Report Thematic Working Group 2 Business Parks 2019-06-05"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-TW2-Bedrijventerreinen-20190605.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
+        "en": "Report Thematic Working Group 3 Business Parks 2019-07-18"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/reports/Verslag-TW3-Bedrijventerreinen-20190718.docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter OSLO Percelen & Bedrijventerreinen",
+      "en": "Working Group Charter OSLO Plots & Business Parks"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/charter/Werkgroep charter OSLO Percelen_v0.04.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business werkgroep Bedrijventerreinen 2019-04-23",
+        "en": "Presentation Business working group Business Parks 2019-04-23"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-BW-Bedrijventerreinen-20190423.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 1 Bedrijventerreinen 2019-05-22",
+        "en": "Presentation Thematic Working Group 1 Business Parks 2019-05-22"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-TW1-Bedrijventerreinen-20190522.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 2 Bedrijventerreinen 2019-06-05",
+        "en": "Presentation Thematic Working Group 2 Business Parks 2019-06-05"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-TW2-Bedrijventerreinen-20190605.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische werkgroep 3 Bedrijventerreinen 2019-07-18",
+        "en": "Presentation Thematic Working Group 3 Business Parks 2019-07-18"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/Presentatie-TW3-Bedrijventerreinen-20190718.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Werkgroep Datastandaarden 2020-04-23",
+        "en": "Presentation Data Standards Working Group 2020-04-23"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/wg-datastandaarden-23april2020.pptx"
+    },
+    {
+      "name": {
+        "nl": "Webinar Percelen & Bedrijventerreinen 2020-04-24",
+        "en": "Webinar Plots & Business Parks 2020-04-24"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-perceel/standaardenregister/presentations/finaal-webinar-perceel-24apr2020.pptx"
+    }
+  ],
+  "dateOfRegistration": "2019-03-14",
+  "dateOfAcknowledgementByWorkingGroup": "2020-04-23",
+  "dateOfAcknowledgementBySteeringCommittee": "2020-06-18",
+  "repository": "OSLOthema-perceel",
+  "datePublicReviewEnd": "2020-04-15",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

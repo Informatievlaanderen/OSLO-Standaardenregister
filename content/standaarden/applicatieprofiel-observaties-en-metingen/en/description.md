@@ -1,0 +1,1 @@
+Application profile developed to describe observations and measurements, based on [ISO 19156:2011](https://www.iso.org/standard/32574.html) Geographic information — Observations and measurements.

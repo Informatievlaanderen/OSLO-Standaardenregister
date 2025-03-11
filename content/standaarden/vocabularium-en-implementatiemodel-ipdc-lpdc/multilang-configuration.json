@@ -1,0 +1,57 @@
+{
+  "title": {
+    "nl": "Vocabularium en implementatiemodel IPDC - LPDC",
+    "en": "IPDC Vocabulary and Implementation Model - LPDC"
+  },
+  "category": {
+    "nl": "Vocabularium en implementatiemodel",
+    "en": "Vocabulary and implementation model"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "standaard-in-ontwikkeling",
+    "en": "Standard-in-development"
+  },
+  "descriptionFileName": "",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Implementatiemodel IPDC - LPDC",
+        "en": "IPDC Deployment Model - LPDC"
+      },
+      "resourceReference": "https://productencatalogus.data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium IPDC - LPDC",
+        "en": "IPDC Vocabulary - LPDC"
+      },
+      "resourceReference": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "repository": "ipdc-lpdc",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

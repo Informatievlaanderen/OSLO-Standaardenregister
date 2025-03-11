@@ -1,0 +1,1 @@
+Provides an overview of the objects associated with software and hardware.

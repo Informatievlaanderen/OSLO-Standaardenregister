@@ -1,0 +1,80 @@
+{
+  "title": {
+    "nl": "Vocabularium Mandaat",
+    "en": "Vocabulary Mandate"
+  },
+  "category": {
+    "nl": "Vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "voc-mandaat.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Binnenlands Bestuur",
+        "en": "Agency for Domestic Administration"
+      },
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2018-07-20",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Mandaat",
+        "en": "Vocabulary Mandate"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/mandaat"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Procesworkshop 1 Mandaat (PDF)",
+        "en": "Report Process Workshop 1 Mandate (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS1_verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Procesworkshop 2 Mandaat (PDF)",
+        "en": "Report Process Workshop 2 Mandate (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS2_verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Procesworkshop 3 Generiek en Mandaten (PDF)",
+        "en": "Report Process Workshop 3 Generics and Mandates (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Webinar Mandaat",
+        "en": "Webinar Mandate"
+      },
+      "resourceReference": "https://www.youtube.com/watch?v=lvTIzKJa_s8"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-lokaleBesluiten",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

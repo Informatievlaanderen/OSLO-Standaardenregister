@@ -1,0 +1,47 @@
+{
+  "title": "Vocabulary OSLO Data Quality",
+  "category": "Vocabulary",
+  "usage": "Recommended (voluntary)",
+  "status": "Candidate standard",
+  "descriptionFileName": "voc-datakwaliteit.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Flemish Environment Agency (VMM)",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000092"
+    }
+  ],
+  "publicationDate": "2023-06-01",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Data Quality",
+      "resourceReference": "https://data.vlaanderen.be/ns/datakwaliteit"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "See OSLO Water Quality",
+      "resourceReference": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-oslo-waterkwaliteit.html"
+    }
+  ],
+  "reports": [
+    {
+      "name": "See OSLO Water Quality",
+      "resourceReference": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-oslo-waterkwaliteit.html"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "See OSLO Water Quality",
+      "resourceReference": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-oslo-waterkwaliteit.html"
+    }
+  ],
+  "dateOfRegistration": "2022-10-17",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-Waterkwaliteit",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

@@ -1,0 +1,91 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Wegenregister",
+    "en": "Application profile Road register"
+  },
+  "category": {
+    "nl": "Applicatieprofiel",
+    "en": "Application Profile"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "kandidaat-standaard",
+    "en": "Candidate standard"
+  },
+  "descriptionFileName": "ap-wegenregister.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-12-10",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Wegenregister",
+        "en": "Application profile Road register"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/wegenregister/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag eerste overleg Wegenregister 2017-09-26",
+        "en": "Report of the first consultation of the Road Register 2017-09-26"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag eerste overleg Wegenregister dd26092017.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag tweede overleg Wegenregister 2017-11-07",
+        "en": "Report of the second consultation of the Road Register 2017-11-07"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag tweede overleg Wegenregister dd07112017.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag derde overleg Wegenregister 2017-11-21",
+        "en": "Report third consultation Road Register 2017-11-21"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag derde overleg Wegenregister dd21112017.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag viede overleg Wegenregister 2017-12-15",
+        "en": "Report of the Wegenregister meeting 2017-12-15"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/reports/Verslag vierde overleg Wegenregister dd15122017.docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter OSLO Weg",
+      "en": "Working Group Charter OSLO Road"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/charter/WerkgroepcharterOSLOWegen.pdf"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "AIV Wegenregister",
+        "en": "AIV Road Register"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/standaardenregister/presentations/AIV wegenregister - NL-DK-FI_v0.03.pptx"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10",
+  "dateOfAcknowledgementByWorkingGroup": "2018-10-04",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-weg",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

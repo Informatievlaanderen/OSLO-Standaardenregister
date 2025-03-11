@@ -1,0 +1,105 @@
+{
+  "title": {
+    "nl": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
+    "en": "Implementation model quality roads and road markings"
+  },
+  "category": {
+    "nl": "Implementatiemodel",
+    "en": "Deployment model"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "template-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "stad Roeselare",
+        "en": "city of Roeselare"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002220"
+    }
+  ],
+  "publicationDate": "2023-07-24",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
+        "en": "Implementation model quality roads and road markings"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/kwaliteit-wegen-en-wegmarkeringen/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 1 - 28 april 2023",
+        "en": "Report thematic working group 1 - 28 April 2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO MLaaS.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 2 - 12 mei 2023",
+        "en": "Report thematic working group 2 - 12 May 2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/reports/Verslag Thematische Werkgroep 2 - OSLO MLaaS.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 3 - 28 juni 2023",
+        "en": "Report thematic working group 3 - 28 June 2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO MLaaS.pdf"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Charter",
+      "en": "Charter"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/charter/Charter Machine Learning as a Service.pdf"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - 28 april 2023",
+        "en": "Presentation thematic working group 1 - 28 April 2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/Presentatie thematische werkgroep 1 - MLaaS -  28 april 2023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 - 12 mei 2023",
+        "en": "Presentation thematic working group 2 - 12 May 2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/Presentatie thematische werkgroep 2 - MLaaS - 12 mei 2023.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 3 - 28 juni 2023",
+        "en": "Presentation thematic working group 3 - 28 June 2023"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/Presentatie thematische werkgroep 3 - MLaaS - 28 juni 2023.pdf"
+    },
+    {
+      "name": {
+        "nl": "JSONld datavoorbeeld",
+        "en": "JSONld data sample"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen/standaardenregister/presentations/JSONld-datavoorbeeld.json"
+    }
+  ],
+  "dateOfRegistration": "2022-11-08",
+  "dateOfAcknowledgementByWorkingGroup": "2023-11-09",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
+  "repository": "OSLOthema-wegenEnWegmarkeringen",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

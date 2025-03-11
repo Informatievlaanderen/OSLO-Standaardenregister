@@ -1,0 +1,72 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Dienst Transactiemodel",
+    "en": "Application profile Service Transaction Model"
+  },
+  "category": {
+    "nl": "Applicatieprofiel",
+    "en": "Application Profile"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "ap-dienst-transactiemodel.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Dienst Transactiemodel",
+        "en": "Application profile Service Transaction Model"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienst-transactiemodel/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 1",
+        "en": "Report - OSLO - My Citizen Profile - Transactional Services - Working Group 1"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 1.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 2",
+        "en": "Report - OSLO - My Citizen Profile - Transactional Services - Working Group 2"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 2.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 3",
+        "en": "Report - OSLO - My Citizen Profile - Transactional Services - Working Group 3"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-02",
+  "repository": "OSLOthema-dienst",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

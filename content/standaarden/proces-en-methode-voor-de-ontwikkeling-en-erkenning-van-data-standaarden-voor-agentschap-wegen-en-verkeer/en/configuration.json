@@ -1,0 +1,32 @@
+{
+  "title": "Process and method for the development and recognition of data standards for the Agency for Roads and Traffic",
+  "category": "Standard for organizational interoperability",
+  "usage": "Apply or explain",
+  "status": "recognized-standard",
+  "descriptionFileName": "proces-en-methode-awv.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-05-22",
+  "specificationDocuments": [
+    {
+      "name": "Process and method for developing data standards for wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/refs/heads/standaardenregister/reports/OSLO_Conformiteit_AWV_motiveren%20en%20uitleggen%20van%20afwijkingen.pdf"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-04-10",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-05-22",
+  "repository": "OSLOthema-procesEnMethode",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

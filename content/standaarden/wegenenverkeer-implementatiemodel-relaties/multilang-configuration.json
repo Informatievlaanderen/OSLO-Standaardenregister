@@ -1,0 +1,66 @@
+{
+  "title": {
+    "nl": "wegenenverkeer implementatiemodel Relaties",
+    "en": "Road and traffic implementation model Relationships"
+  },
+  "category": {
+    "nl": "Implementatiemodel",
+    "en": "Deployment model"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "erkende-standaard",
+    "en": "recognized-standard"
+  },
+  "descriptionFileName": "Relaties.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Wegen en Verkeer",
+        "en": "Agency for Roads and Traffic"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000098"
+    }
+  ],
+  "publicationDate": "2020-12-02",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Eenvoudige datatypes",
+        "en": "Simple data types"
+      },
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "wegenenverkeer.data.vlaanderen.be",
+        "en": "wegenenverkeer.data.vlaanderen.be"
+      },
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "wegenenverkeer.data.vlaanderen.be",
+        "en": "wegenenverkeer.data.vlaanderen.be"
+      },
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
+    }
+  ],
+  "dateOfRegistration": "2020-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2020-04-10",
+  "dateOfAcknowledgementBySteeringCommittee": "2020-05-22",
+  "repository": "OSLOthema-wegenenverkeer",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

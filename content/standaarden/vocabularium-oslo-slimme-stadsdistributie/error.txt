@@ -1,0 +1,1 @@
+Copy failed : cp descriptions/ap-or-voc-slimmestadsdistributie.md /tmp/workspace/nuxt/vocabularium-oslo-slimme-stadsdistributie/description.md

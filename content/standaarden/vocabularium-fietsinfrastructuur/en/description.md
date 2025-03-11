@@ -1,0 +1,1 @@
+Through this initiative, the various stakeholders within "cycling infrastructure" wish to semantically model the different data flows related to this domain and to standardize the structure of the data. The vocabulary is built on the basis of international standards on which there is a broad consensus in this domain and brought in line with current Flemish regulations.

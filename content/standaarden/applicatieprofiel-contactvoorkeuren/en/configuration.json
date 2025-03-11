@@ -1,0 +1,45 @@
+{
+  "title": "Application Profile Contact Preferences",
+  "category": "Application Profile",
+  "usage": "Recommended (voluntary)",
+  "status": "recognized-standard",
+  "descriptionFileName": "ap-contactvoorkeuren.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Application Profile Contact Preferences",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/contactvoorkeuren/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report - OSLO - My Citizen Profile - Consent - Working Group 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
+    },
+    {
+      "name": "Report - OSLO - My Citizen Profile - Consent - Working Group 2",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
+    },
+    {
+      "name": "Report - OSLO - My Citizen Profile - Consent - Working Group 3",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-02",
+  "repository": "OSLOthema-contactvoorkeuren",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

@@ -1,0 +1,39 @@
+{
+  "title": {
+    "nl": "",
+    "en": ""
+  },
+  "category": {
+    "nl": "",
+    "en": ""
+  },
+  "usage": {
+    "nl": "",
+    "en": ""
+  },
+  "status": {
+    "nl": "",
+    "en": ""
+  },
+  "responsibleOrganisation": {
+    "name": {
+      "nl": "Agentschap Digitaal Vlaanderen",
+      "en": "Digital Flanders Agency"
+    },
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+  },
+  "publicationDate": "",
+  "descriptionFileName": "",
+  "specificationDocuments": [],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-leermiddelen"
+}

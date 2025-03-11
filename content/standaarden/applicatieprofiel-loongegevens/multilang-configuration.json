@@ -1,0 +1,113 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel loongegevens",
+    "en": "Payroll data application profile"
+  },
+  "category": {
+    "nl": "Applicatieprofiel",
+    "en": "Application Profile"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "kandidaat-standaard",
+    "en": "Candidate standard"
+  },
+  "descriptionFileName": "ap-loongegevens.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Uitbetaling Groeipakket",
+        "en": "Growth Package Payment Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/organisatie/OVO008643"
+    }
+  ],
+  "publicationDate": "2021-09-16",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Loongegevens Applicatieprofiel",
+        "en": "Payroll data Application profile"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/loongegevens"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 1 - 30 september 2021",
+        "en": "Report thematic working group 1 - 30 September 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/reports/OSLO Loongegevens - Thematische werkgroep 1 (30-09-2021).docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 2 - 26 oktober 2021",
+        "en": "Report thematic working group 2 - 26 October 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/reports/OSLO Loongegevens - Thematische werkgroep 2 (v26-10-2021) (1).docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 3 - 23 november 2021",
+        "en": "Report thematic working group 3 - 23 November 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/reports/OSLO Loon - Thematische werkgroep 3 23_11 (2).docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 4 - 21 december 2021",
+        "en": "Report thematic working group 4 - 21 December 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/reports/OSLO Loongegevens - Thematische Werkgroep 4 (211221).docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "OSLO Loongegevens Charter",
+      "en": "OSLO Payroll Data Charter"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/charter/Template-Werkgroep-Charter-OSLO.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - 30 september 2021",
+        "en": "Presentation thematic working group 1 - 30 September 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/presentations/OSLO Loon - Thematische werkgroep 1 (v28-09-2021).pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 - 26 oktober 2021",
+        "en": "Presentation thematic working group 2 - 26 October 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/presentations/OSLO Loon - Thematische werkgroep 2 (v26-10-2021).pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 3 - 23 november 2021",
+        "en": "Presentation thematic working group 3 - 23 November 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/presentations/OSLO Loongegevens - Thematische werkgroep 3 (231121).pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 4 - 21 december 2021",
+        "en": "Presentation thematic working group 4 - 21 December 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-loongegevens/standaardenregister/presentations/OSLO Loongegevens - Thematische werkgroep 4 (211221).pptx"
+    }
+  ],
+  "dateOfRegistration": "2021-09-16",
+  "dateOfAcknowledgementByWorkingGroup": "2022-03-17",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-loongegevens",
+  "datePublicReviewEnd": "2022-06-18",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

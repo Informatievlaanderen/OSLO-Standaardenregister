@@ -1,0 +1,45 @@
+{
+  "title": "Application profile Generic Feedback Facility",
+  "category": "Application Profile",
+  "usage": "Recommended (voluntary)",
+  "status": "recognized-standard",
+  "descriptionFileName": "ap-generieke-terugmeldfaciliteit.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Generic Feedback Facility",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report - OSLO - My Citizen Profile - Feedback - Working Group 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 1.docx"
+    },
+    {
+      "name": "Report - OSLO - My Citizen Profile - Feedback - Working Group 2",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 2.docx"
+    },
+    {
+      "name": "Report - OSLO - My Citizen Profile - Feedback - Working Group 3",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Terugmelding - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-melding/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-07",
+  "repository": "OSLOthema-melding",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

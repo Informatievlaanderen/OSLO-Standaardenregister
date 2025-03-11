@@ -1,0 +1,50 @@
+{
+  "title": "Vocabulary Mandate",
+  "category": "Vocabulary",
+  "usage": "Recommended (voluntary)",
+  "status": "recognized-standard",
+  "descriptionFileName": "voc-mandaat.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agency for Domestic Administration",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2018-07-20",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Mandate",
+      "resourceReference": "https://data.vlaanderen.be/ns/mandaat"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report Process Workshop 1 Mandate (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS1_verslag.pdf"
+    },
+    {
+      "name": "Report Process Workshop 2 Mandate (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS2_verslag.pdf"
+    },
+    {
+      "name": "Report Process Workshop 3 Generics and Mandates (PDF)",
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "Webinar Mandate",
+      "resourceReference": "https://www.youtube.com/watch?v=lvTIzKJa_s8"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-lokaleBesluiten",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

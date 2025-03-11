@@ -1,0 +1,32 @@
+{
+  "title": "Application profile Generic basic",
+  "category": "Application Profile",
+  "usage": "Recommended (voluntary)",
+  "status": "without-status",
+  "descriptionFileName": "",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2017-03-23",
+  "specificationDocuments": [
+    {
+      "name": "Application profile Generic basic",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-generiek/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-generiek",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

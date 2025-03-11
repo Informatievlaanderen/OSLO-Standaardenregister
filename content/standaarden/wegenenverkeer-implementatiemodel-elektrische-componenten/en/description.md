@@ -1,0 +1,1 @@
+Gives an overview of the objects belonging to the electrical chain, starting with the distribution system operator up to a circuit.

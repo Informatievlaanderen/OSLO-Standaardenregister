@@ -1,0 +1,76 @@
+{
+  "title": "Vocabulary Death Registration",
+  "category": "Vocabulary",
+  "usage": "Recommended (voluntary)",
+  "status": "recognized-standard",
+  "descriptionFileName": "voc-overlijdensaangifte-config.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Athumi",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO051320"
+    }
+  ],
+  "publicationDate": "2024-02-01",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Death Registration",
+      "resourceReference": "https://data.vlaanderen.be/ns/overlijdensaangifte"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Death Declaration Application Profile",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte"
+    },
+    {
+      "name": "Vocabulary Health Status Person",
+      "resourceReference": "https://data.vlaanderen.be/ns/gezondheidstoestand"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Report Thematic Working Group I - 16 January 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/reports/20240116__ThematicWorkshop1_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group II - 20 February 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/reports/20240220__ThematicWorkshop2_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group III - 12 March 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/reports/20240312_ThematicWorkshop3_Verslag_OSLOOverlijdensaangifte.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group IV - 23 April 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/reports/20240423_ThematicWorkshop4_Verslag_OSLOOverlijdensaangifte.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Death Declaration Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/charter/Charter OSLO_Overlijdensaangifte.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentation Thematic Working Group I - 16 January 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/presentations/20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group II - 20 February 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/presentations/20240220_ThematicWorkshop2_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group III - 12 March 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/presentations/20240312_ThematicWorkshop3_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group IV - 23 April 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/presentations/20240423_ThematicWorkshop4_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    }
+  ],
+  "dateOfRegistration": "2024-01-25",
+  "dateOfAcknowledgementByWorkingGroup": "2024-11-07",
+  "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
+  "repository": "OSLOthema-overlijdensaangifte",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}
