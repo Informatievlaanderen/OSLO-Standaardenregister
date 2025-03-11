@@ -1,0 +1,67 @@
+{
+  "title": "Applicatieprofiel Dienstencataloog",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "kandidaat-standaard",
+  "descriptionFileName": "ap-dienstencataloog.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-12-10",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Dienstencataloog",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienstencataloog/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Thematische Werkgroep Dienstverlening 2016-06-27",
+      "resourceReference": "https://drive.google.com/open?id=1DG5vTplTgPkdhndVhF-4gEjtSsDRKmN-G6O-sPJSnNI"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep Dienstverlening 2016-06-27",
+      "resourceReference": "https://drive.google.com/open?id=1a-zmKBB1CqhMD7695-03NkmdEyeM9IxBEyWc5uBhgJc"
+    },
+    {
+      "name": "Thematische Werkgroep Dienstverlening 2016-10-03",
+      "resourceReference": "https://drive.google.com/open?id=1MhxFNv56sdtzw83tePXqNg_Zb6w4jwVt8fcCjax8I2k"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep Dienstverlening 2016-10-03",
+      "resourceReference": "https://drive.google.com/open?id=1GWzwHhUi00NFoYL-9h1mfmPdD5gsnuiwErggq_F4o8I"
+    },
+    {
+      "name": "Verslag PWG Dienstverlening 2017-01-12",
+      "resourceReference": "https://drive.google.com/open?id=1LZ_p7Sz59sUc8cR393nIEsadJE-8dDl9BUc8bkVdSLI"
+    },
+    {
+      "name": "Verslag PWG Dienstverlening 2017-02-22",
+      "resourceReference": "https://drive.google.com/open?id=19Nnx2PJb6TjoXKh9PRcRY9krs0Tzjjt7lIEZ6YhPMPo"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Dienst",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/charter/Werkgroep Charter - OSLO Dienst.docx"
+  },
+  "presentations": [
+    {
+      "name": "Webcast OSLO-Dienst 2018-05-09 - Presentatie",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/presentations/Webcast OSLO-Dienst - 09-05-2018 - finale versie.pptx"
+    },
+    {
+      "name": "Thematische Werkgroep Dienstverlening 2016-10-03 - Presentatie",
+      "resourceReference": "https://drive.google.com/open?id=1yRjnrZYArbQMwQNb_QU0g4TO3WSukNJyseJFRcrv_ig"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-dienst",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

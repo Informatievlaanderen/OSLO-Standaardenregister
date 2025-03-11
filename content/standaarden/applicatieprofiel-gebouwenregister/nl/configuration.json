@@ -1,0 +1,37 @@
+{
+  "title": "Applicatieprofiel Gebouwenregister",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "kandidaat-standaard",
+  "descriptionFileName": "ap-gebouwenregister.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-11-08",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Gebouwenregister",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/gebouwenregister/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Thematische werkgroep Adres en Gebouw 1 - 2016-06-08",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/reports/Thematische Werkgroep Adres & Gebouw 1.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-04-10",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-gebouwEnAdres",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}
