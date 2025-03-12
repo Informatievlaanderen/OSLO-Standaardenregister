@@ -14,7 +14,7 @@
   "detailPage": "Detail page",
   "category": "Category",
   "status": "Status",
-  "applicationProfile": "Application profile",
+  "applicationProfile": "Application Profile",
   "vocabulary": "Vocabulary",
   "implementationModel": "Implementation model",
   "publicationDate": "Publication date",
@@ -58,8 +58,8 @@
       "applyOrExplain": "Apply or explain"
     },
     "status": {
-      "development": "standard-in-development",
-      "candidate": "candidate-standard",
+      "development": "Standard-in-development",
+      "candidate": "Candidate standard",
       "recognized": "recognized-standard"
     }
   },
