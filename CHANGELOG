@@ -68,3 +68,7 @@
   1.5.1
 
 * Small tweaks to the slug page and index page
+
+  1.5.2
+
+* Small addition to the filter to use `Candidate standard` instead of `candidate-standard` and `Standard-in-development` instead of `standard-in-development`
