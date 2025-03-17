@@ -3,7 +3,7 @@
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
   "status": "Candidate standard",
-  "descriptionFileName": "kind-fiche-description.md",
+  "descriptionFileName": "dienstverlening-aan-personen-description.md",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",
@@ -19,8 +19,8 @@
   ],
   "documentation": [
     {
-      "name": "Application profile Child Sheet",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kindfiche/"
+      "name": "Application profile for services to individuals",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienstverlening-aan-personen/"
     }
   ],
   "reports": [

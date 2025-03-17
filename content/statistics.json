@@ -3,8 +3,8 @@
   "numberOfStandardsConfigured": 241,
   "reportErrors": 0,
   "reportsMissing": 243,
-  "uniqueContributors": 2765,
-  "uniqueAffiliations": 527,
+  "uniqueContributors": 3113,
+  "uniqueAffiliations": 572,
   "standards": [
     {
       "standard": "",
@@ -1603,7 +1603,7 @@
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel Kindfiche",
+      "standard": "Applicatieprofiel Dienstverlening Aan Personen",
       "publicationDate": "2024-03-19",
       "status": "kandidaat-standaard",
       "totalPeople": 0,

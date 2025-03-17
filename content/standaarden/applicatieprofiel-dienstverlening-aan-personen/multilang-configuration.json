@@ -1,11 +1,11 @@
 {
   "title": {
-    "nl": "Vocabularium Kindfiche",
-    "en": "Vocabularium Kindfiche"
+    "nl": "Applicatieprofiel Dienstverlening Aan Personen",
+    "en": "Application profile for services to individuals"
   },
   "category": {
-    "nl": "Vocabularium",
-    "en": "Vocabulary"
+    "nl": "Applicatieprofiel",
+    "en": "Application Profile"
   },
   "usage": {
     "nl": "Aanbevolen (vrijwillig)",
@@ -29,19 +29,19 @@
   "specificationDocuments": [
     {
       "name": {
-        "nl": "Vocabularium Kindfiche",
-        "en": "Vocabularium Kindfiche"
+        "nl": "Applicatieprofiel Dienstverlening Aan Personen",
+        "en": "Application profile for services to individuals"
       },
-      "resourceReference": "https://data.vlaanderen.be/ns/kindfiche/"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienstverlening-aan-personen/"
     }
   ],
   "documentation": [
     {
       "name": {
-        "nl": "Applicatieprofiel Dienstverlening Aan Personen",
-        "en": "Application profile for services to individuals"
+        "nl": "Vocabularium Kindfiche",
+        "en": "Vocabularium Kindfiche"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienstverlening-aan-personen/"
+      "resourceReference": "https://data.vlaanderen.be/ns/kindfiche/"
     }
   ],
   "reports": [
@@ -115,6 +115,6 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-kindFiche",
-  "datePublicReviewStart": "2024-06-18",
+  "datePublicReviewStart": "2024-06-24",
   "endOfPublicationDate": ""
 }
