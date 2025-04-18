@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 241,
+  "numberOfStandardsConfigured": 244,
   "reportErrors": 0,
-  "reportsMissing": 245,
+  "reportsMissing": 246,
   "uniqueContributors": 3113,
   "uniqueAffiliations": 572,
   "standards": [
@@ -29,6 +29,13 @@
     },
     {
       "standard": "Vocabularium Hulp- en Dienstverlening aan Gedetineerden",
+      "publicationDate": "2024-11-29",
+      "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Hulp- en Dienstverlening aan Gedetineerden",
       "publicationDate": "2024-11-29",
       "status": "standaard-in-ontwikkeling",
       "totalPeople": 0,
@@ -1690,6 +1697,20 @@
       "standard": "Vocabularium Vrachtwagenparkeren",
       "publicationDate": "2024-07-30",
       "status": "standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel Zaalreservatie",
+      "publicationDate": "2025-04-17",
+      "status": "Standaard-in-ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Zaalreservatie",
+      "publicationDate": "2025-04-17",
+      "status": "Standaard-in-ontwikkeling",
       "totalPeople": 0,
       "contributors": []
     }
