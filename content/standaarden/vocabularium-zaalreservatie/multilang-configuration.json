@@ -1,0 +1,107 @@
+{
+  "title": {
+    "nl": "Vocabularium Zaalreservatie",
+    "en": "Vocabulary Room Reservation"
+  },
+  "category": {
+    "nl": "Vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "Standaard-in-ontwikkeling",
+    "en": "Standard-in-development"
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-04-17",
+  "descriptionFileName": "zaalreservatie-description.md",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Zaalreservatie",
+        "en": "Application profile Room reservation"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium Zaalreservatie",
+        "en": "Vocabulary Room Reservation"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Charter Zaalreservatie",
+      "en": "Charter Room Reservation"
+    },
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/charter/Charter%20Zaalreservatie.pdf"
+  },
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business Werkgroep - 14 januari 2025",
+        "en": "Report Business Working Group - 14 January 2025"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20BW%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep I - 18 februari 2025",
+        "en": "Report Thematic Working Group I - 18 February 2025"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20TW1%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep II - 18 maart 2025",
+        "en": "Report Thematic Working Group II - 18 March 2025"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20TW2%20OSLO%20Zaalreservatie.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business Werkgroep -  14 januari 2025",
+        "en": "Presentation Business Working Group - 14 January 2025"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Business%20Werkgroep%20Zaalreservatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep I - 18 februari 2025",
+        "en": "Presentation Thematic Working Group I - 18 February 2025"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Thematische%20werkgroep%201%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep II - 18 maart 2025",
+        "en": "Presentation Thematic Working Group II - 18 March 2025"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Thematische%20werkgroep%202%20OSLO%20Zaalreservatie.pdf"
+    }
+  ],
+  "dateOfRegistration": "2025-01-09",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "TBD",
+  "datePublicReviewEnd": "TBD",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-zaalreservatie"
+}
