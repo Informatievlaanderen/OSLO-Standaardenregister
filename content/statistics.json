@@ -1,10 +1,10 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 244,
+  "numberOfStandardsConfigured": 243,
   "reportErrors": 0,
   "reportsMissing": 246,
-  "uniqueContributors": 3115,
-  "uniqueAffiliations": 572,
+  "uniqueContributors": 3146,
+  "uniqueAffiliations": 575,
   "standards": [
     {
       "standard": "",
@@ -24,13 +24,6 @@
       "standard": "Vocabularium Energiehuis",
       "publicationDate": "2025-01-09",
       "status": "ontwerp-standaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Hulp- en Dienstverlening aan Gedetineerden",
-      "publicationDate": "2024-11-29",
-      "status": "kandidaat-standaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -85,15 +78,15 @@
     },
     {
       "standard": "Applicatieprofiel Schuldbeheer",
-      "publicationDate": "2024-09-05",
-      "status": "kandidaat-standaard",
+      "publicationDate": "2025-05-07",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Schuldbeheer",
-      "publicationDate": "2024-09-05",
-      "status": "kandidaat-standaard",
+      "publicationDate": "2025-05-07",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
