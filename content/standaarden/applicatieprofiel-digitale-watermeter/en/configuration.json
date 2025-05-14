@@ -2,7 +2,7 @@
   "title": "Digital Water Meter Application Profile",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Candidate standard",
+  "status": "recognized-standard",
   "descriptionFileName": "ap-digitalewatermeter-config.md",
   "responsibleOrganisation": [
     {
@@ -72,9 +72,9 @@
     }
   ],
   "dateOfRegistration": "2024-03-21",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "2025-01-09",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-02-06",
   "repository": "OSLOthema-DigitaleWatermeter",
   "datePublicReviewStart": "2024-08-30",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "2024-12-18"
 }

@@ -3,7 +3,7 @@
   "numberOfStandardsConfigured": 243,
   "reportErrors": 0,
   "reportsMissing": 248,
-  "uniqueContributors": 3146,
+  "uniqueContributors": 3149,
   "uniqueAffiliations": 575,
   "standards": [
     {
@@ -1668,14 +1668,14 @@
     {
       "standard": "Applicatieprofiel Digitale Watermeter",
       "publicationDate": "2024-04-30",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Nutsvoorzieningen Meters",
       "publicationDate": "2024-04-30",
-      "status": "kandidaat-standaard",
+      "status": "erkende-standaard",
       "totalPeople": 0,
       "contributors": []
     },
