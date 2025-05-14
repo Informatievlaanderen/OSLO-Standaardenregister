@@ -86,7 +86,7 @@
           <p>
             {{
               !!standard?.status
-                ? useRemoveDashes(useCapitalizeFirstLetter(standard?.status))
+                ? getStatusFromUrl(standard?.status, $t)
                 : Usage.TBD
             }}
           </p>
@@ -143,7 +143,7 @@
 </template>
 
 <script setup lang="ts" name="standardsTable">
-import { Usage, type Standard } from '~/types/standard'
+import { Usage, type Standard, getStatusFromUrl } from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
 import { SortingDirection } from '~/composables/useSorting'
 import { ITEMS_PER_PAGE } from '~/constants/constants'

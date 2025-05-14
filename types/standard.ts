@@ -23,6 +23,19 @@ export enum Category {
   IMPLEMENTATION_MODEL = 'Implementatiemodel',
 }
 
+export const getStatusFromUrl = (
+  statusUrl: string,
+  translate: Function,
+): string => {
+  const matchingStatus = Object.values(Status).find(
+    (status) => status === statusUrl,
+  )
+  if (matchingStatus) {
+    return getStatusTranslation(matchingStatus, translate)
+  }
+  return Usage.TBD
+}
+
 export const getUsageTranslation = (
   key: Usage,
   translate: Function,
