@@ -1,11 +1,18 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 243,
+  "numberOfStandardsConfigured": 244,
   "reportErrors": 0,
-  "reportsMissing": 248,
+  "reportsMissing": 249,
   "uniqueContributors": 3149,
   "uniqueAffiliations": 575,
   "standards": [
+    {
+      "standard": "Applicatieprofiel Energiemanagementsysteem",
+      "publicationDate": "2025-05-14",
+      "status": "Standaard in ontwikkeling",
+      "totalPeople": 0,
+      "contributors": []
+    },
     {
       "standard": "",
       "publicationDate": "",
