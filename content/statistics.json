@@ -9,7 +9,7 @@
     {
       "standard": "Applicatieprofiel Energiemanagementsysteem",
       "publicationDate": "2025-05-14",
-      "status": "Standaard in ontwikkeling",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1710,14 +1710,14 @@
     {
       "standard": "Applicatieprofiel Zaalreservatie",
       "publicationDate": "2025-04-17",
-      "status": "Standaard-in-ontwikkeling",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Zaalreservatie",
       "publicationDate": "2025-04-17",
-      "status": "Standaard-in-ontwikkeling",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     }
