@@ -47,36 +47,14 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
       type: FilterType.CHECKBOX,
       title: translate('statusStandard'),
       key: 'status',
-      active: [false, false, false],
-      options: [
-        {
-          default: false,
-          label: useRemoveDashes(
-            useCapitalizeFirstLetter(
-              getStatusTranslation(Status.DEVELOPMENT, translate),
-            ),
-          ),
-          key: getStatusTranslation(Status.DEVELOPMENT, translate),
-        },
-        {
-          default: false,
-          label: useRemoveDashes(
-            useCapitalizeFirstLetter(
-              getStatusTranslation(Status.CANDIDATE, translate),
-            ),
-          ),
-          key: getStatusTranslation(Status.CANDIDATE, translate),
-        },
-        {
-          default: false,
-          label: useRemoveDashes(
-            useCapitalizeFirstLetter(
-              getStatusTranslation(Status.RECOGNIZED, translate),
-            ),
-          ),
-          key: getStatusTranslation(Status.RECOGNIZED, translate),
-        },
-      ],
+      active: Array(Object.keys(Status).length).fill(false),
+      options: Object.values(Status).map((status) => ({
+        default: false,
+        label: useRemoveDashes(
+          useCapitalizeFirstLetter(getStatusTranslation(status, translate)),
+        ),
+        key: getStatusTranslation(status, translate),
+      })),
     },
     {
       modal: {

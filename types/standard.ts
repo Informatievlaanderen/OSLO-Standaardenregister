@@ -8,9 +8,13 @@ export enum Usage {
 }
 
 export enum Status {
-  DEVELOPMENT = 'standaard-in-ontwikkeling',
-  CANDIDATE = 'kandidaat-standaard',
-  RECOGNIZED = 'erkende-standaard',
+  DEVELOPMENT = 'https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard',
+  CANDIDATE = 'https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard',
+  RECOGNIZED = 'https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard',
+  OUTDATED = 'https://data.vlaanderen.be/id/concept/StandaardStatus/VerouderdeStandaard',
+  REPLACED = 'https://data.vlaanderen.be/id/concept/StandaardStatus/VervangenStandaard',
+  RECALLED = 'https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard',
+  NOTA_WORKING_GROUP = 'https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep',
 }
 
 export enum Category {
@@ -41,6 +45,10 @@ export const getStatusTranslation = (
     [Status.DEVELOPMENT]: translate('standard.status.development'),
     [Status.CANDIDATE]: translate('standard.status.candidate'),
     [Status.RECOGNIZED]: translate('standard.status.recognized'),
+    [Status.OUTDATED]: translate('standard.status.outdated'),
+    [Status.REPLACED]: translate('standard.status.replaced'),
+    [Status.RECALLED]: translate('standard.status.recalled'),
+    [Status.NOTA_WORKING_GROUP]: translate('standard.status.noteWorkingGroup'),
   }
 
   return translations[key]

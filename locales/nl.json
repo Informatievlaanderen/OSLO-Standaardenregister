@@ -58,9 +58,13 @@
       "applyOrExplain": "Pas toe of leg uit"
     },
     "status": {
-      "development": "standaard-in-ontwikkeling",
-      "candidate": "kandidaat-standaard",
-      "recognized": "erkende-standaard"
+      "development": "Standaard in ontwikkeling",
+      "candidate": "Kandidaat Standaard",
+      "recognized": "Erkende Standaard",
+      "outdated": "Verouderde Standaard",
+      "replaced": "Vervangen Standaard",
+      "recalled": "Herroepen standaard",
+      "noteWorkingGroup": "Nota werkgroep"
     }
   },
   "content": {
