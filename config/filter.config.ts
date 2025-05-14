@@ -53,7 +53,7 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
         label: useRemoveDashes(
           useCapitalizeFirstLetter(getStatusTranslation(status, translate)),
         ),
-        key: getStatusTranslation(status, translate),
+        key: status,
       })),
     },
     {
