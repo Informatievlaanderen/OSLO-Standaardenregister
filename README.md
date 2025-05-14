@@ -157,7 +157,7 @@ This project supports the use of query parameters. These parameters can be used 
 http://localhost:3000/standaarden/?type=TBD
 http://localhost:3000/standaarden/?usage=Aanbevolen+(vrijwillig)
 http://localhost:3000/standaarden/?category=applicatieprofiel
-http://localhost:3000/standaarden/?status=erkende-standaard
+http://localhost:3000/standaarden/?status=https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard
 ```
 
 ## CI/CD
@@ -181,12 +181,15 @@ On the server there runs a cronjob inside the docker environment that will poll 
 ## Updating this project
 
 ### Setup
-There are two important branches in this project: `main` and `standaarden`. The `main` branch is the branch that contains the latest version of the project with just the code and features. There should **never** be any config files in this branch. The `standaarden` branch is the branch that contains the latest version of the project with the latest version of the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) and the required config files of each standard. 
+
+There are two important branches in this project: `main` and `standaarden`. The `main` branch is the branch that contains the latest version of the project with just the code and features. There should **never** be any config files in this branch. The `standaarden` branch is the branch that contains the latest version of the project with the latest version of the [standaarden JSON](https://github.com/Informatievlaanderen/OSLO-Standaarden/blob/configuratie/standaardenregister.json) and the required config files of each standard.
 
 ### New features
+
 When you want to add a new feature to the project, you should follow these steps:
-* Create a new branch from the `main` branch. This can be done automatically from JIRA or manually.
-* Develop the feature in this branch.
-* When the feature is ready, create a pull request to the `main` branch.
-* When the pull request is approved, merge the feature into the `main` branch.
-* Merge the main branch with the `standaarden` branch.
+
+- Create a new branch from the `main` branch. This can be done automatically from JIRA or manually.
+- Develop the feature in this branch.
+- When the feature is ready, create a pull request to the `main` branch.
+- When the pull request is approved, merge the feature into the `main` branch.
+- Merge the main branch with the `standaarden` branch.

@@ -60,7 +60,11 @@
     "status": {
       "development": "Standard-in-development",
       "candidate": "Candidate standard",
-      "recognized": "recognized-standard"
+      "recognized": "recognized-standard",
+      "outdated": "Outdated standard",
+      "replaced": "Replaced Standard",
+      "recalled": "Recalled Standard",
+      "noteWorkingGroup": "Nota Working Group"
     }
   },
   "content": {
