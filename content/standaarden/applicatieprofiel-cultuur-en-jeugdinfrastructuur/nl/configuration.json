@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Cultuur- en Jeugdinfrastructuur",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-doelgericht-cultuur-en-jeugd-config.md",
   "responsibleOrganisation": [
     {

@@ -12,8 +12,8 @@
     "en": "Obligatory"
   },
   "status": {
-    "nl": "erkende-standaard",
-    "en": "recognized-standard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
   },
   "descriptionFileName": "voc-bestuur.md",
   "responsibleOrganisation": [

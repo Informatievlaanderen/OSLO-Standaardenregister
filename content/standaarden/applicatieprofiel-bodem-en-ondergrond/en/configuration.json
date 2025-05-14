@@ -2,7 +2,7 @@
   "title": "Application profile soil and subsoil",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Candidate standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "bodemEnOndergrond-ap.md",
   "responsibleOrganisation": [
     {

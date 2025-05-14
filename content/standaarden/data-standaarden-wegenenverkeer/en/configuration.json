@@ -2,7 +2,7 @@
   "title": "Data standards for road and traffic",
   "category": "Vocabulary & implementation models",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "wegen-en-verkeer.md",
   "responsibleOrganisation": [
     {

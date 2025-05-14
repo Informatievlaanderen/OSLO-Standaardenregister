@@ -2,7 +2,7 @@
   "title": "Application profile Cultural Heritage Object",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-cultureel-erfgoed-object.md",
   "responsibleOrganisation": [
     {

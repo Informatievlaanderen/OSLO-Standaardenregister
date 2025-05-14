@@ -2,7 +2,7 @@
   "title": "LDES vocabulary",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ldes-description.md",
   "responsibleOrganisation": [
     {

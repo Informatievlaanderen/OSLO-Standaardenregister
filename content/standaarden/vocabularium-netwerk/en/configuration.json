@@ -2,7 +2,7 @@
   "title": "Vocabulary Network",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-netwerk.md",
   "responsibleOrganisation": [
     {

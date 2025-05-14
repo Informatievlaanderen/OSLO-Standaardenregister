@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel GeoDCAT-AP VL",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-geodcat-ap-vl.md",
   "responsibleOrganisation": [
     {

@@ -2,7 +2,7 @@
   "title": "Application Profile Learning Performance Credential",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "leercredential-description.md",
   "responsibleOrganisation": [
     {

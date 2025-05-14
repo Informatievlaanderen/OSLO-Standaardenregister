@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel DCAT-AP VL 2.0",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-dcat-ap-vl.md",
   "responsibleOrganisation": [
     {

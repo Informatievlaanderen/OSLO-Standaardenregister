@@ -2,7 +2,7 @@
   "title": "Application profile Flemish Codex",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-vlaamse-codex.md",
   "responsibleOrganisation": [
     {

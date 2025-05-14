@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Ruimtelijke Indicatoren",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-ruimtelijke-indicatoren-description.md",
   "responsibleOrganisation": [
     {

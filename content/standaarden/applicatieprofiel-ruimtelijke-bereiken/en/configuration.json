@@ -2,7 +2,7 @@
   "title": "Application profile Spatial Ranges",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ruimtelijkebereiken-ap.md",
   "responsibleOrganisation": [
     {

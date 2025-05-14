@@ -2,7 +2,7 @@
   "title": "Vocabulary Publication Advertisement",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "template-description.md",
   "responsibleOrganisation": [
     {

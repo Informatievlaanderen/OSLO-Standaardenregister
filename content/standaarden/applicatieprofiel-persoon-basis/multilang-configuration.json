@@ -12,8 +12,8 @@
     "en": "Recommend (voluntary)"
   },
   "status": {
-    "nl": "kandidaat-standaard",
-    "en": "Candidate standard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "descriptionFileName": "ap-persoon-basis.md",
   "responsibleOrganisation": [

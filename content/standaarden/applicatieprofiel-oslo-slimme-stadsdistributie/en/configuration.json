@@ -2,7 +2,7 @@
   "title": "OSLO Smart City Distribution Application Profile",
   "category": "Application profiles",
   "usage": "Recommended (voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ap-or-voc-slimmestadsdistributie.md",
   "responsibleOrganisation": [
     {

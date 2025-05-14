@@ -2,7 +2,7 @@
   "title": "Vocabularium Passenger Transport Hubs",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-passenger-transport-hubs.md",
   "responsibleOrganisation": [
     {

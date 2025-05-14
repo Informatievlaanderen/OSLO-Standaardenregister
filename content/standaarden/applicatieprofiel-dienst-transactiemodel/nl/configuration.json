@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Dienst Transactiemodel",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-dienst-transactiemodel.md",
   "responsibleOrganisation": [
     {

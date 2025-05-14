@@ -2,7 +2,7 @@
   "title": "Vocabulary Environmental Permit",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "omgevingsvergunning-description.md",
   "responsibleOrganisation": [
     {

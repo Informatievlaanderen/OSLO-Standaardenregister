@@ -2,7 +2,7 @@
   "title": "Vocabulary OSLO Water Quality",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "Candidate standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "voc-waterkwaliteit.md",
   "responsibleOrganisation": [
     {

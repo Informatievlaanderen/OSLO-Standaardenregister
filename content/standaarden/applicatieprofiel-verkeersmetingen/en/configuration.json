@@ -2,7 +2,7 @@
   "title": "Application profile Traffic measurements",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-Verkeersmetingen.md",
   "responsibleOrganisation": [
     {

@@ -2,7 +2,7 @@
   "title": "Vocabularium Lokale Economie",
   "category": "vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "lokale-economie-description.md",
   "responsibleOrganisation": [
     {

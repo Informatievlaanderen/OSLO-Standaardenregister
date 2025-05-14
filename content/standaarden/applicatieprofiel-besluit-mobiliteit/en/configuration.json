@@ -2,7 +2,7 @@
   "title": "Application profile Mobility Decree",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Candidate standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-besluit-mobiliteit.md",
   "responsibleOrganisation": [
     {

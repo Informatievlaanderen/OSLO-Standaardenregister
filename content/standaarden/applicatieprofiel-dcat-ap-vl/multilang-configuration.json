@@ -5,15 +5,15 @@
   },
   "category": {
     "nl": "Applicatieprofiel",
-    "en": "Application Profile"
+    "en": "Enter your translation here"
   },
   "usage": {
     "nl": "Aanbevolen (vrijwillig)",
     "en": "Recommended (voluntary)"
   },
   "status": {
-    "nl": "herroepen-standaard",
-    "en": "Revocation standard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard"
   },
   "descriptionFileName": "ap-dcat-ap-vl.md",
   "responsibleOrganisation": [

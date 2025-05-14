@@ -2,7 +2,7 @@
   "title": "Vocabulary Plot",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-percelen.md",
   "responsibleOrganisation": [
     {

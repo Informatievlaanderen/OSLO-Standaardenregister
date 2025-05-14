@@ -2,7 +2,7 @@
   "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
   "category": "Standaard vor organisatorische interoperabiliteit",
   "usage": "Pas toe of leg uit",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "proces-en-methode-oslo.md",
   "responsibleOrganisation": [
     {

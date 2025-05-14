@@ -2,7 +2,7 @@
   "title": "Smart Consultation Environment Application Profile",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-slimme-raadpleegomgeving-config.md",
   "responsibleOrganisation": [
     {

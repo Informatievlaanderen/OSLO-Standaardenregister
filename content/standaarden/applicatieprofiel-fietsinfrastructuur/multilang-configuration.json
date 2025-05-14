@@ -12,8 +12,8 @@
     "en": "Recommended (voluntary)"
   },
   "status": {
-    "nl": "kandidaat-standaard",
-    "en": "Candidate standard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "descriptionFileName": "ap-fietsinfrastructuur-config.md",
   "responsibleOrganisation": [

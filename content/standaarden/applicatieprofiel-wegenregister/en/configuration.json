@@ -2,7 +2,7 @@
   "title": "Application profile Road register",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Candidate standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-wegenregister.md",
   "responsibleOrganisation": [
     {

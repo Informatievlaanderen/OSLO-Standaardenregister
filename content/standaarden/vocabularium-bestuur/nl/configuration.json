@@ -2,7 +2,7 @@
   "title": "Vocabularium Bestuur",
   "category": "Vocabularium",
   "usage": "Verplicht",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-bestuur.md",
   "responsibleOrganisation": [
     {

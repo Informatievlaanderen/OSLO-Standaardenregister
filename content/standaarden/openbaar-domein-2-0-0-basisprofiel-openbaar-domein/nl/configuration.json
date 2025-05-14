@@ -2,7 +2,7 @@
   "title": "Openbaar Domein 2.0.0 - Basisprofiel Openbaar Domein",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-thema-openbaar-domein.md",
   "responsibleOrganisation": [
     {

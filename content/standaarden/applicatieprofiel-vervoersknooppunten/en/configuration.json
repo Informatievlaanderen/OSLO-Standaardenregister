@@ -2,7 +2,7 @@
   "title": "Application profile Transport hubs",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "vervoersknooppunten.md",
   "responsibleOrganisation": [
     {

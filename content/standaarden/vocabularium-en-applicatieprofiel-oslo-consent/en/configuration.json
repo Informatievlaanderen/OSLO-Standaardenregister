@@ -2,7 +2,7 @@
   "title": "Vocabulary and application profile OSLO Consent",
   "category": "Vocabulary and application profiles",
   "usage": "Recommended (voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "core-concept.md",
   "responsibleOrganisation": [
     {

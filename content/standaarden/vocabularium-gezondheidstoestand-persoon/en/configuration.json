@@ -2,7 +2,7 @@
   "title": "Vocabulary of Person's Health Status",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-gezondheidstoestand-config.md",
   "responsibleOrganisation": [
     {

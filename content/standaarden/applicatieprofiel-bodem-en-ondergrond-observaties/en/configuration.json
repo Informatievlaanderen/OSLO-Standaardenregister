@@ -2,7 +2,7 @@
   "title": "Application profile soil and subsurface observations",
   "category": "Application profiles",
   "usage": "Recommended (voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "bodemEnOndergrondObservaties-ap.md",
   "responsibleOrganisation": [
     {

@@ -2,7 +2,7 @@
   "title": "Public domain - Application profile Appearance of vegetated",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-thema-openbaar-domein.md",
   "responsibleOrganisation": [
     {

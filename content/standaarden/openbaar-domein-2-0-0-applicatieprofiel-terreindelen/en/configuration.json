@@ -2,7 +2,7 @@
   "title": "Public Domain 2.0.0 - Application Profile Terrain Parts",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-thema-openbaar-domein.md",
   "responsibleOrganisation": [
     {

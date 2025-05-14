@@ -2,7 +2,7 @@
   "title": "Application Profile Notification Basic",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-notificatie-basis.md",
   "responsibleOrganisation": [
     {

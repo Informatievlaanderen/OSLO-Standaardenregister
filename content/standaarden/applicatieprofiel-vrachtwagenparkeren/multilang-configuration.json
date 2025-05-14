@@ -12,8 +12,8 @@
     "en": "Recommended (Voluntary)"
   },
   "status": {
-    "nl": "standaard-in-ontwikkeling",
-    "en": "Standard-in-development"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "descriptionFileName": "ap-vrachtwagenparkeren-config.md",
   "responsibleOrganisation": [

@@ -2,7 +2,7 @@
   "title": "Flemish URI Standard for Data",
   "category": "Technical standard",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "vlaamse-uri-standaard.md",
   "responsibleOrganisation": [
     {

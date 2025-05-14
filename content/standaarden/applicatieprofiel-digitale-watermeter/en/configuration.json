@@ -2,7 +2,7 @@
   "title": "Digital Water Meter Application Profile",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-digitalewatermeter-config.md",
   "responsibleOrganisation": [
     {
@@ -76,5 +76,5 @@
   "dateOfAcknowledgementBySteeringCommittee": "2025-02-06",
   "repository": "OSLOthema-DigitaleWatermeter",
   "datePublicReviewStart": "2024-08-30",
-  "endOfPublicationDate": "2024-12-18"
+  "datePublicReviewEnd": "2024-12-18"
 }

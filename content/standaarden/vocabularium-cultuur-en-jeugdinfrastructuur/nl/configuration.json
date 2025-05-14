@@ -2,7 +2,7 @@
   "title": "Vocabularium Cultuur- en Jeugdinfrastructuur",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "voc-doelgericht-cultuur-en-jeugd-config.md",
   "responsibleOrganisation": [
     {

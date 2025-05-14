@@ -1,8 +1,8 @@
 {
   "title": "Application profile DCAT-AP VL",
-  "category": "Application Profile",
+  "category": "Enter your translation here",
   "usage": "Recommended (voluntary)",
-  "status": "Revocation standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard",
   "descriptionFileName": "ap-dcat-ap-vl.md",
   "responsibleOrganisation": [
     {

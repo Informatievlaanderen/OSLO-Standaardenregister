@@ -2,7 +2,7 @@
   "title": "Application profile Truck parking",
   "category": "Application Profile",
   "usage": "Recommended (Voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ap-vrachtwagenparkeren-config.md",
   "responsibleOrganisation": [
     {

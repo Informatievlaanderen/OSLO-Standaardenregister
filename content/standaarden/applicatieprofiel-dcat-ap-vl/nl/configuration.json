@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel DCAT-AP VL",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "herroepen-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard",
   "descriptionFileName": "ap-dcat-ap-vl.md",
   "responsibleOrganisation": [
     {

@@ -2,7 +2,7 @@
   "title": "Public Domain 2.0.0 - Extension of the Bare Vegetation",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-openbaar-domein.md",
   "responsibleOrganisation": [
     {

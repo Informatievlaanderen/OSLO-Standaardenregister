@@ -2,7 +2,7 @@
   "title": "Application profile Mandate database",
   "category": "Application Profile",
   "usage": "Obligatory",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-mandatendatabank.md",
   "responsibleOrganisation": [
     {

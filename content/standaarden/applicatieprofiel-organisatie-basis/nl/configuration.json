@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Organisatie Basis",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-organisatie-basis.md",
   "responsibleOrganisation": [
     {

@@ -2,7 +2,7 @@
   "title": "Openbaar Domein - Uitbreiding Vegetatie-elementen (Vocabularium)",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-thema-openbaar-domein.md",
   "responsibleOrganisation": [
     {

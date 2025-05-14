@@ -2,7 +2,7 @@
   "title": "Application profile Issue tracking for citizens and organizations",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "recognized-standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-issue-tracking.md",
   "responsibleOrganisation": [
     {

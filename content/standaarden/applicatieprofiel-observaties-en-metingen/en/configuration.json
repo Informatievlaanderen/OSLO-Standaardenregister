@@ -2,7 +2,7 @@
   "title": "Application profile Observations and measurements",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Standard-in-development",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "observatiesEnMetingen-ap.md",
   "responsibleOrganisation": [
     {

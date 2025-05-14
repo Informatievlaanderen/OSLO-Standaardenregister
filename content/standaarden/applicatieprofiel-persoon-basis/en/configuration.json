@@ -2,7 +2,7 @@
   "title": "Application profile Person base",
   "category": "Application Profile",
   "usage": "Recommend (voluntary)",
-  "status": "Candidate standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-persoon-basis.md",
   "responsibleOrganisation": [
     {

@@ -2,7 +2,7 @@
   "title": "Application profile for services to individuals",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "Candidate standard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "dienstverlening-aan-personen-description.md",
   "responsibleOrganisation": [
     {
