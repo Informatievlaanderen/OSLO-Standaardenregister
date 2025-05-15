@@ -76,3 +76,6 @@
   1.6.0
 
 * Use URIs for statuses and added extra status for recalled, replaced, outdated and note working group standards
+
+1.6.1
+* Fix for the status of the standard not being present in the detail page https://github.com/Informatievlaanderen/OSLO-Standaardenregister/issues/36
