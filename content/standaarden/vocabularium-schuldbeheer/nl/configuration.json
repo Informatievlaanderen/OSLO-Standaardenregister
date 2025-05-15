@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2025-05-07",
+  "publicationDate": "2025-05-15",
   "specificationDocuments": [
     {
       "name": "Vocabularium Schuldbeheer",
@@ -83,7 +83,7 @@
   "dateOfAcknowledgementByWorkingGroup": "2025-03-27",
   "dateOfAcknowledgementBySteeringCommittee": "2025-04-24",
   "datePublicReviewStart": "2024-09-05",
-  "datePublicReviewEnd": "2025-03-10",
+  "datePublicReviewEnd": "2025-02-28",
   "endOfPublicationDate": "",
   "repository": "OSLOthema-schuldbeheer"
 }
