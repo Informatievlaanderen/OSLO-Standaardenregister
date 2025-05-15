@@ -2,7 +2,7 @@
   "title": "Real Estate Application Profile",
   "category": "Application Profile",
   "usage": "Recommended (voluntary)",
-  "status": "",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "vastgoed.md",
   "responsibleOrganisation": [
     {

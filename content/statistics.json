@@ -44,7 +44,7 @@
     {
       "standard": "Applicatieprofiel Hulp- en Dienstverlening aan Gedetineerden",
       "publicationDate": "2024-11-29",
-      "status": "kandidaat-standaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -107,28 +107,28 @@
     {
       "standard": "Applicatieprofiel Kabels en Leidingen",
       "publicationDate": "",
-      "status": "standaard-in-ontwikkeling",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Nutsvoorzieningen",
       "publicationDate": "",
-      "status": "standaard-in-ontwikkeling",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Vastgoed",
       "publicationDate": "2021-06-30",
-      "status": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Vastgoed",
       "publicationDate": "2021-06-30",
-      "status": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -149,7 +149,7 @@
     {
       "standard": "OSLO Voorwaarden Dienstverlening",
       "publicationDate": "2023-07-11",
-      "status": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },

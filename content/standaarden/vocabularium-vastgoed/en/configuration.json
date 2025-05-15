@@ -2,7 +2,7 @@
   "title": "Vocabulary Real Estate",
   "category": "Vocabulary",
   "usage": "Recommended (voluntary)",
-  "status": "",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "vastgoed.md",
   "responsibleOrganisation": [
     {

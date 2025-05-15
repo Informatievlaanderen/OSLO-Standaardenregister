@@ -12,8 +12,8 @@
     "en": "Recommended"
   },
   "status": {
-    "nl": "standaard-in-ontwikkeling",
-    "en": "Standard-in-development"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "descriptionFileName": "kabels-en-leidingen-description.md",
   "responsibleOrganisation": [

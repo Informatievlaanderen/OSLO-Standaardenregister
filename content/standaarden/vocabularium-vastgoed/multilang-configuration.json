@@ -12,8 +12,8 @@
     "en": "Recommended (voluntary)"
   },
   "status": {
-    "nl": "",
-    "en": ""
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "descriptionFileName": "vastgoed.md",
   "responsibleOrganisation": [
