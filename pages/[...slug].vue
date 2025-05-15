@@ -173,7 +173,13 @@
 import type { DescriptionData } from '~/types/descriptionData'
 import type { Markdown } from '~/types/markdown'
 import type { NavigationLink } from '~/types/navigationLink'
-import { getUsageTranslation, Usage, type Standard } from '~/types/standard'
+
+import {
+  getUsageTranslation,
+  Usage,
+  getStatusFromUrl,
+  type Standard,
+} from '~/types/standard'
 
 const { locale, t } = useI18n()
 
@@ -213,7 +219,7 @@ const descriptionElements: DescriptionData[] = [
   {
     title: t('status'),
     element: !!data?.value?.standard?.status
-      ? useRemoveDashes(useCapitalizeFirstLetter(data?.value?.standard?.status))
+      ? getStatusFromUrl(data?.value?.standard?.status, t)
       : getUsageTranslation(Usage.TBD, t),
   },
   {
