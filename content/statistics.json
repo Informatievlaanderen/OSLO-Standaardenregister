@@ -1,10 +1,10 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 248,
+  "numberOfStandardsConfigured": 246,
   "reportErrors": 0,
   "reportsMissing": 249,
-  "uniqueContributors": 3149,
-  "uniqueAffiliations": 575,
+  "uniqueContributors": 3162,
+  "uniqueAffiliations": 576,
   "standards": [
     {
       "standard": "Applicatieprofiel Energiemanagementsysteem",
@@ -14,16 +14,9 @@
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel Thermografische Gebouwanalyse",
+      "standard": "",
       "publicationDate": "",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Thermografische Gebouwanalyse",
-      "publicationDate": "2025-05-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
@@ -43,13 +36,6 @@
     },
     {
       "standard": "Applicatieprofiel Energiehuis",
-      "publicationDate": "",
-      "status": "",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "",
       "publicationDate": "",
       "status": "",
       "totalPeople": 0,
