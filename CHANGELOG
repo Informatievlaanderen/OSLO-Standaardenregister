@@ -79,3 +79,6 @@
 
 1.6.1
 * Fix for the status of the standard not being present in the detail page https://github.com/Informatievlaanderen/OSLO-Standaardenregister/issues/36
+
+1.7.0
+* Introduction of Knowledge graph on a separate page /standaarden/knowledge-graph
