@@ -16,14 +16,14 @@
     {
       "standard": "Applicatieprofiel Thermografische Gebouwanalyse",
       "publicationDate": "",
-      "status": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Thermografische Gebouwanalyse",
       "publicationDate": "2025-05-22",
-      "status": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },

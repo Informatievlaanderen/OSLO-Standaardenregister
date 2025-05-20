@@ -15,13 +15,15 @@
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
-  "responsibleOrganisation": {
-    "name": {
-      "nl": "Departement Onderwijs en Vorming",
-      "en": "Department of Education and Training"
-    },
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
-  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Departement Onderwijs en Vorming",
+        "en": "Department of Education and Training"
+      },
+      "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+    }
+  ],
   "publicationDate": "2025-05-20",
   "descriptionFileName": "ap-leermiddelen-config.md",
   "specificationDocuments": [
