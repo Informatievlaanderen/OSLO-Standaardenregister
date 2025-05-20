@@ -1,0 +1,47 @@
+{
+  "title": {
+    "nl": "Vocabularium Leermiddelen",
+    "en": "Vocabulary Teaching Resources"
+  },
+  "category": {
+    "nl": "Vocabularium",
+    "en": "Vocabulary"
+  },
+  "usage": {
+    "nl": "Aanbevolen (vrijwillig)",
+    "en": "Recommended (voluntary)"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+  },
+  "responsibleOrganisation": {
+    "name": {
+      "nl": "Departement Onderwijs en Vorming",
+      "en": "Department of Education and Training"
+    },
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+  },
+  "publicationDate": "2025-05-20",
+  "descriptionFileName": "voc-leermiddelen-config.md",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Leermiddelen",
+        "en": "Vocabulary Teaching Resources"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-leermiddelen"
+}

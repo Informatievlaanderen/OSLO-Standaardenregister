@@ -1,0 +1,29 @@
+{
+  "title": "Application Profile Learning Resources",
+  "category": "Application Profile",
+  "usage": "Recommended (voluntary)",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "responsibleOrganisation": {
+    "name": "Department of Education and Training",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+  },
+  "publicationDate": "2025-05-20",
+  "descriptionFileName": "ap-leermiddelen-config.md",
+  "specificationDocuments": [
+    {
+      "name": "Application Profile Learning Resources",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-leermiddelen"
+}
