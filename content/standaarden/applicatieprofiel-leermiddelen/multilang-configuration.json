@@ -21,7 +21,7 @@
         "nl": "Departement Onderwijs en Vorming",
         "en": "Department of Education and Training"
       },
-      "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
     }
   ],
   "publicationDate": "2025-05-20",
