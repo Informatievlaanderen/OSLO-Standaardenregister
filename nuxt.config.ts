@@ -23,6 +23,8 @@ export default defineNuxtConfig({
     // private runtime env variables. Think of api keys: https://nuxt.com/docs/guide/going-further/runtime-config#environment-variables
     // This is needed to pass the .env variables to the build process
     ENVIRONMENT: import.meta.env.VITE_ENVIRONMENT,
+    VITE_NAMESPACES_STATISTICS_URL: import.meta.env
+      .VITE_NAMESPACES_STATISTICS_URL,
     // public runtime env variables
     // public: {}
   },
@@ -100,9 +102,7 @@ export default defineNuxtConfig({
   },
 
   // Plugins to run before rendering page: https://nuxt.com/docs/api/configuration/nuxt-config#plugins-1
-  plugins: [
-    { src: '~/plugins/webcomponents.js', mode: 'client' },
-  ],
+  plugins: [{ src: '~/plugins/webcomponents.js', mode: 'client' }],
 
   // Modules: https://nuxt.com/docs/api/configuration/nuxt-config#modules-1
   modules: [
