@@ -1,0 +1,49 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Thermografische Gebouwanalyse",
+    "en": "Application profile Thermographic Building Analysis"
+  },
+  "category": {
+    "nl": "applicatieprofiel",
+    "en": "Application Profile"
+  },
+  "usage": {
+    "nl": "",
+    "en": ""
+  },
+  "status": {
+    "nl": "",
+    "en": ""
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "",
+  "descriptionFileName": "thermai-description.md",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Thermografische Gebouwanalyse Applicatieprofiel",
+        "en": "Thermographic Building Analysis Application Profile"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/thermAI"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "2024-12-1",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "2025-05-22",
+  "datePublicReviewEnd": "2025-09-11",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-thermai"
+}

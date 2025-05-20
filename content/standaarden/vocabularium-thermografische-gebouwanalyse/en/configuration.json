@@ -1,0 +1,31 @@
+{
+  "title": "Vocabulary Thermographic Building Analysis",
+  "category": "Vocabulary",
+  "usage": "",
+  "status": "",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-05-22",
+  "descriptionFileName": "thermai-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Thermographic Building Analysis Vocabulary",
+      "resourceReference": "https://data.vlaanderen.be/ns/thermAI"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "dateOfRegistration": "2024-12-1",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "2025-05-22",
+  "datePublicReviewEnd": "2025-09-11",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-thermai"
+}
