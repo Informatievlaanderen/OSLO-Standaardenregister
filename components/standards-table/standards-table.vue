@@ -79,7 +79,11 @@
         </td>
         <td>
           <p>
-            {{ useCapitalizeFirstLetter(standard?.category ?? Usage.TBD) }}
+            {{
+              !!standard?.category
+                ? getCategoryFromUrl(standard?.category, $t)
+                : Usage.TBD
+            }}
           </p>
         </td>
         <td>
@@ -102,7 +106,9 @@
           </div>
         </td>
         <td>
-          {{ !!standard?.usage ? standard.usage : Usage.TBD }}
+          {{
+            !!standard?.usage ? getUsageFromUrl(standard?.usage, $t) : Usage.TBD
+          }}
         </td>
         <td>
           <p>
@@ -143,7 +149,13 @@
 </template>
 
 <script setup lang="ts" name="standardsTable">
-import { Usage, type Standard, getStatusFromUrl } from '~/types/standard'
+import {
+  Usage,
+  type Standard,
+  getStatusFromUrl,
+  getCategoryFromUrl,
+  getUsageFromUrl,
+} from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
 import { SortingDirection } from '~/composables/useSorting'
 import { ITEMS_PER_PAGE } from '~/constants/constants'
