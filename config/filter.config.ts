@@ -15,29 +15,14 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
       type: FilterType.CHECKBOX,
       title: translate('typeOfApplication'),
       key: 'usage',
-      active: [false, false, false, false],
-      options: [
-        {
-          default: false,
-          label: getUsageTranslation(Usage.MANDATORY, translate),
-          key: getUsageTranslation(Usage.MANDATORY, translate),
-        },
-        {
-          default: false,
-          label: getUsageTranslation(Usage.RECOMMENDED, translate),
-          key: getUsageTranslation(Usage.RECOMMENDED, translate),
-        },
-        {
-          default: false,
-          label: getUsageTranslation(Usage.APPLY_OR_EXPLAIN, translate),
-          key: getUsageTranslation(Usage.APPLY_OR_EXPLAIN, translate),
-        },
-        {
-          default: false,
-          label: getUsageTranslation(Usage.TBD, translate),
-          key: getUsageTranslation(Usage.TBD, translate),
-        },
-      ],
+      active: Array(Object.keys(Usage).length).fill(false),
+      options: Object.values(Usage).map((category) => ({
+        default: false,
+        label: useRemoveDashes(
+          useCapitalizeFirstLetter(getUsageTranslation(category, translate)),
+        ),
+        key: category,
+      })),
     },
     {
       modal: {
@@ -66,33 +51,52 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
       key: 'category',
       active: '',
       options: [
-        {
-          default: '1',
-          label: getCategoryTranslation(Category.VOCABULARY, translate),
-          key: getCategoryTranslation(Category.VOCABULARY, translate),
-        },
-        {
-          default: '2',
-          label: getCategoryTranslation(
-            Category.APPLICATION_PROFILE,
-            translate,
+        ...Object.values(Category).map((category, i) => ({
+          default: (i+ 1)?.toString(),
+          label: useRemoveDashes(
+            useCapitalizeFirstLetter(
+              getCategoryTranslation(category, translate),
+            ),
           ),
-          key: getCategoryTranslation(Category.APPLICATION_PROFILE, translate),
-        },
-        {
-          default: '3',
-          label: getCategoryTranslation(
-            Category.IMPLEMENTATION_MODEL,
-            translate,
-          ),
-          key: getCategoryTranslation(Category.IMPLEMENTATION_MODEL, translate),
-        },
-        {
-          default: '4',
-          key: ALL,
-          label: translate('showAllStandards'),
-        },
+          key: category,
+        })),
+        // Add the "Show all" option
+        ...[
+          {
+            default: '4',
+            key: ALL,
+            label: translate('showAllStandards'),
+          },
+        ],
       ],
+      // options: [
+      //   {
+      //     default: '1',
+      //     label: getCategoryTranslation(Category.VOCABULARY, translate),
+      //     key: getCategoryTranslation(Category.VOCABULARY, translate),
+      //   },
+      //   {
+      //     default: '2',
+      //     label: getCategoryTranslation(
+      //       Category.APPLICATION_PROFILE,
+      //       translate,
+      //     ),
+      //     key: getCategoryTranslation(Category.APPLICATION_PROFILE, translate),
+      //   },
+      //   {
+      //     default: '3',
+      //     label: getCategoryTranslation(
+      //       Category.IMPLEMENTATION_MODEL,
+      //       translate,
+      //     ),
+      //     key: getCategoryTranslation(Category.IMPLEMENTATION_MODEL, translate),
+      //   },
+      //   {
+      //     default: '4',
+      //     key: ALL,
+      //     label: translate('showAllStandards'),
+      //   },
+      // ],
     },
   ]
 }

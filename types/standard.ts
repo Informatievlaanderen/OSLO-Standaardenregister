@@ -1,10 +1,10 @@
 import type { NavigationLink } from '~/types/navigationLink'
 
 export enum Usage {
+  RECOMMENDED = 'https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen',
+  MANDATORY = 'https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht',
+  APPLY_OR_EXPLAIN = 'https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit',
   TBD = 'TBD',
-  RECOMMENDED = 'Aanbevolen (vrijwillig)',
-  MANDATORY = 'Verplicht',
-  APPLY_OR_EXPLAIN = 'Pas toe of leg uit',
 }
 
 export enum Status {
@@ -18,9 +18,9 @@ export enum Status {
 }
 
 export enum Category {
-  APPLICATION_PROFILE = 'Applicatieprofiel',
-  VOCABULARY = 'Vocabularium',
-  IMPLEMENTATION_MODEL = 'Implementatiemodel',
+  APPLICATION_PROFILE = 'https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel',
+  VOCABULARY = 'https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium',
+  IMPLEMENTATION_MODEL = 'https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel',
 }
 
 export const getStatusFromUrl = (
@@ -32,6 +32,29 @@ export const getStatusFromUrl = (
   )
   if (matchingStatus) {
     return getStatusTranslation(matchingStatus, translate)
+  }
+  return Usage.TBD
+}
+
+export const getUsageFromUrl = (
+  usageUrl: string,
+  translate: Function,
+): string => {
+  const matchingUsage = Object.values(Usage).find((usage) => usage === usageUrl)
+  if (matchingUsage) {
+    return getUsageTranslation(matchingUsage, translate)
+  }
+  return Usage.TBD
+}
+export const getCategoryFromUrl = (
+  categoryUrl: string,
+  translate: Function,
+): string => {
+  const matchingCategory = Object.values(Category).find(
+    (category) => category === categoryUrl,
+  )
+  if (matchingCategory) {
+    return getCategoryTranslation(matchingCategory, translate)
   }
   return Usage.TBD
 }

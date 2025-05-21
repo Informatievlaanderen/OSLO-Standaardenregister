@@ -178,6 +178,8 @@ import {
   getUsageTranslation,
   Usage,
   getStatusFromUrl,
+  getCategoryFromUrl,
+  getUsageFromUrl,
   type Standard,
 } from '~/types/standard'
 
@@ -224,12 +226,15 @@ const descriptionElements: DescriptionData[] = [
   },
   {
     title: t('typeOfApplication'),
-    element: data?.value?.standard?.usage ?? getUsageTranslation(Usage.TBD, t),
+    element: !!data?.value?.standard?.usage
+      ? getUsageFromUrl(data?.value?.standard?.usage, t)
+      : getUsageTranslation(Usage.TBD, t),
   },
   {
     title: t('category'),
-    element:
-      data?.value?.standard?.category ?? getUsageTranslation(Usage.TBD, t),
+    element: !!data?.value?.standard?.category
+      ? getCategoryFromUrl(data?.value?.standard?.category, t)
+      : getUsageTranslation(Usage.TBD, t),
   },
 ]
 
