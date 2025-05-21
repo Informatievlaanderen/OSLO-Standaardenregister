@@ -82,3 +82,6 @@
 
 1.7.0
 * Introduction of Knowledge graph on a separate page /standaarden/knowledge-graph
+
+1.8.0
+* Use URIs for the type of standard and use URI for the usage of the standard
