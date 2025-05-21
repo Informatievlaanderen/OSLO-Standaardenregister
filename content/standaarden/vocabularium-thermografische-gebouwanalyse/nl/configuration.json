@@ -1,8 +1,8 @@
 {
   "title": "Vocabularium Thermografische Gebouwanalyse",
-  "category": "vocabularium",
-  "usage": "",
-  "status": "",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
@@ -14,13 +14,49 @@
   "specificationDocuments": [
     {
       "name": "Thermografische Gebouwanalyse Vocabularium",
-      "resourceReference": "https://data.vlaanderen.be/ns/thermAI"
+      "resourceReference": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse"
     }
   ],
-  "documentation": [],
-  "charter": {},
-  "reports": [],
-  "presentations": [],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Thermografische Gebouwanalyse",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse"
+    }
+  ],
+  "charter": [
+    {
+      "name": "Charter Thermografische Beeldanalyse",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/charter/Charter_OSLO_thermAI.pdf"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Verslag business werkgroep - 18-02-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/reports/Business%20werkgroep%20CoT%20ThermAI%202025-02-18.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 1 - 18-03-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/reports/Thematische%20werkgroep%201%20-%20CoT%20ThermAI%202025-03-18.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 2 - 15-04-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/reports/Thematische%20werkgroep%202%20-%20CoT%20ThermAI%202025-04-15.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie Business Werkgroep - 18-02-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/ThermAI%20Business%20Werkgroep%20(1).pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 1 - 18-03-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/Thematische%20werkgroep%201%20-%20ThermAI.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 2 - 15-04-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/Thematische%20werkgroep%202%20-%20ThermAI.pdf"
+    }
+  ],
   "dateOfRegistration": "2024-12-1",
   "dateOfAcknowledgementByWorkingGroup": "",
   "dateOfAcknowledgementBySteeringCommittee": "",
