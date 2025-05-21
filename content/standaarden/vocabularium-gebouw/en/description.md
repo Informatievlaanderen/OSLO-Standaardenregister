@@ -1,1 +1,3 @@
-Enter your translation here
+The vocabulary OSLO Building focuses on terms related to buildings and building units. 
+The starting point was terms defined for these entities in the [Register of Buildings](https://overheid.vlaanderen.be/producten-diensten/gebouwen-adressenregister) (VBR). 
+However, coordination also took place with [INSPIRE-Building](https://inspire.ec.europa.eu/data-specifications/2892) and with the federal working group on buildings (GT-BUNI).

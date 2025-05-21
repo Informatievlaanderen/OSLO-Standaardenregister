@@ -1,7 +1,7 @@
 {
   "title": "Application profile Mobility: timetable and planning time tables",
-  "category": "Application Profile",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-dienstregeling-en-planning.md",
   "responsibleOrganisation": [

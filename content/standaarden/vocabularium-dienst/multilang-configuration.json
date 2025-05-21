@@ -4,12 +4,12 @@
     "en": "Vocabulary Service"
   },
   "category": {
-    "nl": "Vocabularium",
-    "en": "Vocabulary"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
   },
   "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",

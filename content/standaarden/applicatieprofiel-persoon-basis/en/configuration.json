@@ -1,6 +1,6 @@
 {
   "title": "Application profile Person base",
-  "category": "Application Profile",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "Recommend (voluntary)",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-persoon-basis.md",

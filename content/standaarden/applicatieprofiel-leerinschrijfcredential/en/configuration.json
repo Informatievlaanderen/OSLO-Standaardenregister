@@ -1,7 +1,7 @@
 {
   "title": "Application Profile Learning Enrollment Credential",
-  "category": "Application Profile",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "leerinschrijfcredential-description.md",
   "responsibleOrganisation": [

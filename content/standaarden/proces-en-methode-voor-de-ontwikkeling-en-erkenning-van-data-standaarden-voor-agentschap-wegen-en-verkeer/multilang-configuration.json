@@ -4,12 +4,12 @@
     "en": "Process and method for the development and recognition of data standards for the Agency for Roads and Traffic"
   },
   "category": {
-    "nl": "Standaard vor organisatorische interoperabiliteit",
-    "en": "Standard for organizational interoperability"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/OrganisatorischeInteroperabiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/OrganisatorischeInteroperabiliteit"
   },
   "usage": {
-    "nl": "Pas toe of leg uit",
-    "en": "Apply or explain"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",

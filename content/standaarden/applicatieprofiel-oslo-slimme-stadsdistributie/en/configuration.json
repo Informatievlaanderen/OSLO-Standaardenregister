@@ -1,7 +1,7 @@
 {
   "title": "OSLO Smart City Distribution Application Profile",
-  "category": "Application profiles",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ap-or-voc-slimmestadsdistributie.md",
   "responsibleOrganisation": [

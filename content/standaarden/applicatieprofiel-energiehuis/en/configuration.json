@@ -1,8 +1,8 @@
 {
   "title": "Application profile Energiehuis",
-  "category": "Application Profile",
-  "usage": "",
-  "status": "",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "Recommended (voluntary)",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "responsibleOrganisation": {
     "name": "Digital Flanders Agency",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
@@ -11,11 +11,15 @@
   "descriptionFileName": "energiehuis-description.md",
   "specificationDocuments": [
     {
-      "name": "Energy House Application Profile",
+      "name": "Application profile Energiehuis",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/energiehuis"
     }
   ],
   "documentation": [
+    {
+      "name": "Vocabulary Energy House",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/energiehuis"
+    },
     {
       "name": "Code list information provision themes",
       "resourceReference": "https://data.vlaanderen.be/id/conceptscheme/InformatievoorzieningThema"
@@ -71,6 +75,10 @@
     {
       "name": "Presentation thematic working group 4 - 16-01-2025",
       "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis/blob/6b6570acc2d5ee38d9791ab79e18121d74bc4977/presentations/Presentatie%20thematische%20werkgroep%204%20-%20Energiehuis%20-%2020250116.pdf"
+    },
+    {
+      "name": "Presentation closing webinar - 14-05-2025",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis/blob/standaardenregister/presentations/Afsluitend%20webinar%20OSLO%20Energiehuis%20(1).pdf"
     }
   ],
   "dateOfRegistration": "2024-05-16",

@@ -1,7 +1,7 @@
 {
   "title": "Application profile Address register",
-  "category": "Enter your translation here",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "ap-adresregister.md",
   "responsibleOrganisation": [

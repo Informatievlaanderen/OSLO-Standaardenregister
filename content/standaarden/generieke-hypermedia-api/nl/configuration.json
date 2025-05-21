@@ -1,7 +1,7 @@
 {
   "title": "Generieke Hypermedia API",
-  "category": "Technische standaard",
-  "usage": "Aanbevolen (vrijwillig)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "generieke-hypermedia-api.md",
   "responsibleOrganisation": [

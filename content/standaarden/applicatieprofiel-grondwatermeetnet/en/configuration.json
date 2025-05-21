@@ -1,7 +1,7 @@
 {
   "title": "Application profile Groundwater monitoring network",
-  "category": "Application Profile",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "bodemenondergrond.md",
   "responsibleOrganisation": [

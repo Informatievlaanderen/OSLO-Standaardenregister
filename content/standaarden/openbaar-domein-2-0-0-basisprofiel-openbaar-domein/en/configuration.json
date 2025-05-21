@@ -1,7 +1,7 @@
 {
   "title": "Public Domain 2.0.0 - Public Domain Basic Profile",
-  "category": "Application Profile",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-thema-openbaar-domein.md",
   "responsibleOrganisation": [

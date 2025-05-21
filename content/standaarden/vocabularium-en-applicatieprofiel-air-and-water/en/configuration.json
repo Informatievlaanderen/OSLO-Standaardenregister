@@ -1,6 +1,6 @@
 {
   "title": "Vocabulary and application profile air and water",
-  "category": "Vocabulary and application profiles",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "TBD",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "airandwater.md",

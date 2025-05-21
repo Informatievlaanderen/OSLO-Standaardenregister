@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Vrachtwagenparkeren",
-  "category": "Applicatieprofiel",
-  "usage": "Aanbevolen (Vrijwillig)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ap-vrachtwagenparkeren-config.md",
   "responsibleOrganisation": [

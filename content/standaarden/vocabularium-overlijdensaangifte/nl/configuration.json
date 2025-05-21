@@ -1,7 +1,7 @@
 {
   "title": "Vocabularium Overlijdensaangifte",
-  "category": "Vocabularium",
-  "usage": "Aanbevolen (vrijwillig)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-overlijdensaangifte-config.md",
   "responsibleOrganisation": [

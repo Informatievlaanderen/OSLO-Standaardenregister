@@ -1,7 +1,7 @@
 {
   "title": "IPDC Vocabulary and Implementation Model - LPDC",
-  "category": "Vocabulary and implementation model",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "",
   "responsibleOrganisation": [

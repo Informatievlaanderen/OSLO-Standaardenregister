@@ -4,12 +4,12 @@
     "en": "Payroll data application profile"
   },
   "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
   },
   "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",

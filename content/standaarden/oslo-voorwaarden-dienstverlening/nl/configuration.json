@@ -1,7 +1,7 @@
 {
   "title": "OSLO Voorwaarden Dienstverlening",
-  "category": "Applicatieprofiel",
-  "usage": "Aanbevolen (vrijwillig)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "template-description.md",
   "responsibleOrganisation": [

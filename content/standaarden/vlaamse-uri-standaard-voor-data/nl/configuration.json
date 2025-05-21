@@ -1,7 +1,7 @@
 {
   "title": "Vlaamse URI-Standaard voor Data",
-  "category": "Technische standaard",
-  "usage": "Aanbevolen (vrijwillig)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "vlaamse-uri-standaard.md",
   "responsibleOrganisation": [

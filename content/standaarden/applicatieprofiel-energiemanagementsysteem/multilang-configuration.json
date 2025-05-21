@@ -8,12 +8,12 @@
     "en": "Application Profile"
   },
   "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "",
+    "en": ""
   },
   "responsibleOrganisation": [
     {

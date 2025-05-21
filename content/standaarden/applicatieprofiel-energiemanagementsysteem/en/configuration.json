@@ -1,8 +1,8 @@
 {
   "title": "Application profile Energy Management System",
   "category": "Application Profile",
-  "usage": "Recommended (voluntary)",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",

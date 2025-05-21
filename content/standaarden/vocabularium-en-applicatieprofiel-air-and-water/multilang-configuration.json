@@ -4,8 +4,8 @@
     "en": "Vocabulary and application profile air and water"
   },
   "category": {
-    "nl": "Vocabularium en applicatieprofielen",
-    "en": "Vocabulary and application profiles"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
   },
   "usage": {
     "nl": "TBD",

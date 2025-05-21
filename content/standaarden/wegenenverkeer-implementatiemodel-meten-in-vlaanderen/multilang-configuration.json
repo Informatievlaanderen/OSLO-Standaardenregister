@@ -4,12 +4,12 @@
     "en": "Road and traffic implementation model Measuring in Flanders"
   },
   "category": {
-    "nl": "implementatiemodel",
-    "en": "Implementation model"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
   },
   "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",

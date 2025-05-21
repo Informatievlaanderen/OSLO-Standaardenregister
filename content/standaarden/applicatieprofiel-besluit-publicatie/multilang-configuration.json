@@ -4,12 +4,12 @@
     "en": "Application profile Publication Decision"
   },
   "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
   },
   "usage": {
-    "nl": "Verplicht",
-    "en": "Obligatory"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",

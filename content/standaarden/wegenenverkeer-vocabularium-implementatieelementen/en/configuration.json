@@ -1,7 +1,7 @@
 {
   "title": "Road and traffic vocabulary implementation elements",
-  "category": "Vocabulary",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "wegen-en-verkeer.md",
   "responsibleOrganisation": [

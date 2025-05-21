@@ -1,7 +1,7 @@
 {
   "title": "road and traffic implementation model Union datatypes",
-  "category": "Deployment model",
-  "usage": "Recommended (voluntary)",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "Union-datatypes.md",
   "responsibleOrganisation": [

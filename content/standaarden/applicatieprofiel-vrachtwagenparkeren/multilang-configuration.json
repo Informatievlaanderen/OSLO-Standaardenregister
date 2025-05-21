@@ -4,12 +4,12 @@
     "en": "Application profile Truck parking"
   },
   "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
   },
   "usage": {
-    "nl": "Aanbevolen (Vrijwillig)",
-    "en": "Recommended (Voluntary)"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",

@@ -4,8 +4,8 @@
     "en": "API guidelines"
   },
   "category": {
-    "nl": "Technische standaard",
-    "en": "Technical standard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard"
   },
   "usage": {
     "nl": "TBD",

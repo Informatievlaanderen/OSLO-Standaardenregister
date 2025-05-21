@@ -4,12 +4,12 @@
     "en": "Generic Hypermedia API"
   },
   "category": {
-    "nl": "Technische standaard",
-    "en": "Technical standard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard"
   },
   "usage": {
-    "nl": "Aanbevolen (vrijwillig)",
-    "en": "Recommended (voluntary)"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
