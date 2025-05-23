@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 248,
+  "numberOfStandardsConfigured": 249,
   "reportErrors": 0,
-  "reportsMissing": 249,
+  "reportsMissing": 250,
   "uniqueContributors": 3162,
   "uniqueAffiliations": 576,
   "standards": [
@@ -1739,6 +1739,13 @@
       "standard": "Vocabularium Zaalreservatie",
       "publicationDate": "2025-04-17",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel SHOK",
+      "publicationDate": "",
+      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     }

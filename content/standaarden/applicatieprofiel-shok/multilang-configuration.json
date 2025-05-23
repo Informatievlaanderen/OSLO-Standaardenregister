@@ -1,0 +1,91 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel SHOK",
+    "en": "Application profile SHOK"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/doc/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/doc/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard"
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "",
+  "descriptionFileName": "",
+  "specificationDocuments": [],
+  "documentation": [],
+  "charter": {
+    "name": {
+      "nl": "Charter_OSLO_SHOK",
+      "en": "Charter_OSLO_SHOK"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/charter/Charter_OSLO_SHOK.pdf"
+  },
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business werkgroep OSLO SHOK",
+        "en": "Report Business working group OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Business werkgroep OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep 1 - OSLO SHOK",
+        "en": "Report Thematic Working Group 1 - OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "OSLO SHOK - Verslag Thematische werkgroep 2",
+        "en": "OSLO SHOK - Report Thematic Working Group 2"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/OSLO SHOK - Verslag Thematische werkgroep 2.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": {
+        "nl": "Business Werkgroep presentatie OSLO SHOK",
+        "en": "Business Working Group presentation OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Business Werkgroep presentatie OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - OSLO SHOK",
+        "en": "Presentation Thematic Working Group 1 - OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 1 - OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 OSLO SHOK",
+        "en": "Presentation thematic working group 2 OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 2 OSLO SHOK.pdf"
+    }
+  ],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-shok"
+}
