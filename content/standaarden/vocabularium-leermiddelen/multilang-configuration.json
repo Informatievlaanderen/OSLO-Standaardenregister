@@ -32,10 +32,18 @@
         "nl": "Vocabularium Leermiddelen",
         "en": "Vocabulary Teaching Resources"
       },
+      "resourceReference": "https://data.vlaanderen.be/ns/leermiddelen"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Leermiddelen",
+        "en": "Application Profile Learning Resources"
+      },
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
     }
   ],
-  "documentation": [],
   "charter": {},
   "reports": [
     {
