@@ -21,7 +21,7 @@
         "nl": "Agentschap Digitaal Vlaanderen",
         "en": "Digital Flanders Agency"
       },
-      "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
   "publicationDate": "2025-01-09",
@@ -35,6 +35,13 @@
       "resourceReference": "https://data.vlaanderen.be/ns/energiehuis"
     }
   ],
+  "charter": {
+    "name": {
+      "nl": "Charter OSLO Energiehuis",
+      "en": "Charter OSLO Energy House"
+    },
+    "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/energiehuis"
+  },
   "documentation": [
     {
       "name": {
