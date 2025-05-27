@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 249,
+  "numberOfStandardsConfigured": 250,
   "reportErrors": 0,
-  "reportsMissing": 250,
+  "reportsMissing": 251,
   "uniqueContributors": 3267,
   "uniqueAffiliations": 597,
   "standards": [
@@ -1746,6 +1746,13 @@
       "standard": "Applicatieprofiel SHOK",
       "publicationDate": "",
       "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     }
