@@ -174,6 +174,7 @@ import type { DescriptionData } from '~/types/descriptionData'
 import type { Markdown } from '~/types/markdown'
 import type { NavigationLink } from '~/types/navigationLink'
 
+import { createAnchorElement } from '~/utils/helper.utils'
 import {
   getUsageTranslation,
   Usage,
@@ -213,7 +214,7 @@ const descriptionElements: DescriptionData[] = [
       ? data.value.standard.responsibleOrganisation
           .map(
             (org: NavigationLink) =>
-              `<a href="${org.resourceReference}">${org.name}</a>`,
+              `<a target="_blank" href="${org.resourceReference}">${org.name}</a>`,
           )
           .join(', ')
       : getUsageTranslation(Usage.TBD, t),
@@ -223,17 +224,23 @@ const descriptionElements: DescriptionData[] = [
     element: createAnchorElement(
       data?.value?.standard?.status,
       getStatusFromUrl,
+      t,
     ),
   },
   {
     title: t('typeOfApplication'),
-    element: createAnchorElement(data?.value?.standard?.usage, getUsageFromUrl),
+    element: createAnchorElement(
+      data?.value?.standard?.usage,
+      getUsageFromUrl,
+      t,
+    ),
   },
   {
     title: t('category'),
     element: createAnchorElement(
       data?.value?.standard?.category,
       getCategoryFromUrl,
+      t,
     ),
   },
 ]

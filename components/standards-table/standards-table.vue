@@ -111,7 +111,7 @@
           </div>
         </td>
         <td>
-          <a :href="standard?.usage" :target="_blank">
+          <a :href="standard?.usage" target="_blank">
             {{
               !!standard?.usage
                 ? getUsageFromUrl(standard?.usage, $t)
