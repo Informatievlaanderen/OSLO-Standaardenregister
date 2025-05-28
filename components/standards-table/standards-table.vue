@@ -87,13 +87,13 @@
           </p>
         </td>
         <td>
-          <p>
+          <a :href="standard?.status" :target="_blank">
             {{
               !!standard?.status
                 ? getStatusFromUrl(standard?.status, $t)
                 : Usage.TBD
             }}
-          </p>
+          </a>
         </td>
         <td>
           <div
