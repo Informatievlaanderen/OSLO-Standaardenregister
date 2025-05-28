@@ -6,7 +6,7 @@ export const isVlaanderenUrl = (url: string) => {
 }
 
 // Helper function to create anchor tags
-const createAnchorElement = (
+export const createAnchorElement = (
   url: string | undefined,
   getTextFn: (url: string, t: any) => string,
   translate: Function,
