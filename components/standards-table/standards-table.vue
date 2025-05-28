@@ -67,10 +67,15 @@
       <tr v-if="standards?.length" v-for="standard in pagedDatasets()">
         <td>
           <a
+            v-if="standard?.specificationDocuments?.[0]?.resourceReference"
             target="_blank"
             :href="standard?.specificationDocuments?.[0]?.resourceReference"
-            >{{ standard?.title }}</a
           >
+            {{ standard?.title }}
+          </a>
+          <p v-else>
+            {{ standard?.title }}
+          </p>
         </td>
         <td>
           <a :href="standard?._path.split('/')[2]">
@@ -78,22 +83,22 @@
           </a>
         </td>
         <td>
-          <p>
+          <a :href="standard?.category" target="_blank">
             {{
               !!standard?.category
                 ? getCategoryFromUrl(standard?.category, $t)
                 : Usage.TBD
             }}
-          </p>
+          </a>
         </td>
         <td>
-          <p>
+          <a :href="standard?.status" target="_blank">
             {{
               !!standard?.status
                 ? getStatusFromUrl(standard?.status, $t)
                 : Usage.TBD
             }}
-          </p>
+          </a>
         </td>
         <td>
           <div
@@ -106,9 +111,13 @@
           </div>
         </td>
         <td>
-          {{
-            !!standard?.usage ? getUsageFromUrl(standard?.usage, $t) : Usage.TBD
-          }}
+          <a :href="standard?.usage" :target="_blank">
+            {{
+              !!standard?.usage
+                ? getUsageFromUrl(standard?.usage, $t)
+                : Usage.TBD
+            }}
+          </a>
         </td>
         <td>
           <p>
