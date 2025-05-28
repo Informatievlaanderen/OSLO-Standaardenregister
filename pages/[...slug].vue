@@ -220,21 +220,21 @@ const descriptionElements: DescriptionData[] = [
   },
   {
     title: t('status'),
-    element: !!data?.value?.standard?.status
-      ? getStatusFromUrl(data?.value?.standard?.status, t)
-      : getUsageTranslation(Usage.TBD, t),
+    element: createAnchorElement(
+      data?.value?.standard?.status,
+      getStatusFromUrl,
+    ),
   },
   {
     title: t('typeOfApplication'),
-    element: !!data?.value?.standard?.usage
-      ? getUsageFromUrl(data?.value?.standard?.usage, t)
-      : getUsageTranslation(Usage.TBD, t),
+    element: createAnchorElement(data?.value?.standard?.usage, getUsageFromUrl),
   },
   {
     title: t('category'),
-    element: !!data?.value?.standard?.category
-      ? getCategoryFromUrl(data?.value?.standard?.category, t)
-      : getUsageTranslation(Usage.TBD, t),
+    element: createAnchorElement(
+      data?.value?.standard?.category,
+      getCategoryFromUrl,
+    ),
   },
 ]
 

@@ -77,11 +77,19 @@
 
 * Use URIs for statuses and added extra status for recalled, replaced, outdated and note working group standards
 
-1.6.1
+  1.6.1
+
 * Fix for the status of the standard not being present in the detail page https://github.com/Informatievlaanderen/OSLO-Standaardenregister/issues/36
 
-1.7.0
+  1.7.0
+
 * Introduction of Knowledge graph on a separate page /standaarden/knowledge-graph
 
-1.8.0
+  1.8.0
+
 * Use URIs for the type of standard and use URI for the usage of the standard
+
+  1.8.1
+
+* Fallback for when the `resourceReference` is not present in the standard
+* Made the URIs category, type and usage an anchor tag
