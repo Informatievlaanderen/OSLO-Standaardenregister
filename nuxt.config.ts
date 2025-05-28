@@ -60,26 +60,26 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           sizes: '192x192',
-          href: 'https://dij151upo6vad.cloudfront.net/2.latest/icons/app-icon/icon-highres-precomposed.png',
+          href: 'https://ui.vlaanderen.be/2.latest/icons/app-icon/icon-highres-precomposed.png',
         },
         {
           rel: 'apple-touch-icon',
-          href: 'https://dij151upo6vad.cloudfront.net/2.latest/icons/app-icon/touch-icon-iphone-precomposed.png',
+          href: 'https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-precomposed.png',
         },
         {
           rel: 'apple-touch-icon',
           sizes: '76x76',
-          href: 'https://dij151upo6vad.cloudfront.net/2.latest/icons/app-icon/touch-icon-ipad-precomposed.png',
+          href: 'https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-precomposed.png',
         },
         {
           rel: 'apple-touch-icon',
           sizes: '120x120',
-          href: 'https://dij151upo6vad.cloudfront.net/2.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png',
+          href: 'https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png',
         },
         {
           rel: 'apple-touch-icon',
           sizes: '152x152',
-          href: 'https://dij151upo6vad.cloudfront.net/2.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png',
+          href: 'https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png',
         },
       ],
     },
