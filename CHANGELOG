@@ -94,3 +94,7 @@
 * Fallback for when the `resourceReference` is not present in the standard
 * Made the URIs category, type and usage an anchor tag
 * Replaced cloudfront URL with the new CDN URL: ui.vlaanderen.be
+
+
+1.8.2
+* Bugfix for TBD status not being displayed correctly

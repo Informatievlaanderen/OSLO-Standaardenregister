@@ -8,10 +8,18 @@ export const isVlaanderenUrl = (url: string) => {
 // Helper function to create anchor tags
 export const createAnchorElement = (
   url: string | undefined,
-  getTextFn: (url: string, t: any) => string,
-  translate: Function,
+  getTextFn: (url: string, t: Function) => string,
+  t: any,
 ) => {
-  return url
-    ? `<a href="${url}" target="_blank">${getTextFn(url, translate)}</a>`
-    : getUsageTranslation(Usage.TBD, translate)
+  if (!url) {
+    return getUsageTranslation(Usage.TBD, t)
+  }
+
+  const translatedText = getTextFn(url, t)
+
+  // Check if the translation is valid (not TBD)
+  if (translatedText === getUsageTranslation(Usage.TBD, t)) {
+    return `<p>${translatedText}</p>`
+  }
+  return `<a href="${url}" target="_blank">${translatedText}</a>`
 }
