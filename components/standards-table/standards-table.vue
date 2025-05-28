@@ -83,41 +83,65 @@
           </a>
         </td>
         <td>
-          <a :href="standard?.category" target="_blank">
-            {{
-              !!standard?.category
-                ? getCategoryFromUrl(standard?.category, $t)
-                : Usage.TBD
-            }}
+          <a
+            v-if="
+              !!standard?.category &&
+              getCategoryFromUrl(standard?.category, $t) !== Usage.TBD
+            "
+            :href="standard?.category"
+            target="_blank"
+          >
+            {{ getCategoryFromUrl(standard?.category, $t) }}
           </a>
+          <p v-else>
+            {{ getCategoryFromUrl(standard?.category, $t) || Usage.TBD }}
+          </p>
         </td>
         <td>
-          <a :href="standard?.status" target="_blank">
-            {{
-              !!standard?.status
-                ? getStatusFromUrl(standard?.status, $t)
-                : Usage.TBD
-            }}
+          <a
+            v-if="
+              !!standard?.status &&
+              getStatusFromUrl(standard?.status, $t) !== Usage.TBD
+            "
+            :href="standard?.status"
+            target="_blank"
+          >
+            {{ getStatusFromUrl(standard?.status, $t) }}
           </a>
+          <p v-else>
+            {{ getStatusFromUrl(standard?.status, $t) || Usage.TBD }}
+          </p>
         </td>
         <td>
           <div
             v-for="(organisation, index) in standard?.responsibleOrganisation"
             :key="index"
           >
-            <a :href="organisation?.resourceReference">{{
-              organisation?.name
-            }}</a>
+            <a
+              v-if="organisation?.resourceReference"
+              :href="organisation?.resourceReference"
+            >
+              {{ organisation?.name }}
+            </a>
+            <p v-else>
+              {{ organisation?.name || Usage.TBD }}
+            </p>
           </div>
         </td>
         <td>
-          <a :href="standard?.usage" target="_blank">
-            {{
-              !!standard?.usage
-                ? getUsageFromUrl(standard?.usage, $t)
-                : Usage.TBD
-            }}
+          <a
+            v-if="
+              !!standard?.usage &&
+              getUsageFromUrl(standard?.usage, $t) !== Usage.TBD
+            "
+            :href="standard?.usage"
+            target="_blank"
+          >
+            {{ getUsageFromUrl(standard?.usage, $t) }}
           </a>
+          <p v-else>
+            {{ getUsageFromUrl(standard?.usage, $t) || Usage.TBD }}
+          </p>
         </td>
         <td>
           <p>
