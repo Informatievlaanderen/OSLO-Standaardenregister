@@ -13,14 +13,14 @@
   "descriptionFileName": "zaalreservatie-description.md",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Zaalreservatie",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
+      "name": "Vocabularium Zaalreservatie",
+      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
     }
   ],
   "documentation": [
     {
-      "name": "Vocabularium Zaalreservatie",
-      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
+      "name": "Applicatieprofiel Zaalreservatie",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
     }
   ],
   "charter": {

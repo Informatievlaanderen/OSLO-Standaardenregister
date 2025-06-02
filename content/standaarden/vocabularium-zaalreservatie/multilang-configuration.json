@@ -29,19 +29,19 @@
   "specificationDocuments": [
     {
       "name": {
-        "nl": "Applicatieprofiel Zaalreservatie",
-        "en": "Application profile Room reservation"
+        "nl": "Vocabularium Zaalreservatie",
+        "en": "Vocabulary Room Reservation"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
+      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
     }
   ],
   "documentation": [
     {
       "name": {
-        "nl": "Vocabularium Zaalreservatie",
-        "en": "Vocabulary Room Reservation"
+        "nl": "Applicatieprofiel Zaalreservatie",
+        "en": "Application profile Room reservation"
       },
-      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
     }
   ],
   "charter": {

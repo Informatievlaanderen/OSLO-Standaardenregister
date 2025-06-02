@@ -13,14 +13,14 @@
   "descriptionFileName": "zaalreservatie-description.md",
   "specificationDocuments": [
     {
-      "name": "Application profile Room reservation",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
+      "name": "Vocabulary Room Reservation",
+      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
     }
   ],
   "documentation": [
     {
-      "name": "Vocabulary Room Reservation",
-      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
+      "name": "Application profile Room reservation",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
     }
   ],
   "charter": {
