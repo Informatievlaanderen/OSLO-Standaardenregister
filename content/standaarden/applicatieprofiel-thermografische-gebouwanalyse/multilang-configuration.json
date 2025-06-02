@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -41,7 +41,7 @@
         "nl": "Vocabularium Thermografische Gebouwanalyse",
         "en": "Vocabulary Thermographic Building Analysis"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/thermografische-gebouwanalyse"
+      "resourceReference": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse"
     }
   ],
   "charter": [
@@ -86,15 +86,15 @@
     },
     {
       "name": {
-        "nl": "Presentatie Business Werkgroep 1 - 18-03-2025",
-        "en": "Presentation Business Working Group 1 - 18-03-2025"
+        "nl": "Presentatie Thematische Werkgroep 1 - 18-03-2025",
+        "en": "Presentation Thematic Working Group 1 - 18-03-2025"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/Thematische%20werkgroep%201%20-%20ThermAI.pdf"
     },
     {
       "name": {
-        "nl": "Presentatie Business Werkgroep 2 - 15-04-2025",
-        "en": "Presentation Business Working Group 2 - 15-04-2025"
+        "nl": "Presentatie Thematische Werkgroep 2 - 15-04-2025",
+        "en": "Presentation Thematic Working Group 2 - 15-04-2025"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/Thematische%20werkgroep%202%20-%20ThermAI.pdf"
     }

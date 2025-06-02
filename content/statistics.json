@@ -9,21 +9,21 @@
     {
       "standard": "Applicatieprofiel Energiemanagementsysteem",
       "publicationDate": "2025-05-14",
-      "status": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Thermografische Gebouwanalyse",
       "publicationDate": "2025-05-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Thermografische Gebouwanalyse",
       "publicationDate": "2025-05-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1743,16 +1743,16 @@
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel SHOK",
-      "publicationDate": "",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "standard": "Applicatieprofiel Openbare Kasten",
+      "publicationDate": "2025-05-26",
+      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
+      "standard": "Vocabularium Openbare Kasten",
+      "publicationDate": "2025-05-26",
+      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     }

@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Thermografische Gebouwanalyse",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
@@ -20,7 +20,7 @@
   "documentation": [
     {
       "name": "Vocabularium Thermografische Gebouwanalyse",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/thermografische-gebouwanalyse"
+      "resourceReference": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse"
     }
   ],
   "charter": [
@@ -49,11 +49,11 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/ThermAI%20Business%20Werkgroep%20(1).pdf"
     },
     {
-      "name": "Presentatie Business Werkgroep 1 - 18-03-2025",
+      "name": "Presentatie Thematische Werkgroep 1 - 18-03-2025",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/Thematische%20werkgroep%201%20-%20ThermAI.pdf"
     },
     {
-      "name": "Presentatie Business Werkgroep 2 - 15-04-2025",
+      "name": "Presentatie Thematische Werkgroep 2 - 15-04-2025",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/presentations/Thematische%20werkgroep%202%20-%20ThermAI.pdf"
     }
   ],
