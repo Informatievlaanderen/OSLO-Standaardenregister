@@ -11,10 +11,20 @@
   ],
   "publicationDate": "2025-05-26",
   "descriptionFileName": "",
-  "specificationDocuments": [],
-  "documentation": [],
+  "specificationDocuments": [
+    {
+      "name": "Application profile public cabinets",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-kasten/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabulary Public Cabinets",
+      "resourceReference": "https://data.vlaanderen.be/ns/openbare-kasten/"
+    }
+  ],
   "charter": {
-    "name": "Charter OSLO SHOK",
+    "name": "Charter OSLO Public Cabinets",
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/charter/Charter_OSLO_SHOK.pdf"
   },
   "reports": [

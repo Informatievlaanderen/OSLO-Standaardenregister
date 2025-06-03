@@ -11,10 +11,20 @@
   ],
   "publicationDate": "2025-05-26",
   "descriptionFileName": "",
-  "specificationDocuments": [],
-  "documentation": [],
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Openbare Kasten",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-kasten/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabularium Openbare Kasten",
+      "resourceReference": "https://data.vlaanderen.be/ns/openbare-kasten/"
+    }
+  ],
   "charter": {
-    "name": "Charter OSLO SHOK",
+    "name": "Charter OSLO Openbare Kasten",
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/charter/Charter_OSLO_SHOK.pdf"
   },
   "reports": [
