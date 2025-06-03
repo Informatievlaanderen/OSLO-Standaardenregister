@@ -26,7 +26,15 @@
   ],
   "publicationDate": "2025-05-14",
   "descriptionFileName": "energiemanagementsysteem-description.md",
-  "specificationDocuments": [],
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Energiemanagementsysteem",
+        "en": "Application profile Energy Management System"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/"
+    }
+  ],
   "documentation": [],
   "charter": {},
   "reports": [
