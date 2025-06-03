@@ -4,16 +4,16 @@
     "en": "Application profile Energy Management System"
   },
   "category": {
-    "nl": "Applicatieprofiel",
-    "en": "Application Profile"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
   },
   "usage": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "",
-    "en": ""
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "responsibleOrganisation": [
     {
