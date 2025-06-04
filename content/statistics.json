@@ -1,10 +1,10 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 250,
+  "numberOfStandardsConfigured": 252,
   "reportErrors": 0,
-  "reportsMissing": 251,
-  "uniqueContributors": 3300,
-  "uniqueAffiliations": 602,
+  "reportsMissing": 253,
+  "uniqueContributors": 3332,
+  "uniqueAffiliations": 608,
   "standards": [
     {
       "standard": "Applicatieprofiel Energiemanagementsysteem",
@@ -1753,6 +1753,20 @@
       "standard": "Vocabularium Openbare Kasten",
       "publicationDate": "2025-05-26",
       "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Smart Innovation Factory",
+      "publicationDate": "2025-06-04",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Smart Innovation factory",
+      "publicationDate": "2025-06-04",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     }

@@ -1,0 +1,59 @@
+{
+  "title": "Smart Innovation Factory Implementation Model",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-06-04",
+  "descriptionFileName": "SIF-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Smart Innovation Factory Implementation Model",
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/SIF"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabulary Smart Innovation Factory",
+      "resourceReference": "https://data.vlaanderen.be/ns/SIF/"
+    }
+  ],
+  "charter": [
+    {
+      "name": "Charter Smart Innovation Factory",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/charter/Charter_OSLO_SIF.pdf"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Report Business Working Group - 25 March 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/reports/Verslag%20BW%20OSLO%20SIF.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group I - 29 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/reports/Verslag%20TW1%20OSLO%20SIF.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation Business Working Group - 25 March 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/presentations/BW%20Presentatie%20SIF.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group I - 29 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/presentations/20250429_OSLOSIF_PresentatieThematischeWerkgroep1.pdf"
+    }
+  ],
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "TBD",
+  "datePublicReviewEnd": "TBD",
+  "endOfPublicationDate": "TBD",
+  "repository": "OSLOthema-SmartInnovationFactory"
+}

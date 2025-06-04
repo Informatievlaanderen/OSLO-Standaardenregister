@@ -1,0 +1,95 @@
+{
+  "title": {
+    "nl": "Implementatiemodel Smart Innovation Factory",
+    "en": "Smart Innovation Factory Implementation Model"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-06-04",
+  "descriptionFileName": "SIF-description.md",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Smart Innovation Factory Implementatiemodel",
+        "en": "Smart Innovation Factory Implementation Model"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/SIF"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium Smart Innovation Factory",
+        "en": "Vocabulary Smart Innovation Factory"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/SIF/"
+    }
+  ],
+  "charter": [
+    {
+      "name": {
+        "nl": "Charter Smart Innovation Factory",
+        "en": "Charter Smart Innovation Factory"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/charter/Charter_OSLO_SIF.pdf"
+    }
+  ],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business Werkgroep - 25 maart 2025",
+        "en": "Report Business Working Group - 25 March 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/reports/Verslag%20BW%20OSLO%20SIF.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep I - 29 april 2025",
+        "en": "Report Thematic Working Group I - 29 April 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/reports/Verslag%20TW1%20OSLO%20SIF.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business Werkgroep -  25 maart 2025",
+        "en": "Presentation Business Working Group - 25 March 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/presentations/BW%20Presentatie%20SIF.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep I - 29 april 2025",
+        "en": "Presentation Thematic Working Group I - 29 April 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/presentations/20250429_OSLOSIF_PresentatieThematischeWerkgroep1.pdf"
+    }
+  ],
+  "dateOfRegistration": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "TBD",
+  "datePublicReviewEnd": "TBD",
+  "endOfPublicationDate": "TBD",
+  "repository": "OSLOthema-SmartInnovationFactory"
+}

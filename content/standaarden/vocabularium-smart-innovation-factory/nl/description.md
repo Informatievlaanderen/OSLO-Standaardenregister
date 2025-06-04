@@ -1,0 +1,4 @@
+<p>OSLO SIF is een voorbeeld van een smart city oplossing die antwoord biedt aan complexe uitdagingen en zorgt voor een meer gestructureerde regionale samenwerking.</p>
+<p>Tijdens dit OSLO-traject werd verkeersinformatie en -beheer naar een hoger niveau getild. Dit door burgermeldingen te koppelen aan verkeersmetingen en deze op basis van verschillende kenmerken (tijd, locatie, type, etc.) te kunnen identificeren en analyseren.</p>
+<p><strong>Voorbeeld:</strong> Een burger maakt een melding over een snelheidsinbreuk in zijn/haar straat. De stad kan deze melding combineren met een verkeersmeting om de oorzaak te achterhalen en te bepalen of verkeerswijzigingen nodig zijn om de straat veiliger te maken. Zo kan het mobiliteitsbeleid in een bepaalde stad objectiever en gerichter gevoerd worden.</p>
+<p>Een vervolgtraject kan zijn dat deze dataset verrijkt wordt met contextuele data, zoals camerabeelden, luchtvervuilingsmetingen en ongevallendata.</p>
