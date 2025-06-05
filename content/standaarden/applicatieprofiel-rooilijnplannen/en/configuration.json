@@ -1,0 +1,73 @@
+{
+  "title": "Application profile building line plans",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-06-05",
+  "descriptionFileName": "rooilijnplannen-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Application profile Building line plans",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabulary Building Line Plans",
+      "resourceReference": "https://data.vlaanderen.be/ns/rooilijnplannen/"
+    }
+  ],
+  "charter": {
+    "name": "Charter Building Line Plans",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/charter/Werkgroep%20charter%20OSLO_Rooilijnplannen1%20(3).pdf"
+  },
+  "reports": [
+    {
+      "name": "Report Business Working Group - 12 December 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/reports/Verslag%20Business%20werkgroep%20OSLO%20Rooilijnplannen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 1 - 23 January 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/reports/Verslag%20Thematische%20werkgroep%201%20Rooilijnen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 2 - 20 February 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/reports/Verslag%20TW2%20OSLO%20Rooilijnen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 3 - 3 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/reports/Verslag%20TW3%20OSLO%20Rooilijnen.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation Business Working Group - 12 December 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/presentations/Business%20Werkgroep%20presentatie%20Rooilijnplannen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 1 - 23 January 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/presentations/Presentatie%20thematische%20werkgroep%201%20-%20Rooilijnen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 2 - 20 February 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/presentations/Presentatie%20thematische%20werkgroep%202%20-%20Rooilijnen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 3 - 3 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-rooilijnplannen/blob/standaardenregister/presentations/Presentatie%20thematische%20werkgroep%203%20-%20Rooilijnen.pdf"
+    }
+  ],
+  "dateOfRegistration": "2025-01-09",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "TBD",
+  "datePublicReviewEnd": "TBD",
+  "endOfPublicationDate": "TBD",
+  "repository": "OSLOthema-rooilijnplannen"
+}

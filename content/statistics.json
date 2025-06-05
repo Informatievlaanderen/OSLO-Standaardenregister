@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 252,
+  "numberOfStandardsConfigured": 254,
   "reportErrors": 0,
-  "reportsMissing": 253,
+  "reportsMissing": 255,
   "uniqueContributors": 3332,
   "uniqueAffiliations": 608,
   "standards": [
@@ -1743,14 +1743,14 @@
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel Openbare Kasten",
+      "standard": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
       "publicationDate": "2025-05-26",
       "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
-      "standard": "Vocabularium Openbare Kasten",
+      "standard": "Vocabularium Openbare Nutsvoorzieningkasten",
       "publicationDate": "2025-05-26",
       "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
@@ -1766,6 +1766,20 @@
     {
       "standard": "Vocabularium Smart Innovation factory",
       "publicationDate": "2025-06-04",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Applicatieprofiel rooilijnplannen",
+      "publicationDate": "2025-06-05",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium rooilijnplannen",
+      "publicationDate": "2025-06-05",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
