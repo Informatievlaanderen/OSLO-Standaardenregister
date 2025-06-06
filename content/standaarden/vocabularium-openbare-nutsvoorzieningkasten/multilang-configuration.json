@@ -4,16 +4,16 @@
     "en": "Vocabulary Public Utility Boxes"
   },
   "category": {
-    "nl": "https://data.vlaanderen.be/doc/concept/StandaardType/Vocabularium",
-    "en": "https://data.vlaanderen.be/doc/concept/StandaardType/Vocabularium"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
   },
   "usage": {
-    "nl": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
-    "en": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "responsibleOrganisation": [
     {

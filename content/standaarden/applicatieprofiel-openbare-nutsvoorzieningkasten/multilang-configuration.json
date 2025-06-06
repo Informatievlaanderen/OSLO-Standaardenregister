@@ -4,16 +4,16 @@
     "en": "Public utility box application profile"
   },
   "category": {
-    "nl": "https://data.vlaanderen.be/doc/concept/StandaardType/Applicatieprofiel",
-    "en": "https://data.vlaanderen.be/doc/concept/StandaardType/Applicatieprofiel"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
   },
   "usage": {
-    "nl": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
-    "en": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "responsibleOrganisation": [
     {

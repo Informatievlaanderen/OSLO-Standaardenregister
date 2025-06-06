@@ -1,8 +1,8 @@
 {
   "title": "Vocabulary Public Utility Boxes",
-  "category": "https://data.vlaanderen.be/doc/concept/StandaardType/Vocabularium",
-  "usage": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",

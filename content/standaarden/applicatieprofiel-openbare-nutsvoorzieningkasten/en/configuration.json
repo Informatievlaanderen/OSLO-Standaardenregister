@@ -1,8 +1,8 @@
 {
   "title": "Public utility box application profile",
-  "category": "https://data.vlaanderen.be/doc/concept/StandaardType/Applicatieprofiel",
-  "usage": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",

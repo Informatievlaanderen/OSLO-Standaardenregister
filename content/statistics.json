@@ -1745,14 +1745,14 @@
     {
       "standard": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
       "publicationDate": "2025-05-26",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Openbare Nutsvoorzieningkasten",
       "publicationDate": "2025-05-26",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     },
