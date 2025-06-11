@@ -49,7 +49,7 @@
       "nl": "Charter Zaalreservatie",
       "en": "Charter Room Reservation"
     },
-    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/charter/Charter%20Zaalreservatie.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/charter/Charter%20Zaalreservatie.pdf"
   },
   "reports": [
     {
@@ -57,28 +57,28 @@
         "nl": "Verslag Business Werkgroep - 14 januari 2025",
         "en": "Report Business Working Group - 14 January 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20BW%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20BW%20OSLO%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Verslag Thematische Werkgroep 1 - 18 februari 2025",
         "en": "Report Thematic Working Group 1 - 18 February 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20TW1%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW1%20OSLO%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Verslag Thematische Werkgroep 2 - 18 maart 2025",
         "en": "Report Thematic Working Group 2 - 18 March 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20TW2%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW2%20OSLO%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Verslag Thematische Werkgroep 3 - 22 april 2025",
         "en": "Report Thematic Working Group 3 - 22 April 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/reports/Verslag%20TW3%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW3%20OSLO%20Zaalreservatie.pdf"
     }
   ],
   "presentations": [
@@ -87,35 +87,35 @@
         "nl": "Presentatie Business Werkgroep -  14 januari 2025",
         "en": "Presentation Business Working Group - 14 January 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Business%20Werkgroep%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Business%20Werkgroep%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Presentatie Thematische Werkgroep 1 - 18 februari 2025",
         "en": "Presentation Thematic Working Group 1 - 18 February 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Thematische%20werkgroep%201%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%201%20OSLO%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Presentatie Thematische Werkgroep 2 - 18 maart 2025",
         "en": "Presentation Thematic Working Group 2 - 18 March 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Thematische%20werkgroep%202%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%202%20OSLO%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Presentatie Thematische Werkgroep 3 - 22 april 2025",
         "en": "Presentation Thematic Working Group 3 - 22 April 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Thematische%20werkgroep%203%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%203%20OSLO%20Zaalreservatie.pdf"
     },
     {
       "name": {
         "nl": "Presentatie Thematische Werkgroep 4 - 20 mei 2025",
         "en": "Presentation Thematic Working Group 4 - 20 May 2025"
       },
-      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/presentations/Thematische%20werkgroep%204%20OSLO%20Zaalreservatie.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%204%20OSLO%20Zaalreservatie.pdf"
     }
   ],
   "dateOfRegistration": "2025-01-09",
