@@ -98,3 +98,6 @@
 
 1.8.2
 * Bugfix for TBD status not being displayed correctly
+
+1.8.3
+* Added support for the `withoutStatus` status

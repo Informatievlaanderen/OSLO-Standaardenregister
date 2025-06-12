@@ -15,6 +15,7 @@ export enum Status {
   REPLACED = 'https://data.vlaanderen.be/id/concept/StandaardStatus/VervangenStandaard',
   RECALLED = 'https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard',
   NOTA_WORKING_GROUP = 'https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep',
+  WITHOUT_STATUS = 'https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus',
 }
 
 export enum Category {
@@ -85,6 +86,7 @@ export const getStatusTranslation = (
     [Status.REPLACED]: translate('standard.status.replaced'),
     [Status.RECALLED]: translate('standard.status.recalled'),
     [Status.NOTA_WORKING_GROUP]: translate('standard.status.noteWorkingGroup'),
+    [Status.WITHOUT_STATUS]: translate('standard.status.withoutStatus'),
   }
 
   return translations[key]
