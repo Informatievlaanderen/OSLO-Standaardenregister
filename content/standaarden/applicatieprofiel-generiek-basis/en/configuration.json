@@ -2,7 +2,7 @@
   "title": "Application profile Generic basic",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "",
+  "status": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
   "descriptionFileName": "",
   "responsibleOrganisation": [
     {
