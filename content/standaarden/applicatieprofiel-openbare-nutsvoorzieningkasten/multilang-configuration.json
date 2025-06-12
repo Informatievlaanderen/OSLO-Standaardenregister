@@ -1,0 +1,107 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
+    "en": "Public utility box application profile"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-05-26",
+  "descriptionFileName": "",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
+        "en": "Public utility box application profile"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium Openbare Nutsvoorzieningkasten",
+        "en": "Vocabulary Public Utility Boxes"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/openbare-nutsvoorzieningkasten/"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Charter OSLO Openbare Nutsvoorzieningkasten",
+      "en": "Charter OSLO Public Utility Boxes"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/charter/Charter_OSLO_SHOK.pdf"
+  },
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business werkgroep OSLO SHOK",
+        "en": "Report Business working group OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Business werkgroep OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep 1 OSLO SHOK",
+        "en": "Report Thematic Working Group 1 OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische werkgroep 2 OSLO SHOK",
+        "en": "Report Thematic Working Group 2 OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/OSLO SHOK - Verslag Thematische werkgroep 2.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": {
+        "nl": "Business Werkgroep Presentatie OSLO SHOK",
+        "en": "Business Working Group Presentation OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Business Werkgroep presentatie OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 1 OSLO SHOK",
+        "en": "Presentation Thematic Working Group 1 OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 1 - OSLO SHOK.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 2 OSLO SHOK",
+        "en": "Presentation Thematic Working Group 2 OSLO SHOK"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 2 OSLO SHOK.pdf"
+    }
+  ],
+  "dateOfRegistration": "2024-12-19",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-shok"
+}
