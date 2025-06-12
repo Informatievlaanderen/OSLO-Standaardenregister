@@ -4,16 +4,16 @@
     "en": "Conformity framework for data standards"
   },
   "category": {
-    "nl": "Standaard voor technische interoperabiliteit",
-    "en": "Technical interoperability standard"
+    "nl": "https://data.vlaanderen.be/doc/concept/StandaardType/TechnischeStandaard",
+    "en": "https://data.vlaanderen.be/doc/concept/StandaardType/TechnischeStandaard"
   },
   "usage": {
-    "nl": "TBD",
-    "en": "TBD"
+    "nl": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep"
   },
   "descriptionFileName": "conformiteitsraamwerk.md",
   "responsibleOrganisation": [
@@ -25,7 +25,7 @@
       "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2020-06-07",
   "specificationDocuments": [
     {
       "name": {
@@ -57,7 +57,7 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/standaardenregister/presentations/20201130%20Workshop%20conformiteitsraamwerk.pdf"
     }
   ],
-  "dateOfRegistration": "TBD",
+  "dateOfRegistration": "2020-03-11",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-metadataVoorServices",
