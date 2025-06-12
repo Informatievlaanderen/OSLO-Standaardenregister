@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 254,
+  "numberOfStandardsConfigured": 255,
   "reportErrors": 0,
-  "reportsMissing": 255,
+  "reportsMissing": 256,
   "uniqueContributors": 3334,
   "uniqueAffiliations": 608,
   "standards": [
@@ -1540,9 +1540,16 @@
       "contributors": []
     },
     {
-      "standard": "Vocabularium en implementatiemodel IPDC - LPDC",
+      "standard": "Implementatiemodel IPDC - LPDC",
+      "publicationDate": "2024-07-04",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
       "publicationDate": "",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },

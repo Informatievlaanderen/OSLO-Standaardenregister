@@ -1,0 +1,56 @@
+{
+  "title": {
+    "nl": "Implementatiemodel IPDC - LPDC",
+    "en": "IPDC Deployment Model - LPDC"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep"
+  },
+  "descriptionFileName": "ipdc-lpdc-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Binnenlands Bestuur",
+        "en": "Agency for Domestic Administration"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2024-07-04",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Implementatiemodel IPDC - LPDC",
+        "en": "IPDC Deployment Model - LPDC"
+      },
+      "resourceReference": "https://productencatalogus.data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium IPDC - LPDC",
+        "en": "IPDC Vocabulary - LPDC"
+      },
+      "resourceReference": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"
+    }
+  ],
+  "reports": [],
+  "charter": [],
+  "presentations": [],
+  "dateOfRegistration": "N.v.t.",
+  "dateOfAcknowledgementByWorkingGroup": "N.v.t.",
+  "dateOfAcknowledgementBySteeringCommittee": "N.v.t.",
+  "repository": "ipdc-lpdc",
+  "datePublicReviewStart": "N.v.t.",
+  "endOfPublicationDate": "N.v.t."
+}
