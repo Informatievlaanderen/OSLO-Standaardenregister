@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 255,
+  "numberOfStandardsConfigured": 254,
   "reportErrors": 0,
-  "reportsMissing": 256,
+  "reportsMissing": 255,
   "uniqueContributors": 3334,
   "uniqueAffiliations": 608,
   "standards": [
@@ -1751,13 +1751,6 @@
     },
     {
       "standard": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
-      "publicationDate": "2025-05-26",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Openbare Nutsvoorzieningkasten",
       "publicationDate": "2025-05-26",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
