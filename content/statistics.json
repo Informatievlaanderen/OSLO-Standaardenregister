@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 254,
+  "numberOfStandardsConfigured": 253,
   "reportErrors": 0,
-  "reportsMissing": 255,
+  "reportsMissing": 254,
   "uniqueContributors": 3334,
   "uniqueAffiliations": 608,
   "standards": [
@@ -15,13 +15,6 @@
     },
     {
       "standard": "Applicatieprofiel Thermografische Gebouwanalyse",
-      "publicationDate": "2025-05-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Thermografische Gebouwanalyse",
       "publicationDate": "2025-05-22",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
