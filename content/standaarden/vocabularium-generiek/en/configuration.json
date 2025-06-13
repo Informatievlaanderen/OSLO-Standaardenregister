@@ -2,7 +2,7 @@
   "title": "Vocabulary Generic",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
   "descriptionFileName": "",
   "responsibleOrganisation": [
     {

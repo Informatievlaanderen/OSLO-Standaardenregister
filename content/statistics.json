@@ -926,14 +926,14 @@
     {
       "standard": "Applicatieprofiel Generiek basis",
       "publicationDate": "2017-03-23",
-      "status": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Generiek",
       "publicationDate": "2017-03-31",
-      "status": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },

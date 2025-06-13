@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
-    "en": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus"
   },
   "descriptionFileName": "",
   "responsibleOrganisation": [
