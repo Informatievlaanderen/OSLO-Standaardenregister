@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 253,
+  "numberOfStandardsConfigured": 251,
   "reportErrors": 0,
-  "reportsMissing": 254,
+  "reportsMissing": 253,
   "uniqueContributors": 3438,
   "uniqueAffiliations": 621,
   "standards": [
@@ -35,9 +35,9 @@
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel Energiehuis",
-      "publicationDate": "2025-05-12",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1540,13 +1540,6 @@
       "contributors": []
     },
     {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
       "standard": "Applicatieprofiel OSLO Slimme Stadsdistributie",
       "publicationDate": "2024-07-16",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
@@ -1750,14 +1743,7 @@
       "contributors": []
     },
     {
-      "standard": "Implementatiemodel Smart Innovation Factory",
-      "publicationDate": "2025-06-04",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Smart Innovation factory",
+      "standard": "Implementatiemodel Verkeersmeldingen",
       "publicationDate": "2025-06-04",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
