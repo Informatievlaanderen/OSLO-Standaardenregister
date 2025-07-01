@@ -39,6 +39,10 @@
     {
       "name": "Report Thematic Working Group 2 OSLO SHOK",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/OSLO SHOK - Verslag Thematische werkgroep 2.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 3 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO SHOK.pdf"
     }
   ],
   "presentations": [
@@ -53,6 +57,10 @@
     {
       "name": "Presentation Thematic Working Group 2 OSLO SHOK",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 2 OSLO SHOK.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 3 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 3 OSLO SHOK.pdf"
     }
   ],
   "dateOfRegistration": "2024-12-19",
