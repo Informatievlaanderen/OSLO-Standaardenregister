@@ -1,6 +1,6 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 251,
+  "numberOfStandardsConfigured": 252,
   "reportErrors": 0,
   "reportsMissing": 253,
   "uniqueContributors": 3438,
@@ -35,16 +35,16 @@
       "contributors": []
     },
     {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
+      "standard": "Applicatieprofiel Energiehuis",
+      "publicationDate": "2025-05-12",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Energiehuis",
       "publicationDate": "2025-05-12",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1536,6 +1536,13 @@
       "standard": "Implementatiemodel IPDC - LPDC",
       "publicationDate": "2024-07-04",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
