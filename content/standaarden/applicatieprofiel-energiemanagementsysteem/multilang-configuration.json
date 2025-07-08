@@ -58,6 +58,13 @@
         "en": "Report Thematic Working Group II - 28 April 2025"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/reports/Thematische werkgroep 2 - EMS.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep III - 23 juni 2025",
+        "en": "Report Thematic Working Group III - 23 June 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/reports/Verslag thematische werkgroep 3 - EMS.pdf"
     }
   ],
   "presentations": [
@@ -81,6 +88,13 @@
         "en": "Presentation Thematic Working Group II - 28 April 2025"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/presentations/Thematische werkgroep 2 presentatie EMS.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep III - 23 juni 2025",
+        "en": "Presentation Thematic Working Group III - 23 June 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/presentations/Thematische werkgroep 3 presentatie EMS.pdf"
     }
   ],
   "dateOfRegistration": "2024-12-16",
