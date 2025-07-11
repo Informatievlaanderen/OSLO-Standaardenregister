@@ -1,7 +1,3 @@
-Dit OSLO-traject richt zich op het gestructureerd uitwisselen van data in verband met zaalreservatie. Wat volgt zijn een aantal use cases die hieronder vallen: 
-<ul>
-  <li>Het reserveren van een zaal en hierbij noodzakelijke zaalinformatie krijgen zoals: locatie, afmetingen, capaciteit, bereikbaarheid, beschikbaarheid, openingsuren, type mogelijke activiteit, etc. </li>
-  <li>Het annuleren van een zaalreservatie.</li>
-  <li>Compatibiliteit controleren in verband met meerdere activiteiten die niet tegelijkertijd kunnen plaatsvinden.</li>
-</ul>
-Deze informatie is van groot belang voor ambtenaren die zaalreservaties opvolgen. 
+<p>Het OSLO-model voor Zaalreservaties biedt een gestandaardiseerd kader voor het beheer en de uitwisseling van gegevens met betrekking tot het reserveren van zalen en infrastructuur in Vlaanderen. Na vijf intensieve werkgroepen met betrokken stakeholders is een finaal model ontstaan dat de wensen en behoeften met betrekking tot zaalreservaties volledig ondersteunt. Dit model is specifiek ontworpen om de lokale besturen te faciliteren in hun publieke dienstverlening en zaalreservatiebeheer.</p>
+
+<p>Het OSLO-model voor Zaalreservaties biedt een gestandaardiseerd framework voor het beheren en uitwisselen van reserveringsdata, gericht op het ondersteunen van publieke diensten en het optimaliseren van infrastructuurgebruik. Het model faciliteert het vastleggen van reserveringen, inclusief bijbehorende organisatorische en logistieke details, en stelt lokale besturen in staat om hun processen efficiënt te coördineren. Het biedt voldoende flexibiliteit om zowel binnen- als buitenevenementen te accommoderen, waarbij essentiële attributen en optionele elementen worden geïntegreerd.</p>
