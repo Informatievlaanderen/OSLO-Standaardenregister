@@ -1,5 +1,3 @@
-This OSLO process focuses on the structured exchange of data in connection with room reservation. What follows are a number of use cases that fall under this:<ul>
-  <li>Reserving a room and getting necessary room information such as: location, dimensions, capacity, accessibility, availability, opening hours, type of possible activity, etc. </li>
-  <li>Cancelling a room reservation.</li>
-  <li>Check compatibility for multiple activities that can't happen at the same time.</li>
-</ul>This information is of great importance for officials who follow up on room reservations.
+<p>The OSLO model for Room Reservations provides a standardized framework for the management and exchange of data related to room reservations and infrastructure in Flanders. After five intensive working groups with involved stakeholders, a final model has been created that fully supports the wishes and needs with regard to room reservations. This model is specifically designed to facilitate local authorities in their public services and room reservation management.</p>
+
+<p> The model facilitates the recording of reservations, including associated organizational and logistical details, and allows local authorities to coordinate their processes efficiently. It offers enough flexibility to accommodate both indoor and outdoor events, integrating essential attributes and optional elements.</p>
