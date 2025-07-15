@@ -101,3 +101,6 @@
 
 1.8.3
 * Added support for the `withoutStatus` status
+
+1.9.0
+* Added first version of the traject registry
