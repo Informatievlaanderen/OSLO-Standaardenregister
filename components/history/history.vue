@@ -14,7 +14,7 @@
       >
         <div class="timeline-dot"></div>
         <div class="timeline-content">
-          <div class="timeline-date">{{ formatDate(event.date) }}</div>
+          <div class="timeline-date">{{ event.date }}</div>
           <div class="timeline-title">{{ event.standard }}</div>
           <div class="timeline-type">
             {{
@@ -35,6 +35,7 @@
 
 <script setup lang="ts">
 import type { TimelineEvent } from '~/types/history'
+import { normalizeDate } from '~/utils/date.utils'
 import type { Standard } from '~/types/standard'
 
 const props = defineProps<{
@@ -46,13 +47,9 @@ const timelineEvents = computed(() => {
 
   props.standards.forEach((standard) => {
     // Add registration date event
-    if (
-      standard.dateOfRegistration &&
-      standard.dateOfRegistration !== 'TBD' &&
-      standard.dateOfRegistration !== 'TDB'
-    ) {
+    if (isValidDate(standard.dateOfRegistration)) {
       events.push({
-        date: standard.dateOfRegistration,
+        date: formatDate(normalizeDate(standard.dateOfRegistration)),
         standard: standard.title,
         type: 'registration',
         organization: standard.responsibleOrganisation?.[0]?.name,
@@ -60,13 +57,9 @@ const timelineEvents = computed(() => {
     }
 
     // Add steering committee acknowledgement date event
-    if (
-      standard.dateOfAcknowledgementBySteeringCommittee &&
-      standard.dateOfAcknowledgementBySteeringCommittee !== 'TBD' &&
-      standard.dateOfRegistration !== 'TDB'
-    ) {
+    if (isValidDate(standard.dateOfAcknowledgementBySteeringCommittee)) {
       events.push({
-        date: standard.dateOfAcknowledgementBySteeringCommittee,
+        date: formatDate(normalizeDate(standard.dateOfAcknowledgementBySteeringCommittee)),
         standard: standard.title,
         type: 'acknowledgement',
         organization: standard.responsibleOrganisation?.[0]?.name,
