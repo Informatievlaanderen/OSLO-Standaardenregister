@@ -35,15 +35,6 @@
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse"
     }
   ],
-  "documentation": [
-    {
-      "name": {
-        "nl": "Vocabularium Thermografische Gebouwanalyse",
-        "en": "Vocabulary Thermographic Building Analysis"
-      },
-      "resourceReference": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse"
-    }
-  ],
   "charter": [
     {
       "name": {
