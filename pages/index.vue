@@ -73,6 +73,7 @@ import type { Standard } from '~/types/standard'
 import { type FilterOption, type SanitizedFilter } from '~/types/custom-filter'
 import { getDefaultFilters } from '~/config/filter.config'
 import type { Sorting } from '~/types/sorting'
+import { BASEPATH } from '~/constants/constants'
 
 const { t, locale } = useI18n()
 const route = useRoute()
@@ -121,9 +122,8 @@ filters = converted.filters
 const { data } = await useAsyncData(
   'data',
   async () => {
-    const basePath = `/standaarden`
     const [standards] = await Promise.all([
-      queryContent<Standard>(basePath)
+      queryContent<Standard>(BASEPATH)
         .where({
           _extension: 'json',
           // make sure the directory we're looking in is the same as the current locale
