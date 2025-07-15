@@ -9,7 +9,7 @@
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12" width-s="12">
           <vl-title mod-no-space-bottom tag-name="h1">{{
-            $t('trajectRegister')
+            $t('timeline')
           }}</vl-title>
         </vl-column>
         <vl-column>
@@ -29,7 +29,7 @@
 <script setup lang="ts">
 import { BASEPATH } from '~/constants/constants'
 import type { Standard } from '~/types/standard'
-const { t, locale } = useI18n()
+const { locale } = useI18n()
 
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
 const { data } = await useAsyncData(
@@ -40,9 +40,6 @@ const { data } = await useAsyncData(
       queryContent<Standard>(BASEPATH)
         .where({
           _extension: 'json',
-          // make sure the directory we're looking in is the same as the current locale
-          // _dir: { $eq: `${locale?.value}` },
-          // _path: { $regex: `^/standaarden/.*/configuration$` },
           _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
         })
         .find(),

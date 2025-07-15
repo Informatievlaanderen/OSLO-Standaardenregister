@@ -17,11 +17,7 @@
           <div class="timeline-date">{{ event.date }}</div>
           <div class="timeline-title">{{ event.standard }}</div>
           <div class="timeline-type">
-            {{
-              event.type === 'registration'
-                ? $t('dateOfRegistration')
-                : $t('dateOfAcknowledgementBySteeringCommittee')
-            }}
+            {{ getEventTypeText(event.type) }}
           </div>
         </div>
       </div>
@@ -35,8 +31,10 @@
 
 <script setup lang="ts">
 import type { TimelineEvent } from '~/types/history'
-import { normalizeDate } from '~/utils/date.utils'
+import { normalizeDate, isValidDate } from '~/utils/date.utils'
 import type { Standard } from '~/types/standard'
+
+const { t } = useI18n()
 
 const props = defineProps<{
   standards: Standard[]
@@ -56,10 +54,34 @@ const timelineEvents = computed(() => {
       })
     }
 
+    // Add working group acknowledgement date event
+    if (isValidDate(standard.dateOfAcknowledgementByWorkingGroup)) {
+      events.push({
+        date: formatDate(
+          normalizeDate(standard.dateOfAcknowledgementByWorkingGroup),
+        ),
+        standard: standard.title,
+        type: 'workingGroupAcknowledgement',
+        organization: standard.responsibleOrganisation?.[0]?.name,
+      })
+    }
+
+    // Add public review start date event
+    if (isValidDate(standard.datePublicReviewStart)) {
+      events.push({
+        date: formatDate(normalizeDate(standard.datePublicReviewStart)),
+        standard: standard.title,
+        type: 'publicReviewStart',
+        organization: standard.responsibleOrganisation?.[0]?.name,
+      })
+    }
+
     // Add steering committee acknowledgement date event
     if (isValidDate(standard.dateOfAcknowledgementBySteeringCommittee)) {
       events.push({
-        date: formatDate(normalizeDate(standard.dateOfAcknowledgementBySteeringCommittee)),
+        date: formatDate(
+          normalizeDate(standard.dateOfAcknowledgementBySteeringCommittee),
+        ),
         standard: standard.title,
         type: 'acknowledgement',
         organization: standard.responsibleOrganisation?.[0]?.name,
@@ -67,19 +89,48 @@ const timelineEvents = computed(() => {
     }
   })
 
-  // Sort events by date (oldest first)
-  return events.sort(
-    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
-  )
+  // Sort events by date (oldest first) with additional validation
+  return events
+    .filter((event) => isValidDate(event.date))
+    .sort((a, b) => {
+      try {
+        return new Date(a.date).getTime() - new Date(b.date).getTime()
+      } catch (err) {
+        console.warn('Error sorting timeline events:', err)
+        return 0
+      }
+    })
 })
 
+const getEventTypeText = (type: string) => {
+  switch (type) {
+    case 'registration':
+      return t('dateOfRegistration')
+    case 'workingGroupAcknowledgement':
+      return t('dateOfAcknowledgementByWorkingGroup')
+    case 'publicReviewStart':
+      return t('datePublicReviewStart')
+    case 'acknowledgement':
+      return t('dateOfAcknowledgementBySteeringCommittee')
+    default:
+      return type
+  }
+}
+
 const formatDate = (dateString: string) => {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('nl-BE', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })
+  try {
+    if (isValidDate(dateString)) {
+      return new Date(dateString).toLocaleDateString('nl-BE', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    }
+    return dateString
+  } catch (err) {
+    console.warn('Error formatting date:', dateString, err)
+    return dateString
+  }
 }
 </script>
 

@@ -104,3 +104,7 @@
 
 1.9.0
 * Added first version of the traject registry
+
+1.9.1
+* Renamed traject registry to Timeline
+* Extra dates inside timeline: `datePublicReviewStart` and `dateOfAcknowledgementByWorkingGroup`
