@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 30rem;
   max-height: 50rem;
-  border:  solid #e0e0e0;
+  border: solid #e0e0e0;
   border-radius: 8px;
 
   background: #fafafa;
@@ -14,7 +14,6 @@
 .timeline-container {
   position: relative;
   overflow: visible;
-
 
   margin: 0 auto;
   padding: 2rem 0;
@@ -32,7 +31,7 @@
 
   transform: translateX(-50%);
 
-  @media (width <= 768px) {
+  @media (width <= 768) {
     left: 2rem;
   }
 }
@@ -44,7 +43,7 @@
 
   margin-bottom: 4rem;
 
-  @media (width <= 768px) {
+  @media (width <= 768) {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 4rem;
@@ -57,13 +56,13 @@
       margin-right: 3rem;
       text-align: right;
 
-      @media (width <= 768px) {
+      @media (width <= 768) {
         margin-right: 0;
         text-align: left;
       }
     }
 
-    @media (width <= 768px) {
+    @media (width <= 768) {
       flex-direction: column;
       align-items: flex-start;
     }
@@ -73,7 +72,7 @@
     .timeline-content {
       margin-left: 3rem;
 
-      @media (width <= 768px) {
+      @media (width <= 768) {
         margin-left: 0;
       }
     }
@@ -95,15 +94,29 @@
 
   transform: translateX(-50%);
 
-  @media (width <= 768px) {
+  @media (width <= 768) {
     left: 2rem;
   }
 
+  // Registration - Green
   .timeline-event--registration & {
     background: #4caf50;
     box-shadow: 0 0 0 0.3rem #4caf50;
   }
 
+  // Working Group Acknowledgement - Blue
+  .timeline-event--workingGroupAcknowledgement & {
+    background: #2196f3;
+    box-shadow: 0 0 0 0.3rem #2196f3;
+  }
+
+  // Public Review Start - Purple
+  .timeline-event--publicReviewStart & {
+    background: #9c27b0;
+    box-shadow: 0 0 0 0.3rem #9c27b0;
+  }
+
+  // Steering Committee Acknowledgement - Orange
   .timeline-event--acknowledgement & {
     background: #ff9800;
     box-shadow: 0 0 0 0.3rem #ff9800;
@@ -119,13 +132,21 @@
   background: white;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 10%);
 
-  @media (width <= 768px) {
+  @media (width <= 768) {
     max-width: calc(100% - 4rem);
     margin-top: 1rem;
   }
 
   .timeline-event--registration & {
     border-left-color: #4caf50;
+  }
+
+  .timeline-event--workingGroupAcknowledgement & {
+    border-left-color: #2196f3;
+  }
+
+  .timeline-event--publicReviewStart & {
+    border-left-color: #9c27b0;
   }
 
   .timeline-event--acknowledgement & {
