@@ -4,4 +4,6 @@ export interface TimelineEvent {
   type: 'registration' | 'acknowledgement' | 'publicReviewStart' | 'workingGroupAcknowledgement'
   domain?: string
   organization?: string
+  year?: number
+  link?: string
 }
