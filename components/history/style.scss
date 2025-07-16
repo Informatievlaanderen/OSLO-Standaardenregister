@@ -1,3 +1,79 @@
+.year-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 6rem;
+  height: 100%;
+
+
+  pointer-events: none;
+}
+
+.year-indicator {
+  position: sticky;
+  top: 2rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  overflow-y: auto;
+
+  width: 4rem;
+  height: fit-content;
+
+  pointer-events: auto;
+}
+
+.year-indicator-item {
+  right: calc((100vw - 100%) / 2 + 1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 3rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 85, 204, 20%);
+  border-radius: 0.5rem;
+
+  background: rgba(255, 255, 255, 100%);
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: rgba(0, 85, 204, 40%);
+    background: rgba(0, 85, 204, 10%);
+    transform: translateX(-2px);
+  }
+
+  &.active {
+    border-color: #05c;
+
+    background: #05c;
+    box-shadow: 0 2px 8px rgba(0, 85, 204, 30%);
+
+    transform: translateX(-4px);
+
+    .year-indicator-text {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+.year-indicator-text {
+  color: #05c;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
 .history-timeline {
   position: relative;
   overflow-y: auto;
@@ -14,7 +90,7 @@
 .timeline-container {
   position: relative;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .timeline-line {

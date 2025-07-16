@@ -1,9 +1,16 @@
+export enum TimelineEventType {
+  Registration = 'registration',
+  Acknowledgement = 'acknowledgement',
+  PublicReviewStart = 'publicReviewStart',
+  WorkingGroupAcknowledgement = 'workingGroupAcknowledgement',
+}
+
 export interface TimelineEvent {
   date: string
   standard: string
-  type: 'registration' | 'acknowledgement' | 'publicReviewStart' | 'workingGroupAcknowledgement'
+  type: TimelineEventType
   domain?: string
   organization?: string
-  year?: number
+  year: number
   link?: string
 }

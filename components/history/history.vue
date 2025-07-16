@@ -1,13 +1,31 @@
 <template>
-  <div class="history-timeline">
+  <div class="history-timeline" ref="timelineContainer" @scroll="handleScroll">
     <div v-if="timelineEvents.length > 0" class="timeline-container">
       <div class="timeline-line"></div>
+      <div class="year-container">
+        <div class="year-indicator">
+          <div
+            v-for="year in availableYears"
+            :key="year"
+            class="year-indicator-item"
+            :class="{ active: year === currentVisibleYear }"
+            @click="scrollToYear(year)"
+          >
+            <span class="year-indicator-text">{{ year }}</span>
+          </div>
+        </div>
+      </div>
 
       <template
         v-for="(event, index) in timelineEvents"
         :key="`${event.standard}-${event.type}-${index}`"
       >
-        <div v-if="shouldShowYearDivider(index)" class="year-divider">
+        <div
+          v-if="shouldShowYearDivider(index)"
+          class="year-divider"
+          :data-year="event.year"
+          :ref="(el) => el && (yearRefs[event.year] = el as HTMLElement)"
+        >
           <div class="year-label">{{ event.year }}</div>
         </div>
 
@@ -40,23 +58,27 @@
 </template>
 
 <script setup lang="ts">
-import type { TimelineEvent } from '~/types/history'
+import { TimelineEventType, type TimelineEvent } from '~/types/history'
 import { normalizeDate, isValidDate } from '~/utils/date.utils'
 import type { Standard } from '~/types/standard'
 
 const { t } = useI18n()
 const props = defineProps<{ standards: Standard[] }>()
 
+const timelineContainer = ref<HTMLElement | undefined>()
+const yearRefs = ref<Record<number, HTMLElement>>({})
+const currentVisibleYear = ref<number | null>(null)
+
 const eventTypes = [
-  { field: 'dateOfRegistration', type: 'registration' },
+  { field: 'dateOfRegistration', type: TimelineEventType.Registration },
   {
     field: 'dateOfAcknowledgementByWorkingGroup',
-    type: 'workingGroupAcknowledgement',
+    type: TimelineEventType.WorkingGroupAcknowledgement,
   },
-  { field: 'datePublicReviewStart', type: 'publicReviewStart' },
+  { field: 'datePublicReviewStart', type: TimelineEventType.PublicReviewStart },
   {
     field: 'dateOfAcknowledgementBySteeringCommittee',
-    type: 'acknowledgement',
+    type: TimelineEventType.Acknowledgement,
   },
 ]
 
@@ -65,14 +87,14 @@ const timelineEvents = computed(() => {
 
   props.standards.forEach((standard) => {
     eventTypes.forEach(({ field, type }) => {
-      if (isValidDate(standard[field])) {
+      if (isValidDate(standard[field] as string)) {
         events.push({
-          date: formatDate(normalizeDate(standard[field])),
+          date: formatDate(normalizeDate(standard[field] as string)),
           standard: standard.title,
           link: standard.specificationDocuments?.[0]?.resourceReference,
           type,
           organization: standard.responsibleOrganisation?.[0]?.name,
-          year: new Date(standard[field]).getFullYear(),
+          year: new Date(standard[field] as string).getFullYear(),
         })
       }
     })
@@ -83,6 +105,12 @@ const timelineEvents = computed(() => {
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
 })
 
+// Get unique years from timeline events
+const availableYears = computed(() => {
+  const years = [...new Set(timelineEvents.value.map((event) => event.year))]
+  return years.sort((a, b) => a - b)
+})
+
 const shouldShowYearDivider = (index: number): boolean => {
   return (
     index === 0 ||
@@ -90,8 +118,60 @@ const shouldShowYearDivider = (index: number): boolean => {
   )
 }
 
+// Handle scroll to determine which year is currently visible
+const handleScroll = () => {
+  if (!timelineContainer.value) return
+
+  const containerRect = timelineContainer.value.getBoundingClientRect()
+  const containerTop = containerRect.top
+  const containerCenter = containerTop + containerRect.height / 2
+
+  let closestYear: number | null = null
+  let minDistance = Infinity
+
+  // Find the year divider closest to the center of the viewport
+  Object.entries(yearRefs.value).forEach(([year, element]) => {
+    if (element) {
+      const elementRect = element.getBoundingClientRect()
+      const elementCenter = elementRect.top + elementRect.height / 2
+      const distance = Math.abs(elementCenter - containerCenter)
+
+      if (distance < minDistance) {
+        minDistance = distance
+        closestYear = parseInt(year)
+      }
+    }
+  })
+
+  currentVisibleYear.value = closestYear
+}
+
+// Scroll to a specific year
+const scrollToYear = (year: number) => {
+  const yearElement = yearRefs.value[year]
+  if (yearElement && timelineContainer.value) {
+    const containerRect = timelineContainer.value.getBoundingClientRect()
+    const elementRect = yearElement.getBoundingClientRect()
+
+    const scrollTop = timelineContainer.value.scrollTop
+    const offset = elementRect.top - containerRect.top + scrollTop - 100 // 100px offset from top
+
+    timelineContainer.value.scrollTo({
+      top: offset,
+      behavior: 'smooth',
+    })
+  }
+}
+
+// Set initial visible year on mount
+onMounted(() => {
+  nextTick(() => {
+    handleScroll()
+  })
+})
+
 const getEventTypeText = (type: string) => {
-  const typeMap = {
+  const typeMap: Record<string, string> = {
     registration: 'dateOfRegistration',
     workingGroupAcknowledgement: 'dateOfAcknowledgementByWorkingGroup',
     publicReviewStart: 'datePublicReviewStart',
