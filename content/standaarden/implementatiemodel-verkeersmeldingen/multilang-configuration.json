@@ -59,6 +59,13 @@
         "en": "Report Thematic Working Group 1 - 29 April 2025"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/reports/Verslag%20TW1%20OSLO%20SIF.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep 2 - 10 juni 2025",
+        "en": "Report Thematic Working Group 2 - 10 June 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/reports/20250610_OSLOSIF_VerslagThematischeWerkgroep2.pdf"
     }
   ],
   "presentations": [
@@ -75,6 +82,20 @@
         "en": "Presentation Thematic Working Group 1 - 29 April 2025"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/presentations/20250429_OSLOSIF_PresentatieThematischeWerkgroep1.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 2 - 10 juni 2025",
+        "en": "Presentation Thematic Working Group 2 - 10 June 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/presentations/20250610_OSLOSIF_PresentatieThematischeWerkgroep2.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 3 - 24 juni 2025",
+        "en": "Presentation Thematic Working Group 3 - 24 June 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/presentations/20250624_OSLOSIF_PresentatieThematischeWerkgroep3.pdf"
     }
   ],
   "dateOfRegistration": "TBD",
