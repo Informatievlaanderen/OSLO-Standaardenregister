@@ -108,3 +108,8 @@
 1.9.1
 * Renamed traject registry to Timeline
 * Extra dates inside timeline: `datePublicReviewStart` and `dateOfAcknowledgementByWorkingGroup`
+
+1.9.2
+* Added year to the timeline
+* Made the timeline clickable
+* Made the timeline responsive

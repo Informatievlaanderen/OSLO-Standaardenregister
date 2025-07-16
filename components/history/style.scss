@@ -13,8 +13,6 @@
 
 .timeline-container {
   position: relative;
-  overflow: visible;
-
   margin: 0 auto;
   padding: 2rem 0;
 }
@@ -31,7 +29,7 @@
 
   transform: translateX(-50%);
 
-  @media (width <= 768) {
+  @media (width <= 768px) {
     left: 2rem;
   }
 }
@@ -43,7 +41,7 @@
 
   margin-bottom: 4rem;
 
-  @media (width <= 768) {
+  @media (width <= 768px) {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 4rem;
@@ -55,26 +53,34 @@
     .timeline-content {
       margin-right: 3rem;
       text-align: right;
+    }
 
-      @media (width <= 768) {
+    @media (width <= 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .timeline-content {
         margin-right: 0;
         text-align: left;
       }
     }
-
-    @media (width <= 768) {
-      flex-direction: column;
-      align-items: flex-start;
-    }
   }
 
-  &:not(.timeline-event--left) {
-    .timeline-content {
-      margin-left: 3rem;
+  .timeline-date {
+  margin-bottom: 0.5rem;
 
-      @media (width <= 768) {
-        margin-left: 0;
-      }
+  color: #05c;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+  &:not(.timeline-event--left) .timeline-content {
+    margin-left: 3rem;
+
+    @media (width <= 768px) {
+      margin-left: 0;
     }
   }
 }
@@ -94,29 +100,25 @@
 
   transform: translateX(-50%);
 
-  @media (width <= 768) {
+  @media (width <= 768px) {
     left: 2rem;
   }
 
-  // Registration - Green
   .timeline-event--registration & {
     background: #4caf50;
     box-shadow: 0 0 0 0.3rem #4caf50;
   }
 
-  // Working Group Acknowledgement - Blue
   .timeline-event--workingGroupAcknowledgement & {
     background: #2196f3;
     box-shadow: 0 0 0 0.3rem #2196f3;
   }
 
-  // Public Review Start - Purple
   .timeline-event--publicReviewStart & {
     background: #9c27b0;
     box-shadow: 0 0 0 0.3rem #9c27b0;
   }
 
-  // Steering Committee Acknowledgement - Orange
   .timeline-event--acknowledgement & {
     background: #ff9800;
     box-shadow: 0 0 0 0.3rem #ff9800;
@@ -132,7 +134,7 @@
   background: white;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 10%);
 
-  @media (width <= 768) {
+  @media (width <= 768px) {
     max-width: calc(100% - 4rem);
     margin-top: 1rem;
   }
@@ -154,15 +156,6 @@
   }
 }
 
-.timeline-date {
-  margin-bottom: 0.5rem;
-
-  color: #05c;
-
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
 .timeline-title {
   margin-bottom: 0.5rem;
 
@@ -180,12 +173,57 @@
   font-style: italic;
 }
 
-.timeline-domain {
-  margin-top: 1rem;
-}
-
 .no-timeline-data {
   padding: 4rem 2rem;
   color: #666;
   text-align: center;
+}
+
+.year-divider {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    z-index: 0;
+
+    height: 0.2rem;
+
+    background: linear-gradient(90deg, rgba(0, 85, 204, 10%) 10%, rgba(0, 85, 204, 50%) 50%, rgba(0, 85, 204, 10%) 90%);
+  }
+
+  @media (width <= 768px) {
+    margin-left: 4rem;
+  }
+}
+
+.year-label {
+  position: relative;
+  z-index: 2;
+
+  padding: 1rem 2rem;
+  border: 2px solid rgba(0, 85, 204, 30%);
+  border-radius: 2rem;
+
+  background: #fafafa;
+  color: #05c;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 85, 204, 10%);
+
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+
+  @media (width <= 768px) {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.6rem;
+  }
 }
