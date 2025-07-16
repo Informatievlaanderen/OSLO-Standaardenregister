@@ -17,10 +17,18 @@
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse"
     }
   ],
-  "charter": [
+  "charter": {
+    "name": "Charter Thermografische Gebouwanalyse",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/charter/Charter_OSLO_thermAI.pdf"
+  },
+  "documentation": [
     {
-      "name": "Charter Thermografische Gebouwanalyse",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-thermAI/standaardenregister/charter/Charter_OSLO_thermAI.pdf"
+      "name": "Modelleerrapport",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-thermAI/blob/main/resources/ModelleerrapportThermAI.pdf"
+    },
+    {
+      "name": "Datavoorbeelden",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-thermAI/tree/main/resources/Datavoorbeelden"
     }
   ],
   "reports": [
