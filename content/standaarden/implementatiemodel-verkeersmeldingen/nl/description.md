@@ -1,4 +1,12 @@
-<p>OSLO SIF is een voorbeeld van een smart city oplossing die antwoord biedt aan complexe uitdagingen en zorgt voor een meer gestructureerde regionale samenwerking.</p>
-<p>Tijdens dit OSLO-traject werd verkeersinformatie en -beheer naar een hoger niveau getild. Dit door burgermeldingen te koppelen aan verkeersmetingen en deze op basis van verschillende kenmerken (tijd, locatie, type, etc.) te kunnen identificeren en analyseren.</p>
-<p><strong>Voorbeeld:</strong> Een burger maakt een melding over een snelheidsinbreuk in zijn/haar straat. De stad kan deze melding combineren met een verkeersmeting om de oorzaak te achterhalen en te bepalen of verkeerswijzigingen nodig zijn om de straat veiliger te maken. Zo kan het mobiliteitsbeleid in een bepaalde stad objectiever en gerichter gevoerd worden.</p>
-<p>Een vervolgtraject kan zijn dat deze dataset verrijkt wordt met contextuele data, zoals camerabeelden, luchtvervuilingsmetingen en ongevallendata.</p>
+<p>
+        Het OSLO-model voor Verkeersmeldingen (voormalig bekend als OSLO Smart Innovation Factory) biedt een gestandaardiseerd kader voor het verzamelen, beheren en uitwisselen van gegevens met betrekking tot verkeersmeldingen van burgers en verkeersmetingen zoals te snel rijden en sluipverkeer in Vlaanderen. Na vier intensieve werkgroepen met betrokken stakeholders is een finaal model ontstaan dat volledig tegemoetkomt aan de wensen en behoeften met betrekking tot het rapporteren en analyseren van verkeersinformatie.
+    </p>
+    <p>
+        Dit model is specifiek ontworpen om lokale besturen te ondersteunen bij het verbeteren van hun publieke dienstverlening en verkeersmanagement. Het faciliteert het verzamelen van meldingen van burgers, zoals gevaarlijk verkeersgedrag en problematisch sluipverkeer, en integreert deze met objectieve verkeersmetingen. Hierdoor kunnen lokale besturen hun processen efficiënt coördineren en gerichte maatregelen nemen.
+    </p>
+    <p>
+        Het model biedt voldoende flexibiliteit om diverse soorten verkeerssituaties en variabelen te accommoderen, waarbij essentiële attributen zoals locatie, tijdstip en aard van de melding worden gecombineerd met optionele elementen voor verdere analyse en besluitvorming. Zo kunnen lokale overheden effectief inspelen op actuele verkeersproblemen en bijdragen aan een veiliger en beter gereguleerd verkeer.
+    </p>
+    <p>
+        Een vervolgtraject kan zijn dat deze dataset verrijkt wordt met contextuele data, zoals camerabeelden, luchtvervuilingsmetingen en ongevallendata.
+    </p>
