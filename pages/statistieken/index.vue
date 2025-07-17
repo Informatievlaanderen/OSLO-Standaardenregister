@@ -8,6 +8,7 @@
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12" width-s="12">
+          <navigation />
           <vl-title mod-no-space-bottom tag-name="h1">{{
             $t('statistics')
           }}</vl-title>

@@ -4,6 +4,7 @@
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12">
+          <navigation />
           <vl-title tag-name="h1">{{ $t('standards') }}</vl-title>
           <vl-typography class="search__title">
             <p>{{ $t('searchStandard') }}</p>
@@ -17,11 +18,6 @@
         </vl-column>
         <vl-column width="12" width-s="12">
           <vl-action-group mod-collapse-s>
-            <a href="/standaarden/statistieken"
-              ><vl-button icon="diagram" mod-icon-before type="button">{{
-                $t('discoverStatistics')
-              }}</vl-button></a
-            >
             <vl-button icon="list" mod-icon-before @click="openSidebar">{{
               $t('filterResults')
             }}</vl-button>
