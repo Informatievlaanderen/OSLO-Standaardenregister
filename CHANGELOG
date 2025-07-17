@@ -95,21 +95,29 @@
 * Made the URIs category, type and usage an anchor tag
 * Replaced cloudfront URL with the new CDN URL: ui.vlaanderen.be
 
+  1.8.2
 
-1.8.2
 * Bugfix for TBD status not being displayed correctly
 
-1.8.3
+  1.8.3
+
 * Added support for the `withoutStatus` status
 
-1.9.0
+  1.9.0
+
 * Added first version of the traject registry
 
-1.9.1
+  1.9.1
+
 * Renamed traject registry to Timeline
 * Extra dates inside timeline: `datePublicReviewStart` and `dateOfAcknowledgementByWorkingGroup`
 
-1.9.2
+  1.9.2
+
 * Added year to the timeline
 * Made the timeline clickable
 * Made the timeline responsive
+
+  1.9.3
+
+* Added navigation to all pages
