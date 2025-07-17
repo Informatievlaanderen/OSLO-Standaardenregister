@@ -1,4 +1,19 @@
 a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2rem;
+}
+
+.navigation {
+  padding: 1rem 0 2rem;
+}
+
+.navigation-item {
+  padding: 0 1rem;
+  border-left: 1px solid #ccc;
+}
+
+.navigation-divider {
+  margin: 2rem 0;
+  padding: auto 0;
+  border: 1px solid #ccc;
 }
