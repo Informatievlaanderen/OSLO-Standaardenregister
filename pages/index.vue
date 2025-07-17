@@ -5,7 +5,11 @@
       <vl-grid mod-v-center mod-center mod-stacked>
         <vl-column width="12">
           <navigation />
-          <vl-title tag-name="h1">{{ $t('standards') }}</vl-title>
+          <vl-title mod-no-space-bottom tag-name="h1">{{
+            $t('standards')
+          }}</vl-title>
+        </vl-column>
+        <vl-column width="12">
           <vl-typography class="search__title">
             <p>{{ $t('searchStandard') }}</p>
           </vl-typography>
