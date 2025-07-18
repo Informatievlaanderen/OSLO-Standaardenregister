@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -24,7 +24,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO049152"
     }
   ],
-  "publicationDate": "2024-11-29",
+  "publicationDate": "2025-07-18",
   "descriptionFileName": "description.md",
   "specificationDocuments": [
     {
