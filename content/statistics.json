@@ -1,15 +1,15 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 252,
+  "numberOfStandardsConfigured": 251,
   "reportErrors": 0,
   "reportsMissing": 253,
   "uniqueContributors": 3438,
   "uniqueAffiliations": 620,
   "standards": [
     {
-      "standard": "Applicatieprofiel Energiemanagementsysteem",
-      "publicationDate": "2025-05-14",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1536,13 +1536,6 @@
       "standard": "Implementatiemodel IPDC - LPDC",
       "publicationDate": "2024-07-04",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
