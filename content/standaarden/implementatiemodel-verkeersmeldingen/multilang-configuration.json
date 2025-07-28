@@ -32,7 +32,7 @@
         "nl": "Implementatiemodel Verkeersmeldingen",
         "en": "Traffic Notification Deployment Model"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/SIF"
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/"
     }
   ],
   "documentation": [],

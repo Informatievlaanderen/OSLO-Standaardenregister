@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Implementatiemodel Verkeersmeldingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/SIF"
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/"
     }
   ],
   "documentation": [],
