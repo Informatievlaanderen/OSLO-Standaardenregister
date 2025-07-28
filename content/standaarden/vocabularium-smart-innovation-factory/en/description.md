@@ -1,4 +1,0 @@
-<p>OSLO SIF is an example of a smart city solution that provides answers to complex challenges and ensures more structured regional cooperation.</p>
-<p>During this OSLO project, traffic information and management were taken to a higher level. This is done by linking citizen reports to traffic measurements and being able to identify and analyze them based on different characteristics (time, location, type, etc.).</p>
-<p><strong>Example:</strong> A citizen reports a speeding violation in his/her street. The city can combine this report with a traffic measurement to determine the cause and whether traffic changes are necessary to make the street safer. In this way, the mobility policy in a particular city can be conducted more objectively and in a more targeted way.</p>
-<p>A follow-up project may be to enrich this dataset with contextual data, such as camera images, air pollution measurements and accident data.</p>
