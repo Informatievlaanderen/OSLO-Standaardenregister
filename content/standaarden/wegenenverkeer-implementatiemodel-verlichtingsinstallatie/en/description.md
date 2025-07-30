@@ -1,0 +1,1 @@
+Provides an overview of objects associated with lighting in general and road lighting in particular within the framework of Standard Specifications 270.

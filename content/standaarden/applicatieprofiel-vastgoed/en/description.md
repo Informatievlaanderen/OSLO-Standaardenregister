@@ -1,0 +1,1 @@
+Through this initiative, the various stakeholders within "real estate" wish to semantically model the various data flows related to this domain and to standardize the structure of the data. The vocabulary is built on the basis of international standards on which there is a broad consensus in this domain and brought in line with current Flemish regulations.

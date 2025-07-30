@@ -1,0 +1,110 @@
+{
+  "title": "Public Domain - Application Profile Site Parts",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "descriptionFileName": "ap-thema-openbaar-domein.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-11-27",
+  "specificationDocuments": [
+    {
+      "name": "Application profile for parts of the site",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/terreindelen/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Plenary public working group session 18 January 2018",
+      "resourceReference": "https://drive.google.com/open?id=1FgpqhNvfIjRgZeuirCa4FQaOc_UylEW_fw4cLxupGnE"
+    },
+    {
+      "name": "Plenary public working group session 8 February 2018",
+      "resourceReference": "https://drive.google.com/open?id=1ZTj1Ohru-P83yze1gWinb83ZSA-BHrWcYp45WRi_dLg"
+    },
+    {
+      "name": "In-depth consultation on vegetation elements 13 March 2018",
+      "resourceReference": "https://docs.google.com/document/d/1rFkD-tU8NBHm4ggcHHP33mccA41SzvM6zXeFJuAlBUQ/edit?usp=sharing"
+    },
+    {
+      "name": "In-depth consultation tree management 13 March 2018",
+      "resourceReference": "https://docs.google.com/document/d/1rFkD-tU8NBHm4ggcHHP33mccA41SzvM6zXeFJuAlBUQ/edit?usp=sharing"
+    },
+    {
+      "name": "In-depth consultation on cemetery management 15 March 2018",
+      "resourceReference": "https://docs.google.com/document/d/1rFkD-tU8NBHm4ggcHHP33mccA41SzvM6zXeFJuAlBUQ/edit?usp=sharing"
+    },
+    {
+      "name": "In-depth consultation of vegetation elements",
+      "resourceReference": "https://docs.google.com/document/d/1rFkD-tU8NBHm4ggcHHP33mccA41SzvM6zXeFJuAlBUQ/edit?usp=sharing"
+    },
+    {
+      "name": "Plenary public working group session 23 March 2018",
+      "resourceReference": "https://drive.google.com/open?id=1J0L87cmZzQRFg475-mnVdEmCKTHVNHne6XgMYBOKsMo"
+    },
+    {
+      "name": "In-depth consultation on infrastructure elements 2 May 2018",
+      "resourceReference": "https://drive.google.com/open?id=11ee6-rYq8uwARHbQA-nitPlE2Ft34OXr93mUSYvOb_U"
+    },
+    {
+      "name": "In-depth consultation on vegetation elements 3 May 2018",
+      "resourceReference": "https://drive.google.com/open?id=1_DLjVjw17Ar2tJmfz76s0HKWy7kA5OUBpBXogQW7DcI"
+    },
+    {
+      "name": "In-depth consultation areas 3 May 2018",
+      "resourceReference": "https://drive.google.com/open?id=1xAqUz-4WlQn53NyTjV6zBcr7esNCbw2XmWO3O9dlNag"
+    },
+    {
+      "name": "In-depth consultation on infrastructure elements and site sections 17 May 2018",
+      "resourceReference": "https://drive.google.com/open?id=1CXSrYACu-hFAu-cKeZa_l5TYM_VGECPKHeaVa1cnBPk"
+    },
+    {
+      "name": "In-depth consultation on vegetation elements and terrain sections 17 May 2018",
+      "resourceReference": "https://drive.google.com/open?id=1Ha_QoO6NPneSM4WE34d2t7lhHLrsyzIBvUFPdX63q7M"
+    },
+    {
+      "name": "Plenary public working group session 8 October 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
+    },
+    {
+      "name": "In-depth meeting 5 December 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
+    },
+    {
+      "name": "In-depth meeting 20 February 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "Presentation explanation Public Domain, GIS working group VVSG, 18 May 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie VVSG 20180518.pptx"
+    },
+    {
+      "name": "Webcast Public Domain 26 September 2018",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/presentations/Webcast OSLO Openbaar Domein 26-09-2018.pptx"
+    },
+    {
+      "name": "Presentation Knowledge Sharing Moment 2 July 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
+    },
+    {
+      "name": "Webcast Knowledge Sharing Moment 2 July 2020",
+      "resourceReference": "https://youtu.be/fjf2getDFBo"
+    }
+  ],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-10-04",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-11-27",
+  "repository": "OSLOthema-openbaardomein",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

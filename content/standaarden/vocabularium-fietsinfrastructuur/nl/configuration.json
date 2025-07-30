@@ -1,0 +1,80 @@
+{
+  "title": "Vocabularium Fietsinfrastructuur",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "descriptionFileName": "voc-fietsinfrastructuur-config.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2021-12-17",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Fietsinfrastructuur",
+      "resourceReference": "https://data.vlaanderen.be/ns/fiets"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Fietsinfrastructuur",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Verslag Business werkgroep - 25 maart 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/reports/Verslag Business werkgroep - 25 maart 2021.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 1 - 20 april 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/reports/Verslag Thematische werkgroep 1 - 20 april 2021.docx"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 2 - 18 mei 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/reports/Verslag Thematische werkgroep 2 - 18 mei 2021.docx"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 15 juni 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/reports/Verslag thematische werkgroep 3 - 15 juni 2021.docx"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - 16 september 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/reports/Verslag thematische werkgroep 4 - 16 september 2021.docx"
+    }
+  ],
+  "charter": {
+    "name": "Werkgroep Charter OSLO Fietsinfrastructuur",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/charter/Werkgroep charter OSLO Fietsinfrastructuur.docx"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie Business werkgroep - 25 maart 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/presentations/Presentatie Business werkgroep - 25 maart 2021.pptx"
+    },
+    {
+      "name": "Presentatie Thematische werkgroep 1 - 20 april 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/presentations/Presentatie Thematische werkgroep 1 - 20 april 2021.pptx"
+    },
+    {
+      "name": "Presentatie Thematische werkgroep 2 - 18 mei 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/presentations/Presentatie Thematische werkgroep 2 - 18 mei 2021.pptx"
+    },
+    {
+      "name": "Presentatie Thematische werkgroep 3 - 15 juni 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/presentations/Presentatie Thematische werkgroep 3 - 15 juni 2021.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 4 - 16 september 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/standaardenregister/presentations/Presentatie thematische werkgroep 4 - 16 september 2021.pdf"
+    }
+  ],
+  "dateOfRegistration": "2021-03-25",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-fietsinfrastructuur",
+  "datePublicReviewStart": "2023-11-09",
+  "endOfPublicationDate": ""
+}

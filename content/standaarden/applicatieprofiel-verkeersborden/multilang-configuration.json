@@ -1,0 +1,87 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Verkeersborden",
+    "en": "Application profile traffic signs"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
+  },
+  "descriptionFileName": "ap-verkeersborden.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Wegen en Verkeer",
+        "en": "Agency for Roads and Traffic"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000098"
+    }
+  ],
+  "publicationDate": "2020-04-23",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Verkeersborden",
+        "en": "Application profile traffic signs"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersborden/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag semantische werkgroep 1 - 22 augustus 2018",
+        "en": "Report semantic working group 1 - 22 August 2018"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersborden/standaardenregister/reports/LBLOD_MOB_Verkeersborden_Workshop1_20180822_v20180822.docx.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag semantische werkgroep 2 - 21 september 2018",
+        "en": "Report semantic working group 2 - 21 September 2018"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersborden/standaardenregister/reports/LBLOD_MOB_Verkeersborden_Workshop2_20180921_v20181004.docx.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersborden/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie semantische werkgroep 1 - 22 augustus 2018",
+        "en": "Presentation semantic working group 1 - 22 August 2018"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersborden/standaardenregister/presentations/LBLOD_WS1_Verkeersborden_20180823.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie semantische werkgroep 2 - 21 september 2018",
+        "en": "Presentation semantic working group 2 - 21 September 2018"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersborden/standaardenregister/presentations/WS 2 verkeersborden.vlaanderen.pdf"
+    },
+    {
+      "name": {
+        "nl": "Webinar - 23 november 2018",
+        "en": "Webinar - 23 November 2018"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersborden/standaardenregister/presentations/Verkeersborden_Semantisch_Model_v3.pdf"
+    }
+  ],
+  "dateOfRegistration": "2018",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-verkeersborden",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

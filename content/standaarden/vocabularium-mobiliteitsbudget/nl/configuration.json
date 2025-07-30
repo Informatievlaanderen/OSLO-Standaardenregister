@@ -1,0 +1,64 @@
+{
+  "title": "Vocabularium Mobiliteitsbudget",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "descriptionFileName": "voc-mobiliteitsbudget-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2022-11-10",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Mobiliteitsbudget",
+      "resourceReference": "https://data.vlaanderen.be/ns/mobiliteitsbudget/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Mobiliteitsbudget",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteitsbudget/"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Verslag business werkgroep - 7 december 2022 ",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/reports/Verslag Business Workshop Mobiliteitsbudget.docx.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 1 - 11 januari 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/reports/11012023_OSLO Mobiliteitsbudget_Thematische Werkgroep 1_Verslag.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 2 - 8 februari 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/reports/08022023-Verslag-Thematische-Werkgroep-2-OSLO-Mobiliteitsbudget.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Charter Mobiliteitsbudget",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/charter/charter-OSLO-Mobiliteitsbudget.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie business werkgroep - 7 december 2022",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/presentations/07122022-Business Werkgroep presentatie - MOBURGER.pptx.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 11 januari 2023 ",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/presentations/11012023_OSLO Mobiliteitsbudget_Thematische Werkgroep 1_Verslag.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 8 februari 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-moBurgers/standaardenregister/presentations/09022023-Thematische-Werkgroep-2-OSLO-Mobiliteitsbudget.pdf"
+    }
+  ],
+  "dateOfRegistration": "2022-11-10",
+  "dateOfAcknowledgementByWorkingGroup": "2025-02-06",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-02-06",
+  "repository": "OSLOthema-moBurgers",
+  "datePublicReviewStart": "2024-06-18",
+  "endOfPublicationDate": ""
+}

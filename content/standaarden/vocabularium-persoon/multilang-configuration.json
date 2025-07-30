@@ -1,0 +1,91 @@
+{
+  "title": {
+    "nl": "Vocabularium Persoon",
+    "en": "Vocabulary Person"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "voc-persoon.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-07-03",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Persoon",
+        "en": "Vocabulary Person"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/persoon"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep 1 - 2017-01-12",
+        "en": "Report Thematic Working Group 1 - 2017-01-12"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/reports/Verslag TWG1 Persoon 12012017.docx"
+    },
+    {
+      "name": {
+        "nl": "Publieke Thematische Werkgroep 2 - 2017-03-15",
+        "en": "Public Thematic Working Group 2 - 2017-03-15"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/reports/Verslag TWG2 Persoon 15032017.docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter OSLO Persoon",
+      "en": "Working Group Charter OSLO Person"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/charter/Werkgroep Charter - OSLO Persoon.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Publieke Werkgroep OSLO-Persoon 2017-01-12",
+        "en": "Public Working Group OSLO-Person 2017-01-12"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/presentations/OsloPersoonPubliekeWerkgroep20170112.pptx"
+    },
+    {
+      "name": {
+        "nl": "Publieke Werkgroep OSLO-Persoon 2017-03-15",
+        "en": "Public Working Group OSLO-Person 2017-03-15"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/presentations/OsloPersoonPubliekeWerkgroep20170315.pptx"
+    },
+    {
+      "name": {
+        "nl": "Webcast Persoon 2018-05-15",
+        "en": "Webcast Person 2018-05-15"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/standaardenregister/presentations/OSLO-Persoon.pptx"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-persoon",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

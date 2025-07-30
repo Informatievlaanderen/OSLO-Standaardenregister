@@ -1,0 +1,58 @@
+{
+  "title": {
+    "nl": "Vocabularium Gebouw",
+    "en": "Vocabulary Building"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
+  },
+  "descriptionFileName": "voc-gebouw.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-11-08",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Gebouw",
+        "en": "Vocabulary Building"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/gebouw"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Thematische werkgroep Adres en Gebouw 1 - 2016-06-08",
+        "en": "Thematic Working Group Address and Building 1 - 2016-06-08"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/reports/Thematische Werkgroep Adres & Gebouw 1.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-04-10",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-gebouwEnAdres",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

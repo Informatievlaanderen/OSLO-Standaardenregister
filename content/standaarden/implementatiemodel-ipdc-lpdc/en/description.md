@@ -1,0 +1,1 @@
+This specification has been drawn up in support of OSLO Service (based on CPSV-AP) within the context of the 'local products and services catalogue' of the Agency for Domestic Governance.

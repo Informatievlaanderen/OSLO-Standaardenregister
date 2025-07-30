@@ -1,0 +1,72 @@
+{
+  "title": "Application profile for services to individuals",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "descriptionFileName": "dienstverlening-aan-personen-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2024-03-19",
+  "specificationDocuments": [
+    {
+      "name": "Application profile for services to individuals",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienstverlening-aan-personen/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabularium Kindfiche",
+      "resourceReference": "https://data.vlaanderen.be/ns/kindfiche/"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Report Business Working Group - 13 February 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/reports/Verslag Business werkgroep Kindfiche 2023-02-13.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group I - 12 March 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO Kindfiche (2).pdf"
+    },
+    {
+      "name": "Report Thematic Working Group II - 9 April 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/reports/Verslag Thematische Werkgroep 2 - OSLO Kindfiche.docx.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group III - 7 May 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO Kindfiche.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Charter Child Sheet",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/charter/Werkgroep charter OSLO_Kindfiche.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentation Business Working Group - 13 February 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/presentations/2.0 Business Werkgroep presentatie Kindfiche (1).pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group I - 12 March 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/presentations/Thematische werkgroep 1 presentatie Kindfiche (1).pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group II - 9 April 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/presentations/Thematische werkgroep 2 presentatie Kindfiche.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group III - 7 May 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-kindFiche/standaardenregister/presentations/Thematische werkgroep 3 presentatie OSLO Kindfiche.pdf"
+    }
+  ],
+  "dateOfRegistration": "2023-12-19",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-kindFiche",
+  "datePublicReviewStart": "2024-06-24",
+  "endOfPublicationDate": ""
+}

@@ -1,0 +1,120 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Leerprestatiecredential",
+    "en": "Application Profile Learning Performance Credential"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+  },
+  "descriptionFileName": "leercredential-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Athumi",
+        "en": "Athumi"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO051320"
+    }
+  ],
+  "publicationDate": "2022-12-20",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Leerprestatiecredential",
+        "en": "Application Profile Learning Performance Credential"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leerprestatiecredential"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium Leercredential",
+        "en": "Vocabulary Learning Credential"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/leercredential/"
+    },
+    {
+      "name": {
+        "nl": "Applicatieprofiel Leerinschrijfcredential",
+        "en": "Application Profile Learning Enrollment Credential"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leerinschrijfcredential/"
+    },
+    {
+      "name": {
+        "nl": "Implementatiemodel Leerinschrijfcredential",
+        "en": "Implementation model Learning Enrollment Credential"
+      },
+      "resourceReference": "https://solid.data.vlaanderen.be/doc/implementatiemodel/leerinschrijfcredential"
+    }
+  ],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business Werkgroep Studentenattesten - 26/02/2024",
+        "en": "Report Business Working Group Student Certificates - 26/02/2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/20240226_BusinessWorkshop_Report_OSLOStudentenattesten.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep Studentenattesten 1 - 18/03/2024",
+        "en": "Report Thematic Working Group on Student Certificates 1 - 18/03/2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/20240318_ThematicWorkshop1_Report_OSLOStudentenattesten.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep Studentenattesten 2 - 16/04/2024",
+        "en": "Report Thematic Working Group on Student Certificates 2 - 16/04/2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/reports/20240416_ThematicWorkshop2_Report_OSLOStudentenattesten.pdf"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter Studentenattesten",
+      "en": "Working Group Charter Student Certificates"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/charter/Werkgroep_Charter_OSLO_Athumi_Studentenattesten.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business Werkgroep Studentenattesten - 26/02/2024",
+        "en": "Presentation Business Working Group Student Certificates - 26/02/2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/20240226_BusinessWorkshop_Powerpoint_OSLOStudentenattesten.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep Studentenattesten 1 - 18/03/2024",
+        "en": "Presentation Thematic Working Group on Student Certificates 1 - 18/03/2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/20240318_ThematicWorkshop1_Powerpoint_OSLOStudentenattesten.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep Studentenattesten 2 - 16/04/2024",
+        "en": "Presentation Thematic Working Group Student Certificates 2 - 16/04/2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-Leercredential/standaardenregister/presentations/20240416_ThematicWorkshop2_Powerpoint_OSLOStudentenattesten.pptx"
+    }
+  ],
+  "dateOfRegistration": "2023-01-25",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-Leercredential",
+  "datePublicReviewStart": "TBD",
+  "endOfPublicationDate": "TBD"
+}

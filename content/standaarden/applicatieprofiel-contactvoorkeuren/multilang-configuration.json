@@ -1,0 +1,72 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Contactvoorkeuren",
+    "en": "Application Profile Contact Preferences"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "ap-contactvoorkeuren.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Contactvoorkeuren",
+        "en": "Application Profile Contact Preferences"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/contactvoorkeuren/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1",
+        "en": "Report - OSLO - My Citizen Profile - Consent - Working Group 1"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 1.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2",
+        "en": "Report - OSLO - My Citizen Profile - Consent - Working Group 2"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 2.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3",
+        "en": "Report - OSLO - My Citizen Profile - Consent - Working Group 3"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Toestemming - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-contactvoorkeuren/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-02",
+  "repository": "OSLOthema-contactvoorkeuren",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

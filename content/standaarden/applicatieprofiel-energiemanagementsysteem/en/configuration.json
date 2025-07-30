@@ -1,0 +1,65 @@
+{
+  "title": "Application profile Energy Management System",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-05-14",
+  "descriptionFileName": "energiemanagementsysteem-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Application profile Energy Management System",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/"
+    }
+  ],
+  "documentation": [],
+  "charter": {},
+  "reports": [
+    {
+      "name": "Report Business Working Group - 24 February 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/reports/Verslag Business werkgroep EMS.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group I - 24 March 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/reports/Verslag Thematische werkgroep 1 EMS.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group II - 28 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/reports/Thematische werkgroep 2 - EMS.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group III - 23 June 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/reports/Verslag thematische werkgroep 3 - EMS.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation Business Working Group - 24 February 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/presentations/Business Werkgroep presentatie EMS.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group I - 24 March 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/presentations/Thematische werkgroep 1 presentatie EMS.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group II - 28 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/presentations/Thematische werkgroep 2 presentatie EMS.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group III - 23 June 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/presentations/Thematische werkgroep 3 presentatie EMS.pdf"
+    }
+  ],
+  "dateOfRegistration": "2024-12-16",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-EnergieManagementSystem"
+}

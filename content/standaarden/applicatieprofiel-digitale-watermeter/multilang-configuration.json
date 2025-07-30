@@ -1,0 +1,134 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Digitale Watermeter",
+    "en": "Digital Water Meter Application Profile"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "ap-digitalewatermeter-config.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2024-04-30",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Digitale Watermeter",
+        "en": "Digital Water Meter Application Profile"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/DigitaleWatermeter"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Vocabularium Nutsvoorzieningen Meters",
+        "en": "Vocabulary Utilities Meters"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters"
+    }
+  ],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business Werkgroep - 11 maart 2024",
+        "en": "Report Business Working Group - 11 March 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/reports/20240311_BusinessWorkshop_Verslag_OSLODigitaleWatermeter.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep I - 15 april 2024",
+        "en": "Report Thematic Working Group I - 15 April 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/reports/20240415_ThematicWorkshop1_Verslag_OSLODigitaleWatermeter.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep II - 6 mei 2024",
+        "en": "Report Thematic Working Group II - 6 May 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/reports/20240506_ThematicWorkshop2_Verslag_OSLODigitaleWatermeter.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep III - 21 mei 2024",
+        "en": "Report Thematic Working Group III - 21 May 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/reports/20240521_ThematicWorkshop3_Verslag_OSLODigitaleWatermeter.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep IIII - 17 jun 2024",
+        "en": "Report Thematic Working Group IIII - 17 Jun 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/reports/20240617_ThematicWorkshop4_Verslag_OSLODigitaleWatermeter.pdf"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Charter Digitale Watermeter",
+      "en": "Charter Digital Water Meter"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/charter/Charter OSLO_DigitaleWatermeter.pdf"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business Werkgroep - 11 maart 2024",
+        "en": "Presentation Business Working Group - 11 March 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/presentations/20240311_BusinessWorkshop_Powerpoint_OSLODigitaleWatermeter.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep I - 15 april 2024",
+        "en": "Presentation Thematic Working Group I - 15 April 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/presentations/20240415_ThematicWorkshop1_Powerpoint_OSLODigitaleWatermeter.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep II - 6 mei 2024",
+        "en": "Presentation Thematic Working Group II - 6 May 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/presentations/20240506_ThematicWorkshop2_Powerpoint_OSLODigitaleWatermeter.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep III - 21 mei 2024",
+        "en": "Presentation Thematic Working Group III - 21 May 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/presentations/20240521_ThematicWorkshop3_Powerpoint_OSLODigitaleWatermeter.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep IIII - 17 jun 2024",
+        "en": "Presentation Thematic Working Group IIII - 17 Jun 2024"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/standaardenregister/presentations/20240617_ThematicWorkshop4_Powerpoint_OSLODigitaleWatermeter.pptx"
+    }
+  ],
+  "dateOfRegistration": "2024-03-21",
+  "dateOfAcknowledgementByWorkingGroup": "2025-01-09",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-02-06",
+  "repository": "OSLOthema-DigitaleWatermeter",
+  "datePublicReviewStart": "2024-08-30",
+  "datePublicReviewEnd": "2024-12-18"
+}

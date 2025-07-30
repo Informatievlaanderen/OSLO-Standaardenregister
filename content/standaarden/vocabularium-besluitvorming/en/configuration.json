@@ -1,0 +1,75 @@
+{
+  "title": "Vocabulary Decision-Making",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "descriptionFileName": "ap-besluitvorming.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Department of Chancellery and Administration",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001827"
+    }
+  ],
+  "publicationDate": "2021-02-04",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Decision-Making",
+      "resourceReference": "https://data.vlaanderen.be/ns/besluitvorming"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report business working group - 7 November 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Business Werkgroep 07_11_19 - Verslag.pdf"
+    },
+    {
+      "name": "Report thematic working group 1 - 4 December 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Werkgroep 1.1 04_12_19 - Verslag.pdf"
+    },
+    {
+      "name": "Report thematic working group 2 - 29 January 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Werkgroep 1.2 29_01_20 - Verslag.pdf"
+    },
+    {
+      "name": "Report plenary session - 19 February 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Plenaire sessie 19_02_2020 - Verslag.pdf"
+    },
+    {
+      "name": "Report webinar - 25 March 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Webinar 25_03_20 - Verslag.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Working Group Charter OSLO Decision-making",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/charter/Charter_Besluitvorming.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentation business working group - 7 November 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Business Workshop 07_11_19 - Presentatie.pdf"
+    },
+    {
+      "name": "Presentation thematic working group 1 - 4 December 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Werkgroep 1.1 04_12_19  - Presentatie.pdf"
+    },
+    {
+      "name": "Presentation thematic working group 2 - 29 January 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Werkgroep 1.2 29_01_20 - Presentatie.pdf"
+    },
+    {
+      "name": "Presentation plenary session - 19 February 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Plenaire sessie 19_02_2020 - Presentatie.pdf"
+    },
+    {
+      "name": "Presentation webinar - 25 March 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Webinar 25_03_20 - Presentatie.pdf"
+    }
+  ],
+  "dateOfRegistration": "2019-09-17",
+  "dateOfAcknowledgementByWorkingGroup": "2021-01-11",
+  "dateOfAcknowledgementBySteeringCommittee": "2021-02-04",
+  "repository": "OSLOthema-besluitvorming",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

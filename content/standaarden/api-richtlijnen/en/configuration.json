@@ -1,0 +1,54 @@
+{
+  "title": "API guidelines",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+  "descriptionFileName": "api-guidelines.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2020-02-01",
+  "specificationDocuments": [],
+  "documentation": [
+    {
+      "name": "Generic Hypermedia API guidelines",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Thematic Working Group API guidelines 1 - 2020-02-18",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Standaarden/standaardenregister/reports/OSLO API Guidelines - Workshop 1 18_02_20 - Verslag.pdf"
+    },
+    {
+      "name": "Thematic Working Group API guidelines 2 - 2020-03-19",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Standaarden/standaardenregister/reports/OSLO API Guidelines - Workshop 2 19_03_20 - Verslag.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Standaarden/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "Presentation thematic working group 1 - 18 February 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Standaarden/standaardenregister/presentations/18022020 - API guidelines WS1.pptx"
+    },
+    {
+      "name": "Presentation thematic working group 2 - 19 March 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Standaarden/standaardenregister/presentations/19032020 - API guidelines WS2.pptx"
+    },
+    {
+      "name": "Presentation thematic working group 3 (repeat session 1, online) - 9 June 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Standaarden/standaardenregister/presentations/09062020 - API guidelines WS3.pptx"
+    }
+  ],
+  "dateOfRegistration": "2020-02-01",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLO-Standaarden",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

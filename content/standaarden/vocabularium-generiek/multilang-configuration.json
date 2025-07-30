@@ -1,0 +1,50 @@
+{
+  "title": {
+    "nl": "Vocabularium Generiek",
+    "en": "Vocabulary Generic"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus"
+  },
+  "descriptionFileName": "",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2017-03-31",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Generiek",
+        "en": "Vocabulary Generic"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/generiek"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-generiek/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-04-10 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-generiek",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

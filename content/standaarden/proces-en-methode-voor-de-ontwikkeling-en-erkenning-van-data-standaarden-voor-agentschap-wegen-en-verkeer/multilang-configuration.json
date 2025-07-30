@@ -1,0 +1,50 @@
+{
+  "title": {
+    "nl": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
+    "en": "Process and method for the development and recognition of data standards for the Agency for Roads and Traffic"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/OrganisatorischeInteroperabiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/OrganisatorischeInteroperabiliteit"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "proces-en-methode-awv.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2018-05-22",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Proces en methode voor het ontwikkelen van data standaarden voor wegenenverkeer.data.vlaanderen.be",
+        "en": "Process and method for developing data standards for wegenenverkeer.data.vlaanderen.be"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/refs/heads/standaardenregister/reports/OSLO_Conformiteit_AWV_motiveren%20en%20uitleggen%20van%20afwijkingen.pdf"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-procesEnMethode/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-04-10",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-05-22",
+  "repository": "OSLOthema-procesEnMethode",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

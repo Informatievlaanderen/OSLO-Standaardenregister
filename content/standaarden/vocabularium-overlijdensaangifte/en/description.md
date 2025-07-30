@@ -1,0 +1,1 @@
+The purpose of this process is to standardize the information regarding the death of a person. This involves maximum reuse from international standards such as FHIR and OSLO Person.

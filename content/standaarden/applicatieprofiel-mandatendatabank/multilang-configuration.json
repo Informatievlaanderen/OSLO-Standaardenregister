@@ -1,0 +1,88 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Mandatendatabank",
+    "en": "Application profile Mandate database"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "ap-mandatendatabank.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Binnenlands Bestuur",
+        "en": "Agency for Domestic Administration"
+      },
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2018-07-20",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Mandatendatabank AP",
+        "en": "Mandate database AP"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Publieke review datamodel Mandaat (PDF)",
+        "en": "Public review data model Mandate (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/Public_Review_Model_mandaat_20171010.pdf"
+    }
+  ],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Procesworkshop 1 Mandaat (PDF)",
+        "en": "Report Process Workshop 1 Mandate (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS1_verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Procesworkshop 2 Mandaat (PDF)",
+        "en": "Report Process Workshop 2 Mandate (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_ProcesMandatenWS2_verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Procesworkshop 3 Generiek en Mandaten (PDF)",
+        "en": "Report Process Workshop 3 Generics and Mandates (PDF)"
+      },
+      "resourceReference": "https://lokaalbestuur.vlaanderen.be/sites/default/files/public/in_de_kijker/lblod/LBLOD_WS3_procesGeneriekMandaten_verslag.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Webinar Mandaat",
+        "en": "Webinar Mandate"
+      },
+      "resourceReference": "https://www.youtube.com/watch?v=lvTIzKJa_s8"
+    }
+  ],
+  "dateOfRegistration": "2018-04-10 (retroactief)",
+  "dateOfAcknowledgementByWorkingGroup": "2018-05-29",
+  "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
+  "repository": "OSLOthema-lokaleBesluiten",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

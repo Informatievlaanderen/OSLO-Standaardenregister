@@ -1,0 +1,54 @@
+{
+  "title": "Public Domain 2.0.0 - Cemetery Management Application Profile",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "descriptionFileName": "ap-thema-openbaar-domein.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2021-09-30",
+  "specificationDocuments": [
+    {
+      "name": "Application profile Cemetery management",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Plenary public working group session 8 October 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag WG20191008.pdf"
+    },
+    {
+      "name": "In-depth meeting 5 December 2019",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20191205.pdf"
+    },
+    {
+      "name": "In-depth meeting 20 February 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/reports/OSLO Openbaar Domein - Presentatie + verslag DO20200220.pdf"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "Presentation Knowledge Sharing Moment 2 July 2020",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/standaardenregister/presentations/OSLO Openbaar Domein - Presentatie Kennisdelingsmoment 20200702.pdf"
+    },
+    {
+      "name": "Webcast Knowledge Sharing Moment 2 July 2020",
+      "resourceReference": "https://youtu.be/fjf2getDFBo"
+    }
+  ],
+  "dateOfRegistration": "2019-11-20",
+  "dateOfAcknowledgementByWorkingGroup": "2021-06-17",
+  "dateOfAcknowledgementBySteeringCommittee": "2021-11-10",
+  "repository": "OSLOthema-openbaardomein",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

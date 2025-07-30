@@ -1,0 +1,81 @@
+{
+  "title": "Vocabulary Room Reservation",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-04-23",
+  "descriptionFileName": "zaalreservatie-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Room Reservation",
+      "resourceReference": "https://data.vlaanderen.be/ns/zaalreservatie/"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Application profile Room reservation",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/zaalreservatie/"
+    }
+  ],
+  "charter": {
+    "name": "Charter Room Reservation",
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie/blob/standaardenregister/charter/Charter%20Zaalreservatie.pdf"
+  },
+  "reports": [
+    {
+      "name": "Report Business Working Group - 14 January 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20BW%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 1 - 18 February 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW1%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 2 - 18 March 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW2%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 3 - 22 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW3%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 4 - 20 May 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/reports/Verslag%20TW4%20OSLO%20Zaalreservatie.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation Business Working Group - 14 January 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Business%20Werkgroep%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 1 - 18 February 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%201%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 2 - 18 March 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%202%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 3 - 22 April 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%203%20OSLO%20Zaalreservatie.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 4 - 20 May 2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-zaalreservatie/standaardenregister/presentations/Thematische%20werkgroep%204%20OSLO%20Zaalreservatie.pdf"
+    }
+  ],
+  "dateOfRegistration": "2025-01-09",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "2025-07-01",
+  "datePublicReviewEnd": "TBD",
+  "endOfPublicationDate": "",
+  "repository": "OSLOthema-zaalreservatie"
+}

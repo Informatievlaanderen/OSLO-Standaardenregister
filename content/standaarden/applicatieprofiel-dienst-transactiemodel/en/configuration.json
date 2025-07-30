@@ -1,0 +1,45 @@
+{
+  "title": "Application profile Service Transaction Model",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "descriptionFileName": "ap-dienst-transactiemodel.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2019-02-07",
+  "specificationDocuments": [
+    {
+      "name": "Application profile Service Transaction Model",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dienst-transactiemodel/"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report - OSLO - My Citizen Profile - Transactional Services - Working Group 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 1.docx"
+    },
+    {
+      "name": "Report - OSLO - My Citizen Profile - Transactional Services - Working Group 2",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 2.docx"
+    },
+    {
+      "name": "Report - OSLO - My Citizen Profile - Transactional Services - Working Group 3",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/reports/Verslag - OSLO - Mijn Burgerprofiel - Transactionele Dienstverlening - Werkgroep 3.docx"
+    }
+  ],
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/standaardenregister/charter/"
+  },
+  "presentations": [],
+  "dateOfRegistration": "2018-03-08",
+  "dateOfAcknowledgementByWorkingGroup": "2018-11-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2019-02-02",
+  "repository": "OSLOthema-dienst",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

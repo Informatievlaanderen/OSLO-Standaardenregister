@@ -1,0 +1,126 @@
+{
+  "title": {
+    "nl": "Applicatieprofiel Besluitvorming",
+    "en": "Application profile Decision making"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "ap-besluitvorming.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Departement Kanselarij en Bestuur",
+        "en": "Department of Chancellery and Administration"
+      },
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO001827"
+    }
+  ],
+  "publicationDate": "2021-02-04",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Applicatieprofiel Besluitvorming",
+        "en": "Application profile Decision making"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/besluitvorming"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag business werkgroep - 7 november 2019",
+        "en": "Report business working group - 7 November 2019"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Business Werkgroep 07_11_19 - Verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 1 - 4 december 2019",
+        "en": "Report thematic working group 1 - 4 December 2019"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Werkgroep 1.1 04_12_19 - Verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 2 - 29 januari 2020",
+        "en": "Report thematic working group 2 - 29 January 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Werkgroep 1.2 29_01_20 - Verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag plenaire sessie - 19 februari 2020",
+        "en": "Report plenary session - 19 February 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Plenaire sessie 19_02_2020 - Verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag webinar - 25 maart 2020",
+        "en": "Report webinar - 25 March 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/reports/OSLO Besluitvorming - Webinar 25_03_20 - Verslag.pdf"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter OSLO Besluitvorming",
+      "en": "Working Group Charter OSLO Decision-making"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/charter/Charter_Besluitvorming.pdf"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie business werkgroep - 7 november 2019",
+        "en": "Presentation business working group - 7 November 2019"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Business Workshop 07_11_19 - Presentatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - 4 december 2019",
+        "en": "Presentation thematic working group 1 - 4 December 2019"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Werkgroep 1.1 04_12_19  - Presentatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 - 29 januari 2020",
+        "en": "Presentation thematic working group 2 - 29 January 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Werkgroep 1.2 29_01_20 - Presentatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie plenaire sessie - 19 februari 2020",
+        "en": "Presentation plenary session - 19 February 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Plenaire sessie 19_02_2020 - Presentatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie webinar - 25 maart 2020",
+        "en": "Presentation webinar - 25 March 2020"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-besluitvorming/standaardenregister/presentations/OSLO Besluitvorming - Webinar 25_03_20 - Presentatie.pdf"
+    }
+  ],
+  "dateOfRegistration": "2019-09-17",
+  "dateOfAcknowledgementByWorkingGroup": "2021-01-11",
+  "dateOfAcknowledgementBySteeringCommittee": "2021-02-04",
+  "repository": "OSLOthema-besluitvorming",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Vocabulary and application profile OSLO Consent",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "descriptionFileName": "core-concept.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "TBD",
+  "specificationDocuments": [
+    {
+      "name": "Application Profile Consent",
+      "resourceReference": "https://purl.eu/doc/applicationprofile/consent/"
+    },
+    {
+      "name": "Vocabulary Consent",
+      "resourceReference": "https://purl.eu/ns/consent"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Report Business working group - 20 August 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20210820_BusinessWorkshop_MeetingMinutes__OSLOTrapeze.docx"
+    },
+    {
+      "name": "Report Thematic Working Group 1 - 23 September 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20210923_ThematicWorkshop1_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "name": "Report Thematic Working Group 2 - 21 October 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20211021_ThematicWorkshop2_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "name": "Report Thematic Working Group 3 - 18 November 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20211118_ThematicWorkshop3_MeetingMinutes_OSLOTrapeze.docx"
+    },
+    {
+      "name": "Report Thematic Working Group 4 - 16 December 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/reports/20211216_ThematicWorkshop4_MeetingMinutes_OSLOTrapeze.docx"
+    }
+  ],
+  "charter": {
+    "name": "Working Group Charter Consent (TRAPEZE)",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/charter/Working Group Charter OSLO Consent (TRAPEZE).docx"
+  },
+  "presentations": [
+    {
+      "name": "Presentation Business working group - 20 August 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20210819_BusinessWorkshop_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group 1 - 23 September 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20210923_ThematicWorkshop1_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group 2 - 21 October 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20211021_ThematicWorkshop2_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group 3 - 18 November 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20211118_ThematicWorkshop3_PowerPoint_OSLOTrapeze.pptx"
+    },
+    {
+      "name": "Presentation Thematic Working Group 4 - 16 December 2021",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-consent/standaardenregister/presentations/20211216_ThematicWorkshop4_PowerPoint_OSLOTrapeze.pptx"
+    }
+  ],
+  "dateOfRegistration": "Juni 2021",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-consent",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

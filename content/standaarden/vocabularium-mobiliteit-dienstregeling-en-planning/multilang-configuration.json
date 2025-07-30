@@ -1,0 +1,119 @@
+{
+  "title": {
+    "nl": "Vocabularium Mobiliteit: Dienstregeling en Planning",
+    "en": "Vocabulary Mobility: Timetable and Planning"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+  },
+  "descriptionFileName": "voc-dienstregeling-en-planning.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "De Lijn",
+        "en": "De Lijn"
+      },
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO000100"
+    }
+  ],
+  "publicationDate": "2022-04-21",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Vocabularium Dienstregeling en Planning",
+        "en": "Vocabulary Timetable and Planning"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/mobiliteit/dienstregeling-en-planning/"
+    },
+    {
+      "name": {
+        "nl": "Vocabulary Timetables and Planning",
+        "en": "Vocabulary Timetables and Planning"
+      },
+      "resourceReference": "https://purl.eu/ns/mobility/timetables-and-planning"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag business werkgroep - 11 januari 2021",
+        "en": "Report business working group - 11 January 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/reports/20210111 - OSLO Mobiliteit - Dienstregeling en Planning - Business Werkgroep - Verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 1 - 8 februari 2021",
+        "en": "Report thematic working group 1 - 8 February 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/reports/20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Verslag.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 2 - 25 maart 2021",
+        "en": "Report thematic working group 2 - 25 March 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/reports/20210325 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische werkgroep 2 - Verslag.docx"
+    },
+    {
+      "name": {
+        "nl": "Verslag thematische werkgroep 3 - 22 april 2021",
+        "en": "Report thematic working group 3 - 22 April 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/reports/20210422 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische werkgroep 3 - Verslag.docx"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Werkgroep Charter OSLO Mobiliteit - Dienstregeling en Planning",
+      "en": "Working Group Charter OSLO Mobility - Timetable and Planning"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/charter/Charter - OSLO Mobiliteit - Dienstregeling en Planning.docx"
+  },
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie business werkgroep - 11 januari 2021",
+        "en": "Presentation business working group - 11 January 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/presentations/20210111 - OSLO Mobiliteit - Dienstregeling en Planning - Business Werkgroep - Presentatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 1 - 8 februari 2021",
+        "en": "Presentation thematic working group 1 - 8 February 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/presentations/20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Presentatie.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 2 - 25 maart 2021",
+        "en": "Presentation thematic working group 2 - 25 March 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/presentations/20210325 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 2 - Presentatie.pptx"
+    },
+    {
+      "name": {
+        "nl": "Presentatie thematische werkgroep 3 - 22 april 2021",
+        "en": "Presentation thematic working group 3 - 22 April 2021"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/standaardenregister/presentations/20210422 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 3 - Presentatie.pptx"
+    }
+  ],
+  "dateOfRegistration": "2020-11-12",
+  "dateOfAcknowledgementByWorkingGroup": "2022-03-17",
+  "dateOfAcknowledgementBySteeringCommittee": "2022-04-21",
+  "repository": "OSLOthema-mobiliteitDienstregelingEnPlanning",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}

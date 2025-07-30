@@ -1,0 +1,1 @@
+The aim of this process is to increase cultural participation and to give an impulse to data-driven policy through digital innovation. By standardizing data, in consultation with all stakeholders, data flows will be semantically enriched. This makes the data easier to find and understand, as well as easier to combine with other data sources.
