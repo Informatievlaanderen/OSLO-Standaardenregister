@@ -19,7 +19,7 @@
         </vl-column>
         <vl-column width="12">
           <namespaces-graph />
-          <!-- <knowledge-graph /> -->
+          <knowledge-graph />
         </vl-column>
       </vl-grid>
     </vl-region>

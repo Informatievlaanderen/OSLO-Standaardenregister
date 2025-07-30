@@ -4,6 +4,13 @@ export interface KGStandard {
   organization: string
   OVO: string | null
   domain: string
+  namespaces: KGNameSpace[]
+  url: string
+}
+
+export interface KGNameSpace {
+  uri: string
+  isVlaanderen: boolean
 }
 
 export interface KGNode extends d3.SimulationNodeDatum {
@@ -13,10 +20,18 @@ export interface KGNode extends d3.SimulationNodeDatum {
 }
 
 export interface KGLink {
-  source: string
-  target: string
+  source: string | KGNameSpaceNode
+  target: string | KGNameSpaceNode
   value?: number
   domain?: string
+}
+
+export interface KGNameSpaceNode extends d3.SimulationNodeDatum {
+  id: string
+  group: 'standard' | 'namespace'
+  domain?: string
+  url?: string
+  isVlaanderen?: boolean
 }
 
 export enum Domain {

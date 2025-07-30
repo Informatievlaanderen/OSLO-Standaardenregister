@@ -5,27 +5,40 @@
 <script setup name="knowledgeGraph" lang="ts">
 import { ref, onMounted } from 'vue'
 import * as d3 from 'd3'
-import type { KGLink, KGNode, KGStandard } from '~/types/knowledge-graph'
+import {
+  Domain,
+  type KGLink,
+  type KGNode,
+  type KGStandard,
+} from '~/types/knowledge-graph'
+import type { Standard } from '~/types/standard'
+import { BASEPATH } from '~/constants/constants'
 
 const graph = ref(null)
+const { locale } = useI18n()
 
 onMounted(async () => {
   try {
-    const { data: standardsData } =
-      (await $fetch('/api/standards')) ||
-      (await queryContent<Standard>('/standaarden')
-        .where({ _extension: 'json' })
-        .find())
+    const [standards] = await Promise.all([
+      queryContent<Standard>(BASEPATH)
+        .where({
+          _extension: 'json',
+          _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
+        })
+        .find(),
+    ])
 
     // Transform the content data to KGStandard format
     const data: KGStandard[] =
-      standardsData?.map((standard: Standard) => ({
+      standards?.map((standard: Standard) => ({
         title: standard.title || 'Unknown Standard',
         theme: standard.title || 'Unknown Theme',
         organization:
           standard.responsibleOrganisation?.[0]?.name || 'Unknown Organization',
         OVO: standard.responsibleOrganisation?.[0]?.resourceReference || '',
         domain: Domain.TECHNISCHE_STANDAARD,
+        namespaces: [],
+        url: '',
       })) || []
 
     const width = 1200
@@ -160,8 +173,13 @@ onMounted(async () => {
 
     node.append('title').text((d) => d?.id || '')
 
-    simulation.nodes(uniqueNodes).on('tick', ticked)
-    ;(simulation.force('link') as d3.ForceLink<KGNode, KGLink>)?.links(links)
+    // simulation
+    //   .nodes(uniqueNodes)
+    //   .on(
+    //     'tick',
+    //     ticked,
+    //   )(simulation.force('link') as d3.ForceLink<KGNode, KGLink>)
+    //   .links(links)
 
     function ticked() {
       link
