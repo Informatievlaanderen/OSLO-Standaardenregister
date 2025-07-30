@@ -108,5 +108,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-mobiliteit",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+  }
 }

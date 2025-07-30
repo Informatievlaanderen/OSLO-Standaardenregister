@@ -71,5 +71,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-slimRuimtelijkPlannen",
   "datePublicReviewStart": "2024-03-21",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Omgeving"
 }

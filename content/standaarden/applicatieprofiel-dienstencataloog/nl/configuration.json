@@ -63,5 +63,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-dienst",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Generiek"
 }

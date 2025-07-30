@@ -122,5 +122,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-voorwaarden-dienstverlening",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Generiek",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Generiek"
+  }
 }

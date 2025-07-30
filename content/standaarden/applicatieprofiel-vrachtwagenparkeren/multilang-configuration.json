@@ -88,5 +88,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "datePublicReviewStart": "",
   "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+  },
   "repository": "OSLOthema-vrachtwagenParkeren"
 }

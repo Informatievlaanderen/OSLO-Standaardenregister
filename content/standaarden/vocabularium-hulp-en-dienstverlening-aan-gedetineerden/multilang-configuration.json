@@ -131,5 +131,9 @@
   "datePublicReviewStart": "2025-01-09",
   "datePublicReviewEnd": "2025-04-09",
   "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Welzijn"
+  },
   "repository": "OSLOthema-hulpEnDienstverleningAanGedetineerden"
 }

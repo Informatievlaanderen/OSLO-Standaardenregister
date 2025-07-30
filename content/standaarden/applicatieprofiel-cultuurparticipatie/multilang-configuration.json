@@ -158,5 +158,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2023-05-11",
   "repository": "OSLOthema-DoelgerichtDigitaalTransformeren",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Cultuur",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Cultuur"
+  }
 }

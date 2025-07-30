@@ -137,5 +137,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2022-12-01",
   "repository": "OSLOthema-hoppinPunten",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+  }
 }

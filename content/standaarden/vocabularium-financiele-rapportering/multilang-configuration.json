@@ -117,5 +117,9 @@
   "repository": "OSLOthema-FinancieleData",
   "datePublicReviewEnd": "2023-12-26",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Financien",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Financien"
+  }
 }

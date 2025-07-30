@@ -47,5 +47,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-slimmeStadsdistributie",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
 }

@@ -111,5 +111,9 @@
   "datePublicReviewStart": "2025-07-29",
   "datePublicReviewEnd": "TBD",
   "endOfPublicationDate": "TBD",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Onbekend"
+  },
   "repository": "OSLOthema-SmartInnovationFactory"
 }

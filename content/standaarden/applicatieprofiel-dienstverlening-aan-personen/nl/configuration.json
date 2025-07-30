@@ -68,5 +68,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-kindFiche",
   "datePublicReviewStart": "2024-06-24",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Welzijn"
 }

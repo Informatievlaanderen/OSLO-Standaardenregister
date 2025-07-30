@@ -102,5 +102,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-Leercredential",
   "datePublicReviewStart": "2024-05-16",
-  "endOfPublicationDate": "TBD"
+  "endOfPublicationDate": "TBD",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs"
 }

@@ -101,5 +101,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-wegenEnWegmarkeringen",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+  }
 }

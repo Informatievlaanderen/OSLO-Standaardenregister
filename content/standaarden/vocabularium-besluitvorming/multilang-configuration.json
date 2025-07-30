@@ -122,5 +122,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2021-02-04",
   "repository": "OSLOthema-besluitvorming",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving"
+  }
 }

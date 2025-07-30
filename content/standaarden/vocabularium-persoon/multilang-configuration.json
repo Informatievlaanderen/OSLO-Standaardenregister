@@ -87,5 +87,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2018-07-03",
   "repository": "OSLOthema-persoon",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Generiek",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Generiek"
+  }
 }

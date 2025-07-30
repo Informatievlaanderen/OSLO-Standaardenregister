@@ -76,5 +76,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-cultuurandjeugdinfrastructuur",
   "datePublicReviewStart": "2022-06-23",
-  "endOfPublicationDate": "TBD"
+  "endOfPublicationDate": "TBD",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Cultuur"
 }

@@ -145,5 +145,9 @@
   "datePublicReviewStart": "2024-09-05",
   "datePublicReviewEnd": "2025-02-28",
   "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Financien",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Financien"
+  },
   "repository": "OSLOthema-schuldbeheer"
 }

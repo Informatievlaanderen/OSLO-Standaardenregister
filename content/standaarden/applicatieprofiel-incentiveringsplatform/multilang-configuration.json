@@ -116,5 +116,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2024-10-03",
   "repository": "OSLOthema-incentiveringsplatform",
   "datePublicReviewStart": "2023-11-09",
-  "endOfPublicationDate": "2024-02-28"
+  "endOfPublicationDate": "2024-02-28",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Economie",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Economie"
+  }
 }

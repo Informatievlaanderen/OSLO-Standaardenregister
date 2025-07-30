@@ -123,5 +123,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-overlijdensaangifte",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Welzijn"
+  }
 }

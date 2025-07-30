@@ -101,5 +101,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2018-11-27",
   "repository": "OSLOthema-weg",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+  }
 }

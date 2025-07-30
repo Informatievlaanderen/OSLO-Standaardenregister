@@ -76,5 +76,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-fietsinfrastructuur",
   "datePublicReviewStart": "2023-11-09",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
 }

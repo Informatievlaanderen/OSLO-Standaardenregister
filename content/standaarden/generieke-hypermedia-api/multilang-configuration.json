@@ -102,5 +102,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2019-02-07",
   "repository": "OSLOthema-GeneriekeHypermediaAPI",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Technologie",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Technologie"
+  }
 }

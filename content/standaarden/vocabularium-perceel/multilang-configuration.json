@@ -137,5 +137,9 @@
   "repository": "OSLOthema-perceel",
   "datePublicReviewEnd": "2020-04-15",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Omgeving",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Omgeving"
+  }
 }

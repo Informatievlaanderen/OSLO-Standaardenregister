@@ -71,5 +71,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "2024-12-05",
   "repository": "OSLOthema-lokaleEconomie",
   "datePublicReviewStart": "2024-03-21",
-  "endOfPublicationDate": "2024-11-06"
+  "endOfPublicationDate": "2024-11-06",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Economie"
 }

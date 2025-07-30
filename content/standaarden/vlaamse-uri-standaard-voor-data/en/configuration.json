@@ -47,5 +47,6 @@
   "dateOfAcknowledgementBySteeringCommittee": "2018-05-22",
   "repository": "OSLOthema-vlaamseUriStandaard",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Technologie"
 }

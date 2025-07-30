@@ -172,5 +172,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2021-04-22",
   "repository": "OSLOthema-cultureelErfgoed",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Cultuur",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Cultuur"
+  }
 }

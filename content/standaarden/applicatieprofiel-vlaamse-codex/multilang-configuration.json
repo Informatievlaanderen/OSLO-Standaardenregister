@@ -84,5 +84,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2019-02-07",
   "repository": "OSLOthema-VlaamseCodex",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving"
+  }
 }

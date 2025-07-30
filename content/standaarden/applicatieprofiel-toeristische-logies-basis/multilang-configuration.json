@@ -94,5 +94,9 @@
   "dateOfAcknowledgementBySteeringCommittee": "2019-12-05",
   "repository": "OSLOthema-logies",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Cultuur",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Cultuur"
+  }
 }

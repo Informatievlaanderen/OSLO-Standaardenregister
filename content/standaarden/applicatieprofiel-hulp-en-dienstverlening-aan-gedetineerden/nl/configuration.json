@@ -2,14 +2,14 @@
   "title": "Applicatieprofiel Hulp- en Dienstverlening aan Gedetineerden",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Justitie en Handhaving",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO049152"
     }
   ],
-  "publicationDate": "2024-11-29",
+  "publicationDate": "2025-07-18",
   "descriptionFileName": "description.md",
   "specificationDocuments": [
     {
@@ -77,5 +77,6 @@
   "datePublicReviewStart": "2025-01-09",
   "datePublicReviewEnd": "2025-04-09",
   "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
   "repository": "OSLOthema-hulpEnDienstverleningAanGedetineerden"
 }

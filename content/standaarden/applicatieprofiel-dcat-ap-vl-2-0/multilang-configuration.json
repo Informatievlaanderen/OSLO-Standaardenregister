@@ -124,5 +124,9 @@
   "repository": "OSLOthema-DCATAPVlaanderen",
   "datePublicReviewEnd": "2021-10-19",
   "datePublicReviewStart": "",
-  "endOfPublicationDate": ""
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Technologie",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Technologie"
+  }
 }
