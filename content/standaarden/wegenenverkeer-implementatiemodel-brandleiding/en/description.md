@@ -1,1 +1,0 @@
-Describes the fire control system of tunnels and the associated buildings.

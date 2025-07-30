@@ -1,1 +1,0 @@
-The purpose of this process is to add substantive annotations to the decisions. This involves looking at adding geo-information (streets, neighbourhoods, etc.), theme information and linking regulations so that a coordinated version is always centrally available.

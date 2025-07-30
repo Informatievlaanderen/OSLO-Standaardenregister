@@ -1,1 +1,0 @@
-The purpose of this process is to standardize the information with regard to Traffic measurements.

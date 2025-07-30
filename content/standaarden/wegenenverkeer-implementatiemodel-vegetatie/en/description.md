@@ -1,1 +1,0 @@
-Describes the objects belonging to vegetation as mainly specified in chapter 11 and also partly in chapters 4 and 13 of Standard Specifications 250.

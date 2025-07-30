@@ -1,1 +1,0 @@
-Provides an overview of the objects associated with a traffic control system.

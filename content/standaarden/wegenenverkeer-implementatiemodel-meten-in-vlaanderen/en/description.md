@@ -1,1 +1,0 @@
-Gives an overview of the objects that belong to a Measuring in Flanders (MIV) set-up.
