@@ -4,26 +4,24 @@
     href="/standaarden"
     :subtitle="`Knowledge Graph`"
   />
-  <vl-layout>
-    <vl-region>
+  <vl-region>
+    <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
-        <vl-column>
+        <vl-column width="12" width-s="12">
+          <navigation />
+          <vl-title mod-no-space-bottom tag-name="h1">
+            {{ $t('knowledgeGraph.namespaceGraph') }}</vl-title
+          >
           <a href="/standaarden"
             ><vl-button type="button">{{ $t('backToOverview') }}</vl-button></a
           >
         </vl-column>
-        <vl-column>
-          <vl-title tag-name="h2" id="OSLO-Frontend"
-            >OSLO Namespaces Graph</vl-title
-          >
-        </vl-column>
         <vl-column width="12">
           <namespaces-graph />
-          <knowledge-graph />
         </vl-column>
       </vl-grid>
-    </vl-region>
-  </vl-layout>
+    </vl-layout>
+  </vl-region>
   <content-footer />
 </template>
 

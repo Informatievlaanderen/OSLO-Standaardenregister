@@ -8,6 +8,7 @@ import * as d3 from 'd3'
 import { EXTERNAL_COLOR, FLANDERS_COLOR } from '~/constants/constants'
 import { isVlaanderenUrl } from '~/utils/helper.utils'
 import { useRouter } from 'vue-router'
+import { Domain } from '~/types/knowledge-graph'
 
 const router = useRouter()
 const graph = ref(null)
@@ -98,12 +99,12 @@ onMounted(async () => {
         // First time seeing this title, create a new standard
         standardsMap.set(title, {
           title: title,
-          'Zonder AP/VOC': title.split(' ').pop(),
+          theme: title.split(' ').pop(),
           organization: spec.organization || 'Unknown Organization',
-          'Organization Reference': spec.organizationReference || '',
-          domain: spec.domain || 'Unknown Domain',
+          OVO: spec.organizationReference || '',
           namespaces: [],
           url: spec.navigation.self,
+          domain: spec.domain ?? Domain.ONBEKEND,
         })
       }
 
@@ -327,47 +328,47 @@ onMounted(async () => {
     // Standards legend
     legend
       .append('circle')
-      .attr('r', 6)
+      .attr('r', 10)
       .attr('fill', colorScale('standard'))
       .attr('cx', 0)
       .attr('cy', 0)
 
     legend
       .append('text')
-      .attr('x', 15)
+      .attr('x', 20)
       .attr('y', 0)
       .attr('dy', '0.5rem')
-      .attr('font-size', '2.5rem')
-      .text('Data Standards')
+      .attr('font-size', '3rem')
+      .text('Data standaard')
 
     legend
       .append('circle')
-      .attr('r', 6)
+      .attr('r', 10)
       .attr('fill', namespaceColorScale(true))
       .attr('cx', 0)
       .attr('cy', 38)
 
     legend
       .append('text')
-      .attr('x', 15)
+      .attr('x', 20)
       .attr('y', 40)
       .attr('dy', '0.5rem')
-      .attr('font-size', '2.5rem')
+      .attr('font-size', '3rem')
       .text('Namespace (data.vlaanderen.be)')
 
     legend
       .append('circle')
-      .attr('r', 6)
+      .attr('r', 10)
       .attr('fill', namespaceColorScale(false))
       .attr('cx', 0)
       .attr('cy', 75)
 
     legend
       .append('text')
-      .attr('x', 15)
+      .attr('x', 20)
       .attr('y', 80)
       .attr('dy', '0.5rem')
-      .attr('font-size', '2.5rem')
+      .attr('font-size', '3rem')
       .text('Namespace (other)')
 
     // Handle simulation updates

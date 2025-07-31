@@ -125,3 +125,7 @@
   1.10.1
 
 * Added `domain` to the standard which is used for the knowledge graph
+
+  1.10.2
+
+* added namespaces graph and domain graph to the navigation

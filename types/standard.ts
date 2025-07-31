@@ -125,5 +125,6 @@ export interface Standard {
   datePublicReviewStart: string
   datePublicReviewEnd: string
   endOfPublicationDate: string
+  domain: string
   _path: string
 }
