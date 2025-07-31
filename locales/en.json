@@ -29,6 +29,8 @@
   "standardsRegistry": "Standards registry",
   "statistics": "Statistics",
   "timeline": "Timeline",
+  "domains": "Domains",
+  "namespaces": "Namespaces",
   "backToOverview": "Back to overview",
   "detailInformation": "Detail information",
   "functionalScope": "Functional scope",
@@ -52,6 +54,10 @@
   "previous": "Previous",
   "showAllStandards": "Show all standards",
   "of": "of",
+  "knowledgeGraph": {
+    "namespaceGraph": "OSLO Standards namespaces graph",
+    "domainGraph": "OSLO Standards domains graph"
+  },
   "standard": {
     "usage": {
       "recommended": "Recommended (voluntary)",

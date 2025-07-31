@@ -1,7 +1,23 @@
 <template>
-  <div class="knowledge-graph" ref="graph" />
+  <div class="knowledge-graph" ref="graph" style="position: relative">
+    <!-- SVG is rendered by D3 -->
+    <div
+      v-if="tooltip.visible && tooltip.node"
+      class="graph-tooltip"
+      :style="{
+        left: `${tooltip.x}px`,
+        top: `${tooltip.y - 40}px`, // 40px above the node
+        position: 'absolute',
+        zIndex: 10,
+      }"
+    >
+      <div class="graph-tooltip__content">
+        <strong>{{ tooltip.node.id }}</strong>
+        <div v-if="tooltip.node.domain">Domein: {{ tooltip.node.domain }}</div>
+      </div>
+    </div>
+  </div>
 </template>
-
 <script setup name="knowledgeGraph" lang="ts">
 import { ref, onMounted } from 'vue'
 import * as d3 from 'd3'
@@ -12,10 +28,22 @@ import {
   type KGStandard,
 } from '~/types/knowledge-graph'
 import type { Standard } from '~/types/standard'
-import { BASEPATH } from '~/constants/constants'
+import { BASEPATH, CODELIST_ROOT } from '~/constants/constants'
 
 const graph = ref(null)
 const { locale } = useI18n()
+
+const tooltip = reactive<{
+  visible: boolean
+  x: number
+  y: number
+  node?: KGNode
+}>({
+  visible: false,
+  x: 0,
+  y: 0,
+  node: undefined,
+})
 
 onMounted(async () => {
   try {
@@ -28,15 +56,19 @@ onMounted(async () => {
         .find(),
     ])
 
+    standards.forEach((standard) => {
+      console.log(standard.domain)
+    })
+
     // Transform the content data to KGStandard format
     const data: KGStandard[] =
       standards?.map((standard: Standard) => ({
-        title: standard.title || 'Unknown Standard',
-        theme: standard.title || 'Unknown Theme',
+        title: standard.title ?? 'Unknown Standard',
+        theme: standard.title ?? 'Unknown Theme',
         organization:
-          standard.responsibleOrganisation?.[0]?.name || 'Unknown Organization',
-        OVO: standard.responsibleOrganisation?.[0]?.resourceReference || '',
-        domain: Domain.TECHNISCHE_STANDAARD,
+          standard.responsibleOrganisation?.[0]?.name ?? 'Unknown Organization',
+        OVO: standard.responsibleOrganisation?.[0]?.resourceReference ?? '',
+        domain: standard.domain ?? Domain.ONBEKEND,
         namespaces: [],
         url: '',
       })) || []
@@ -72,7 +104,9 @@ onMounted(async () => {
 
     // Create a color scale for domains
     const colorScaleDomain = d3.scaleOrdinal(d3.schemeCategory10)
-    const domains = Array.from(new Set(data.map((item) => item.domain)))
+    const domains = Array.from(
+      new Set(data.map((item) => item.domain.replace(CODELIST_ROOT, ''))),
+    )
     colorScaleDomain.domain(domains)
 
     // Create a color scale for domains
@@ -82,31 +116,34 @@ onMounted(async () => {
     )
     colorScaleOrg.domain(organizations)
     const simulation = d3
-      .forceSimulation<KGNode>(uniqueNodes as KGNode[])
-      .force('charge', d3.forceManyBody().strength(-50)) // Increase the repulsion strength
+      .forceSimulation<KGNode>(uniqueNodes)
+      .force('charge', d3.forceManyBody().strength(-50)) // Stronger repulsion
       .force(
         'link',
         d3
           .forceLink(links)
-          .id((d) => (d as KGNode).id)
-          .distance(80),
+          .id((d) => d.id)
+          .distance(120), // More distance between nodes
       )
-      .force('center', d3.forceCenter(width / 3, height / 2))
+      .force('center', d3.forceCenter(width / 3, height / 1.8))
       .force(
         'x',
         d3.forceX<KGNode>().x((d) => {
-          return width / 2 + ((domains.indexOf(d.domain || '') % 4) - 1) * 100 // Increase the spacing between groups
+          // Spread by domain index
+          const domainIndex = domains.indexOf(
+            d.domain?.replace(CODELIST_ROOT, '') || '',
+          )
+          return width / 2 + (domainIndex - domains.length / 2) * 10
         }),
       )
       .force(
         'y',
         d3.forceY<KGNode>().y((d) => {
-          return (
-            height / 2 +
-            (Math.floor(domains.indexOf(d.domain || '') / 4) - 1) * 30
-          )
+          // Optionally spread by group
+          return height / 2 + (d.group === 'organization' ? 100 : -100)
         }),
       )
+      .on('tick', ticked)
 
     const link = svg
       .append('g')
@@ -160,15 +197,16 @@ onMounted(async () => {
       .style('visibility', 'hidden')
 
     node.on('mouseover', function (event, d) {
-      labels
-        .filter((label) => label?.id === d?.id)
-        .style('visibility', 'visible')
+      // Get node position
+      tooltip.visible = true
+      tooltip.x = d.x ?? 0
+      tooltip.y = d.y ?? 0
+      tooltip.node = d
     })
 
-    node.on('mouseleave', function (event, d) {
-      labels
-        .filter((label) => label?.id === d?.id)
-        .style('visibility', 'hidden')
+    node.on('mouseleave', function () {
+      tooltip.visible = false
+      tooltip.node = undefined
     })
 
     node.append('title').text((d) => d?.id || '')
@@ -230,7 +268,7 @@ onMounted(async () => {
       .attr('x', 0)
       .attr('y', 0)
       .attr('dy', '0.35em')
-      .text('Domains')
+      .text('Domein')
       .style('font-weight', 'bold')
 
     domains.forEach((domain, i) => {
@@ -263,7 +301,7 @@ onMounted(async () => {
       .attr('x', 0)
       .attr('y', 0)
       .attr('dy', '0.35em')
-      .text('Organizations')
+      .text('Organisaties')
       .style('font-weight', 'bold')
 
     organizations.forEach((org, i) => {

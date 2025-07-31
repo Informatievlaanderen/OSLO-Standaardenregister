@@ -15,6 +15,16 @@
         {{ $t('timeline') }}
       </vl-link>
     </vl-link-list-item>
+    <vl-link-list-item class="navigation-item">
+      <vl-link href="/standaarden/domain-graph" mod-block mod-bold>
+        {{ $t('domains') }}
+      </vl-link>
+    </vl-link-list-item>
+    <vl-link-list-item class="navigation-item">
+      <vl-link href="/standaarden/namespace-graph" mod-block mod-bold>
+        {{ $t('namespaces') }}
+      </vl-link>
+    </vl-link-list-item>
   </vl-link-list>
 </template>
 

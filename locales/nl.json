@@ -29,6 +29,8 @@
   "standardsRegistry": "Standaardenregister",
   "statistics": "Statistieken",
   "timeline": "Tijdlijn",
+  "domains": "Domeinen",
+  "namespaces": "Namespaces",
   "backToOverview": "Terug naar overzicht",
   "detailInformation": "Detailinformatie",
   "functionalScope": "Functioneel toepassingsgebied",
@@ -52,6 +54,10 @@
   "previous": "Vorige",
   "of": "van",
   "showAllStandards": "Toon alle standaarden",
+  "knowledgeGraph": {
+    "namespaceGraph": "OSLO Standaarden namespaces graaf",
+    "domainGraph": "OSLO Standaarden domeinen graaf"
+  },
   "standard": {
     "usage": {
       "recommended": "Aanbevolen (vrijwillig)",

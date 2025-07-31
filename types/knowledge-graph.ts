@@ -46,4 +46,5 @@ export enum Domain {
   WELZIJN = 'https://data.vlaanderen.be/id/concept/Domein/Welzijn',
   ECONOMIE = 'https://data.vlaanderen.be/id/concept/Domein/Economie',
   ONDERWIJS = 'https://data.vlaanderen.be/id/concept/Domein/Onderwijs',
+  ONBEKEND = 'https://data.vlaanderen.be/id/concept/Domein/Onbekend',
 }
