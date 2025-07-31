@@ -56,10 +56,6 @@ onMounted(async () => {
         .find(),
     ])
 
-    standards.forEach((standard) => {
-      console.log(standard.domain)
-    })
-
     // Transform the content data to KGStandard format
     const data: KGStandard[] =
       standards?.map((standard: Standard) => ({
