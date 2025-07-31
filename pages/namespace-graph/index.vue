@@ -12,6 +12,8 @@
           <vl-title mod-no-space-bottom tag-name="h1">
             {{ $t('knowledgeGraph.namespaceGraph') }}</vl-title
           >
+        </vl-column>
+        <vl-column>
           <a href="/standaarden"
             ><vl-button type="button">{{ $t('backToOverview') }}</vl-button></a
           >
