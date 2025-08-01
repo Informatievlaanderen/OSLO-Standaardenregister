@@ -2,14 +2,14 @@
   "title": "Applicatieprofiel Zaalreservatie",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2025-04-23",
+  "publicationDate": "2025-07-01",
   "descriptionFileName": "zaalreservatie-description.md",
   "specificationDocuments": [
     {

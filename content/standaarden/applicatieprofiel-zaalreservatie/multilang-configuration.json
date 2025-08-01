@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -24,7 +24,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2025-04-23",
+  "publicationDate": "2025-07-01",
   "descriptionFileName": "zaalreservatie-description.md",
   "specificationDocuments": [
     {

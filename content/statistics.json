@@ -1723,15 +1723,15 @@
     },
     {
       "standard": "Applicatieprofiel Zaalreservatie",
-      "publicationDate": "2025-04-23",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-07-01",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Zaalreservatie",
-      "publicationDate": "2025-04-23",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-07-01",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
