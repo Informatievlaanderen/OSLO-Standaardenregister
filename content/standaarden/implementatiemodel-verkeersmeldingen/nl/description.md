@@ -7,6 +7,8 @@
     <p>
         Het model biedt voldoende flexibiliteit om diverse soorten verkeerssituaties en variabelen te accommoderen, waarbij essentiële attributen zoals locatie, tijdstip en aard van de melding worden gecombineerd met optionele elementen voor verdere analyse en besluitvorming. Zo kunnen lokale overheden effectief inspelen op actuele verkeersproblemen en bijdragen aan een veiliger en beter gereguleerd verkeer.
     </p>
+  Dit model is afgeleid van <a href="https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/">OSLO verkeersmetingen</a>, <a href="https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/">OSLO observaties en metingen</a>, en <a href="https://data.vlaanderen.be/doc/applicatieprofiel/dossier/">OSLO-dossier</a>.
+</p>
     <p>
         Een vervolgtraject kan zijn dat deze dataset verrijkt wordt met contextuele data, zoals camerabeelden, luchtvervuilingsmetingen en ongevallendata.
     </p>
