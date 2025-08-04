@@ -2,14 +2,14 @@
   "title": "Application profile Erosion pool",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2024-10-07",
+  "publicationDate": "2025-07-23",
   "descriptionFileName": "description.md",
   "specificationDocuments": [
     {
@@ -58,8 +58,8 @@
   "dateOfRegistration": "",
   "dateOfAcknowledgementByWorkingGroup": "",
   "dateOfAcknowledgementBySteeringCommittee": "",
-  "datePublicReviewStart": "",
-  "datePublicReviewEnd": "",
+  "datePublicReviewStart": "2025-01-09",
+  "datePublicReviewEnd": "2025-04-09",
   "endOfPublicationDate": "",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Omgeving",
   "repository": "OSLOthema-modderstromen"
