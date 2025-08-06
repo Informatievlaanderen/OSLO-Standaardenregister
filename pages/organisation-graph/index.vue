@@ -2,16 +2,16 @@
   <content-header
     title="OSLO"
     href="/standaarden"
-    :subtitle="$t('knowledgeGraph.namespaceGraph')"
+    :subtitle="$t('knowledgeGraph.organizationGraph')"
   />
   <vl-region>
     <vl-layout>
       <vl-grid mod-v-center mod-center mod-stacked>
-        <vl-column width="12" width-s="12">
+        <vl-column>
           <navigation />
-          <vl-title mod-no-space-bottom tag-name="h1">
-            {{ $t('knowledgeGraph.namespaceGraph') }}</vl-title
-          >
+          <vl-title mod-no-space-bottom tag-name="h1">{{
+            $t('knowledgeGraph.organizationGraph')
+          }}</vl-title>
         </vl-column>
         <vl-column>
           <a href="/standaarden"
@@ -19,7 +19,7 @@
           >
         </vl-column>
         <vl-column width="12">
-          <namespaces-graph />
+          <organization-graph />
         </vl-column>
       </vl-grid>
     </vl-layout>
@@ -37,7 +37,7 @@ import {
 } from '@govflanders/vl-ui-design-system-vue3'
 import ContentHeader from '~/components/content-header/content-header.vue'
 import ContentFooter from '~/components/content-footer/content-footer.vue'
-import NamespacesGraph from '~/components/namespaces-graph/namespaces-graph.vue'
+import OrganizationGraph from '~/components/organization-graph/organization-graph.vue'
 
 import type { Index } from '~/types/index'
 

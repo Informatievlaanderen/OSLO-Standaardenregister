@@ -211,7 +211,7 @@ const { data } = await useAsyncData('data', async () => {
 
 const descriptionElements: DescriptionData[] = [
   {
-    title: t('responsibleOrganisation'),
+    title: t('responsibleOrganization'),
     element: data?.value?.standard?.responsibleOrganisation
       ? data.value.standard.responsibleOrganisation
           .map(

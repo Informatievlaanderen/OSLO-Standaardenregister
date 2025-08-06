@@ -2,7 +2,7 @@
   <content-header
     title="OSLO"
     href="/standaarden"
-    :subtitle="`Knowledge Graph`"
+    :subtitle="$t('knowledgeGraph.domainGraph')"
   />
   <vl-region>
     <vl-layout>
@@ -19,7 +19,7 @@
           >
         </vl-column>
         <vl-column width="12">
-          <knowledge-graph />
+          <domain-graph />
         </vl-column>
       </vl-grid>
     </vl-layout>
@@ -37,7 +37,7 @@ import {
 } from '@govflanders/vl-ui-design-system-vue3'
 import ContentHeader from '~/components/content-header/content-header.vue'
 import ContentFooter from '~/components/content-footer/content-footer.vue'
-import KnowledgeGraph from '~/components/knowledge-graph/knowledge-graph.vue'
+import DomainGraph from '~/components/domain-graph/domain-graph.vue'
 
 import type { Index } from '~/types/index'
 

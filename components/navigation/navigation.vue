@@ -25,6 +25,11 @@
         {{ $t('namespaces') }}
       </vl-link>
     </vl-link-list-item>
+    <vl-link-list-item class="navigation-item">
+      <vl-link href="/standaarden/organisation-graph" mod-block mod-bold>
+        {{ $t('organizations') }}
+      </vl-link>
+    </vl-link-list-item>
   </vl-link-list>
 </template>
 

@@ -1,0 +1,47 @@
+.knowledge-graph {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+  height: 80vh; /* Use viewport height instead of rem for better responsiveness */
+  min-height: 500px;
+}
+
+.knowledge-graph svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+circle {
+  cursor: pointer;
+}
+
+.hover-area {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.labels text {
+  pointer-events: none;
+  user-select: none;
+  text-anchor: middle;
+}
+
+/* Layer organization for proper stacking */
+.link-layer {
+  z-index: 1;
+}
+
+.node-layer {
+  z-index: 2;
+}
+
+.label-layer {
+  z-index: 3;
+}
