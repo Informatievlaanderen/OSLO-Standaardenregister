@@ -35,15 +35,7 @@
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/"
     }
   ],
-  "documentation": [
-    {
-      "name": {
-        "nl": "Vocabularium Openbare Nutsvoorzieningkasten",
-        "en": "Vocabulary Public Utility Boxes"
-      },
-      "resourceReference": "https://data.vlaanderen.be/ns/openbare-nutsvoorzieningkasten/"
-    }
-  ],
+  "documentation": [],
   "charter": {
     "name": {
       "nl": "Charter OSLO Openbare Nutsvoorzieningkasten",
@@ -114,7 +106,7 @@
   "dateOfRegistration": "2024-12-19",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "datePublicReviewStart": "",
+  "datePublicReviewStart": "2025-07-28",
   "datePublicReviewEnd": "",
   "endOfPublicationDate": "",
   "domain": {
