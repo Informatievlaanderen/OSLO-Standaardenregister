@@ -12,17 +12,23 @@
       }"
     >
       <div class="graph-tooltip__content">
-        <strong>{{ tooltip.node.id }}</strong>
-        <div v-if="tooltip.node.domain">Domein: {{ tooltip.node.domain }}</div>
+        <strong v-if="tooltip.node.id !== tooltip.node.domain">{{
+          tooltip.node.id
+        }}</strong>
+        <div v-if="tooltip.node.domain">
+          <strong>Domein:</strong> {{ tooltip.node.domain }}
+        </div>
       </div>
     </div>
   </div>
 </template>
+
 <script setup name="knowledgeGraph" lang="ts">
 import { ref, onMounted } from 'vue'
 import * as d3 from 'd3'
 import {
   Domain,
+  KGextendedColorScheme,
   type KGLink,
   type KGNode,
   type KGStandard,
@@ -30,14 +36,14 @@ import {
 import type { Standard } from '~/types/standard'
 import { BASEPATH, CODELIST_ROOT } from '~/constants/constants'
 
-const graph = ref(null)
+const graph = ref<HTMLElement | null>(null)
 const { locale } = useI18n()
 
 const tooltip = reactive<{
   visible: boolean
   x: number
   y: number
-  node?: KGNode
+  node?: KGNode & { organization?: string }
 }>({
   visible: false,
   x: 0,
@@ -69,8 +75,8 @@ onMounted(async () => {
         url: '',
       })) || []
 
-    const width = 1200
-    const height = 800
+    const width: number = graph.value?.clientWidth ?? 1200
+    const height: number = graph.value?.clientHeight ?? 800
 
     const svg = d3
       .select(graph.value)
@@ -78,66 +84,80 @@ onMounted(async () => {
       .attr('width', '100%')
       .attr('height', '100%')
 
-    // Transform the data into nodes and links
+    // Create domain-centered structure
     const nodes: KGNode[] = []
     const links: KGLink[] = []
 
+    // Get unique domains
+    const domains = Array.from(
+      new Set(data.map((item) => item.domain.replace(CODELIST_ROOT, ''))),
+    )
+
+    // Create domain nodes (central nodes)
+    domains.forEach((domain) => {
+      nodes.push({
+        id: domain,
+        group: 'domain',
+        domain: domain,
+      })
+    })
+
+    // Create standard nodes and link them to their domains
     data.forEach((item) => {
-      nodes.push({ id: item.title, group: 'title', domain: item.domain })
-      nodes.push({ id: item.organization, group: 'organization' })
+      const cleanDomain = item.domain.replace(CODELIST_ROOT, '')
+      nodes.push({
+        id: item.title,
+        group: 'title',
+        domain: item.domain,
+      })
+
+      // Link standard to its domain
       links.push({
         source: item.title,
-        target: item.organization,
+        target: cleanDomain,
         domain: item.domain,
       })
     })
 
-    const uniqueNodes: KGNode[] = Array.from(
-      new Set(nodes.map((node) => node.id)),
-    ).map((id) => {
-      return nodes.find((node) => node.id === id)!
-    })
-
-    // Create a color scale for domains
-    const colorScaleDomain = d3.scaleOrdinal(d3.schemeCategory10)
-    const domains = Array.from(
-      new Set(data.map((item) => item.domain.replace(CODELIST_ROOT, ''))),
+    // Remove duplicates
+    const uniqueNodes = Array.from(
+      new Map(nodes.map((node) => [node.id, node])).values(),
     )
+
+    // Create color scales
+    const colorScaleDomain = d3.scaleOrdinal(KGextendedColorScheme)
     colorScaleDomain.domain(domains)
 
-    // Create a color scale for domains
-    const colorScaleOrg = d3.scaleOrdinal(d3.schemeSet3)
-    const organizations = Array.from(
-      new Set(data.map((item) => item.organization)),
-    )
-    colorScaleOrg.domain(organizations)
     const simulation = d3
-      .forceSimulation<KGNode>(uniqueNodes)
+      .forceSimulation<KGNode & { organization?: string }>(uniqueNodes)
       .force('charge', d3.forceManyBody().strength(-50)) // Stronger repulsion
       .force(
         'link',
         d3
           .forceLink(links)
-          .id((d) => d.id)
-          .distance(120), // More distance between nodes
+          .id((d) => d?.id)
+          .distance(50), // Distance between standards and domains
       )
-      .force('center', d3.forceCenter(width / 3, height / 1.8))
+      .force('center', d3.forceCenter(width / 2, height / 2))
       .force(
         'x',
-        d3.forceX<KGNode>().x((d) => {
-          // Spread by domain index
-          const domainIndex = domains.indexOf(
-            d.domain?.replace(CODELIST_ROOT, '') || '',
-          )
-          return width / 2 + (domainIndex - domains.length / 2) * 10
-        }),
+        d3
+          .forceX<KGNode & { organization?: string }>()
+          .x((d) => {
+            const domainIndex = domains.indexOf(d.id)
+            return width / 2 + (domainIndex - domains.length / 2) * 10
+          })
+          .strength(0.1),
       )
       .force(
         'y',
-        d3.forceY<KGNode>().y((d) => {
-          // Optionally spread by group
-          return height / 2 + (d.group === 'organization' ? 100 : -100)
-        }),
+        d3
+          .forceY<KGNode & { organization?: string }>()
+          .y((d) => {
+            // Keep domains in center vertically
+            return height / 0.5
+          })
+          .strength(0.1),
       )
       .on('tick', ticked)
 
@@ -160,16 +180,18 @@ onMounted(async () => {
       .data(uniqueNodes)
       .enter()
       .append('circle')
-      .attr('r', 8)
+      .attr('r', (d) => (d.group === 'domain' ? 10 : 6)) // Larger domains
       .attr('fill', (d) => {
-        if (d?.group === 'organization') {
-          return colorScaleOrg(d.id)
-        }
-        if (d?.group === 'title') {
-          return colorScaleDomain(d.domain ?? 'onbekend')
+        if (d.group === 'domain') {
+          return colorScaleDomain(d.id)
+        } else if (d.group === 'title') {
+          return colorScaleDomain(
+            d.domain?.replace(CODELIST_ROOT, '') ?? 'onbekend',
+          )
         }
         return '#cccccc'
       })
+      .attr('stroke-width', (d) => (d.group === 'domain' ? 3 : 1))
       .call(
         d3
           .drag<SVGCircleElement, any>()
@@ -178,19 +200,13 @@ onMounted(async () => {
           .on('end', dragended),
       )
 
+    // Add labels for domain nodes
     const labels = svg
       .append('g')
       .attr('class', 'labels')
       .selectAll('text')
-      .data(uniqueNodes)
+      .data(uniqueNodes.filter((d) => d.group === 'domain'))
       .enter()
-      .append('text')
-      .attr('class', 'label')
-      .attr('x', '50%')
-      .attr('dy', '3%')
-      .attr('text-anchor', 'middle')
-      .text((d) => `${d?.id} ${d?.domain ? `- ${d.domain}` : ''}`)
-      .style('visibility', 'hidden')
 
     node.on('mouseover', function (event, d) {
       // Get node position
@@ -198,22 +214,46 @@ onMounted(async () => {
       tooltip.x = d.x ?? 0
       tooltip.y = d.y ?? 0
       tooltip.node = d
+
+      // Highlight connected nodes and links
+      if (d.group === 'domain') {
+        // Highlight all standards in this domain
+        node.style('opacity', (n) =>
+          n.group === 'domain' || n.domain?.replace(CODELIST_ROOT, '') === d.id
+            ? 1
+            : 0.3,
+        )
+        link.style('opacity', (l) =>
+          (typeof l.target === 'string' ? l.target : l.target.id) === d.id
+            ? 1
+            : 0.1,
+        )
+      } else {
+        // Highlight this standard and its domain
+        const domainId = d.domain?.replace(CODELIST_ROOT, '') ?? ''
+        node.style('opacity', (n) =>
+          n.id === d.id || n.id === domainId ? 1 : 0.3,
+        )
+        link.style('opacity', (l) =>
+          (typeof l.source === 'string' ? l.source : l.source.id) === d.id
+            ? 1
+            : 0.1,
+        )
+      }
     })
 
     node.on('mouseleave', function () {
       tooltip.visible = false
       tooltip.node = undefined
+
+      // Reset opacity
+      node.style('opacity', 1)
+      link.style('opacity', 1)
     })
 
-    node.append('title').text((d) => d?.id || '')
-
-    // simulation
-    //   .nodes(uniqueNodes)
-    //   .on(
-    //     'tick',
-    //     ticked,
-    //   )(simulation.force('link') as d3.ForceLink<KGNode, KGLink>)
-    //   .links(links)
+    node.append('title').text((d) => {
+      return `Domain: ${d.id}`
+    })
 
     function ticked() {
       link
@@ -222,7 +262,7 @@ onMounted(async () => {
         .attr('x2', (d) => (d.target as any).x)
         .attr('y2', (d) => (d.target as any).y)
 
-      node.attr('cx', (d) => d?.x ?? 0).attr('cy', (d) => d?.y ?? 0)
+      node.attr('cx', (d) => d?.x ?? 0).attr('cy', (d) => d?.y ?? 10)
     }
 
     function dragstarted(
@@ -251,72 +291,64 @@ onMounted(async () => {
       d.fy = null
     }
 
-    // Add legend
     const legend = svg
       .append('g')
       .attr('class', 'legend')
-      .attr('font-size', '1.6rem')
-      .attr('transform', `translate(${width - 300}, 100)`)
+      .attr('font-size', '1.2rem')
+      .attr('transform', `translate(20, 20)`) // Move to top-left for better visibility
 
-    // Add domain legend
     legend
       .append('text')
-      .attr('x', 0)
+      .attr('x', -8)
       .attr('y', 0)
       .attr('dy', '0.35em')
-      .text('Domein')
+      .text('Domeinen')
       .style('font-weight', 'bold')
+      .style('font-size', '1.4rem')
 
+    // Add each domain with its specific color
     domains.forEach((domain, i) => {
       const legendRow = legend
         .append('g')
-        .attr('transform', `translate(0, ${20 + i * 20})`)
+        .attr('transform', `translate(0, ${25 + i * 25})`)
 
       legendRow
-        .append('rect')
-        .attr('width', 10)
-        .attr('height', 10)
+        .append('circle')
+        .attr('r', 10)
         .attr('fill', colorScaleDomain(domain))
+        .attr('cx', 0)
+        .attr('cy', 0)
+        .attr('stroke', '#fff')
+        .attr('stroke-width', 2)
 
       legendRow
         .append('text')
         .attr('x', 20)
-        .attr('y', 5)
-        .attr('font-size', '1.6rem')
+        .attr('y', 0)
         .attr('dy', '0.35em')
         .text(domain)
-    })
-
-    // Add organization legend
-    const orgLegend = legend
-      .append('g')
-      .attr('transform', `translate(0, ${20 + domains.length * 20 + 20})`)
-
-    orgLegend
-      .append('text')
-      .attr('x', 0)
-      .attr('y', 0)
-      .attr('dy', '0.35em')
-      .text('Organisaties')
-      .style('font-weight', 'bold')
-
-    organizations.forEach((org, i) => {
-      const legendRow = orgLegend
-        .append('g')
-        .attr('transform', `translate(0, ${20 + i * 20})`)
+        .style('font-size', '1.5rem')
 
       legendRow
-        .append('rect')
-        .attr('width', 10)
-        .attr('height', 10)
-        .attr('fill', colorScaleOrg(org))
-
-      legendRow
-        .append('text')
-        .attr('x', 20)
-        .attr('y', 5)
-        .attr('dy', '0.35em')
-        .text(org)
+        .on('mouseover', (event) => {
+          // Highlight corresponding nodes in the graph
+          node.style('opacity', (n) =>
+            (n.group === 'domain' && n.id === domain) ||
+            n.domain?.replace(CODELIST_ROOT, '') === domain
+              ? 1
+              : 0.3,
+          )
+          link.style('opacity', (l) =>
+            (typeof l.target === 'string' ? l.target : l.target.id) === domain
+              ? 1
+              : 0.1,
+          )
+        })
+        .on('mouseleave', () => {
+          // Reset node and link opacity
+          node.style('opacity', 1)
+          link.style('opacity', 1)
+        })
     })
   } catch (error) {
     console.error(error)

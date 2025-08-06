@@ -10,7 +10,6 @@ import { isVlaanderenUrl } from '~/utils/helper.utils'
 import { useRouter } from 'vue-router'
 import { Domain } from '~/types/knowledge-graph'
 
-const router = useRouter()
 const graph = ref(null)
 let svg = null
 let simulation = null
@@ -323,7 +322,18 @@ onMounted(async () => {
     const legend = svg
       .append('g')
       .attr('class', 'legend')
-      .attr('transform', `translate(${containerWidth - 600}, 40)`)
+      .attr('font-size', '1.2rem')
+      .attr('transform', `translate(20, 20)`) // Move to top-left for better visibility
+
+    legend
+      .append('text')
+      .attr('x', -8)
+
+      .attr('y', 0)
+      .attr('dy', '0.35em')
+      .text('Legende')
+      .style('font-weight', 'bold')
+      .style('font-size', '3rem')
 
     // Standards legend
     legend
@@ -331,12 +341,12 @@ onMounted(async () => {
       .attr('r', 10)
       .attr('fill', colorScale('standard'))
       .attr('cx', 0)
-      .attr('cy', 0)
+      .attr('cy', 50)
 
     legend
       .append('text')
       .attr('x', 20)
-      .attr('y', 0)
+      .attr('y', 50)
       .attr('dy', '0.5rem')
       .attr('font-size', '3rem')
       .text('Data standaard')
@@ -346,12 +356,12 @@ onMounted(async () => {
       .attr('r', 10)
       .attr('fill', namespaceColorScale(true))
       .attr('cx', 0)
-      .attr('cy', 38)
+      .attr('cy', 90)
 
     legend
       .append('text')
       .attr('x', 20)
-      .attr('y', 40)
+      .attr('y', 90)
       .attr('dy', '0.5rem')
       .attr('font-size', '3rem')
       .text('Namespace (data.vlaanderen.be)')
@@ -361,12 +371,12 @@ onMounted(async () => {
       .attr('r', 10)
       .attr('fill', namespaceColorScale(false))
       .attr('cx', 0)
-      .attr('cy', 75)
+      .attr('cy', 130)
 
     legend
       .append('text')
       .attr('x', 20)
-      .attr('y', 80)
+      .attr('y', 130)
       .attr('dy', '0.5rem')
       .attr('font-size', '3rem')
       .text('Namespace (other)')
@@ -469,51 +479,4 @@ onBeforeUnmount(() => {
 })
 </script>
 
-<style scoped>
-.knowledge-graph {
-  width: 100%;
-  height: 80vh; /* Use viewport height instead of rem for better responsiveness */
-  min-height: 500px;
-  overflow: hidden;
-  position: relative;
-}
-
-.knowledge-graph svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
-
-circle {
-  cursor: pointer;
-}
-
-.hover-area {
-  pointer-events: all;
-  cursor: pointer;
-}
-
-.labels text {
-  text-anchor: middle;
-  pointer-events: none;
-  user-select: none;
-}
-
-/* Layer organization for proper stacking */
-.link-layer {
-  z-index: 1;
-}
-
-.node-layer {
-  z-index: 2;
-}
-
-.label-layer {
-  z-index: 3;
-}
-</style>
+<style scoped lang="scss" src="./style.scss" />

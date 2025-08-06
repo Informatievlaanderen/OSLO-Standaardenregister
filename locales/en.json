@@ -18,7 +18,7 @@
   "vocabulary": "Vocabulary",
   "implementationModel": "Implementation model",
   "publicationDate": "Publication date",
-  "responsibleOrganisation": "Responsible organization",
+  "responsibleOrganization": "Responsible organization",
   "language": "Language",
   "version": "Version",
   "typeOfApplication": "Type of application",
@@ -31,6 +31,7 @@
   "timeline": "Timeline",
   "domains": "Domains",
   "namespaces": "Namespaces",
+  "organizations": "Organizations",
   "backToOverview": "Back to overview",
   "detailInformation": "Detail information",
   "functionalScope": "Functional scope",
@@ -56,7 +57,8 @@
   "of": "of",
   "knowledgeGraph": {
     "namespaceGraph": "OSLO Standards namespaces graph",
-    "domainGraph": "OSLO Standards domains graph"
+    "domainGraph": "OSLO Standards domains graph",
+    "organizationGraph": "OSLO Standaarden organisations graph"
   },
   "standard": {
     "usage": {
