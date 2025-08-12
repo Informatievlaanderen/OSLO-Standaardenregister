@@ -2,7 +2,7 @@
   "title": "Traffic Notification Deployment Model",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",
@@ -64,7 +64,7 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "datePublicReviewStart": "2025-07-29",
-  "datePublicReviewEnd": "TBD",
+  "datePublicReviewEnd": "2025-10-31",
   "endOfPublicationDate": "TBD",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
   "repository": "OSLOthema-SmartInnovationFactory"

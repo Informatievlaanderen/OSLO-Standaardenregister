@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -109,7 +109,7 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "datePublicReviewStart": "2025-07-29",
-  "datePublicReviewEnd": "TBD",
+  "datePublicReviewEnd": "2025-10-31",
   "endOfPublicationDate": "TBD",
   "domain": {
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
