@@ -22,15 +22,15 @@
     },
     {
       "standard": "Applicatieprofiel Leermiddelen",
-      "publicationDate": "2025-05-20",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-08-201",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Leermiddelen",
-      "publicationDate": "2025-05-20",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-08-01",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
