@@ -1752,7 +1752,7 @@
     {
       "standard": "Applicatieprofiel Rooilijnplannen",
       "publicationDate": "2025-06-01",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
