@@ -40,6 +40,7 @@
           :standards="data?.standards"
           :setSorting="(val: any) => (sortingKey = val)"
         />
+	<standards-jsonld :standards="data?.standards" />
       </vl-grid>
     </vl-layout>
     <sidebar ref="toggle">
