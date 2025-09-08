@@ -16,9 +16,7 @@ const props = defineProps({
   },
 })
 
-onMounted(() => {
-  const jsonLdScript = document.createElement('script')
-  jsonLdScript.type = 'application/ld+json'
+const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
   const ld: JsonLdGraph = {
     '@context': {
       schema: 'https://schema.org/',
@@ -27,7 +25,7 @@ onMounted(() => {
     '@graph': [],
   }
 
-  props.standards?.forEach((standard: Standard) => {
+  standards?.forEach((standard: Standard) => {
     /*
      * Create an entry in the graph if at least an IRI is provided for the specification.
      * All other properties are optional and added if provided to avoid that a misconfiguration
@@ -43,20 +41,20 @@ onMounted(() => {
         element['schema:name'] = {
           '@value': standard.title,
           '@language': 'nl',
-        } as JsonLdValue
+        }
       }
 
       if (standard.status) {
         element['schema:creativeWorkStatus'] = {
           '@id': standard.status,
-        } as JsonLdReference
+        }
       }
 
       if (standard.publicationDate && standard.publicationDate !== Usage.TBD) {
         element['schema:datePublished'] = {
           '@value': standard.publicationDate,
           '@type': 'xsd:dateTime',
-        } as JsonLdValue
+        }
       }
 
       if (
@@ -65,7 +63,7 @@ onMounted(() => {
       ) {
         element['schema:author'] = {
           '@id': standard.responsibleOrganisation[0].resourceReference,
-        } as JsonLdReference
+        }
       }
 
       if (standard.category && standard.category.startsWith('https://')) {
@@ -74,14 +72,30 @@ onMounted(() => {
         }
         element['schema:additionalType'].push({
           '@id': standard.category,
-        } as JsonLdReference)
+        })
       }
 
       ld['@graph'].push(element)
     }
   })
-  jsonLdScript.text = JSON.stringify(ld, null, 2)
 
-  document.body.appendChild(jsonLdScript)
+  return ld
+}
+
+// Prevent multiple re-computations of the JSON-LD string on render changes
+const jsonLdString = computed(() => {
+  if (!props.standards?.length) return ''
+  return JSON.stringify(buildJsonLd(props.standards), null, 2)
+})
+
+useHead({
+  script: [
+    {
+      id: 'standards-jsonld',
+      type: 'application/ld+json',
+      innerHTML: jsonLdString,
+      body: true,
+    },
+  ],
 })
 </script>
