@@ -1,4 +1,5 @@
 <template>
+  <standards-jsonld :standards="data?.standards" />
   <content-header title="OSLO" :subtitle="`OSLO ${$t('standardsRegistry')}`" />
   <vl-region>
     <vl-layout>
@@ -40,7 +41,6 @@
           :standards="data?.standards"
           :setSorting="(val: any) => (sortingKey = val)"
         />
-	<standards-jsonld :standards="data?.standards" />
       </vl-grid>
     </vl-layout>
     <sidebar ref="toggle">

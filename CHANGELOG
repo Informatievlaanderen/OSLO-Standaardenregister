@@ -129,3 +129,11 @@
   1.10.2
 
 * added namespaces graph and domain graph to the navigation
+
+  1.11.1
+
+* Added JSON-LD structured data for the standards on the homepage
+
+  1.11.2
+
+  - Small fix with SSR where the script tag was not present during the initial render
