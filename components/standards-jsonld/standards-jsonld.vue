@@ -6,8 +6,6 @@ import { type Standard, Usage } from '~/types/standard'
 import type {
   JsonLdGraph,
   JsonLdTextDigitalDocument,
-  JsonLdValue,
-  JsonLdReference,
 } from '~/types/standard-jsonld'
 
 const props = defineProps({
@@ -88,13 +86,13 @@ const jsonLdString = computed(() => {
   return JSON.stringify(buildJsonLd(props.standards), null, 2)
 })
 
-useHead({
+useServerHead({
   script: [
     {
       id: 'standards-jsonld',
       type: 'application/ld+json',
       innerHTML: jsonLdString,
-      body: true,
+      tagPosition: 'bodyOpen',
     },
   ],
 })
