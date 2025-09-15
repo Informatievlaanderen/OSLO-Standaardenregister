@@ -1,1 +1,0 @@
-Through this initiative, the various stakeholders within "air and water" wish to semantically model the different data streams related to this domain and to standardize the structure of the data. The vocabulary is built on the basis of international standards on which there is a broad consensus in this domain and brought in line with current Flemish regulations.

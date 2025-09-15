@@ -1,1 +1,0 @@
-This application profile complements the application profiles [Observations & Measurements](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/) and [Sensors & Sampling](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/) with a number of generic classes for the Soil & Subsurface domain and its subdomains.

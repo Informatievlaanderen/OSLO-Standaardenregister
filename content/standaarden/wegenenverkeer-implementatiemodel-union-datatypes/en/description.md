@@ -1,1 +1,0 @@
-Provides an overview of the union data types used in the different vocabularies.

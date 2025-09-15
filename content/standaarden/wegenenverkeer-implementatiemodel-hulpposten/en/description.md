@@ -1,1 +1,0 @@
-Describes the objects associated with emergency rooms and firefighting in tunnels for use in the Standard Specifications 270.

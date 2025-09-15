@@ -1,1 +1,0 @@
-Provides an overview of the complex data types used in the different vocabularies.

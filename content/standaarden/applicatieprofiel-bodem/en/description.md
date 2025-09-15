@@ -1,1 +1,0 @@
-Through this initiative, the various stakeholders within "soil and subsurface" wish to semantically model the various data flows related to this domain and to standardize the structure of the data. The vocabulary is built up on the basis of international standards on which there is a broad consensus in this domain and brought in line with the current Flemish regulations.
