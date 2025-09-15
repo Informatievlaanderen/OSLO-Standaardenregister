@@ -64,8 +64,10 @@
           <vl-icon-list>
             <vl-icon-list-item icon="tag">
               <span
-                ><strong>{{ $t('functionalScope') }}:</strong>&nbsp;{{
-                  $t('content.slug.semanticStandard')
+                ><strong>{{ $t('functionalScope') }}:</strong>&nbsp;
+                {{
+                  data?.standard?.functionalScope ??
+                  t('content.slug.semanticStandard')
                 }}</span
               >
             </vl-icon-list-item>

@@ -125,6 +125,7 @@ export interface Standard {
   datePublicReviewStart: string
   datePublicReviewEnd: string
   endOfPublicationDate: string
+  functionalScope: string
   domain: string
   _path: string
 }
