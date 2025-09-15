@@ -3,8 +3,8 @@
   "numberOfStandardsConfigured": 251,
   "reportErrors": 0,
   "reportsMissing": 253,
-  "uniqueContributors": 3453,
-  "uniqueAffiliations": 622,
+  "uniqueContributors": 3451,
+  "uniqueAffiliations": 621,
   "standards": [
     {
       "standard": "",
@@ -22,15 +22,15 @@
     },
     {
       "standard": "Applicatieprofiel Leermiddelen",
-      "publicationDate": "2025-05-20",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-08-201",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Leermiddelen",
-      "publicationDate": "2025-05-20",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-08-01",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -64,15 +64,15 @@
     },
     {
       "standard": "Applicatieprofiel Erosiepoel",
-      "publicationDate": "2024-10-07",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "publicationDate": "2025-07-23",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Erosiepoel",
-      "publicationDate": "2024-10-07",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "publicationDate": "2025-07-23",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -120,8 +120,8 @@
     },
     {
       "standard": "Applicatieprofiel Kabels en Leidingen",
-      "publicationDate": "2023-02-17",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1723,15 +1723,15 @@
     },
     {
       "standard": "Applicatieprofiel Zaalreservatie",
-      "publicationDate": "2025-04-23",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-07-01",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Zaalreservatie",
-      "publicationDate": "2025-04-23",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-07-01",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1745,14 +1745,14 @@
     {
       "standard": "Implementatiemodel Verkeersmeldingen",
       "publicationDate": "2025-06-04",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Rooilijnplannen",
       "publicationDate": "2025-06-01",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
