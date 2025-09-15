@@ -162,5 +162,9 @@
   "domain": {
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Cultuur",
     "en": "https://data.vlaanderen.be/id/concept/Domein/Cultuur"
+  },
+  "functionalScope": {
+    "nl": "Semantische standaard voor de digitale transformatie van de cultuursector",
+    "en": "Semantic standard for the digital transformation of the cultural sector"
   }
 }
