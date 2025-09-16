@@ -30,9 +30,15 @@
         {{ $t('organizations') }}
       </vl-link>
     </vl-link-list-item>
+    <vl-link-list-item class="navigation-item">
+      <LanguageToggle />
+    </vl-link-list-item>
+    
   </vl-link-list>
 </template>
 
-<script setup lang="ts" />
+<script setup lang="ts">
+import LanguageToggle from '~/components/language-toggle/language-toggle.vue';
+</script>
 
 <style scoped lang="scss" src="./style.scss" />
