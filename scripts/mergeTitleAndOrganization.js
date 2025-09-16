@@ -8,8 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+    return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
@@ -38,9 +38,14 @@ var _this = this;
 var fs = require('fs');
 var path = require('path');
 var extractTitleAndOrganization = function (content) {
-    var title = content.title;
-    var organization = content.responsibleOrganisation;
-    return { title: title, organization: organization };
+    var _a, _b;
+    return {
+        title: content.title,
+        organization: (_b = (_a = content.responsibleOrganisation[0]) === null || _a === void 0 ? void 0 : _a.name) !== null && _b !== void 0 ? _b : 'Geen organisatie gevonden',
+        status: content.status,
+        usage: content.usage,
+        publicationDate: content.publicationDate,
+    };
 };
 var readConfigurationFile = function (fullPath) {
     return new Promise(function (resolve, reject) {
@@ -81,7 +86,9 @@ var processDirectory = function (dirPath) { return __awaiter(_this, void 0, void
                         promises.push(readConfigurationFile(fullPath));
                     }
                 }
-                return [4 /*yield*/, Promise.all(promises)];
+                return [4 /*yield*/, Promise.all(promises)
+                    // Flatten the results array and filter out undefined values
+                ];
             case 1:
                 results = _a.sent();
                 outputs = results.flat().filter(Boolean);
@@ -96,9 +103,10 @@ var main = function () { return __awaiter(_this, void 0, void 0, function () {
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 2, , 3]);
-                return [4 /*yield*/, processDirectory('content')];
+                return [4 /*yield*/, processDirectory('content')]; // Replace 'content' with the path to your content directory
             case 1:
-                outputs = _a.sent();
+                outputs = _a.sent() // Replace 'content' with the path to your content directory
+                ;
                 fs.writeFileSync('scripts/output.json', JSON.stringify(outputs, null, 4));
                 console.log('Output successfully written to scripts/output.json');
                 return [3 /*break*/, 3];
