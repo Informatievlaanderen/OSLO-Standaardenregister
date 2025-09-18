@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Expansion of water prevention",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen"
     }
   ],
   "documentation": [],

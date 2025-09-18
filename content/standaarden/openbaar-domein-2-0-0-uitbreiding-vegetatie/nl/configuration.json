@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Vegetatie",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/vegetatie"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie"
     }
   ],
   "documentation": [],

@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Expansion of unvegetated occurrence",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/onbegroeidvoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen"
     }
   ],
   "documentation": [],

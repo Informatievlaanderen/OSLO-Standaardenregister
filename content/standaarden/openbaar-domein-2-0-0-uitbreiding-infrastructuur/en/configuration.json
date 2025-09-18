@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Expansion of infrastructure",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/infrastructuur"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur"
     }
   ],
   "documentation": [],

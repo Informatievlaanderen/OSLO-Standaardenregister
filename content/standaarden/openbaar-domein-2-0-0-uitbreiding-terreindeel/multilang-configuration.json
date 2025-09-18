@@ -32,7 +32,7 @@
         "nl": "Uitbreiding Terreindeel",
         "en": "Expansion of the site"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/terreindeel"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel"
     }
   ],
   "documentation": [],

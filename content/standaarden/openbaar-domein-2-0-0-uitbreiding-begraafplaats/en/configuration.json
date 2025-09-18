@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Expansion of the cemetery",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begraafplaats"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats"
     }
   ],
   "documentation": [],

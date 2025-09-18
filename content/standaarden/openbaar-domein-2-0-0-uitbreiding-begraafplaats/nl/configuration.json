@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Begraafplaats",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begraafplaats"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats"
     }
   ],
   "documentation": [],

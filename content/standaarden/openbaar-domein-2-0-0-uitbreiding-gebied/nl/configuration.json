@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Gebied",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/gebied"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/gebied"
     }
   ],
   "documentation": [],

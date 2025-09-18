@@ -32,7 +32,7 @@
         "nl": "Uitbreiding Begroeid Voorkomen",
         "en": "Expansion of vegetated appearance"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begroeidvoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen"
     }
   ],
   "documentation": [],

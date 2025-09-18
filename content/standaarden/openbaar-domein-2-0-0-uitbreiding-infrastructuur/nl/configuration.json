@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Infrastructuur",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/infrastructuur"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur"
     }
   ],
   "documentation": [],

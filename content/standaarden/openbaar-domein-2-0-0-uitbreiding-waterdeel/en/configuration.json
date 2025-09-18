@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Expansion of the water section",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/waterdeel"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel"
     }
   ],
   "documentation": [],

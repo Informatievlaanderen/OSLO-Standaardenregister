@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Watervoorkomen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen"
     }
   ],
   "documentation": [],

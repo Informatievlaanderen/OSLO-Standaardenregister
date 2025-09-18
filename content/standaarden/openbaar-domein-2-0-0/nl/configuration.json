@@ -14,43 +14,43 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Conceptueel Gegevensmodel Openbaar Domein",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein"
     },
     {
       "name": "Uitbreiding Gebied",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/gebied"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/gebied"
     },
     {
       "name": "Uitbreiding Infrastructuur",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/infrastructuur"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur"
     },
     {
       "name": "Uitbreiding Vegetatie",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/vegetatie"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie"
     },
     {
       "name": "Uitbreiding Terreindeel",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/terreindeel"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel"
     },
     {
       "name": "Uitbreiding Begroeid Voorkomen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begroeidvoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen"
     },
     {
       "name": "Uitbreiding Onbegroeid Voorkomen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/onbegroeidvoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen"
     },
     {
       "name": "Uitbreiding Waterdeel",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/waterdeel"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel"
     },
     {
       "name": "Uitbreiding Watervoorkomen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen"
     },
     {
       "name": "Uitbreiding Begraafplaats",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begraafplaats"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats"
     },
     {
       "name": "Basisprofiel Openbaar Domein",

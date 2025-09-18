@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Waterdeel",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/waterdeel"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel"
     }
   ],
   "documentation": [],

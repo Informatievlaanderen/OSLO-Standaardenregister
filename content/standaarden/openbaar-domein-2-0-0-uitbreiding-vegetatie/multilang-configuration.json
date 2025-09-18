@@ -32,7 +32,7 @@
         "nl": "Uitbreiding Vegetatie",
         "en": "Expansion of vegetation"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/vegetatie"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie"
     }
   ],
   "documentation": [],

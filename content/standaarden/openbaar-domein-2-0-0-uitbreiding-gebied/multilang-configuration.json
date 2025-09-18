@@ -32,7 +32,7 @@
         "nl": "Uitbreiding Gebied",
         "en": "Expansion Area"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/gebied"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/gebied"
     }
   ],
   "documentation": [],

@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Uitbreiding Begroeid Voorkomen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begroeidvoorkomen"
+      "resourceReference": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen"
     }
   ],
   "documentation": [],
