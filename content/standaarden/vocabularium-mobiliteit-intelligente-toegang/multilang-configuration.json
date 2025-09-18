@@ -32,7 +32,7 @@
         "nl": "Vocabularium Mobiliteit: Intelligente Toegang",
         "en": "Vocabulary Mobility: Intelligent Access"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang"
+      "resourceReference": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang"
     }
   ],
   "documentation": [
