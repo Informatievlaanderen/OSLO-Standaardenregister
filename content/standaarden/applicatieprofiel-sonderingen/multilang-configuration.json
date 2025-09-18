@@ -32,7 +32,7 @@
         "nl": "Applicatieprofiel Sonderingen",
         "en": "Application profile CPTs"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/"
     }
   ],
   "documentation": [
@@ -41,133 +41,133 @@
         "nl": "Applicatieprofiel Bodem",
         "en": "Application profile Soil"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Bodem en Ondergrond",
         "en": "Application profile soil and subsoil"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
         "en": "Application profile soil and subsurface interpretations"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Bodem en Ondergrond Observaties",
         "en": "Application profile soil and subsurface observations"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Grondboringen",
         "en": "Application profile Soil drilling"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Grondwatermeetnet",
         "en": "Application profile Groundwater monitoring network"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Observaties en Metingen",
         "en": "Application profile Observations and measurements"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Ruimtelijke bereiken",
         "en": "Application profile Spatial ranges"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/"
     },
     {
       "name": {
         "nl": "Applicatieprofiel Sensoren en Bemonstering",
         "en": "Application profile sensors and sampling"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/"
     },
     {
       "name": {
         "nl": "Vocabularium Bodem",
         "en": "Vocabulary Soil"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bodem/"
     },
     {
       "name": {
         "nl": "Vocabularium Bodem en Ondergrond",
         "en": "Vocabulary Soil and Subsoil"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bodem-en-ondergrond/"
     },
     {
       "name": {
         "nl": "Vocabularium Bodem en Ondergrond Interpretaties",
         "en": "Vocabulary Soil and Subsurface Interpretations"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties/"
     },
     {
       "name": {
         "nl": "Vocabularium Bodem en Ondergrond Observaties",
         "en": "Vocabulary Soil and Subsurface Observations"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/observaties/"
     },
     {
       "name": {
         "nl": "Vocabularium Grondboringen",
         "en": "Vocabularium Soil Drilling"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/grondboringen/"
     },
     {
       "name": {
         "nl": "Vocabularium Grondboringen",
         "en": "Vocabularium Soil Drilling"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/grondboringen/"
     },
     {
       "name": {
         "nl": "Vocabularium Observaties en Metingen",
         "en": "Vocabulary Observations and Measurements"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/observaties-en-metingen/"
     },
     {
       "name": {
         "nl": "Vocabularium Ruimtelijke bereiken",
         "en": "Vocabulary Spatial Ranges"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/ruimtelijke-bereiken/"
     },
     {
       "name": {
         "nl": "Vocabularium Sensoren en Bemonstering",
         "en": "Vocabulary Sensors and Sampling"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
     },
     {
       "name": {
         "nl": "Vocabularium Sonderingen",
         "en": "Vocabulary CPTs"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/sonderingen/"
     }
   ],
   "reports": [
