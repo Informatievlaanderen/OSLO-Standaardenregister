@@ -17,7 +17,8 @@ const props = defineProps({
 const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
   const ld: JsonLdGraph = {
     '@context': {
-      schema: 'https://schema.org/',
+      dcterms: 'http://purl.org/dc/terms/',
+      adms: 'http://www.w3.org/ns/adms#',
       xsd: 'http://www.w3.org/2001/XMLSchema#',
     },
     '@graph': [],
@@ -32,24 +33,26 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
     if (standard.specificationDocuments[0]?.resourceReference) {
       const element: JsonLdTextDigitalDocument = {
         '@id': standard.specificationDocuments[0].resourceReference,
-        '@type': 'schema:TextDigitalDocument',
+        '@type': 'dcterms:Standard',
       }
 
+      element['dcterms:identifier'] = standard.specificationDocuments[0].resourceReference;
+
       if (standard.title.length > 0) {
-        element['schema:name'] = {
+        element['dcterms:title'] = {
           '@value': standard.title,
           '@language': 'nl',
         }
       }
 
       if (standard.status) {
-        element['schema:creativeWorkStatus'] = {
+        element['adms:status'] = {
           '@id': standard.status,
         }
       }
 
       if (standard.publicationDate && standard.publicationDate !== Usage.TBD) {
-        element['schema:datePublished'] = {
+        element['dcterms:created'] = {
           '@value': standard.publicationDate,
           '@type': 'xsd:dateTime',
         }
@@ -59,16 +62,16 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
         standard.responsibleOrganisation.length > 0 &&
         standard.responsibleOrganisation[0].resourceReference
       ) {
-        element['schema:author'] = {
+        element['dcterms:creator'] = {
           '@id': standard.responsibleOrganisation[0].resourceReference,
         }
       }
 
       if (standard.category && standard.category.startsWith('https://')) {
-        if (!element['schema:additionalType']) {
-          element['schema:additionalType'] = []
+        if (!element['dcterms:type']) {
+          element['dcterms:type'] = []
         }
-        element['schema:additionalType'].push({
+        element['dcterms:type'].push({
           '@id': standard.category,
         })
       }
