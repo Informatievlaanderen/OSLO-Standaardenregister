@@ -20,6 +20,9 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
       dcterms: 'http://purl.org/dc/terms/',
       adms: 'http://www.w3.org/ns/adms#',
       xsd: 'http://www.w3.org/2001/XMLSchema#',
+      m8g: 'http://data.europa.eu/m8g/',
+      foaf: 'http://xmlns.com/foaf/0.1/',
+      vann: 'http://purl.org/vocab/vann/',
     },
     '@graph': [],
   }
@@ -34,6 +37,8 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
       const element: JsonLdTextDigitalDocument = {
         '@id': standard.specificationDocuments[0].resourceReference,
         '@type': 'dcterms:Standard',
+        'dcterms:language': { '@id': 'http://publications.europa.eu/resource/authority/language/NLD' },
+        'foaf:homepage': { '@id': standard.specificationDocuments[0].resourceReference },
       }
 
       element['dcterms:identifier'] = standard.specificationDocuments[0].resourceReference;
@@ -56,6 +61,19 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
           '@value': standard.publicationDate,
           '@type': 'xsd:dateTime',
         }
+
+        element['dcterms:modified'] = {
+          '@value': standard.publicationDate,
+          '@type': 'xsd:dateTime',
+        }
+      }
+
+      // TODO: issued date of the WG?
+      if (standard.dateOfAcknowledgementBySteeringCommittee && standard.dateOfAcknowledgementBySteeringCommittee !== Usage.TBD) {
+        element['dcterms:issued'] = {
+          '@value': standard.dateOfAcknowledgementBySteeringCommittee,
+          '@type': 'xsd:dateTime',
+        }
       }
 
       if (
@@ -63,6 +81,10 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
         standard.responsibleOrganisation[0].resourceReference
       ) {
         element['dcterms:creator'] = {
+          '@id': standard.responsibleOrganisation[0].resourceReference,
+        }
+
+        element['m8g:contactPoint'] = {
           '@id': standard.responsibleOrganisation[0].resourceReference,
         }
       }
@@ -74,6 +96,11 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
         element['dcterms:type'].push({
           '@id': standard.category,
         })
+
+        /* Vocabularies have a namespace URI, Application Profiles never have them */
+        if (standard.category == 'https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium') {
+          element['vann:preferredNamespaceUri'] = { '@id': standard.specificationDocuments[0].resourceReference }
+        }
       }
 
       ld['@graph'].push(element)
