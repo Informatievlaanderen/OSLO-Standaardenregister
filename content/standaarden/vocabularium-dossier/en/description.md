@@ -1,1 +1,3 @@
-Enter your translation here
+The follow-up of files and the subsequent archiving of those same files is a subject that all authorities in Flanders are confronted with. Efficient follow-up and archiving, in a consistent way across different entities,
+requires a (meta)data standard that is generic enough to be used VO-wide and at the same time leaves enough freedom for context-specific implementations. The starting point for this exercise is an existing
+ontologies, prepared by the Department of Environment and Facilities and Services and other relevant existing semantic data standards (FRBR, Dublin Core, PREMIS, EAD DBPedia, ...).
