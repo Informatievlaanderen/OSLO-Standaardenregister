@@ -37,11 +37,17 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
       const element: JsonLdTextDigitalDocument = {
         '@id': standard.specificationDocuments[0].resourceReference,
         '@type': 'dcterms:Standard',
-        'dcterms:language': { '@id': 'http://publications.europa.eu/resource/authority/language/NLD' },
-        'foaf:homepage': { '@id': standard.specificationDocuments[0].resourceReference },
+        'dcterms:language': {
+          '@id':
+            'http://publications.europa.eu/resource/authority/language/NLD',
+        },
+        'foaf:homepage': {
+          '@id': standard.specificationDocuments[0].resourceReference,
+        },
       }
 
-      element['dcterms:identifier'] = standard.specificationDocuments[0].resourceReference;
+      element['dcterms:identifier'] =
+        standard.specificationDocuments[0].resourceReference
 
       if (standard.title.length > 0) {
         element['dcterms:title'] = {
@@ -69,7 +75,10 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
       }
 
       // TODO: issued date of the WG?
-      if (standard.dateOfAcknowledgementBySteeringCommittee && standard.dateOfAcknowledgementBySteeringCommittee !== Usage.TBD) {
+      if (
+        standard.dateOfAcknowledgementBySteeringCommittee &&
+        standard.dateOfAcknowledgementBySteeringCommittee !== Usage.TBD
+      ) {
         element['dcterms:issued'] = {
           '@value': standard.dateOfAcknowledgementBySteeringCommittee,
           '@type': 'xsd:dateTime',
@@ -98,8 +107,13 @@ const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
         })
 
         /* Vocabularies have a namespace URI, Application Profiles never have them */
-        if (standard.category == 'https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium') {
-          element['vann:preferredNamespaceUri'] = { '@id': standard.specificationDocuments[0].resourceReference }
+        if (
+          standard.category ==
+          'https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium'
+        ) {
+          element['vann:preferredNamespaceUri'] = {
+            '@id': standard.specificationDocuments[0].resourceReference,
+          }
         }
       }
 
