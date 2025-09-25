@@ -1,1 +1,0 @@
-The OSLO track "Environmental permit" should help to collaborate with different stakeholders to semantically model the data flows of environmental permits and standardize the structure of the data.

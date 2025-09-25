@@ -1,1 +1,0 @@
-Provides an overview of the technical specifications required for data exchange with the MOW AIM environment.

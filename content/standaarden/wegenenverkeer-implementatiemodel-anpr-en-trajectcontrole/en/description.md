@@ -1,1 +1,0 @@
-Provides an overview of the objects associated with an ANPR installation or a section control.

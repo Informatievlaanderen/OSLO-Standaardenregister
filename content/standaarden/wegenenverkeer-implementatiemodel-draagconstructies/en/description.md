@@ -1,1 +1,0 @@
-Provides an overview of the objects that can serve as a supporting structure for electromechanical road appurtenances and traffic signs.

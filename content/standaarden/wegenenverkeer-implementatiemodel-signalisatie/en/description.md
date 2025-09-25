@@ -1,1 +1,0 @@
-Describes the objects associated with signage as specified in chapter 10 of Standard Specifications 250.

@@ -1,1 +1,0 @@
-The OSLO publication project 'Cables and Pipelines' should help to collaborate with different stakeholders to semantically model the data flows of cable and pipeline information and standardize the structure of the data.

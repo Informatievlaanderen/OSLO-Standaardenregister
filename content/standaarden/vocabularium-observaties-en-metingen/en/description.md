@@ -1,1 +1,0 @@
-This vocabulary contains new terminology for the application profile [Observations and Measurements](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/).

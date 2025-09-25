@@ -1,2 +1,0 @@
-Within this OSLO Truck Parking process, the intention is to draw up an application profile that will provide the basis to facilitate a general approach to offering, reserving and parking trucks.
-This standard is built up on the basis of international standards and enriched with its own specialized terms.
