@@ -69,7 +69,13 @@
           <a
             v-if="standard?.specificationDocuments?.[0]?.resourceReference"
             target="_blank"
-            :href="standard?.specificationDocuments?.[0]?.resourceReference"
+            :href="
+              getLocalizedHref(
+                standard?.specificationDocuments?.[0]?.resourceReference,
+                locale,
+                defaultLocale,
+              )
+            "
           >
             {{ standard?.title }}
           </a>
@@ -190,8 +196,11 @@ import {
   getUsageFromUrl,
 } from '~/types/standard'
 import { type Modal } from '~/types/custom-modal'
+import { getLocalizedHref } from '~/utils/helper.utils'
 import { SortingDirection } from '~/composables/useSorting'
 import { ITEMS_PER_PAGE } from '~/constants/constants'
+
+const { locale, defaultLocale } = useI18n()
 
 const paginationIndex = ref(1)
 const props = defineProps({

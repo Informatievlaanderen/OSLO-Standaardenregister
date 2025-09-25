@@ -22,7 +22,45 @@
           >
         </vl-column>
         <vl-column width="12">
-          <DescriptionData :items="descriptionElements" />
+          <DescriptionData
+            :items="[
+              {
+                title: $t('responsibleOrganization'),
+                element: data?.standard?.responsibleOrganisation
+                  ? data.standard.responsibleOrganisation
+                      .map(
+                        (org) =>
+                          `<a target='_blank' href='${org.resourceReference}'>${org.name}</a>`,
+                      )
+                      .join(', ')
+                  : getUsageTranslation(Usage.TBD, $t),
+              },
+              {
+                title: $t('status'),
+                element: createAnchorElement(
+                  data?.standard?.status,
+                  getStatusFromUrl,
+                  $t,
+                ),
+              },
+              {
+                title: $t('typeOfApplication'),
+                element: createAnchorElement(
+                  data?.standard?.usage,
+                  getUsageFromUrl,
+                  $t,
+                ),
+              },
+              {
+                title: $t('category'),
+                element: createAnchorElement(
+                  data?.standard?.category,
+                  getCategoryFromUrl,
+                  $t,
+                ),
+              },
+            ]"
+          />
         </vl-column>
         <vl-column width="12">
           <vl-introduction v-if="data?.markdown">
@@ -34,6 +72,7 @@
             :title="$t('specificationDocument')"
             :subtitle="$t('normative')"
             :links="data?.standard?.specificationDocuments"
+            :localize-links="true"
           />
         </vl-column>
         <vl-column width="6" width-s="12">
@@ -67,7 +106,7 @@
                 ><strong>{{ $t('functionalScope') }}:</strong>&nbsp;
                 {{
                   data?.standard?.functionalScope ??
-                  t('content.slug.semanticStandard')
+                  $t('content.slug.semanticStandard')
                 }}</span
               >
             </vl-icon-list-item>
@@ -173,9 +212,8 @@
 </template>
 
 <script setup lang="ts">
-import type { DescriptionData } from '~/types/descriptionData'
+// filepath: /Users/vandenbrouckekristof/Documents/uncapped/digitaal_vlaanderen/OSLO-Standaardenregister/pages/[...slug].vue
 import type { Markdown } from '~/types/markdown'
-import type { NavigationLink } from '~/types/navigationLink'
 
 import { createAnchorElement } from '~/utils/helper.utils'
 import {
@@ -189,11 +227,10 @@ import {
 import { BASEPATH } from '~/constants/constants'
 
 const { locale, t } = useI18n()
-
 const { params } = useRoute()
 
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
-const { data } = await useAsyncData('data', async () => {
+const { data, refresh } = await useAsyncData('data', async () => {
   const basePath = `${BASEPATH}/${params?.slug?.[0]}/${locale?.value}`
   // using find() instead of findOne() since findOne() caused issues when the file didn't exist
   const [data, description] = await Promise.all([
@@ -211,43 +248,10 @@ const { data } = await useAsyncData('data', async () => {
   }
 })
 
-const descriptionElements: DescriptionData[] = [
-  {
-    title: t('responsibleOrganization'),
-    element: data?.value?.standard?.responsibleOrganisation
-      ? data.value.standard.responsibleOrganisation
-          .map(
-            (org: NavigationLink) =>
-              `<a target="_blank" href="${org.resourceReference}">${org.name}</a>`,
-          )
-          .join(', ')
-      : getUsageTranslation(Usage.TBD, t),
-  },
-  {
-    title: t('status'),
-    element: createAnchorElement(
-      data?.value?.standard?.status,
-      getStatusFromUrl,
-      t,
-    ),
-  },
-  {
-    title: t('typeOfApplication'),
-    element: createAnchorElement(
-      data?.value?.standard?.usage,
-      getUsageFromUrl,
-      t,
-    ),
-  },
-  {
-    title: t('category'),
-    element: createAnchorElement(
-      data?.value?.standard?.category,
-      getCategoryFromUrl,
-      t,
-    ),
-  },
-]
+watch(locale, () => {
+  // Force a refresh of the data when locale changes
+  refresh()
+})
 
 // Redirect to 404 in case of no data
 if (!data?.value?.standard) {
