@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 251,
+  "numberOfStandardsConfigured": 250,
   "reportErrors": 0,
-  "reportsMissing": 255,
+  "reportsMissing": 254,
   "uniqueContributors": 3543,
   "uniqueAffiliations": 633,
   "standards": [
@@ -23,13 +23,6 @@
     {
       "standard": "Applicatieprofiel Leermiddelen",
       "publicationDate": "2025-08-201",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Leermiddelen",
-      "publicationDate": "2025-08-01",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
