@@ -1,15 +1,15 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 250,
+  "numberOfStandardsConfigured": 251,
   "reportErrors": 0,
   "reportsMissing": 254,
   "uniqueContributors": 3543,
   "uniqueAffiliations": 633,
   "standards": [
     {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
+      "standard": "Applicatieprofiel Energiemanagementsysteem",
+      "publicationDate": "2025-05-14",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -479,6 +479,13 @@
       "standard": "Applicatieprofiel Organisatie Basis",
       "publicationDate": "2018-07-03",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },

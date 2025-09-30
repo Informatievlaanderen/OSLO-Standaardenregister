@@ -2,7 +2,7 @@
   "title": "Application profile Energy Management System",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",
@@ -18,7 +18,10 @@
     }
   ],
   "documentation": [],
-  "charter": {},
+  "charter": {
+    "name": "Working group charter OSLO Energy Management System (EMS)",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/charter/Werkgroep charter OSLO Energiemanagementsysteem (EMS).pdf"
+  },
   "reports": [
     {
       "name": "Report Business Working Group - 24 February 2025",
@@ -58,8 +61,8 @@
   "dateOfRegistration": "2024-12-16",
   "dateOfAcknowledgementByWorkingGroup": "",
   "dateOfAcknowledgementBySteeringCommittee": "",
-  "datePublicReviewStart": "",
-  "datePublicReviewEnd": "",
+  "datePublicReviewStart": "2025-09-11",
+  "datePublicReviewEnd": "2025-11-11",
   "endOfPublicationDate": "",
   "repository": "OSLOthema-EnergieManagementSystem"
 }

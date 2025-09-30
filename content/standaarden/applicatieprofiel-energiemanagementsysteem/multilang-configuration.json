@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -36,7 +36,13 @@
     }
   ],
   "documentation": [],
-  "charter": {},
+  "charter": {
+    "name": {
+      "nl": "Werkgroep charter OSLO Energiemanagementsysteem (EMS)",
+      "en": "Working group charter OSLO Energy Management System (EMS)"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem/standaardenregister/charter/Werkgroep charter OSLO Energiemanagementsysteem (EMS).pdf"
+  },
   "reports": [
     {
       "name": {
@@ -100,8 +106,8 @@
   "dateOfRegistration": "2024-12-16",
   "dateOfAcknowledgementByWorkingGroup": "",
   "dateOfAcknowledgementBySteeringCommittee": "",
-  "datePublicReviewStart": "",
-  "datePublicReviewEnd": "",
+  "datePublicReviewStart": "2025-09-11",
+  "datePublicReviewEnd": "2025-11-11",
   "endOfPublicationDate": "",
   "repository": "OSLOthema-EnergieManagementSystem"
 }
