@@ -62,8 +62,9 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "datePublicReviewStart": "2025-07-28",
-  "datePublicReviewEnd": "",
+  "datePublicReviewEnd": "2025-10-28",
   "endOfPublicationDate": "",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+  "functionalScope": "Semantic standard for smart electricity supply in the public domain",
   "repository": "OSLOthema-shok"
 }
