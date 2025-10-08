@@ -115,5 +115,9 @@
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
     "en": "https://data.vlaanderen.be/id/concept/Domein/Onbekend"
   },
+  "functionalScope": {
+    "nl": "Uniform modelleren en uitwisselen van verkeersmeldingen en -metingen met de klasse Observatie als centrale schakel (over verkeersobjecten, situaties en mobiliteitshinder).",
+    "en": "Uniform modelling and exchange of traffic reports and measurements with the Observation class as the central link (about traffic objects, situations and mobility nuisance)."
+  },
   "repository": "OSLOthema-SmartInnovationFactory"
 }

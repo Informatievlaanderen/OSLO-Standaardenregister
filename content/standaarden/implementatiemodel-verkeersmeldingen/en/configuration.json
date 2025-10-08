@@ -67,5 +67,6 @@
   "datePublicReviewEnd": "2025-10-31",
   "endOfPublicationDate": "TBD",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+  "functionalScope": "Uniform modelling and exchange of traffic reports and measurements with the Observation class as the central link (about traffic objects, situations and mobility nuisance).",
   "repository": "OSLOthema-SmartInnovationFactory"
 }
