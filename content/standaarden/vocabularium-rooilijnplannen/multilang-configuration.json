@@ -135,5 +135,9 @@
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
     "en": "https://data.vlaanderen.be/id/concept/Domein/Onbekend"
   },
+  "functionalScope": {
+    "nl": "Uniform beschrijven en uitwisselen van Rooilijnplannen en bijbehorende gegevens, met de Rooilijn als centrale grens tussen OpenbareWeg en AangelandeEigendommen.",
+    "en": "Uniform description and exchange of Building Line plans and associated data, with the Building Line as the central boundary between Public Road and Landed Properties."
+  },
   "repository": "OSLOthema-rooilijnplannen"
 }

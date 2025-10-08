@@ -78,5 +78,6 @@
   "datePublicReviewEnd": "2025-11-20",
   "endOfPublicationDate": "TBD",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+  "functionalScope": "Uniform beschrijven en uitwisselen van Rooilijnplannen en bijbehorende gegevens, met de Rooilijn als centrale grens tussen OpenbareWeg en AangelandeEigendommen.",
   "repository": "OSLOthema-rooilijnplannen"
 }
