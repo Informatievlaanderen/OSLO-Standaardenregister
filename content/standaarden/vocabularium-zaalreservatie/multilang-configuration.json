@@ -135,5 +135,9 @@
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
     "en": "https://data.vlaanderen.be/id/concept/Domein/Onbekend"
   },
+  "functionalScope": {
+    "nl": "Uniform beschrijven en uitwisselen van zaal- en infrastructuurreservaties binnen en buiten de publieke dienstverlening.",
+    "en": "Uniform description and exchange of room and infrastructure reservations within and outside the public service."
+  },
   "repository": "OSLOthema-zaalreservatie"
 }
