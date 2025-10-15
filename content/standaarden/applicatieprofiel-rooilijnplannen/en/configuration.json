@@ -77,7 +77,7 @@
   "datePublicReviewStart": "2025-07-20",
   "datePublicReviewEnd": "2025-11-20",
   "endOfPublicationDate": "TBD",
-  "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/WonenRuimtelijkeOrdening",
   "functionalScope": "Uniform description and exchange of Building Line plans and associated data, with the Building Line as the central boundary between Public Road and Landed Properties.",
   "repository": "OSLOthema-rooilijnplannen"
 }
