@@ -118,8 +118,8 @@
   "datePublicReviewEnd": "2025-11-28",
   "endOfPublicationDate": "",
   "domain": {
-    "nl": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
-    "en": "https://data.vlaanderen.be/id/concept/Domein/Onbekend"
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs"
   },
   "repository": "OSLOthema-leermiddelen"
 }
