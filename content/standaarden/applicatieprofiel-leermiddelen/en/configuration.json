@@ -18,7 +18,10 @@
     }
   ],
   "documentation": [],
-  "charter": {},
+  "charter": {
+    "name": "Charter OSLO Educational Resources",
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/blob/standaardenregister/charter/Charter_OSLO_Onderwijsdoelen_versie1.docx.pdf"
+  },
   "reports": [
     {
       "name": "Report Business working group - 30-09-2024",
