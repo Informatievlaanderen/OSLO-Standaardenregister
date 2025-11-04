@@ -4,8 +4,8 @@
     "en": "Vocabulary metadata DCAT 3.0"
   },
   "category": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
   },
   "usage": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
