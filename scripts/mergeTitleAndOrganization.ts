@@ -55,8 +55,13 @@ const processDirectory = async (dirPath: string): Promise<object[]> => {
       // Recursively process subdirectories and collect their outputs
       promises.push(processDirectory(fullPath))
     } else if (dirent.isFile() && dirent.name === 'configuration.json') {
-      // Process configuration files and collect their outputs
-      promises.push(readConfigurationFile(fullPath))
+      // Only process configuration.json files that are in directories containing '/nl/'
+      if (fullPath.includes('/nl/')) {
+        console.log(`Processing Dutch configuration: ${fullPath}`)
+        promises.push(readConfigurationFile(fullPath))
+      } else {
+        console.log(`Skipping non-Dutch configuration: ${fullPath}`)
+      }
     }
   }
 
@@ -71,9 +76,10 @@ const processDirectory = async (dirPath: string): Promise<object[]> => {
 // Main function to process the directory and write the output
 const main = async () => {
   try {
-    const outputs = await processDirectory('content') // Replace 'content' with the path to your content directory
+    const outputs = await processDirectory('content')
     fs.writeFileSync('scripts/output.json', JSON.stringify(outputs, null, 4))
     console.log('Output successfully written to scripts/output.json')
+    console.log(`Processed ${outputs.length} Dutch configuration files`)
   } catch (error) {
     console.error('An error occurred:', error)
   }

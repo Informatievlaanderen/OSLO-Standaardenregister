@@ -137,3 +137,7 @@
   1.11.2
 
   - Small fix with SSR where the script tag was not present during the initial render
+
+    1.12.0
+
+  * added content negotatiation on the root of the application
