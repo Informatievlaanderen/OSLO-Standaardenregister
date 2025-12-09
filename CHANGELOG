@@ -141,3 +141,7 @@
     1.12.0
 
   * added content negotatiation on the root of the application
+
+    1.12.1
+
+  * Changes to the SRM as requested by SEMIC
