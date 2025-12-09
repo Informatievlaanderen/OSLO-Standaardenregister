@@ -13,6 +13,8 @@ export const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
       m8g: 'http://data.europa.eu/m8g/',
       foaf: 'http://xmlns.com/foaf/0.1/',
       vann: 'http://purl.org/vocab/vann/',
+      vcard: 'http://www.w3.org/2006/vcard/ns#',
+      dcat: 'http://www.w3.org/ns/dcat#',
     },
     '@graph': [],
   }
@@ -26,7 +28,7 @@ export const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
     if (standard.specificationDocuments[0]?.resourceReference) {
       const element: JsonLdTextDigitalDocument = {
         '@id': standard.specificationDocuments[0].resourceReference,
-        '@type': 'dcterms:Standard',
+        '@type': ['adms:Asset', 'dcterms:Standard'],
         'dcterms:language': {
           '@id':
             'http://publications.europa.eu/resource/authority/language/NLD',
@@ -52,15 +54,42 @@ export const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
         }
       }
 
+      element['dcat:distribution'] = [
+        {
+          '@type': 'adms:AssetDistribution',
+          'dcterms:title': { '@value': 'HTML format', '@language': 'nl' },
+          'dcat:downloadURL': {
+            '@id': standard.specificationDocuments[0].resourceReference,
+          },
+          'dcat:mediaType': {
+            '@id': 'http://www.iana.org/assignments/media-types/text/html',
+          },
+        },
+        {
+          '@type': 'adms:AssetDistribution',
+          'dcterms:title': { '@value': 'RDF Turtle format', '@language': 'nl' },
+          'dcat:downloadURL': {
+            '@id': standard.specificationDocuments[0].resourceReference,
+          },
+          'dcat:mediaType': {
+            '@id': 'http://www.iana.org/assignments/media-types/text/turtle',
+          },
+        },
+      ]
+
+      element['dcterms:publisher'] = {
+        '@id': 'https://data.vlaanderen.be/id/organisatie/OVO002949',
+      }
+
       if (standard.publicationDate && standard.publicationDate !== Usage.TBD) {
         element['dcterms:created'] = {
           '@value': standard.publicationDate,
-          '@type': 'xsd:dateTime',
+          '@type': 'xsd:date',
         }
 
         element['dcterms:modified'] = {
           '@value': standard.publicationDate,
-          '@type': 'xsd:dateTime',
+          '@type': 'xsd:date',
         }
       }
 
@@ -71,7 +100,7 @@ export const buildJsonLd = (standards: Standard[]): JsonLdGraph => {
       ) {
         element['dcterms:issued'] = {
           '@value': standard.dateOfAcknowledgementBySteeringCommittee,
-          '@type': 'xsd:dateTime',
+          '@type': 'xsd:date',
         }
       }
 
