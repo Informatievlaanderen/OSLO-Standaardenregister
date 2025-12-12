@@ -127,5 +127,9 @@
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs",
     "en": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs"
   },
+  "functionalScope": {
+    "nl": "Semantische standaard voor informatie met betrekking tot onderwijs.",
+    "en": "Semantic standard for information related to education."
+  },
   "repository": "OSLOthema-leermiddelen"
 }

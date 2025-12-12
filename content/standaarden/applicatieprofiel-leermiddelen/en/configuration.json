@@ -73,5 +73,6 @@
   "datePublicReviewEnd": "2025-11-28",
   "endOfPublicationDate": "",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs",
+  "functionalScope": "Semantic standard for information related to education.",
   "repository": "OSLOthema-leermiddelen"
 }
