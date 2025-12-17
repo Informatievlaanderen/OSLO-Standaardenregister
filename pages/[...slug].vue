@@ -58,7 +58,7 @@
             :title="`${$t('dataExamples')} en ${$t('documentation').toLowerCase()}`"
             :links="[
               ...data?.standard?.documentation,
-              ...data?.standard?.dataExamples,
+              ...(data?.standard?.dataExamples ?? []),
             ]"
           />
         </vl-column>
