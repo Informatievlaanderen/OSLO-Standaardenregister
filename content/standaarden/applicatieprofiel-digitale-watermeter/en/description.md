@@ -7,7 +7,7 @@ with a standardized structure.
 
 The objective is to unlock the data as Linked (Open) Data and standard interfaces (APIs)
 to facilitate collaboration and integration of the various services and tools.
-make. It is also an objective to make the data easily reusable for scientific purposes.
+. It is also an objective to make the data easily reusable for scientific purposes.
 research.
 
 Rather than providing ad-hoc data, De Watergroep, in collaboration with Farys, PIDPA and

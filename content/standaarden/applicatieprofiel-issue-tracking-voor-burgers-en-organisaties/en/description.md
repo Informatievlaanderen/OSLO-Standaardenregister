@@ -1,5 +1,5 @@
 This application profile describes an information model for the government to receive reports from citizens and citizens in a structured way. 
-Entrepreneurs. A report describes a problem or a finding that may give rise to an action by the 
+entrepreneurs. A report describes a problem or a finding that may give rise to an action by the 
 government, such as repairing a pit in the road or collecting illegal dumping.
 A notification includes a title, a summary, and a body. The Notification Body allows for additional 
 provide information related to the report, e.g. a geometry of a place or impacted area, 

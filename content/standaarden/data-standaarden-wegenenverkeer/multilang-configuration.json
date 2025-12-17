@@ -44,21 +44,21 @@
     {
       "name": {
         "nl": "installatie",
-        "en": "installation"
+        "en": "Installation"
       },
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/installatie/"
     },
     {
       "name": {
         "nl": "levenscyclus",
-        "en": "life cycle"
+        "en": "Life cycle"
       },
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/levenscyclus/"
     },
     {
       "name": {
         "nl": "onderdeel",
-        "en": "part"
+        "en": "Part"
       },
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel/"
     },

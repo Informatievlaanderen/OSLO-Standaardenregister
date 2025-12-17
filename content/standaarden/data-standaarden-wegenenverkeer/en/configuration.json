@@ -21,15 +21,15 @@
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement/"
     },
     {
-      "name": "installation",
+      "name": "Installation",
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/installatie/"
     },
     {
-      "name": "life cycle",
+      "name": "Life cycle",
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/levenscyclus/"
     },
     {
-      "name": "part",
+      "name": "Part",
       "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel/"
     },
     {
