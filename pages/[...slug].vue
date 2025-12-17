@@ -6,7 +6,7 @@
   />
   <vl-region>
     <vl-layout>
-      <vl-grid mod-center mod-stacked>
+      <vl-grid mod-stacked>
         <vl-column width="12" width-s="12">
           <navigation />
           <vl-title
@@ -36,27 +36,49 @@
             :links="data?.standard?.specificationDocuments"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
-          <!-- Combination of both the documentation ash the charter -->
+        <vl-column width="6" width-s="12" v-if="data?.standard?.charter">
           <spotlight
-            :title="$t('documentationAndCharter')"
+            :title="$t('charter')"
             :subtitle="$t('notNormative')"
-            :links="
-              data?.standard?.documentation?.concat(data?.standard?.charter) ??
-              []
-            "
+            :links="[data?.standard?.charter]"
+          />
+        </vl-column>
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="data?.standard?.relevantStandards"
+        >
+          <spotlight
+            :title="$t('relevantStandards')"
+            :links="data?.standard?.relevantStandards"
           />
         </vl-column>
         <vl-column width="6" width-s="12">
           <spotlight
-            :title="$t('reportsWorkgroups')"
-            :links="data?.standard?.reports"
+            :title="`${$t('dataExamples')} en ${$t('documentation').toLowerCase()}`"
+            :links="[
+              ...data?.standard?.documentation,
+              ...data?.standard?.dataExamples,
+            ]"
           />
         </vl-column>
         <vl-column width="6" width-s="12">
           <spotlight
-            :title="$t('presentationsAndOtherSources')"
-            :links="data?.standard?.presentations"
+            :title="$t('reportsAndPresentations')"
+            :links="[
+              ...data?.standard?.reports,
+              ...data?.standard?.presentations,
+            ]"
+          />
+        </vl-column>
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="data?.standard?.implementations"
+        >
+          <spotlight
+            :title="$t('implementations')"
+            :links="data?.standard?.implementations"
           />
         </vl-column>
         <vl-column>

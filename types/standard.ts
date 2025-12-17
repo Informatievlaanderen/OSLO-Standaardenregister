@@ -126,6 +126,10 @@ export interface Standard {
   datePublicReviewEnd: string
   endOfPublicationDate: string
   functionalScope: string
+  relevantStandards: NavigationLink[]
+  dataExamples: NavigationLink[]
+  implementations: NavigationLink[]
+
   domain: string
   _path: string
 }
