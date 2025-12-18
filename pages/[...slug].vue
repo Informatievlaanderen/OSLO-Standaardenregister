@@ -62,15 +62,6 @@
             ]"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
-          <spotlight
-            :title="$t('reportsAndPresentations')"
-            :links="[
-              ...data?.standard?.reports,
-              ...data?.standard?.presentations,
-            ]"
-          />
-        </vl-column>
         <vl-column
           width="6"
           width-s="12"
@@ -79,6 +70,15 @@
           <spotlight
             :title="$t('implementations')"
             :links="data?.standard?.implementations"
+          />
+        </vl-column>
+        <vl-column width="6" width-s="12">
+          <spotlight
+            :title="$t('reportsAndPresentations')"
+            :links="[
+              ...data?.standard?.reports,
+              ...data?.standard?.presentations,
+            ]"
           />
         </vl-column>
         <vl-column>
