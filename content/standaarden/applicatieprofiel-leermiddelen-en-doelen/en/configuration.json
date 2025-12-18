@@ -1,0 +1,84 @@
+{
+  "title": "Application profile Learning resources and goals",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Department of Education and Training",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+    }
+  ],
+  "publicationDate": "2025-08-20",
+  "descriptionFileName": "ap-leermiddelen-config.md",
+  "specificationDocuments": [
+    {
+      "name": "Application profile Learning resources and goals",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter OSLO Teaching Materials and Goals",
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/blob/standaardenregister/charter/Charter_OSLO_Onderwijsdoelen.pdf"
+  },
+  "reports": [
+    {
+      "name": "Report Business working group - 30-09-2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag Business Werkgroep Leermiddelen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 1 - 04-11-2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO Leermiddelen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 2 - 19-12-2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag_Thematische Werkgroep 2_OSLO Leermiddelen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 3 - 17-01-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO Leermiddelen.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 4 - 26-03-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag Thematische Werkgroep 4 - OSLO Leermiddelen.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation Business working group - 30-09-2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie Business Werkgroep Leermiddelen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 1 - 04-11-2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie Thematische werkgroep 1 - Leermiddelen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 2 - 19-12-2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie - Thematische werkgroep 2 - Leermiddelen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 3 - 17-01-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie thematische werkgroep 3 - Leermiddelen.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 4 - 26-03-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie thematische werkgroep 4 - Leermiddelen.pdf"
+    }
+  ],
+  "implementations": [
+    {
+      "name": "POC Teaching Materials and Goals",
+      "resourceReference": "https://informatievlaanderen.github.io/oslo-leermiddelen-poc"
+    }
+  ],
+  "dateOfRegistration": "2024-05-16",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "2025-08-01",
+  "datePublicReviewEnd": "2025-11-28",
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Onderwijs",
+  "functionalScope": "Semantic standard for information related to education.",
+  "repository": "OSLOthema-leermiddelen"
+}
