@@ -1,7 +1,7 @@
 {
   "title": {
-    "nl": "Applicatieprofiel Leermiddelen- en doelen",
-    "en": "Application profile Learning resources and goals"
+    "nl": "Applicatieprofiel Leermiddelen en -doelen",
+    "en": "Application Profile Learning Resources and Goals"
   },
   "category": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
@@ -29,8 +29,8 @@
   "specificationDocuments": [
     {
       "name": {
-        "nl": "Applicatieprofiel Leermiddelen- en doelen",
-        "en": "Application profile Learning resources and goals"
+        "nl": "Applicatieprofiel Leermiddelen en -doelen",
+        "en": "Application Profile Learning Resources and Goals"
       },
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
     }

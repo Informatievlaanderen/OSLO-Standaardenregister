@@ -1,5 +1,5 @@
 {
-  "title": "Application profile Learning resources and goals",
+  "title": "Application Profile Learning Resources and Goals",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
@@ -13,7 +13,7 @@
   "descriptionFileName": "ap-leermiddelen-config.md",
   "specificationDocuments": [
     {
-      "name": "Application profile Learning resources and goals",
+      "name": "Application Profile Learning Resources and Goals",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
     }
   ],
