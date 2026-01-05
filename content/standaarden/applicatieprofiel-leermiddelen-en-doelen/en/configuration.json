@@ -19,7 +19,7 @@
   ],
   "documentation": [],
   "charter": {
-    "name": "Charter OSLO Teaching Materials and Goals",
+    "name": "Charter OSLO Teaching Resources and Goals",
     "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/blob/standaardenregister/charter/Charter_OSLO_Onderwijsdoelen.pdf"
   },
   "reports": [
@@ -68,7 +68,7 @@
   ],
   "implementations": [
     {
-      "name": "POC Teaching Materials and Goals",
+      "name": "POC Learning Resources and Goals",
       "resourceReference": "https://informatievlaanderen.github.io/oslo-leermiddelen-poc"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "title": {
-    "nl": "Applicatieprofiel Leermiddelen en -doelen",
+    "nl": "Applicatieprofiel Leermiddelen en doelen",
     "en": "Application Profile Learning Resources and Goals"
   },
   "category": {
@@ -29,7 +29,7 @@
   "specificationDocuments": [
     {
       "name": {
-        "nl": "Applicatieprofiel Leermiddelen en -doelen",
+        "nl": "Applicatieprofiel Leermiddelen en doelen",
         "en": "Application Profile Learning Resources and Goals"
       },
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
@@ -38,8 +38,8 @@
   "documentation": [],
   "charter": {
     "name": {
-      "nl": "Charter OSLO Leermiddelen- en doelen",
-      "en": "Charter OSLO Teaching Materials and Goals"
+      "nl": "Charter OSLO Leermiddelen en doelen",
+      "en": "Charter OSLO Teaching Resources and Goals"
     },
     "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/blob/standaardenregister/charter/Charter_OSLO_Onderwijsdoelen.pdf"
   },
@@ -120,8 +120,8 @@
   "implementations": [
     {
       "name": {
-        "nl": "POC Leermiddelen- en doelen",
-        "en": "POC Teaching Materials and Goals"
+        "nl": "POC Leermiddelen en doelen",
+        "en": "POC Learning Resources and Goals"
       },
       "resourceReference": "https://informatievlaanderen.github.io/oslo-leermiddelen-poc"
     }
