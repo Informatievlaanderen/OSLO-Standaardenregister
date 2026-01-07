@@ -2,14 +2,14 @@
   "title": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2025-05-26",
+  "publicationDate": "2025-07-28",
   "descriptionFileName": "",
   "specificationDocuments": [
     {
@@ -42,7 +42,7 @@
   ],
   "presentations": [
     {
-      "name": "Business Werkgroep Presentatie OSLO SHOK",
+      "name": "Presentatie Business Werkgroep OSLO SHOK",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Business Werkgroep presentatie OSLO SHOK.pdf"
     },
     {
@@ -59,8 +59,8 @@
     }
   ],
   "dateOfRegistration": "2024-12-19",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "2025-11-13",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
   "datePublicReviewStart": "2025-07-28",
   "datePublicReviewEnd": "2025-10-28",
   "endOfPublicationDate": "",
