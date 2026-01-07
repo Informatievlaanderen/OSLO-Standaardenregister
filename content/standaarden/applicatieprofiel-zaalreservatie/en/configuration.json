@@ -2,7 +2,7 @@
   "title": "Application profile Room reservation",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
       "name": "Digital Flanders Agency",
@@ -72,11 +72,11 @@
     }
   ],
   "dateOfRegistration": "2025-01-09",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "2025-13-11",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-11-12",
   "datePublicReviewStart": "2025-07-22",
   "datePublicReviewEnd": "2025-10-22",
-  "endOfPublicationDate": "",
+  "endOfPublicationDate": "2026-01-07",
   "domain": "https://data.vlaanderen.be/doc/concept/Domein/Cultuur",
   "functionalScope": "Uniform description and exchange of room and infrastructure reservations within and outside the public service.",
   "repository": "OSLOthema-zaalreservatie"
