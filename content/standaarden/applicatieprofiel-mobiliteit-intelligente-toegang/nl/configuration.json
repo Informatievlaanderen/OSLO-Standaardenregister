@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
@@ -60,8 +60,8 @@
     }
   ],
   "dateOfRegistration": "",
-  "dateOfAcknowledgementByWorkingGroup": "",
-  "dateOfAcknowledgementBySteeringCommittee": "",
+  "dateOfAcknowledgementByWorkingGroup": "2025-11-13",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
   "datePublicReviewStart": "",
   "datePublicReviewEnd": "",
   "endOfPublicationDate": "",

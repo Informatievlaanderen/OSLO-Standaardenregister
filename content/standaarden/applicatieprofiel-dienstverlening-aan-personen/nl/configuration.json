@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Dienstverlening Aan Personen",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "dienstverlening-aan-personen-description.md",
   "responsibleOrganisation": [
     {
@@ -64,8 +64,8 @@
     }
   ],
   "dateOfRegistration": "2023-12-19",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "2025-11-13",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
   "repository": "OSLOthema-kindFiche",
   "datePublicReviewStart": "2024-06-24",
   "endOfPublicationDate": "",

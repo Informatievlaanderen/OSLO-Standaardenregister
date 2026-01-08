@@ -72,14 +72,14 @@
     {
       "standard": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
       "publicationDate": "2024-11-08",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Mobiliteit: Intelligente Toegang",
       "publicationDate": "2024-11-08",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1619,7 +1619,7 @@
     {
       "standard": "Applicatieprofiel Dienstverlening Aan Personen",
       "publicationDate": "2024-03-19",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
