@@ -132,8 +132,8 @@
   "datePublicReviewEnd": "2025-10-22",
   "endOfPublicationDate": "2026-01-07",
   "domain": {
-    "nl": "https://data.vlaanderen.be/doc/concept/Domein/Cultuur",
-    "en": "https://data.vlaanderen.be/doc/concept/Domein/Cultuur"
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Cultuur",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Cultuur"
   },
   "functionalScope": {
     "nl": "Uniform beschrijven en uitwisselen van zaal- en infrastructuurreservaties binnen en buiten de publieke dienstverlening.",
