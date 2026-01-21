@@ -66,7 +66,7 @@
   "datePublicReviewStart": "2025-07-29",
   "datePublicReviewEnd": "2025-10-31",
   "endOfPublicationDate": "TBD",
-  "domain": "https://data.vlaanderen.be/doc/concept/Domein/Mobiliteit",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
   "functionalScope": "Uniform modelleren en uitwisselen van verkeersmeldingen en -metingen met de klasse Observatie als centrale schakel (over verkeersobjecten, situaties en mobiliteitshinder).",
   "repository": "OSLOthema-SmartInnovationFactory"
 }

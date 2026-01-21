@@ -112,8 +112,8 @@
   "datePublicReviewEnd": "2025-10-31",
   "endOfPublicationDate": "TBD",
   "domain": {
-    "nl": "https://data.vlaanderen.be/doc/concept/Domein/Mobiliteit",
-    "en": "https://data.vlaanderen.be/doc/concept/Domein/Mobiliteit"
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
   },
   "functionalScope": {
     "nl": "Uniform modelleren en uitwisselen van verkeersmeldingen en -metingen met de klasse Observatie als centrale schakel (over verkeersobjecten, situaties en mobiliteitshinder).",
