@@ -1,6 +1,6 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 249,
+  "numberOfStandardsConfigured": 248,
   "reportErrors": 0,
   "reportsMissing": 255,
   "uniqueContributors": 3551,
@@ -1074,13 +1074,6 @@
       "standard": "Openbaar Domein 2.0.0 - Uitbreiding Watervoorkomen",
       "publicationDate": "2021-09-30",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Conformiteitsraamwerk voor data standaarden",
-      "publicationDate": "2020-06-07",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
       "totalPeople": 0,
       "contributors": []
     },
