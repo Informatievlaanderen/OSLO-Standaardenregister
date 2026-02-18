@@ -1,6 +1,6 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 248,
+  "numberOfStandardsConfigured": 249,
   "reportErrors": 0,
   "reportsMissing": 256,
   "uniqueContributors": 3551,
@@ -1739,6 +1739,13 @@
       "standard": "Vocabularium Rooilijnplannen",
       "publicationDate": "2025-06-01",
       "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Traject SSN SOSA VL",
+      "publicationDate": "TBD",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     }
