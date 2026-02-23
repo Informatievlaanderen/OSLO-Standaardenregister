@@ -1,0 +1,93 @@
+{
+  "title": {
+    "nl": "OSLO SSN SOSA VL",
+    "en": "OSLO SSN SOSA VL"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Interoperabiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Interoperabiliteit"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus"
+  },
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-02-19",
+  "descriptionFileName": "SSNSOSA-description.md",
+  "specificationDocuments": [],
+  "documentation": [
+    {
+      "name": {
+        "nl": "Datavoorbeelden SSN SOSA VL",
+        "en": "Data examples SSN SOSA VL"
+      },
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/tree/main/resources"
+    }
+  ],
+  "charter": {
+    "name": {
+      "nl": "Charter SSNSOSAVL",
+      "en": "Charter SSNSOSAVL"
+    },
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/charter/Template-Werkgroep-Charter-OSLO.docx"
+  },
+  "reports": [
+    {
+      "name": {
+        "nl": "Verslag Business Werkgroep - 3 december 2025",
+        "en": "Report Business Working Group - 3 December 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/reports/Verslag%20-%20Business%20werkgroep%20SSN%20SOSA%20VL.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep 1 - 14 januari 2026",
+        "en": "Report Thematic Working Group 1 - 14 January 2026"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/reports/Verslag%20Thematische%20werkgroep%201%20-%20SSN%20SOSA%20%202026-02-02.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": {
+        "nl": "Presentatie Business Werkgroep -  3 december 2025",
+        "en": "Presentation Business Working Group - 3 December 2025"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/presentations/SSN%20SOSA%20VL%20Business%20Werkgroep.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 1 - 14 januari 2026",
+        "en": "Presentation Thematic Working Group 1 - 14 January 2026"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/presentations/Presentatie%20SSN%20SOSA%20VL%20Thematische%20werkgroep%201.pdf"
+    }
+  ],
+  "dateOfRegistration": "2025-11-13",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/doc/concept/Domein/Omgeving",
+    "en": "https://data.vlaanderen.be/doc/concept/Domein/Omgeving"
+  },
+  "functionalScope": {
+    "nl": "Inspiratiebundel met betrekking tot SSN SOSA VL",
+    "en": "Inspiration bundle related to SSN SOSA VL"
+  },
+  "repository": "OSLOthema-SSNSOSA-VL"
+}
