@@ -632,7 +632,7 @@
     {
       "standard": "Applicatieprofiel DCAT-AP VL",
       "publicationDate": "2025-09-10",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1080,7 +1080,7 @@
     {
       "standard": "Vocabularium metadata DCAT",
       "publicationDate": "2025-09-10",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1409,7 +1409,7 @@
     {
       "standard": "Applicatieprofiel GeoDCAT-AP VL",
       "publicationDate": "2025-09-10",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1724,21 +1724,21 @@
     {
       "standard": "Implementatiemodel Verkeersmeldingen",
       "publicationDate": "2025-06-04",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Rooilijnplannen",
       "publicationDate": "2025-06-01",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Rooilijnplannen",
       "publicationDate": "2025-06-01",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },

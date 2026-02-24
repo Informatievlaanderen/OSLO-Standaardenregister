@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -106,11 +106,11 @@
     }
   ],
   "dateOfRegistration": "2025-03-27",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "2026-01-08",
+  "dateOfAcknowledgementBySteeringCommittee": "2026-02-12",
   "datePublicReviewStart": "2025-07-29",
   "datePublicReviewEnd": "2025-10-31",
-  "endOfPublicationDate": "TBD",
+  "endOfPublicationDate": " ",
   "domain": {
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
     "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
