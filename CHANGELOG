@@ -150,5 +150,10 @@
 
   * added some more documentation options on the detail page of a standard
 
-  1.12.3
+    1.12.3
+
   * reordered some elements on the detail page of a standard
+
+    1.12.5
+
+  * made production URL of header default
