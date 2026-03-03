@@ -5,8 +5,8 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
-      "name": "Agentschap Digitaal Vlaanderen",
-      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+      "name": "Vereniging van Vlaamse Steden en Gemeenten",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001989"
     }
   ],
   "publicationDate": "2025-06-01",

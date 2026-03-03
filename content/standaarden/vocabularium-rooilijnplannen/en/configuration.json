@@ -5,8 +5,8 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "responsibleOrganisation": [
     {
-      "name": "Digital Flanders Agency",
-      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+      "name": "Association of Flemish Cities and Municipalities",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001989"
     }
   ],
   "publicationDate": "2025-06-01",
