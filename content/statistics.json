@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 249,
+  "numberOfStandardsConfigured": 250,
   "reportErrors": 0,
-  "reportsMissing": 256,
+  "reportsMissing": 257,
   "uniqueContributors": 3551,
   "uniqueAffiliations": 634,
   "standards": [
@@ -15,8 +15,8 @@
     },
     {
       "standard": "Applicatieprofiel Thermografische Gebouwanalyse",
-      "publicationDate": "2025-05-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "publicationDate": "2025-12-11",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -631,7 +631,7 @@
     },
     {
       "standard": "Applicatieprofiel DCAT-AP VL",
-      "publicationDate": "2025-09-10",
+      "publicationDate": "2026-02-20",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
@@ -1079,7 +1079,7 @@
     },
     {
       "standard": "Vocabularium metadata DCAT",
-      "publicationDate": "2025-09-10",
+      "publicationDate": "2026-02-20",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
@@ -1408,7 +1408,7 @@
     },
     {
       "standard": "Applicatieprofiel GeoDCAT-AP VL",
-      "publicationDate": "2025-09-10",
+      "publicationDate": "2026-02-20",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
@@ -1746,6 +1746,13 @@
       "standard": "OSLO SSN SOSA VL",
       "publicationDate": "2026-02-19",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Geluidsmeldingen en -metingen",
+      "publicationDate": "2026-04-17",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     }
