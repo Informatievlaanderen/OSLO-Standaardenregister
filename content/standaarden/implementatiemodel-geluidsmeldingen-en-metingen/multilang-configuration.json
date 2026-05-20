@@ -24,7 +24,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2026-04-17",
+  "publicationDate": "2026-04-14",
   "descriptionFileName": "NDNN-description.md",
   "specificationDocuments": [
     {
@@ -32,7 +32,7 @@
         "nl": "Implementatiemodel Nudging Down Night Noise",
         "en": "Implementation model Nudging Down Night Noise"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/nudgingdownnightnoise/"
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20"
     }
   ],
   "documentation": [],
@@ -78,8 +78,8 @@
   "datePublicReviewEnd": "",
   "endOfPublicationDate": "",
   "domain": {
-    "nl": "https://data.vlaanderen.be/id/concept/Domein/Werk",
-    "en": "https://data.vlaanderen.be/id/concept/Domein/Werk"
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Welzijn"
   },
   "repository": "OSLOthema-NDNN"
 }
