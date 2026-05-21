@@ -4,8 +4,8 @@
     "en": "Vocabulary Cultural Participation"
   },
   "category": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
   },
   "usage": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
@@ -25,7 +25,7 @@
       "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO000067"
     }
   ],
-  "publicationDate": "2022-04-28",
+  "publicationDate": "2024-09-11",
   "specificationDocuments": [
     {
       "name": {
