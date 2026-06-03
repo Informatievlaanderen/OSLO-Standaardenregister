@@ -69,7 +69,50 @@
     }
   ],
   "implementations": [],
-  "relevantStandards": [],
+  "relevantStandards": [
+    {
+      "name": {
+        "nl": "OSLO SSN SOSA",
+        "en": "OSLO SSN SOSA"
+      },
+      "resourceReference": "https://data.vlaanderen.be/standaarden/oslo-ssn-sosa-vl"
+    },
+    {
+      "name": {
+        "nl": "OSLO Melding",
+        "en": "OSLO Notification"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/melding/"
+    },
+    {
+      "name": {
+        "nl": "OSLO Verkeersmeldingen",
+        "en": "OSLO Traffic Reports"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/"
+    },
+    {
+      "name": {
+        "nl": "OSLO Omgevingsvergunning",
+        "en": "OSLO Environmental Permit"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/omgevingsvergunning/"
+    },
+    {
+      "name": {
+        "nl": "OSLO Dossier",
+        "en": "OSLO File"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dossier/"
+    },
+    {
+      "name": {
+        "nl": "OSLO Generiek",
+        "en": "OSLO Generic"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+    }
+  ],
   "dataExamples": [],
   "dateOfRegistration": "2025-10-27",
   "dateOfAcknowledgementByWorkingGroup": "",
