@@ -10,11 +10,11 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2025-09-10",
+  "publicationDate": "2026-02-20",
   "specificationDocuments": [
     {
       "name": "GeoDCAT-AP Vlaanderen",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/"
     }
   ],
   "documentation": [
