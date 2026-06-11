@@ -2,7 +2,7 @@
   "numberOfTerms": 0,
   "numberOfStandardsConfigured": 250,
   "reportErrors": 0,
-  "reportsMissing": 257,
+  "reportsMissing": 259,
   "uniqueContributors": 3590,
   "uniqueAffiliations": 638,
   "standards": [
@@ -31,6 +31,13 @@
       "standard": "Applicatieprofiel Energiehuis",
       "publicationDate": "2025-06-19",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
@@ -479,13 +486,6 @@
       "standard": "Applicatieprofiel Organisatie Basis",
       "publicationDate": "2018-07-03",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
