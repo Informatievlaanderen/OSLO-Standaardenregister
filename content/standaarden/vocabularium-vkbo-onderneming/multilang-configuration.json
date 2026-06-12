@@ -39,6 +39,53 @@
   "reports": [],
   "charter": {},
   "presentations": [],
+  "implementations": [
+    {
+      "name": {
+        "nl": "Subjectpages Onderneming",
+        "en": "Subjectpages Company"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/onderneming/"
+    },
+    {
+      "name": {
+        "nl": "Subjectpages Vestiging",
+        "en": "Subjectpages Establishment"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/vestiging/"
+    }
+  ],
+  "relevantStandards": [
+    {
+      "name": {
+        "nl": "Implementatiemodel VKBO-Onderneming",
+        "en": "Implementation model VKBO Enterprise"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming"
+    },
+    {
+      "name": {
+        "nl": "Applicatieprofiel OSLO Organisatie",
+        "en": "Application profile OSLO Organization"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Organisatie",
+        "en": "Vocabulary OSLO Organization"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
+    },
+    {
+      "name": {
+        "nl": "Core Organization ontology",
+        "en": "Core Organization ontology"
+      },
+      "resourceReference": "http://www.w3.org/ns/org#"
+    }
+  ],
+  "dataExamples": [],
   "dateOfRegistration": "2026-04-21",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",

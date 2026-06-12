@@ -21,6 +21,35 @@
   "reports": [],
   "charter": {},
   "presentations": [],
+  "implementations": [
+    {
+      "name": "Subjectpages Onderneming",
+      "resourceReference": "https://data.vlaanderen.be/id/onderneming/"
+    },
+    {
+      "name": "Subjectpages Vestiging",
+      "resourceReference": "https://data.vlaanderen.be/id/vestiging/"
+    }
+  ],
+  "relevantStandards": [
+    {
+      "name": "Implementatiemodel VKBO-Onderneming",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming"
+    },
+    {
+      "name": "Applicatieprofiel OSLO Organisatie",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis"
+    },
+    {
+      "name": "Vocabularium OSLO Organisatie",
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
+    },
+    {
+      "name": "Core Organization ontology",
+      "resourceReference": "http://www.w3.org/ns/org#"
+    }
+  ],
+  "dataExamples": [],
   "dateOfRegistration": "2026-04-21",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",

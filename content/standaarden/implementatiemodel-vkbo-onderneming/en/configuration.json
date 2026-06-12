@@ -21,6 +21,35 @@
   "reports": [],
   "charter": {},
   "presentations": [],
+  "implementations": [
+    {
+      "name": "Subjectpages Company",
+      "resourceReference": "https://data.vlaanderen.be/id/onderneming/"
+    },
+    {
+      "name": "Subjectpages Establishment",
+      "resourceReference": "https://data.vlaanderen.be/id/vestiging/"
+    }
+  ],
+  "relevantStandards": [
+    {
+      "name": "Vocabulary VKBO Company",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/vkbo/onderneming#"
+    },
+    {
+      "name": "Application profile OSLO Organization",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis"
+    },
+    {
+      "name": "Vocabulary OSLO Organization",
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
+    },
+    {
+      "name": "Core Organization ontology",
+      "resourceReference": "http://www.w3.org/ns/org#"
+    }
+  ],
+  "dataExamples": [],
   "dateOfRegistration": "2026-04-21",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
