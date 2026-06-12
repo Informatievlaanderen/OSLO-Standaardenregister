@@ -45,8 +45,8 @@
       "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
     },
     {
-      "name": "Core Organization ontology",
-      "resourceReference": "http://www.w3.org/ns/org#"
+      "name": "W3C The Organization Ontology",
+      "resourceReference": "https://www.w3.org/TR/vocab-org/"
     }
   ],
   "dataExamples": [],

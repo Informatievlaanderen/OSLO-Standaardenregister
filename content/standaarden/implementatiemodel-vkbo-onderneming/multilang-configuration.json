@@ -79,10 +79,10 @@
     },
     {
       "name": {
-        "nl": "Core Organization ontology",
-        "en": "Core Organization ontology"
+        "nl": "W3C The Organization Ontology",
+        "en": "W3C The Organization Ontology"
       },
-      "resourceReference": "http://www.w3.org/ns/org#"
+      "resourceReference": "https://www.w3.org/TR/vocab-org/"
     }
   ],
   "dataExamples": [],
