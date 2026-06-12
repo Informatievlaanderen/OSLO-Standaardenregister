@@ -1,0 +1,31 @@
+{
+  "title": "Implementatiemodel VKBO - Onderneming",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+  "descriptionFileName": "impl-vkbo-onderneming.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-06-11",
+  "specificationDocuments": [
+    {
+      "name": "Implementatiemodel VKBO - Onderneming",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "dateOfRegistration": "2026-04-21",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-organisatie",
+  "datePublicReviewStart": "nvt",
+  "endOfPublicationDate": "nvt",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Economie"
+}

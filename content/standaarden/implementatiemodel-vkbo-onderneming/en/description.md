@@ -1,0 +1,2 @@
+OSLO Organisation applies the Implementation Model VKBO - Enterprise to the Enhanced KBO dataset of Digital Flanders.
+Only public information about companies is currently included in the implementation model.

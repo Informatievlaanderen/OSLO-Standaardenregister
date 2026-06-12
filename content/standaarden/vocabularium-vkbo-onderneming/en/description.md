@@ -1,0 +1,2 @@
+The vocabulary VKBO - Enterprise contains specific terms that are applied in the context of the Implementation Model VKBO - Enterprise.
+Only terms that are specific to the implementation model are included, for example: Deletions from the CBE.

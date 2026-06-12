@@ -1,6 +1,6 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 250,
+  "numberOfStandardsConfigured": 252,
   "reportErrors": 0,
   "reportsMissing": 259,
   "uniqueContributors": 3590,
@@ -35,9 +35,16 @@
       "contributors": []
     },
     {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
+      "standard": "Vocabularium VKBO - Onderneming",
+      "publicationDate": "2026-06-11",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel VKBO - Onderneming",
+      "publicationDate": "2026-06-11",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },
@@ -486,6 +493,13 @@
       "standard": "Applicatieprofiel Organisatie Basis",
       "publicationDate": "2018-07-03",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },

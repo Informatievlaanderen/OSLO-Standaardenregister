@@ -1,0 +1,31 @@
+{
+  "title": "Vocabularium VKBO - Onderneming",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+  "descriptionFileName": "voc-vkbo-onderneming.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-06-11",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium VKBO - Onderneming",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/vkbo/onderneming"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "dateOfRegistration": "2026-04-21",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-organisatie",
+  "datePublicReviewStart": "nvt",
+  "endOfPublicationDate": "nvt",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Economie"
+}
