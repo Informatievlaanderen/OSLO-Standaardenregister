@@ -47,14 +47,22 @@
     {
       "name": "W3C The Organization Ontology",
       "resourceReference": "https://www.w3.org/TR/vocab-org/"
+    },
+    {
+      "name": "SEMIC Core Public Organisation Vocabulary",
+      "resourceReference": "https://semiceu.github.io/CPOV/releases/2.1.2/"
+    },
+    {
+      "name": "SEMIC Core Business Vocabulary",
+      "resourceReference": "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.3.0/"
     }
   ],
   "dataExamples": [],
   "dateOfRegistration": "2026-04-21",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "dateOfAcknowledgementByWorkingGroup": "n.v.t.",
+  "dateOfAcknowledgementBySteeringCommittee": "n.v.t.",
   "repository": "OSLOthema-organisatie",
-  "datePublicReviewStart": "nvt",
-  "endOfPublicationDate": "nvt",
+  "datePublicReviewStart": "n.v.t.",
+  "endOfPublicationDate": "n.v.t.",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Economie"
 }
