@@ -161,3 +161,7 @@
     1.12.6
 
   * Small copy change on the detail page of a standard
+
+    1.12.7
+
+  * Made some sections of the detail page optional so they don't show if there is no content for them
