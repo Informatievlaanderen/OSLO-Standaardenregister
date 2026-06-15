@@ -29,31 +29,43 @@
             <Markdown :markdown="data.markdown" />
           </vl-introduction>
         </vl-column>
-        <vl-column width="6" width-s="12">
+
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="data?.standard?.specificationDocuments?.length"
+        >
           <spotlight
             :title="$t('specificationDocument')"
             :subtitle="$t('normative')"
-            :links="data?.standard?.specificationDocuments"
+            :links="data.standard.specificationDocuments"
           />
         </vl-column>
         <vl-column width="6" width-s="12" v-if="data?.standard?.charter">
           <spotlight
             :title="$t('charter')"
             :subtitle="$t('notNormative')"
-            :links="[data?.standard?.charter]"
+            :links="[data.standard.charter]"
           />
         </vl-column>
         <vl-column
           width="6"
           width-s="12"
-          v-if="data?.standard?.relevantStandards"
+          v-if="data?.standard?.relevantStandards?.length"
         >
           <spotlight
             :title="$t('relevantStandards')"
-            :links="data?.standard?.relevantStandards"
+            :links="data.standard.relevantStandards"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="
+            data?.standard?.documentation?.length ||
+            data?.standard?.dataExamples?.length
+          "
+        >
           <spotlight
             :title="`${$t('dataExamples')} en ${$t('documentation').toLowerCase()}`"
             :links="[
@@ -65,14 +77,21 @@
         <vl-column
           width="6"
           width-s="12"
-          v-if="data?.standard?.implementations"
+          v-if="data?.standard?.implementations?.length"
         >
           <spotlight
             :title="$t('implementations')"
             :links="data?.standard?.implementations"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="
+            data?.standard?.reports?.length ||
+            data?.standard?.presentations?.length
+          "
+        >
           <spotlight
             :title="$t('reportsAndPresentations')"
             :links="[
@@ -81,6 +100,7 @@
             ]"
           />
         </vl-column>
+
         <vl-column>
           <vl-title tag-name="h2"> {{ $t('detailInformation') }} </vl-title>
           <vl-icon-list>
