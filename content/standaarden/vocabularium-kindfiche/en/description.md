@@ -1,3 +1,0 @@
-The aim of this process is to standardise the information in the context of the child, aimed at developing a common understanding of essential child information. 
-This information is of great importance to caregivers, teachers and other professionals, to support the care and well-being of children. 
-The focus will be on improving the exchange of data between the various parties in the healthcare sector.
