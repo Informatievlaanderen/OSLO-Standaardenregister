@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 252,
+  "numberOfStandardsConfigured": 251,
   "reportErrors": 0,
-  "reportsMissing": 259,
+  "reportsMissing": 258,
   "uniqueContributors": 3590,
   "uniqueAffiliations": 638,
   "standards": [
@@ -23,7 +23,7 @@
     {
       "standard": "Applicatieprofiel Leermiddelen en doelen",
       "publicationDate": "2025-08-20",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1627,13 +1627,6 @@
       "standard": "Applicatieprofiel Dienstverlening Aan Personen",
       "publicationDate": "2024-03-19",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Kindfiche",
-      "publicationDate": "2024-03-19",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
