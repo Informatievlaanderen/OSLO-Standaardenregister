@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard"
   },
   "responsibleOrganisation": [
     {
@@ -24,7 +24,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2026-04-14",
+  "publicationDate": "2026-06-12",
   "descriptionFileName": "NDNN-description.md",
   "specificationDocuments": [
     {
@@ -32,7 +32,7 @@
         "nl": "Implementatiemodel Nudging Down Night Noise",
         "en": "Implementation model Nudging Down Night Noise"
       },
-      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20"
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/"
     }
   ],
   "documentation": [],
@@ -87,6 +87,13 @@
         "en": "Presentation Thematic Working Group 2 - 5 May 2026"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/presentations/Presentatie%20NDNN%20Thematische%20werkgroep%202.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 3 - 12 juni 2026",
+        "en": "Presentation Thematic Working Group 3 - 12 June 2026"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/presentations/Presentatie%20NDNN%20Thematische%20werkgroep%203.pdf"
     }
   ],
   "implementations": [],
@@ -144,10 +151,10 @@
     }
   ],
   "dateOfRegistration": "2025-10-27",
-  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementByWorkingGroup": "2026-06-12",
   "dateOfAcknowledgementBySteeringCommittee": "",
-  "datePublicReviewStart": "",
-  "datePublicReviewEnd": "",
+  "datePublicReviewStart": "2026-04-12",
+  "datePublicReviewEnd": "2026-06-12",
   "endOfPublicationDate": "",
   "domain": {
     "nl": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
