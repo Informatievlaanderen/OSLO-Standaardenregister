@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Implementatiemodel MAGDA - Voertuigregistraties",
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/magda/voertuigregistratie"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie"
     }
   ],
   "documentation": [],

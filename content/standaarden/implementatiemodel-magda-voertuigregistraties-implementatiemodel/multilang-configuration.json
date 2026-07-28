@@ -32,7 +32,7 @@
         "nl": "Implementatiemodel MAGDA - Voertuigregistraties",
         "en": "MAGDA Deployment Model - Vehicle Registrations"
       },
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/magda/voertuigregistratie"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie"
     }
   ],
   "documentation": [],
