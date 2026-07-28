@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 251,
+  "numberOfStandardsConfigured": 254,
   "reportErrors": 0,
-  "reportsMissing": 260,
+  "reportsMissing": 261,
   "uniqueContributors": 3590,
   "uniqueAffiliations": 638,
   "standards": [
@@ -1760,6 +1760,27 @@
       "standard": "Implementatiemodel Geluidsmeldingen en -metingen",
       "publicationDate": "2026-06-12",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel MAGDA - Voertuigregistraties Implementatiemodel",
+      "publicationDate": "2026-07-27",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium MAGDA - Voertuigregistraties Implementatiemodel",
+      "publicationDate": "2026-07-27",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Voertuigregistraties",
+      "publicationDate": "2026-07-27",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     }
