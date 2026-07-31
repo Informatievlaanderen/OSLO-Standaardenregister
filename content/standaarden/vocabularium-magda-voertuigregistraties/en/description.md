@@ -1,0 +1,2 @@
+The vocabulary MAGDA - Vehicle Registrations contains specific terms that are applied in the context of the Implementation Model MAGDA - Vehicle Registrations.
+Only terms that are specific to the exchange within the MAGDA platform are included.

@@ -12,8 +12,8 @@
     "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
   },
   "status": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
   },
   "descriptionFileName": "voc-voertuigregistraties.md",
   "responsibleOrganisation": [
@@ -25,7 +25,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2026-07-27",
+  "publicationDate": "2026-07-31",
   "specificationDocuments": [
     {
       "name": {

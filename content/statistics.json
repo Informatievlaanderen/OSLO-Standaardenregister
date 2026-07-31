@@ -3,7 +3,7 @@
   "numberOfStandardsConfigured": 254,
   "reportErrors": 0,
   "reportsMissing": 261,
-  "uniqueContributors": 3590,
+  "uniqueContributors": 3594,
   "uniqueAffiliations": 638,
   "standards": [
     {
@@ -1764,23 +1764,23 @@
       "contributors": []
     },
     {
-      "standard": "Implementatiemodel MAGDA - Voertuigregistraties Implementatiemodel",
-      "publicationDate": "2026-07-27",
+      "standard": "Implementatiemodel MAGDA - Voertuigregistraties",
+      "publicationDate": "2026-07-31",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },
     {
-      "standard": "Vocabularium MAGDA - Voertuigregistraties Implementatiemodel",
-      "publicationDate": "2026-07-27",
+      "standard": "Vocabularium MAGDA - Voertuigregistraties",
+      "publicationDate": "2026-07-31",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Voertuigregistraties",
-      "publicationDate": "2026-07-27",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "publicationDate": "2026-07-31",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     }

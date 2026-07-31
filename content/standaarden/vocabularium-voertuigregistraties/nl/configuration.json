@@ -2,7 +2,7 @@
   "title": "Vocabularium Voertuigregistraties",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "voc-voertuigregistraties.md",
   "responsibleOrganisation": [
     {
@@ -10,7 +10,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "2026-07-27",
+  "publicationDate": "2026-07-31",
   "specificationDocuments": [
     {
       "name": "Vocabularium Voertuigregistraties",
