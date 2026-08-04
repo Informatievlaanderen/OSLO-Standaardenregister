@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 254,
+  "numberOfStandardsConfigured": 257,
   "reportErrors": 0,
-  "reportsMissing": 261,
+  "reportsMissing": 264,
   "uniqueContributors": 3594,
   "uniqueAffiliations": 638,
   "standards": [
@@ -1780,6 +1780,27 @@
     {
       "standard": "Vocabularium Voertuigregistraties",
       "publicationDate": "2026-07-31",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Landbouwgebruiksperceel",
+      "publicationDate": "2026-08-03",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Landbouwgebruiksperceel",
+      "publicationDate": "2026-08-03",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Gebruiksperceel",
+      "publicationDate": "2026-08-03",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
