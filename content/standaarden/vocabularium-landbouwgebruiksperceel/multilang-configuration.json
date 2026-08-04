@@ -4,8 +4,8 @@
     "en": "Vocabulary Agricultural Use Plot"
   },
   "category": {
-    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
-    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
   },
   "usage": {
     "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
