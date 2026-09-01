@@ -1,0 +1,2 @@
+The vocabulary Mandate was developed within the project [Local Decisions as Linked Open Data](http://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data). 
+The Mandate vocabulary specifies a number of classes and properties to describe a mandate.

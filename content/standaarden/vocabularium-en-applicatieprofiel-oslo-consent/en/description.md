@@ -1,0 +1,10 @@
+TRAPEZE is a project, financed by the European Commission, that delivers a platform as a solution for organisations and citizens with some concrete objectives on security and privacy. It aims to bring stakeholders together under a common framework to provide citizens with the tools and know-how to manage their security and privacy. It wants to support consent mechanisms and checking that data is used in the right way. The aim is to restore citizens' trust in the digital economy by implementing log integrity, non-repudiation and building data lineage and transparency by design. Concrete applications that must prove their usefulness are worked out for three domains: government, telecom and the financial sector.
+
+Digital Flanders is already looking at how MijnBurgerprofiel (My Citizen Profile) can work together with Solid to offer a portal where citizens can manage their data and in compliance with the Single Digital Gateway Regulation (SDGR). Solid is a design specification created and managed by the W3C. It adds an identification system, sharing controls and cloud storage to existing web technologies. Public administrations are already custodians of a lot of personal data, such as domiciliation... These data are exchanged between public services to comply with the 'once-only' principle. However, it remains a challenge to give citizens control over their personal data.
+
+Through this initiative, we wish to model the consent for the use of data semanticly. The resulting standard around 'Consent' must be able to be easily reused by all stakeholders. In addition, we will maximize the reuse and conformance to related international and national standards (see section 'Independencies').
+
+The scope of the project will be to build a vocabulary for describing consent in a broad sense and an application profile for a wide range of use cases such as, but not limited to:
+
+- sharing a subset of government controlled data with a private company as a citizen
+- A business party using a permission checking the integrity and validity of a given consent...

@@ -1,0 +1,1 @@
+This standard serves as a representation of the step-by-step process of creating, processing and interpreting thermographic scans of buildings.

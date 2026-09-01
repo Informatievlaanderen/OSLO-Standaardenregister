@@ -1,0 +1,2 @@
+The OSLO Publication process 'Conditions of Services' should help to easily determine whether a person is entitled to or must comply with a certain public service. This standard is built up on the basis of international standards and enriched with its own substantiated terms.
+This process was stopped in consultation with the stakeholders to enable further research into structured conditions. This standard is currently in the status as it was developed after the last thematic working group. In other words, there is no approval of this standard.

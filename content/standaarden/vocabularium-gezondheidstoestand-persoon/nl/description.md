@@ -1,0 +1,1 @@
+De opzet van dit traject is om de informatie te standaardiseren met betrekking tot het overlijden van een persoon. Er wordt hierbij maximaal hergebruikt uit internationale standaarden zoals FHIR en OSLO Persoon. Dit vocabularium is opgezet als extensie van de standaard OSLO-Persoon om tegemoet te komen aan de use cases rond OSLO-Overlijdensaangifte.

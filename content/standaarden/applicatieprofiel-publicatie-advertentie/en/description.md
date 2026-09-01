@@ -1,0 +1,1 @@
+Within this OSLO Publication process, the intention is to draw up an application profile and vocabulary that will provide the basis to facilitate a general approach to publishing information and advertising products in cities and municipalities from different actors. This standard is built up on the basis of international standards and enriched with its own substantiated terms.

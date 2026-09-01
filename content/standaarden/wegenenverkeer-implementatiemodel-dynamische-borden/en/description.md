@@ -1,0 +1,1 @@
+Gives an overview of the objects associated with the different types of installations of dynamic signs.

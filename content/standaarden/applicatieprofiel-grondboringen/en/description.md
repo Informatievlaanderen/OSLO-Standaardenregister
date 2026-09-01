@@ -1,0 +1,1 @@
+This application profile makes it possible to describe soil drilling, it builds on the application profile [Sensors and Sampling](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/).

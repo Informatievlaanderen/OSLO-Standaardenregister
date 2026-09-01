@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 257,
+  "numberOfStandardsConfigured": 256,
   "reportErrors": 0,
-  "reportsMissing": 264,
+  "reportsMissing": 263,
   "uniqueContributors": 3594,
   "uniqueAffiliations": 638,
   "standards": [
@@ -1746,13 +1746,6 @@
       "standard": "Vocabularium Rooilijnplannen",
       "publicationDate": "2025-06-01",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "SSN SOSA VL",
-      "publicationDate": "2026-02-19",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },

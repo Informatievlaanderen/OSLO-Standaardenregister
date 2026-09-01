@@ -1,0 +1,70 @@
+{
+  "title": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2025-07-28",
+  "descriptionFileName": "shok-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter OSLO Openbare Nutsvoorzieningkasten",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/charter/Charter_OSLO_SHOK.pdf"
+  },
+  "reports": [
+    {
+      "name": "Verslag Business werkgroep OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Business werkgroep OSLO SHOK.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 1 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Thematische Werkgroep 1 - OSLO SHOK.pdf"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 2 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/OSLO SHOK - Verslag Thematische werkgroep 2.pdf"
+    },
+    {
+      "name": "Verslag Thematische werkgroep 3 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO SHOK.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentatie Business Werkgroep OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Business Werkgroep presentatie OSLO SHOK.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 1 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 1 - OSLO SHOK.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 2 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 2 OSLO SHOK.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 3 OSLO SHOK",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/presentations/Presentatie thematische werkgroep 3 OSLO SHOK.pdf"
+    }
+  ],
+  "dateOfRegistration": "2024-12-19",
+  "dateOfAcknowledgementByWorkingGroup": "2025-11-13",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
+  "datePublicReviewStart": "2025-07-28",
+  "datePublicReviewEnd": "2025-10-28",
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+  "functionalScope": "Semantische standaard voor slimme elektriciteitsvoorziening op het openbaar domein",
+  "repository": "OSLOthema-shok"
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Vocabularium VKBO - Company",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+  "descriptionFileName": "voc-vkbo-onderneming.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-06-11",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium VKBO - Company",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/vkbo/onderneming"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "implementations": [
+    {
+      "name": "Subjectpages Company",
+      "resourceReference": "https://data.vlaanderen.be/id/onderneming/"
+    },
+    {
+      "name": "Subjectpages Establishment",
+      "resourceReference": "https://data.vlaanderen.be/id/vestiging/"
+    }
+  ],
+  "relevantStandards": [
+    {
+      "name": "Implementation model VKBO Enterprise",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming"
+    },
+    {
+      "name": "Application profile OSLO Organization",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis"
+    },
+    {
+      "name": "Vocabulary OSLO Organization",
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
+    },
+    {
+      "name": "W3C The Organization Ontology",
+      "resourceReference": "https://www.w3.org/TR/vocab-org/"
+    },
+    {
+      "name": "SEMIC Core Public Organisation Vocabulary",
+      "resourceReference": "https://semiceu.github.io/CPOV/releases/2.1.2/"
+    },
+    {
+      "name": "SEMIC Core Business Vocabulary",
+      "resourceReference": "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.3.0/"
+    }
+  ],
+  "dataExamples": [],
+  "dateOfRegistration": "2026-04-21",
+  "dateOfAcknowledgementByWorkingGroup": "n.v.t.",
+  "dateOfAcknowledgementBySteeringCommittee": "n.v.t.",
+  "repository": "OSLOthema-organisatie",
+  "datePublicReviewStart": "n.v.t.",
+  "endOfPublicationDate": "n.v.t.",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Economie"
+}

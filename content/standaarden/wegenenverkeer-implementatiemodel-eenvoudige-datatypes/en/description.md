@@ -1,0 +1,1 @@
+Provides an overview of the basic data types used in the different vocabularies.

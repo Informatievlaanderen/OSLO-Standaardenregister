@@ -1,0 +1,1 @@
+Provides an overview of all objects that appear in the road and traffic implementation model.

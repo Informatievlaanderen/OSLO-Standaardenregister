@@ -1,0 +1,47 @@
+{
+  "title": "Vocabulary Vehicle Registrations",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "descriptionFileName": "voc-voertuigregistraties.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-07-31",
+  "specificationDocuments": [
+    {
+      "name": "Vocabulary Vehicle Registrations",
+      "resourceReference": "https://data.vlaanderen.be/ns/voertuigregistratie"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "implementations": [],
+  "relevantStandards": [
+    {
+      "name": "Implementation model MAGDA vehicle registrations",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie"
+    },
+    {
+      "name": "Vocabulary MAGDA Vehicle Registrations",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/magda/voertuigregistratie"
+    },
+    {
+      "name": "Schema.org",
+      "resourceReference": "https://schema.org"
+    }
+  ],
+  "dataExamples": [],
+  "dateOfRegistration": "2026-03-25",
+  "dateOfAcknowledgementByWorkingGroup": "n.v.t.",
+  "dateOfAcknowledgementBySteeringCommittee": "n.v.t.",
+  "repository": "OSLOthema-trajectcontrole",
+  "datePublicReviewStart": "n.v.t.",
+  "endOfPublicationDate": "n.v.t.",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+}

@@ -1,0 +1,7 @@
+OSLO Passenger Transport Hubs is een traject opgestart door GreenMov in samenwerking met Digitaal Vlaanderen. 
+
+<a href="https://green-mov.eu/">GreenMov</a> is een CEF (Connecting Europe Facility) project binnen het kader van ‘The Green Deal’. Hierbij wordt data rond mobiliteit samengebracht en beschikbaar gesteld met als ultieme doel een groenere mobiliteit te realiseren. GreenMov en Digitaal Vlaanderen werken zo samen tot het harmoniseren van datasets m.b.t. mobiliteit, het creëren van geïntegreerde diensten en nieuwe cross-border functionaliteiten door verschillende datasets te combineren.
+
+Een ‘passenger transport hub’ is een vervoersknooppunt voor reizigers. Afhankelijk van de locatie kan je verschillende mobiliteitsdiensten zoals trein, tram, bus, deelmobiliteit... terugvinden. Het vervoersknooppunt heeft als doel om multimodaliteit te faciliteren: toegang tot en verbinding tussen de verschillende opties voor mobiliteit. In Vlaanderen worden vervoersknoopputen geplaatst onder het merk “Hoppinpunten”. Een semantisch Nederlands model is hiervoor reeds aangemaakt en in publieke review: <a href="https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularia-en-applicatieprofielen-hoppinpunten.html">OSLO Hoppinpunten</a>. Dit Nederlandse traject heeft als basis gediend voor het uitwerken van het OSLO Passenger Transport Hubs model.
+
+Hieronder vind je het applicatieprofiel terug en de documenten die hebben geleid tot de uitwerking van het Passenger Transport Hubs model.

@@ -1,0 +1,1 @@
+Describes parts and installations that belong to ecological measures.

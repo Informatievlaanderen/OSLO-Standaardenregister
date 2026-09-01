@@ -1,0 +1,98 @@
+{
+  "title": "Noise Notifications and Measurement Deployment Model",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-06-12",
+  "descriptionFileName": "NDNN-description.md",
+  "specificationDocuments": [
+    {
+      "name": "Implementation model Nudging Down Night Noise",
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/"
+    }
+  ],
+  "documentation": [],
+  "charter": {
+    "name": "Charter NDNN",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/charter/Werkgroep%20charter%20OSLO_NudgingDownNightNoise.pdf"
+  },
+  "reports": [
+    {
+      "name": "Report Business Working Group - 5 March 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/reports/Verslag%20Nuding%20Down%20Night%20Noise%20business%20werkgroep%2005-03-2026%20(1).pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 1 - 2 April 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/reports/Verslag%20TW1%20OSLO%20NDNN%2014-04%20.pdf"
+    },
+    {
+      "name": "Report Thematic Working Group 2 - 6 May 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/reports/Verslag%20TW2%20OSLO%20NDNN%2006.05.2026%20.pdf"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Presentation Business Working Group - 5 March 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/presentations/Presentatie%20Business%20Werkgroep%20NDNN%2005-03-2026.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group - 2 April 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/presentations/Presentatie%20Thematische%20werkgroep%201%20NDNN%2002-04-2026.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 2 - 5 May 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/presentations/Presentatie%20NDNN%20Thematische%20werkgroep%202.pdf"
+    },
+    {
+      "name": "Presentation Thematic Working Group 3 - 12 June 2026",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-NDNN/standaardenregister/presentations/Presentatie%20NDNN%20Thematische%20werkgroep%203.pdf"
+    }
+  ],
+  "implementations": [],
+  "relevantStandards": [
+    {
+      "name": "OSLO SSN SOSA",
+      "resourceReference": "https://data.vlaanderen.be/standaarden/oslo-ssn-sosa-vl"
+    },
+    {
+      "name": "OSLO Notification",
+      "resourceReference": "https://data.vlaanderen.be/ns/melding/"
+    },
+    {
+      "name": "OSLO Traffic Reports",
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/"
+    },
+    {
+      "name": "OSLO Environmental Permit",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/omgevingsvergunning/"
+    },
+    {
+      "name": "OSLO File",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/dossier/"
+    },
+    {
+      "name": "OSLO Generic",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+    }
+  ],
+  "dataExamples": [
+    {
+      "name": "Overview of use cases",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-NDNN/blob/main/usecases.md"
+    }
+  ],
+  "dateOfRegistration": "2025-10-27",
+  "dateOfAcknowledgementByWorkingGroup": "2026-06-12",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "2026-04-12",
+  "datePublicReviewEnd": "2026-06-12",
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
+  "repository": "OSLOthema-NDNN"
+}

@@ -1,0 +1,1 @@
+Provides a technical overview of the types of relationships that can occur between objects.

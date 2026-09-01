@@ -1,0 +1,1 @@
+The purpose of this process is to standardize the information regarding the death of a person. This involves maximum reuse from international standards such as FHIR and OSLO Person. This vocabulary is set up as an extension of the standard OSLO Person to meet the use cases around OSLO Death Registration.

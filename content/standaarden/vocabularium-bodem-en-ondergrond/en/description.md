@@ -1,0 +1,1 @@
+This vocabulary contains new terminology for the application profile [Soil and Subsoil](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/).
