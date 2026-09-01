@@ -168,3 +168,7 @@
 
   1.12.8
   * Fix for `responsibleOrganisation` being written as `responsibleOrganisation` instead of `responsibleOrganization`
+
+  1.13.0
+
+  * feat: added languagetoggle with optional cookie to remember the language of the user
