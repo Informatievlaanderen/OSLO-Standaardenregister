@@ -1,36 +1,29 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 251,
+  "numberOfStandardsConfigured": 257,
   "reportErrors": 0,
-  "reportsMissing": 255,
-  "uniqueContributors": 3501,
-  "uniqueAffiliations": 624,
+  "reportsMissing": 264,
+  "uniqueContributors": 3594,
+  "uniqueAffiliations": 638,
   "standards": [
     {
-      "standard": "",
-      "publicationDate": "",
-      "status": "",
+      "standard": "Applicatieprofiel Energiemanagementsysteem",
+      "publicationDate": "2025-05-14",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Thermografische Gebouwanalyse",
-      "publicationDate": "2025-05-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "publicationDate": "2025-12-11",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
-      "standard": "Applicatieprofiel Leermiddelen",
-      "publicationDate": "2025-08-201",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Leermiddelen",
-      "publicationDate": "2025-08-01",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "standard": "Applicatieprofiel Leermiddelen en doelen",
+      "publicationDate": "2025-08-20",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -38,6 +31,20 @@
       "standard": "Applicatieprofiel Energiehuis",
       "publicationDate": "2025-06-19",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium VKBO - Onderneming",
+      "publicationDate": "2026-06-11",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel VKBO - Onderneming",
+      "publicationDate": "2026-07-07",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     },
@@ -79,14 +86,14 @@
     {
       "standard": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
       "publicationDate": "2024-11-08",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Mobiliteit: Intelligente Toegang",
       "publicationDate": "2024-11-08",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -344,14 +351,14 @@
     },
     {
       "standard": "Applicatieprofiel Cultuurparticipatie",
-      "publicationDate": "2022-04-28",
+      "publicationDate": "2024-09-11",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Cultuurparticipatie",
-      "publicationDate": "2022-04-28",
+      "publicationDate": "2024-09-11",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
@@ -486,6 +493,13 @@
       "standard": "Applicatieprofiel Organisatie Basis",
       "publicationDate": "2018-07-03",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "",
+      "publicationDate": "",
+      "status": "",
       "totalPeople": 0,
       "contributors": []
     },
@@ -631,8 +645,8 @@
     },
     {
       "standard": "Applicatieprofiel DCAT-AP VL",
-      "publicationDate": "2021-12-02",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard",
+      "publicationDate": "2026-02-12",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1078,29 +1092,8 @@
       "contributors": []
     },
     {
-      "standard": "API richtlijnen",
-      "publicationDate": "2020-02-01",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Conformiteitsraamwerk voor data standaarden",
-      "publicationDate": "2020-06-07",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Applicatieprofiel metadata DCAT",
-      "publicationDate": "2021-04-22",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
       "standard": "Vocabularium metadata DCAT",
-      "publicationDate": "2021-04-22",
+      "publicationDate": "2026-02-20",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
@@ -1429,7 +1422,7 @@
     },
     {
       "standard": "Applicatieprofiel GeoDCAT-AP VL",
-      "publicationDate": "2022-02-03",
+      "publicationDate": "2026-02-20",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
@@ -1633,14 +1626,7 @@
     {
       "standard": "Applicatieprofiel Dienstverlening Aan Personen",
       "publicationDate": "2024-03-19",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-      "totalPeople": 0,
-      "contributors": []
-    },
-    {
-      "standard": "Vocabularium Kindfiche",
-      "publicationDate": "2024-03-19",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
@@ -1724,42 +1710,98 @@
     {
       "standard": "Applicatieprofiel Zaalreservatie",
       "publicationDate": "2025-07-01",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Zaalreservatie",
       "publicationDate": "2025-07-01",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
-      "publicationDate": "2025-05-26",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "publicationDate": "2025-07-28",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Implementatiemodel Verkeersmeldingen",
       "publicationDate": "2025-06-04",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Applicatieprofiel Rooilijnplannen",
       "publicationDate": "2025-06-01",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
       "totalPeople": 0,
       "contributors": []
     },
     {
       "standard": "Vocabularium Rooilijnplannen",
       "publicationDate": "2025-06-01",
-      "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "SSN SOSA VL",
+      "publicationDate": "2026-02-19",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Geluidsmeldingen en -metingen",
+      "publicationDate": "2026-06-12",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel MAGDA - Voertuigregistraties",
+      "publicationDate": "2026-07-31",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium MAGDA - Voertuigregistraties",
+      "publicationDate": "2026-07-31",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Voertuigregistraties",
+      "publicationDate": "2026-07-31",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel Landbouwgebruiksperceel",
+      "publicationDate": "2026-08-03",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Landbouwgebruiksperceel",
+      "publicationDate": "2026-08-03",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium Gebruiksperceel",
+      "publicationDate": "2026-08-03",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "totalPeople": 0,
       "contributors": []
     }
