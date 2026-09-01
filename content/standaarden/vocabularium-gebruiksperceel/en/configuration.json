@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabulary of land",
-      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel#"
+      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel"
     }
   ],
   "documentation": [],
@@ -29,7 +29,7 @@
     },
     {
       "name": "Vocabulary Agricultural Use Plot",
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel#"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel"
     }
   ],
   "dataExamples": [],

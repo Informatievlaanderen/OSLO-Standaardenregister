@@ -46,14 +46,14 @@
         "nl": "Vocabularium Landbouwgebruiksperceel",
         "en": "Vocabulary Agricultural Use Plot"
       },
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel#"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel"
     },
     {
       "name": {
         "nl": "Vocabularium Gebruiksperceel",
         "en": "Vocabulary of land"
       },
-      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel#"
+      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel"
     },
     {
       "name": {
@@ -67,7 +67,7 @@
         "nl": "Vocabularium OSLO Organisatie",
         "en": "Vocabulary OSLO Organization"
       },
-      "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie"
     },
     {
       "name": {
@@ -81,7 +81,7 @@
         "nl": "Vocabularium OSLO Persoon",
         "en": "Vocabulary OSLO Person"
       },
-      "resourceReference": "https://data.vlaanderen.be/ns/persoon#"
+      "resourceReference": "https://data.vlaanderen.be/ns/persoon"
     },
     {
       "name": {

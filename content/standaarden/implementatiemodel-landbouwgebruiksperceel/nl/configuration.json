@@ -25,11 +25,11 @@
   "relevantStandards": [
     {
       "name": "Vocabularium Landbouwgebruiksperceel",
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel#"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel"
     },
     {
       "name": "Vocabularium Gebruiksperceel",
-      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel#"
+      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel"
     },
     {
       "name": "Applicatieprofiel OSLO Organisatie",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Vocabularium OSLO Organisatie",
-      "resourceReference": "https://data.vlaanderen.be/ns/organisatie#"
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie"
     },
     {
       "name": "Applicatieprofiel OSLO Persoon",
@@ -45,7 +45,7 @@
     },
     {
       "name": "Vocabularium OSLO Persoon",
-      "resourceReference": "https://data.vlaanderen.be/ns/persoon#"
+      "resourceReference": "https://data.vlaanderen.be/ns/persoon"
     },
     {
       "name": "W3C The Organization Ontology",

@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Gebruiksperceel",
-      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel#"
+      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel"
     }
   ],
   "documentation": [],
@@ -29,7 +29,7 @@
     },
     {
       "name": "Vocabularium Landbouwgebruiksperceel",
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel#"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel"
     }
   ],
   "dataExamples": [],

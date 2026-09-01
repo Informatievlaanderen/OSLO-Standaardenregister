@@ -64,6 +64,13 @@
         "en": "Report Thematic Working Group 2 - 3 April 2026"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/reports/Verslag%20Thematische%20werkgroep%202%20-%20SSN%20SOSA%20%202026-03-04.pdf"
+    },
+    {
+      "name": {
+        "nl": "Verslag Thematische Werkgroep 3 - 29 april 2026",
+        "en": "Report Thematic Working Group 3 - 29 April 2026"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/reports/Verslag%20Thematische%20werkgroep%203%20-%20SSN%20SOSA%20%202026-29-04.pdf"
     }
   ],
   "presentations": [
@@ -87,6 +94,13 @@
         "en": "Presentation Thematic Working Group 2 - 3 April 2026"
       },
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/presentations/Presentatie%20SSN%20SOSA%20VL%20Thematische%20werkgroep%202.pdf"
+    },
+    {
+      "name": {
+        "nl": "Presentatie Thematische Werkgroep 3 - 29 april 2026",
+        "en": "Presentation Thematic Working Group 3 - 29 April 2026"
+      },
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL/standaardenregister/presentations/Presentatie%20SSN%20SOSA%20VL%20Thematische%20werkgroep%203.pdf"
     }
   ],
   "implementations": [],

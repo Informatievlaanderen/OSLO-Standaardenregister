@@ -32,7 +32,7 @@
         "nl": "Vocabularium Gebruiksperceel",
         "en": "Vocabulary of land"
       },
-      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel#"
+      "resourceReference": "https://data.vlaanderen.be/ns/gebruiksperceel"
     }
   ],
   "documentation": [],
@@ -53,7 +53,7 @@
         "nl": "Vocabularium Landbouwgebruiksperceel",
         "en": "Vocabulary Agricultural Use Plot"
       },
-      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel#"
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/lv/landbouwgebruiksperceel"
     }
   ],
   "dataExamples": [],
