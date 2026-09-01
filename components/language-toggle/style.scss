@@ -1,0 +1,10 @@
+.language-toggle{
+  justify-content: flex-end;
+  margin-top: 1rem;
+  text-align: right;
+
+  @media (width <= 768px) {
+    justify-content: flex-start;
+    margin-top: -1rem;
+  }
+}

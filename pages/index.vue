@@ -120,7 +120,7 @@ const converted = convertQueryParams(route?.query, filters)
 selectedFilters.value = converted.sanitized
 filters = converted.filters
 // Multiple queryContents require to await them all at the same time: https://github.com/nuxt/content/issues/1368
-const { data } = await useAsyncData(
+const { data, refresh } = await useAsyncData(
   'data',
   async () => {
     const [standards] = await Promise.all([
@@ -128,8 +128,6 @@ const { data } = await useAsyncData(
         .where({
           _extension: 'json',
           // make sure the directory we're looking in is the same as the current locale
-          // _dir: { $eq: `${locale?.value}` },
-          // _path: { $regex: `^/standaarden/.*/configuration$` },
           _path: { $regex: `^/standaarden/.*/${locale?.value}/configuration$` },
         })
         .find(),
@@ -144,6 +142,11 @@ const { data } = await useAsyncData(
   },
   { watch: [selectedFilters, searchRef, sortingKey] },
 )
+
+watch(locale, () => {
+  // Force a refresh of the data when locale changes
+  refresh()
+})
 
 definePageMeta({
   middleware: ['i18n'],

@@ -109,9 +109,10 @@ var main = function () { return __awaiter(_this, void 0, void 0, function () {
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 2, , 3]);
-                return [4 /*yield*/, processDirectory('content')];
+                return [4 /*yield*/, processDirectory('content')]; // Replace 'content' with the path to your content directory
             case 1:
-                outputs = _a.sent();
+                outputs = _a.sent() // Replace 'content' with the path to your content directory
+                ;
                 fs.writeFileSync('scripts/output.json', JSON.stringify(outputs, null, 4));
                 console.log('Output successfully written to scripts/output.json');
                 console.log("Processed ".concat(outputs.length, " Dutch configuration files"));
