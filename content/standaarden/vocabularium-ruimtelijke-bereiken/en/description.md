@@ -1,1 +1,0 @@
-This vocabulary contains new terminology for the application profile [SpatialAreas](https://data.vlaanderen.be/ns/ruimtelijke-bereiken).

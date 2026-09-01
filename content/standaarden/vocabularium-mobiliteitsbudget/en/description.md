@@ -1,1 +1,0 @@
-The aim of this process is to standardise the information regarding mobility budget. This involves maximum reuse of standards such as OSLO Person, OSLO Generic and OSLO Mobility: Trips & Offer.

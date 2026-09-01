@@ -1,1 +1,0 @@
-This application profile allows to describe a number of specific observations in the geotechnical sub-domain. To this end, it builds on the application profile [sensors and Sampling](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/).

@@ -1,2 +1,0 @@
-The vocabulary Decision was developed within the project [Local Decisions as Linked Open Data](http://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data). 
-The Vocabulary Decree specifies a number of classes and properties to describe a decree.

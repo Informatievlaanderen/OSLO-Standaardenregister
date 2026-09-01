@@ -1,1 +1,0 @@
-Describes the objects associated with air quality sensors in tunnels for use in Standard Specifications 270.

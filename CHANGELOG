@@ -165,3 +165,10 @@
     1.12.7
 
   * Made some sections of the detail page optional so they don't show if there is no content for them
+
+  1.12.8
+  * Fix for `responsibleOrganisation` being written as `responsibleOrganisation` instead of `responsibleOrganization`
+
+  1.13.0
+
+  * feat: added languagetoggle with optional cookie to remember the language of the user

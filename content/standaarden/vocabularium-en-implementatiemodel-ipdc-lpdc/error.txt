@@ -1,1 +1,0 @@
-Copy failed : cp descriptions/ /tmp/workspace/nuxt/vocabularium-en-implementatiemodel-ipdc-lpdc/description.md

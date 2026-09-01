@@ -1,1 +1,0 @@
-Through this initiative, the various stakeholders within "de facto associations" wish to semantically model the different data flows related to this domain and to standardize the structure of the data. The vocabulary is built up on the basis of international standards and European standards and brought in line with current Flemish regulations.

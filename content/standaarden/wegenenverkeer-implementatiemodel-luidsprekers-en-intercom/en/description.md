@@ -1,1 +1,0 @@
-Describes the objects associated with the loudspeaker and intercom system for use in Standard Specifications 270.

@@ -1,1 +1,0 @@
-Gives an overview of the objects that belong to the different setups of camera installations.

@@ -1,1 +1,0 @@
-Provides an overview of the objects that belong to the optical transport network (OTN).

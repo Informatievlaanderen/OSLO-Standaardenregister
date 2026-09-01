@@ -1,4 +1,0 @@
-This specification describes the concepts required to obtain registration certificates 
-and student attestations.
-
-This model describes how a Person can be the owner of one or more Learning Enrollment Credentials, which are issued by a particular Organization (such as a government agency, but also private agencies). This Person may have several Learning Claims (possibly issued by a different Organization than the Organization issuing the Learning Credential). A Learning Activity is a specific type of Learning Claim. The general information about the Learning Activity that is common to the different Persons who have performed the Learning Activity is contained in the Learning Activity Specification, while the person-specific information is contained in the Learning Activity. In particular, we also describe the Enrollment, Deregistration, and Learning Opportunity in this model.

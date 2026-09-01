@@ -1,1 +1,0 @@
-This vocabulary contains new terminology for the application profile [Soil and Subsurface Observations](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/).

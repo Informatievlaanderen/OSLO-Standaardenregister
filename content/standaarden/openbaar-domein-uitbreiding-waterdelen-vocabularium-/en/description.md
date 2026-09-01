@@ -1,2 +1,0 @@
-This vocabulary is part of the Public Domain theme. The Public Domain theme aims to specify an information model for making an inventory 
-of the Public Domain with a minimum of data that must be kept and can be exchanged.

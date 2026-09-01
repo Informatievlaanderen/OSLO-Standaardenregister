@@ -1,2 +1,0 @@
-De opzet van dit traject is om de informatie te standaardiseren in de context van een energie management systeem (EMS), gericht op het ontwikkelen van een gemeenschappelijk begrip van EMS-data. 
-Via dit initiatief wensen de verschillende stakeholders die rechtstreeks betrokken zijn in het ‘Revolt’ project (WVI, stad Roeselare, EMS-leverancier), het ‘EMS DOE’ project (Stad Kortrijk) en het ‘Stroommakelaar Kempen’ project (IOK) datastromen met betrekking tot EMS (Energie Management Systeem) semantisch te modelleren en de structuur van de data te standaardiseren.   

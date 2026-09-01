@@ -1,1 +1,0 @@
-The quality of data is an important aspect within the OSLO Water Quality process. OSLO Data Quality has therefore been developed from the need that arose from OSLO Water Quality to describe the quality of data and to clarify its potential for a particular use. However, the scope has been maintained to the necessary with regard to the aspects of quality.

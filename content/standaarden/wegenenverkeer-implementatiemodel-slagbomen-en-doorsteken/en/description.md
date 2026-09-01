@@ -1,1 +1,0 @@
-Describes the objects associated with barriers and (calamity) crossings for use in the Standard Specifications 270.

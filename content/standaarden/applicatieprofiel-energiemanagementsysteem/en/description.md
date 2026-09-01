@@ -1,2 +1,0 @@
-The aim of this process is to standardize the information in the context of an energy management system (EMS), aimed at developing a common understanding of EMS data. 
-Through this initiative, the various stakeholders directly involved in the 'Revolt' project (WVI, City of Roeselare, EMS supplier), the 'EMS DOE' project (City of Kortrijk) and the 'Stroommakelaar Kempen' project (IOK) wish to model data flows related to EMS (Energy Management System) semantically and to standardize the structure of the data.
