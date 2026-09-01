@@ -26,7 +26,8 @@
 import type { Header } from '~/types/header'
 onMounted(() => {
   const headerScript = document.createElement('script')
-  switch (import.meta.env.VITE_ENVIRONMENT) {
+  const runtimeConfig = useRuntimeConfig()
+  switch (runtimeConfig.public.ENVIRONMENT) {
     case 'Test':
       headerScript.src =
         'https://tni.widgets.burgerprofiel.dev-vlaanderen.be/api/v1/widget/99790a73-9a6b-4927-94ad-5df8ae9adf78/embed'
@@ -37,7 +38,7 @@ onMounted(() => {
       break
     default:
       headerScript.src =
-        'https://tni.widgets.burgerprofiel.dev-vlaanderen.be/api/v1/widget/99790a73-9a6b-4927-94ad-5df8ae9adf78/embed'
+        'https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed'
   }
 
   document.getElementById('header-container')?.appendChild(headerScript)

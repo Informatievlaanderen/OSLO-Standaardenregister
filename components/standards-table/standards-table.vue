@@ -47,7 +47,7 @@
             "
           />
         </th>
-        <th>{{ $t('responsibleOrganisation') }}</th>
+        <th>{{ $t('responsibleOrganization') }}</th>
         <th>{{ $t('typeOfApplication') }}</th>
         <th>
           <vl-button

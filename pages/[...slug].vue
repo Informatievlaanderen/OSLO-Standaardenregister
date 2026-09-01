@@ -6,7 +6,7 @@
   />
   <vl-region>
     <vl-layout>
-      <vl-grid mod-center mod-stacked>
+      <vl-grid mod-stacked>
         <vl-column width="12" width-s="12">
           <navigation />
           <vl-title
@@ -67,7 +67,12 @@
             <Markdown :markdown="data.markdown" />
           </vl-introduction>
         </vl-column>
-        <vl-column width="6" width-s="12">
+
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="data?.standard?.specificationDocuments?.length"
+        >
           <spotlight
             :title="$t('specificationDocument')"
             :subtitle="$t('normative')"
@@ -75,29 +80,66 @@
             :localize-links="true"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
-          <!-- Combination of both the documentation ash the charter -->
+        <vl-column width="6" width-s="12" v-if="data?.standard?.charter">
           <spotlight
-            :title="$t('documentationAndCharter')"
+            :title="$t('charter')"
             :subtitle="$t('notNormative')"
-            :links="
-              data?.standard?.documentation?.concat(data?.standard?.charter) ??
-              []
-            "
+            :links="[data.standard.charter]"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="data?.standard?.relevantStandards?.length"
+        >
           <spotlight
-            :title="$t('reportsWorkgroups')"
-            :links="data?.standard?.reports"
+            :title="$t('relevantStandards')"
+            :links="data.standard.relevantStandards"
           />
         </vl-column>
-        <vl-column width="6" width-s="12">
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="
+            data?.standard?.documentation?.length ||
+            data?.standard?.dataExamples?.length
+          "
+        >
           <spotlight
-            :title="$t('presentationsAndOtherSources')"
-            :links="data?.standard?.presentations"
+            :title="`${$t('dataExamples')} en ${$t('documentation').toLowerCase()}`"
+            :links="[
+              ...data?.standard?.documentation,
+              ...(data?.standard?.dataExamples ?? []),
+            ]"
           />
         </vl-column>
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="data?.standard?.implementations?.length"
+        >
+          <spotlight
+            :title="$t('implementations')"
+            :links="data?.standard?.implementations"
+          />
+        </vl-column>
+        <vl-column
+          width="6"
+          width-s="12"
+          v-if="
+            data?.standard?.reports?.length ||
+            data?.standard?.presentations?.length
+          "
+        >
+          <spotlight
+            :title="$t('reportsAndPresentations')"
+            :links="[
+              ...data?.standard?.reports,
+              ...data?.standard?.presentations,
+            ]"
+          />
+        </vl-column>
+
         <vl-column>
           <vl-title tag-name="h2"> {{ $t('detailInformation') }} </vl-title>
           <vl-icon-list>

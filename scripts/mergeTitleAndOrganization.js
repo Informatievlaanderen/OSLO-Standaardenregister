@@ -82,8 +82,14 @@ var processDirectory = function (dirPath) { return __awaiter(_this, void 0, void
                         promises.push(processDirectory(fullPath));
                     }
                     else if (dirent.isFile() && dirent.name === 'configuration.json') {
-                        // Process configuration files and collect their outputs
-                        promises.push(readConfigurationFile(fullPath));
+                        // Only process configuration.json files that are in directories containing '/nl/'
+                        if (fullPath.includes('/nl/')) {
+                            console.log("Processing Dutch configuration: ".concat(fullPath));
+                            promises.push(readConfigurationFile(fullPath));
+                        }
+                        else {
+                            console.log("Skipping non-Dutch configuration: ".concat(fullPath));
+                        }
                     }
                 }
                 return [4 /*yield*/, Promise.all(promises)
@@ -109,6 +115,7 @@ var main = function () { return __awaiter(_this, void 0, void 0, function () {
                 ;
                 fs.writeFileSync('scripts/output.json', JSON.stringify(outputs, null, 4));
                 console.log('Output successfully written to scripts/output.json');
+                console.log("Processed ".concat(outputs.length, " Dutch configuration files"));
                 return [3 /*break*/, 3];
             case 2:
                 error_1 = _a.sent();

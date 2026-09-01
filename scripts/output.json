@@ -1,0 +1,1794 @@
+[
+    {
+        "title": "API guidelines",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "TBD",
+        "publicationDate": "TBD"
+    },
+    {
+        "title": "API richtlijnen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-02-01"
+    },
+    {
+        "title": "Applicatieprofiel Adresregister",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-12-10"
+    },
+    {
+        "title": "Applicatieprofiel Bedrijventerrein",
+        "organization": "Agentschap Innoveren en Ondernemen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-06-18"
+    },
+    {
+        "title": "Applicatieprofiel Besluit Mobiliteit",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-06-01"
+    },
+    {
+        "title": "Applicatieprofiel Besluit Publicatie",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+        "publicationDate": "2018-07-20"
+    },
+    {
+        "title": "Applicatieprofiel Besluit Subsidies",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-01-01"
+    },
+    {
+        "title": "Applicatieprofiel Besluitvorming",
+        "organization": "Departement Kanselarij en Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-02-04"
+    },
+    {
+        "title": "Applicatieprofiel Bestuurlijk Sanctieregister",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-06-23"
+    },
+    {
+        "title": "Applicatieprofiel Bodem",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-04-28"
+    },
+    {
+        "title": "Applicatieprofiel Bodem en Ondergrond",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Bodem en Ondergrond Observaties",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Contactvoorkeuren",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Applicatieprofiel Cultureel Erfgoed Event",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-04-22"
+    },
+    {
+        "title": "Applicatieprofiel Cultureel Erfgoed Object",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-04-22"
+    },
+    {
+        "title": "Applicatieprofiel Cultuur- en Jeugdinfrastructuur",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-03-21"
+    },
+    {
+        "title": "Applicatieprofiel Cultuurparticipatie",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-11"
+    },
+    {
+        "title": "Applicatieprofiel DCAT-AP VL",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-02-12"
+    },
+    {
+        "title": "Applicatieprofiel DCAT-AP VL 2.0",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-12-02"
+    },
+    {
+        "title": "Applicatieprofiel Dienst Transactiemodel",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Applicatieprofiel Dienstencataloog",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-12-10"
+    },
+    {
+        "title": "Applicatieprofiel Dienstverlening Aan Personen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-03-19"
+    },
+    {
+        "title": "Applicatieprofiel Digitale Watermeter",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-04-30"
+    },
+    {
+        "title": "Applicatieprofiel Dossier",
+        "organization": "Agentschap Facilitair Bedrijf",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-09-25"
+    },
+    {
+        "title": "Applicatieprofiel Energiehuis",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-06-19"
+    },
+    {
+        "title": "Applicatieprofiel Energiemanagementsysteem",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-05-14"
+    },
+    {
+        "title": "Applicatieprofiel Erosiepoel",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-23"
+    },
+    {
+        "title": "Applicatieprofiel Feitelijke Verenigingen",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-02-03"
+    },
+    {
+        "title": "Applicatieprofiel Fietsinfrastructuur",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-12-17"
+    },
+    {
+        "title": "Applicatieprofiel Financiële Rapportering",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-03-17"
+    },
+    {
+        "title": "Applicatieprofiel Gebouwenregister",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-08"
+    },
+    {
+        "title": "Applicatieprofiel Generiek basis",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2017-03-23"
+    },
+    {
+        "title": "Applicatieprofiel Generieke Terugmeldfaciliteit",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Applicatieprofiel GeoDCAT-AP VL",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-02-20"
+    },
+    {
+        "title": "Applicatieprofiel Grondboringen",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Grondwatermeetnet",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-08-01"
+    },
+    {
+        "title": "Applicatieprofiel Hulp- en Dienstverlening aan Gedetineerden",
+        "organization": "Agentschap Justitie en Handhaving",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-18"
+    },
+    {
+        "title": "Applicatieprofiel Incentiveringsplatform",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-03-21"
+    },
+    {
+        "title": "Applicatieprofiel Inname openbaar domein",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-04-23"
+    },
+    {
+        "title": "Applicatieprofiel Issue tracking voor burgers en organisaties",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Applicatieprofiel Kabels en Leidingen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": ""
+    },
+    {
+        "title": "Applicatieprofiel LDES",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-01"
+    },
+    {
+        "title": "Applicatieprofiel Leerinschrijfcredential",
+        "organization": "Athumi",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-04-08"
+    },
+    {
+        "title": "Applicatieprofiel Leermiddelen en doelen",
+        "organization": "Departement Onderwijs en Vorming",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-08-20"
+    },
+    {
+        "title": "Applicatieprofiel Leerprestatiecredential",
+        "organization": "Athumi",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-20"
+    },
+    {
+        "title": "Applicatieprofiel Lokale Economie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-01-17"
+    },
+    {
+        "title": "Applicatieprofiel loongegevens",
+        "organization": "Agentschap Uitbetaling Groeipakket",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-16"
+    },
+    {
+        "title": "Applicatieprofiel Mandatendatabank",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+        "publicationDate": "2018-07-20"
+    },
+    {
+        "title": "Applicatieprofiel metadata DCAT",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-04-22"
+    },
+    {
+        "title": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Stopplaatsen",
+        "organization": "De Lijn",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-04-21"
+    },
+    {
+        "title": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Tijdstabellen",
+        "organization": "De Lijn",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-04-21"
+    },
+    {
+        "title": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Voertuigplanning",
+        "organization": "De Lijn",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-04-21"
+    },
+    {
+        "title": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-11-08"
+    },
+    {
+        "title": "Applicatieprofiel Mobiliteit: Trips en Aanbod",
+        "organization": "Departement Mobiliteit en Openbare Werken",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-04-23"
+    },
+    {
+        "title": "Applicatieprofiel Mobiliteitsbudget",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-11-10"
+    },
+    {
+        "title": "Applicatieprofiel Notificatie Basis",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Applicatieprofiel Observaties en Metingen",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Omgevingsvergunning",
+        "organization": "Departement Omgeving",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-11-07"
+    },
+    {
+        "title": "Applicatieprofiel Openbaar Domein",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-28"
+    },
+    {
+        "title": "Applicatieprofiel Organisatie Basis",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-03"
+    },
+    {
+        "title": "Applicatieprofiel OSLO Datakwaliteit",
+        "organization": "Vlaamse Milieumaatschappij (VMM)",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-06-01"
+    },
+    {
+        "title": "Applicatieprofiel OSLO Slimme Stadsdistributie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-07-16"
+    },
+    {
+        "title": "Applicatieprofiel OSLO Statistiek",
+        "organization": "Vlaamse Milieumaatschappij (VMM)",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-06-01"
+    },
+    {
+        "title": "Applicatieprofiel OSLO Waterkwaliteit",
+        "organization": "Vlaamse Milieumaatschappij (VMM)",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-06-01"
+    },
+    {
+        "title": "Applicatieprofiel Overlijdensaangifte",
+        "organization": "Athumi",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-02-01"
+    },
+    {
+        "title": "Applicatieprofiel Passenger Transport Hubs",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-01"
+    },
+    {
+        "title": "Applicatieprofiel Perceel",
+        "organization": "Agentschap Innoveren en Ondernemen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-06-18"
+    },
+    {
+        "title": "Applicatieprofiel Persoon basis",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "Aanbevolgen (vrijwillig)",
+        "publicationDate": "2019-12-10"
+    },
+    {
+        "title": "Applicatieprofiel Publicatie-Advertentie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-11-09"
+    },
+    {
+        "title": "Applicatieprofiel Rooilijnplannen",
+        "organization": "Vereniging van Vlaamse Steden en Gemeenten",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-06-01"
+    },
+    {
+        "title": "Applicatieprofiel Ruimtelijke Bereiken",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Ruimtelijke Indicatoren",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-12-05"
+    },
+    {
+        "title": "Applicatieprofiel Schuldbeheer",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-05-15"
+    },
+    {
+        "title": "Applicatieprofiel Sensoren en Bemonstering",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Applicatieprofiel Slimme Raadpleegomgeving",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-02-08"
+    },
+    {
+        "title": "Applicatieprofiel Sonderingen",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-08-01"
+    },
+    {
+        "title": "Applicatieprofiel Thermografische Gebouwanalyse",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-12-11"
+    },
+    {
+        "title": "Applicatieprofiel Toeristische Logies Basis",
+        "organization": "Toerisme Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-12-05"
+    },
+    {
+        "title": "Applicatieprofiel Vastgoed",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-06-30"
+    },
+    {
+        "title": "Applicatieprofiel Verkeersborden",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-04-23"
+    },
+    {
+        "title": "Applicatieprofiel Verkeersmetingen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-12-01"
+    },
+    {
+        "title": "Applicatieprofiel Vervoersknooppunten",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-01"
+    },
+    {
+        "title": "Applicatieprofiel Vlaamse Codex",
+        "organization": "Departement Kanselarij en Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Applicatieprofiel Vrachtwagenparkeren",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-07-30"
+    },
+    {
+        "title": "Applicatieprofiel Wegenregister",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-12-10"
+    },
+    {
+        "title": "Applicatieprofiel Zaalreservatie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-01"
+    },
+    {
+        "title": "Conformiteitsraamwerk voor data standaarden",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+        "usage": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-06-07"
+    },
+    {
+        "title": "Data standaarden wegenenverkeer",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "Generieke Hypermedia API",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Implementatiemodel Basisregistratie Cultureel Erfgoed",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-10-02"
+    },
+    {
+        "title": "Implementatiemodel Geluidsmeldingen en -metingen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-04-14"
+    },
+    {
+        "title": "Implementatiemodel IPDC - LPDC",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-07-04"
+    },
+    {
+        "title": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
+        "organization": "stad Roeselare",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-07-24"
+    },
+    {
+        "title": "Implementatiemodel Verkeersmeldingen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-06-04"
+    },
+    {
+        "title": "Implementatiemodel VKBO - Onderneming",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-06-11"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsenbeheer",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Gebieden",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Infrastructuurelementen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Onbegroeid Voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Terreindelen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Vegetatie-elementen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Waterdelen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Watervoorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Basisprofiel Openbaar Domein",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Begraafplaats",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Begroeid Voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Gebied",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Infrastructuur",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Onbegroeid Voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Terreindeel",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Vegetatie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Waterdeel",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein 2.0.0 - Uitbreiding Watervoorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-30"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Begraafplaatsenbeheer",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Begroeid Voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Infrastructuurelementen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Onbegroeid Voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Terreindelen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Vegetatie-elementen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Water voorkomen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Applicatieprofiel Waterdelen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Uitbreiding Begraafplaats (Vocabularium)",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Uitbreiding Gebieden (Vocabularium)",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Uitbreiding Infrastructuurelementen (Vocabularium)",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Uitbreiding Terreindelen (Vocabularium)",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Uitbreiding Vegetatie-elementen (Vocabularium)",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Openbaar Domein - Uitbreiding Waterdelen (Vocabularium)",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "OSLO Voorwaarden Dienstverlening",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-07-11"
+    },
+    {
+        "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit",
+        "publicationDate": "2018-05-22"
+    },
+    {
+        "title": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/PasToeOfLegUit",
+        "publicationDate": "2018-05-22"
+    },
+    {
+        "title": "SSN SOSA VL",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-02-19"
+    },
+    {
+        "title": "Traject SSN SOSA VL",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "TBD"
+    },
+    {
+        "title": "Vlaamse URI-Standaard voor Data",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-05-22"
+    },
+    {
+        "title": "Vocabularium Adres",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-03"
+    },
+    {
+        "title": "Vocabularium Bedrijventerrein",
+        "organization": "Agentschap Innoveren en Ondernemen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-06-18"
+    },
+    {
+        "title": "Vocabularium Besluit",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-20"
+    },
+    {
+        "title": "Vocabularium Besluitvorming",
+        "organization": "Departement Kanselarij en Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-02-04"
+    },
+    {
+        "title": "Vocabularium Bestuur",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+        "publicationDate": "2018-06-26"
+    },
+    {
+        "title": "Vocabularium Bestuurlijke Sancties",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-06-23"
+    },
+    {
+        "title": "Vocabularium Bodem",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-08-01"
+    },
+    {
+        "title": "Vocabularium Bodem en Ondergrond",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Vocabularium Bodem en Ondergrond Interpretaties",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Vocabularium Bodem en Ondergrond Observaties",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Vocabularium Conceptueel Gegevensmodel Openbaar Domein",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Vocabularium Cultureel Erfgoed",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-04-22"
+    },
+    {
+        "title": "Vocabularium Cultuur- en Jeugdinfrastructuur",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-03-21"
+    },
+    {
+        "title": "Vocabularium Cultuurparticipatie",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-11"
+    },
+    {
+        "title": "Vocabularium Dienst",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-03"
+    },
+    {
+        "title": "Vocabularium Dossier",
+        "organization": "Agentschap Facilitair Bedrijf",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-09-25"
+    },
+    {
+        "title": "Vocabularium en applicatieprofiel air and water",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "TBD",
+        "publicationDate": "TBD"
+    },
+    {
+        "title": "Vocabularium en applicatieprofiel OSLO Consent",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "TBD"
+    },
+    {
+        "title": "Vocabularium en implementatiemodel IPDC - LPDC",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": ""
+    },
+    {
+        "title": "Vocabularium Energiehuis",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-06-19"
+    },
+    {
+        "title": "Vocabularium Erosiepoel",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-23"
+    },
+    {
+        "title": "Vocabularium Feitelijke Verenigingen",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-02-03"
+    },
+    {
+        "title": "Vocabularium Fietsinfrastructuur",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-12-17"
+    },
+    {
+        "title": "Vocabularium Financiële Rapportering",
+        "organization": "Departement Cultuur, Jeugd en Media",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-03-17"
+    },
+    {
+        "title": "Vocabularium Gebouw",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-08"
+    },
+    {
+        "title": "Vocabularium Generiek",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2017-03-31"
+    },
+    {
+        "title": "Vocabularium Gezondheidstoestand Persoon",
+        "organization": "Athumi",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-04-11"
+    },
+    {
+        "title": "Vocabularium Grondboringen",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-08-01"
+    },
+    {
+        "title": "Vocabularium Hulp- en Dienstverlening aan Gedetineerden",
+        "organization": "Agentschap Justitie en Handhaving",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-18"
+    },
+    {
+        "title": "Vocabularium Incentiveringsplatform",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-03-21"
+    },
+    {
+        "title": "Vocabularium Kwaliteit Wegen en Wegmarkeringen",
+        "organization": "stad Roeselare",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-07-24"
+    },
+    {
+        "title": "Vocabularium LDES",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-01"
+    },
+    {
+        "title": "Vocabularium Leercredential",
+        "organization": "Athumi",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-20"
+    },
+    {
+        "title": "Vocabularium Lokale Economie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-01-17"
+    },
+    {
+        "title": "Vocabularium loongegevens",
+        "organization": "Agentschap Uitbetaling Groeipakket",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-09-16"
+    },
+    {
+        "title": "Vocabularium Mandaat",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-20"
+    },
+    {
+        "title": "Vocabularium Melding",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Vocabularium metadata DCAT",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-02-20"
+    },
+    {
+        "title": "Vocabularium Mobiliteit",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-06-01"
+    },
+    {
+        "title": "Vocabularium Mobiliteit: Dienstregeling en Planning",
+        "organization": "De Lijn",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-04-21"
+    },
+    {
+        "title": "Vocabularium Mobiliteit: Intelligente Toegang",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-11-08"
+    },
+    {
+        "title": "Vocabularium Mobiliteit Trips en Aanbod",
+        "organization": "Departement Mobiliteit en Openbare Werken",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-04-23"
+    },
+    {
+        "title": "Vocabularium Mobiliteitsbudget",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-11-10"
+    },
+    {
+        "title": "Vocabularium Netwerk",
+        "organization": "Departement Mobiliteit en Openbare Werken",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-04-23"
+    },
+    {
+        "title": "Vocabularium Notificatie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Vocabularium Nutsvoorzieningen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-02-17"
+    },
+    {
+        "title": "Vocabularium Nutsvoorzieningen Meters",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-04-30"
+    },
+    {
+        "title": "Vocabularium Observaties en Metingen",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Vocabularium Omgevingsvergunning",
+        "organization": "Departement Omgeving",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-11-07"
+    },
+    {
+        "title": "Vocabularium Organisatie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-03"
+    },
+    {
+        "title": "Vocabularium OSLO Datakwaliteit",
+        "organization": "Vlaamse Milieumaatschappij (VMM)",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-06-01"
+    },
+    {
+        "title": "Vocabularium OSLO Slimme Stadsdistributie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-07-16"
+    },
+    {
+        "title": "Vocabularium OSLO Statistiek",
+        "organization": "Vlaamse Milieumaatschappij (VMM)",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-06-01"
+    },
+    {
+        "title": "Vocabularium OSLO Waterkwaliteit",
+        "organization": "Vlaamse Milieumaatschappij (VMM)",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-06-01"
+    },
+    {
+        "title": "Vocabularium Overlijdensaangifte",
+        "organization": "Athumi",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-02-01"
+    },
+    {
+        "title": "Vocabularium Passenger Transport Hubs",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-01"
+    },
+    {
+        "title": "Vocabularium Perceel",
+        "organization": "Agentschap Innoveren en Ondernemen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-06-18"
+    },
+    {
+        "title": "Vocabularium Persoon",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-07-03"
+    },
+    {
+        "title": "Vocabularium Publicatie-Advertentie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-11-09"
+    },
+    {
+        "title": "Vocabularium Rooilijnplannen",
+        "organization": "Vereniging van Vlaamse Steden en Gemeenten",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-06-01"
+    },
+    {
+        "title": "Vocabularium Ruimtelijke Bereiken",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Vocabularium Ruimtelijke Indicatoren",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-12-05"
+    },
+    {
+        "title": "Vocabularium Schuldbeheer",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-05-15"
+    },
+    {
+        "title": "Vocabularium Sensoren en Bemonstering",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-09-05"
+    },
+    {
+        "title": "Vocabularium Slimme Raadpleegomgeving",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-02-08"
+    },
+    {
+        "title": "Vocabularium Sonderingen",
+        "organization": "Databank Ondergrond Vlaanderen en OVAM",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-08-01"
+    },
+    {
+        "title": "Vocabularium Subsidies",
+        "organization": "Agentschap Binnenlands Bestuur",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-01-01"
+    },
+    {
+        "title": "Vocabularium Toeristische Logies",
+        "organization": "Toerisme Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-12-05"
+    },
+    {
+        "title": "Vocabularium Toestemming",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Vocabularium Transactie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2019-02-07"
+    },
+    {
+        "title": "Vocabularium Transportnetwerk",
+        "organization": "Departement Mobiliteit en Openbare Werken",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-04-23"
+    },
+    {
+        "title": "Vocabularium Vastgoed",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2021-06-30"
+    },
+    {
+        "title": "Vocabularium Verkeersmetingen",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2023-12-01"
+    },
+    {
+        "title": "Vocabularium Vervoersknooppunten",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2022-12-01"
+    },
+    {
+        "title": "Vocabularium VKBO - Onderneming",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2026-06-11"
+    },
+    {
+        "title": "Vocabularium Vrachtwagenparkeren",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2024-07-30"
+    },
+    {
+        "title": "Vocabularium Weg",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2018-11-27"
+    },
+    {
+        "title": "Vocabularium Zaalreservatie",
+        "organization": "Agentschap Digitaal Vlaanderen",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2025-07-01"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel AIM Object",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel ANPR en trajectcontrole",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Brandleiding",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Camerainstallatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Complexe datatypes",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Draagconstructies",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Dynamische borden",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Ecologische maatregelen",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Eenvoudige datatypes",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Elektrische componenten",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Fietstelinstallatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Hulpposten",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Inbreuken zwaar vervoer",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Kasten, cabines, behuizing",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Lijnvormige elementen",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Luchtkwaliteit",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Luidsprekers en intercom",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Master-implementatiemodel",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Meten in Vlaanderen",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Optisch transport netwerk",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Proeven en metingen",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Relaties",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Riolering",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Signalisatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Slagbomen en doorsteken",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Software en hardware",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Tunnelevacuatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Union datatypes",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Vegetatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Ventilatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Verharding en wegfundering",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Verkeersregelinstallatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Verlichtingsinstallatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer implementatiemodel Zone 30",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer vocabularium abstracten",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer vocabularium implementatieelementen",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer vocabularium installatie",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer vocabularium levenscyclus",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer vocabularium onderdeel",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    },
+    {
+        "title": "wegenenverkeer vocabularium proefenmeting",
+        "organization": "Agentschap Wegen en Verkeer",
+        "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+        "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+        "publicationDate": "2020-12-02"
+    }
+]

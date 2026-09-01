@@ -15,7 +15,7 @@ exec:
 	docker run -it --rm --name standaardenregister -p 3000:3000 informatievlaanderen/standaardenregister:${VERSION} sh
 
 run:
-	docker run -d --rm --name standaardenregister -p 3000:3000 informatievlaanderen/standaardenregister:${VERSION}
+	docker run -d --rm --name standaardenregister -p 3000:3000 terraformtestcontainerregistry.azurecr.io/oslo2/oslo-standaardenregister-run:latest
 
 
 stop:

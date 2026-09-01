@@ -137,3 +137,34 @@
   1.11.2
 
   - Small fix with SSR where the script tag was not present during the initial render
+
+    1.12.0
+
+  * added content negotatiation on the root of the application
+
+    1.12.1
+
+  * Changes to the SRM as requested by SEMIC
+
+    1.12.2
+
+  * added some more documentation options on the detail page of a standard
+
+    1.12.3
+
+  * reordered some elements on the detail page of a standard
+
+    1.12.5
+
+  * made production URL of header default
+
+    1.12.6
+
+  * Small copy change on the detail page of a standard
+
+    1.12.7
+
+  * Made some sections of the detail page optional so they don't show if there is no content for them
+
+  1.12.8
+  * Fix for `responsibleOrganisation` being written as `responsibleOrganisation` instead of `responsibleOrganization`
