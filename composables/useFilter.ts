@@ -51,6 +51,23 @@ export const useFilter = (data: Array<Standard>, filters?: SanitizedFilter) => {
     return Object.keys(filters).every((filter: string) => {
       // If the value is "all values", dont filter on this key
       if (filters[filter].includes(ALL)) return true
+      // Special handling for organisation filter: responsibleOrganisation is an array of objects with a 'resourceReference' property
+      if (filter === 'organisation') {
+        const organisationRefs = standard.responsibleOrganisation?.map(
+          (org) => {
+            // Normalize to canonical URI for matching
+            const match = org.resourceReference?.match(
+              /https?:\/\/data\.vlaanderen\.be\/(id|doc)\/organisatie\/(\S+)/,
+            )
+            return match
+              ? `https://data.vlaanderen.be/id/organisatie/${match[2]}`
+              : org.resourceReference ?? ''
+          },
+        ) ?? []
+        return filters[filter].some((selectedOrg) =>
+          organisationRefs.includes(selectedOrg),
+        )
+      }
       return filters[filter]?.includes(standard[filter]?.toString())
     })
   })

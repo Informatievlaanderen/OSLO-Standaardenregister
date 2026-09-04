@@ -18,6 +18,54 @@ const generateLocales = () => {
   })
 }
 
+// Build-time extraction of unique organisations from content files
+const extractOrganisations = () => {
+  const contentDir = path.resolve(__dirname, 'content/standaarden')
+  const outputFile = path.resolve(__dirname, 'config/organisations.json')
+  const orgMap = new Map<string, { name: string; uri: string }>()
+
+  const walkDir = (dir: string) => {
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name)
+      if (entry.isDirectory()) {
+        walkDir(fullPath)
+      } else if (
+        entry.isFile() &&
+        entry.name === 'configuration.json' &&
+        fullPath.includes('/nl/')
+      ) {
+        try {
+          const data = JSON.parse(fs.readFileSync(fullPath, 'utf-8'))
+          const responsible = data.responsibleOrganisation
+          if (Array.isArray(responsible)) {
+            responsible.forEach((org: { name?: string; resourceReference?: string }) => {
+              if (org.name && org.resourceReference) {
+                // Normalize to canonical https://data.vlaanderen.be/id/organisatie/ form
+                const match = org.resourceReference.match(/https?:\/\/data\.vlaanderen\.be\/(id|doc)\/organisatie\/(\S+)/)
+                const code = match ? match[2] : org.resourceReference
+                const canonicalUri = `https://data.vlaanderen.be/id/organisatie/${code}`
+                if (!orgMap.has(canonicalUri)) {
+                  orgMap.set(canonicalUri, { name: org.name, uri: canonicalUri })
+                }
+              }
+            })
+          }
+        } catch {
+          // skip invalid files
+        }
+      }
+    }
+  }
+
+  walkDir(contentDir)
+  const organisations = Array.from(orgMap.values())
+    .sort((a, b) => a.name.localeCompare(b.name))
+  fs.writeFileSync(outputFile, JSON.stringify(organisations, null, 2))
+}
+
+extractOrganisations()
+
 export default defineNuxtConfig({
   runtimeConfig: {
     // private runtime env variables. Think of api keys: https://nuxt.com/docs/guide/going-further/runtime-config#environment-variables
