@@ -8,6 +8,7 @@ import {
   Status,
   Usage,
 } from '~/types/standard'
+import organisations from './organisations.json'
 
 export const getDefaultFilters = (translate: Function): FilterOption[] => {
   return [
@@ -52,7 +53,7 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
       active: '',
       options: [
         ...Object.values(Category).map((category, i) => ({
-          default: (i+ 1)?.toString(),
+          default: (i + 1)?.toString(),
           label: useRemoveDashes(
             useCapitalizeFirstLetter(
               getCategoryTranslation(category, translate),
@@ -69,34 +70,17 @@ export const getDefaultFilters = (translate: Function): FilterOption[] => {
           },
         ],
       ],
-      // options: [
-      //   {
-      //     default: '1',
-      //     label: getCategoryTranslation(Category.VOCABULARY, translate),
-      //     key: getCategoryTranslation(Category.VOCABULARY, translate),
-      //   },
-      //   {
-      //     default: '2',
-      //     label: getCategoryTranslation(
-      //       Category.APPLICATION_PROFILE,
-      //       translate,
-      //     ),
-      //     key: getCategoryTranslation(Category.APPLICATION_PROFILE, translate),
-      //   },
-      //   {
-      //     default: '3',
-      //     label: getCategoryTranslation(
-      //       Category.IMPLEMENTATION_MODEL,
-      //       translate,
-      //     ),
-      //     key: getCategoryTranslation(Category.IMPLEMENTATION_MODEL, translate),
-      //   },
-      //   {
-      //     default: '4',
-      //     key: ALL,
-      //     label: translate('showAllStandards'),
-      //   },
-      // ],
+    },
+    {
+      type: FilterType.CHECKBOX,
+      title: translate('responsibleOrganization'),
+      key: 'organisation',
+      active: Array(organisations.length).fill(false),
+      options: organisations.map(({ name, uri }) => ({
+        default: false,
+        label: name,
+        key: uri,
+      })),
     },
   ]
 }
