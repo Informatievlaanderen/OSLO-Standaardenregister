@@ -172,3 +172,6 @@
   1.13.0
 
   * feat: added languagetoggle with optional cookie to remember the language of the user
+
+  1.13.1
+  feat: added filter for responsibleOrganisation both to the filter as the query param
