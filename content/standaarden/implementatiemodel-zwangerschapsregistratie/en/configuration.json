@@ -1,0 +1,64 @@
+{
+  "title": "Pregnancy registration implementation model",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "descriptionFileName": "impl-vitalink-zwangerschapsregistratie.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Digital Flanders Agency",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-10-23",
+  "specificationDocuments": [
+    {
+      "name": "Pregnancy registration implementation model",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vitalink/zwangerschapsregistratie"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "implementations": [],
+  "relevantStandards": [
+    {
+      "name": "Vocabularium pregnancy registration",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/vitalink/zwangerschapsregistratie"
+    },
+    {
+      "name": "Application profile OSLO Person",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/persoon-basis"
+    },
+    {
+      "name": "Vocabulary OSLO Person",
+      "resourceReference": "https://data.vlaanderen.be/ns/persoon"
+    },
+    {
+      "name": "Application profile OSLO Organization",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis"
+    },
+    {
+      "name": "Vocabulary OSLO Organization",
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie"
+    },
+    {
+      "name": "Vocabulary OSLO Generic",
+      "resourceReference": "https://data.vlaanderen.be/ns/generiek"
+    },
+    {
+      "name": "Vocabulary OSLO Health Status",
+      "resourceReference": "https://data.vlaanderen.be/ns/gezondheidstoestand"
+    }
+  ],
+  "dataExamples": [],
+  "dateOfRegistration": "2026-11-03",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
+  "repository": "OSLOthema-zwangerschapsregistratie"
+}

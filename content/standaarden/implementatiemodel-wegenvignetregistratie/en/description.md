@@ -1,0 +1,3 @@
+A road vignette registration is the registration of a vehicle for a road vignette, which gives the right to use the road network for a certain period of time.
+The MAGDA Road Vignette Registration Implementation Model is based on the MAGDA Vehicle Registration Implementation Model and links a road vignette registration
+registration of the vehicle in the national register. For the data about the vehicle itself, it reuses various elements of Schema.org.

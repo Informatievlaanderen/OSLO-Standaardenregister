@@ -1,0 +1,106 @@
+{
+  "title": {
+    "nl": "Implementatiemodel zwangerschapsregistratie",
+    "en": "Pregnancy registration implementation model"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
+  },
+  "descriptionFileName": "impl-vitalink-zwangerschapsregistratie.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-10-23",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Implementatiemodel zwangerschapsregistratie",
+        "en": "Pregnancy registration implementation model"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vitalink/zwangerschapsregistratie"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "implementations": [],
+  "relevantStandards": [
+    {
+      "name": {
+        "nl": "Vocabularium zwangerschapsregistratie",
+        "en": "Vocabularium pregnancy registration"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/vitalink/zwangerschapsregistratie"
+    },
+    {
+      "name": {
+        "nl": "Applicatieprofiel OSLO Persoon",
+        "en": "Application profile OSLO Person"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/persoon-basis"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Persoon",
+        "en": "Vocabulary OSLO Person"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/persoon"
+    },
+    {
+      "name": {
+        "nl": "Applicatieprofiel OSLO Organisatie",
+        "en": "Application profile OSLO Organization"
+      },
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Organisatie",
+        "en": "Vocabulary OSLO Organization"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/organisatie"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Generiek",
+        "en": "Vocabulary OSLO Generic"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/generiek"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Gezondheidstoestand",
+        "en": "Vocabulary OSLO Health Status"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/gezondheidstoestand"
+    }
+  ],
+  "dataExamples": [],
+  "dateOfRegistration": "2026-11-03",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Welzijn",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Welzijn"
+  },
+  "repository": "OSLOthema-zwangerschapsregistratie"
+}

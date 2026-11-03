@@ -1,0 +1,64 @@
+{
+  "title": "Implementatiemodel wegenvignetregistratie",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+  "descriptionFileName": "impl-magda-wegenvignetregistratie.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-10-09",
+  "specificationDocuments": [
+    {
+      "name": "Implementatiemodel wegenvignetregistratie",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/wegenvignetregistratie"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "implementations": [],
+  "relevantStandards": [
+    {
+      "name": "Vocabularium wegenvignetregistratie",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/magda/wegenvignetregistratie"
+    },
+    {
+      "name": "Implementatiemodel MAGDA-Voertuigregistratie",
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie"
+    },
+    {
+      "name": "Vocabularium OSLO Voertuigregistratie",
+      "resourceReference": "https://data.vlaanderen.be/ns/voertuigregistratie"
+    },
+    {
+      "name": "Vocabularium OSLO Generiek",
+      "resourceReference": "https://data.vlaanderen.be/ns/generiek"
+    },
+    {
+      "name": "Schema.org",
+      "resourceReference": "https://schema.org/"
+    },
+    {
+      "name": "W3C Asset Description Metadata Schema (ADMS)",
+      "resourceReference": "https://www.w3.org/TR/vocab-adms/"
+    },
+    {
+      "name": "W3C Simple Knowledge Organization System (SKOS)",
+      "resourceReference": "https://www.w3.org/TR/skos-reference/"
+    }
+  ],
+  "dataExamples": [],
+  "dateOfRegistration": "2026-11-03",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+  "repository": "OSLOthema-wegenvignetregistratie"
+}

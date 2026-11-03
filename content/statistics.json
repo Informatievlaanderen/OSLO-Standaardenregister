@@ -1,8 +1,8 @@
 {
   "numberOfTerms": 0,
-  "numberOfStandardsConfigured": 256,
+  "numberOfStandardsConfigured": 260,
   "reportErrors": 0,
-  "reportsMissing": 263,
+  "reportsMissing": 267,
   "uniqueContributors": 3594,
   "uniqueAffiliations": 638,
   "standards": [
@@ -1795,6 +1795,34 @@
       "standard": "Vocabularium Gebruiksperceel",
       "publicationDate": "2026-08-03",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel zwangerschapsregistratie",
+      "publicationDate": "2026-10-23",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium zwangerschapsregistratie",
+      "publicationDate": "2026-10-23",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Implementatiemodel wegenvignetregistratie",
+      "publicationDate": "2026-10-09",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+      "totalPeople": 0,
+      "contributors": []
+    },
+    {
+      "standard": "Vocabularium wegenvignetregistratie",
+      "publicationDate": "2026-10-09",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
       "totalPeople": 0,
       "contributors": []
     }

@@ -1,0 +1,106 @@
+{
+  "title": {
+    "nl": "Implementatiemodel wegenvignetregistratie",
+    "en": "Road vignette registration implementation model"
+  },
+  "category": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+  },
+  "usage": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen"
+  },
+  "status": {
+    "nl": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+    "en": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus"
+  },
+  "descriptionFileName": "impl-magda-wegenvignetregistratie.md",
+  "responsibleOrganisation": [
+    {
+      "name": {
+        "nl": "Agentschap Digitaal Vlaanderen",
+        "en": "Digital Flanders Agency"
+      },
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "2026-10-09",
+  "specificationDocuments": [
+    {
+      "name": {
+        "nl": "Implementatiemodel wegenvignetregistratie",
+        "en": "Road vignette registration implementation model"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/wegenvignetregistratie"
+    }
+  ],
+  "documentation": [],
+  "reports": [],
+  "charter": {},
+  "presentations": [],
+  "implementations": [],
+  "relevantStandards": [
+    {
+      "name": {
+        "nl": "Vocabularium wegenvignetregistratie",
+        "en": "Vocabulary road vignette registration"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/ns/magda/wegenvignetregistratie"
+    },
+    {
+      "name": {
+        "nl": "Implementatiemodel MAGDA-Voertuigregistratie",
+        "en": "Implementation model MAGDA vehicle registration"
+      },
+      "resourceReference": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Voertuigregistratie",
+        "en": "Vocabulary OSLO Vehicle Registration"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/voertuigregistratie"
+    },
+    {
+      "name": {
+        "nl": "Vocabularium OSLO Generiek",
+        "en": "Vocabulary OSLO Generic"
+      },
+      "resourceReference": "https://data.vlaanderen.be/ns/generiek"
+    },
+    {
+      "name": {
+        "nl": "Schema.org",
+        "en": "Schema.org"
+      },
+      "resourceReference": "https://schema.org/"
+    },
+    {
+      "name": {
+        "nl": "W3C Asset Description Metadata Schema (ADMS)",
+        "en": "W3C Asset Description Metadata Schema (ADMS)"
+      },
+      "resourceReference": "https://www.w3.org/TR/vocab-adms/"
+    },
+    {
+      "name": {
+        "nl": "W3C Simple Knowledge Organization System (SKOS)",
+        "en": "W3C Simple Knowledge Organization System (SKOS)"
+      },
+      "resourceReference": "https://www.w3.org/TR/skos-reference/"
+    }
+  ],
+  "dataExamples": [],
+  "dateOfRegistration": "2026-11-03",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "domain": {
+    "nl": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit",
+    "en": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
+  },
+  "repository": "OSLOthema-wegenvignetregistratie"
+}
